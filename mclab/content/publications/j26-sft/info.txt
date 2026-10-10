@@ -1,0 +1,19 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: j26-sft
+공개: true
+표시순서: 10
+연도: 2026
+제목: Steering Feedback Torque Prediction Using a Driving-Condition Clustering-Enhanced Sequence-to-Sequence Network
+저자: J. Wang, J. Xu, X. Wu*, W. Yao, K. H. Nam*, and P. Yao
+학술지: Mechanical Systems and Signal Processing
+DOI: 10.1016/j.ymssp.2026.115004
+종류: Journal
+상태: Published
+권호쪽: Vol. 260
+대표논문: true
+소속구분: DGIST
+영상: 
+코드: 
+관련과제: 
+출처: https://sites.google.com/view/mclab/publications

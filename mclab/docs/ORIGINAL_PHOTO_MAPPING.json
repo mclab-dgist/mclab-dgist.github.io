@@ -1,0 +1,578 @@
+[
+  {
+    "category": "portrait",
+    "label": "Kanghyun Nam",
+    "source": "NAMKH.jpg",
+    "source_dimensions": [
+      1346,
+      1289
+    ],
+    "source_sha256": "5238ca3b2ec2d6d313a18183d22f78b00085d912ae390a8e70f48fef218d4b6f",
+    "destination": "content/people/kanghyun-nam/photo.jpg",
+    "web_dimensions": [
+      1000,
+      958
+    ],
+    "web_bytes": 217576
+  },
+  {
+    "category": "portrait",
+    "label": "Insu Chung",
+    "source": "정인수 증명사진.jpg",
+    "source_dimensions": [
+      354,
+      472
+    ],
+    "source_sha256": "ba62a3f92e529085ae6dfd6b8f3b8231f99c2a7a659985277300c3fb956be059",
+    "destination": "content/people/insu-chung/photo.jpg",
+    "web_dimensions": [
+      354,
+      472
+    ],
+    "web_bytes": 37469
+  },
+  {
+    "category": "portrait",
+    "label": "Minhyeong Kim",
+    "source": "연구실 증명사진/김민형 증명사진.jpg",
+    "source_dimensions": [
+      354,
+      472
+    ],
+    "source_sha256": "5d16d59c2a765e821246ed1a212e87d4050446c07e2212a95ccf937e23b15893",
+    "destination": "content/people/minhyeong-kim/photo.jpg",
+    "web_dimensions": [
+      354,
+      472
+    ],
+    "web_bytes": 51678
+  },
+  {
+    "category": "portrait",
+    "label": "Wonchang Yang",
+    "source": "연구실 증명사진/양원창.jpg",
+    "source_dimensions": [
+      1325,
+      1765
+    ],
+    "source_sha256": "9efcfe435df83d778c25c2db346076c3469c430ae4df37a45f3bd24b39f2b4b0",
+    "destination": "content/people/wonchang-yang/photo.jpg",
+    "web_dimensions": [
+      751,
+      1000
+    ],
+    "web_bytes": 123163
+  },
+  {
+    "category": "portrait",
+    "label": "Gibeom Kim",
+    "source": "김기범 증명사진.jpg",
+    "source_dimensions": [
+      413,
+      531
+    ],
+    "source_sha256": "d83ef80f8ac7f1ce2269541e2b5f52ec1beafffbe7496bbca56073bf3faf5612",
+    "destination": "content/people/gibeom-kim/photo.jpg",
+    "web_dimensions": [
+      413,
+      531
+    ],
+    "web_bytes": 42517
+  },
+  {
+    "category": "portrait",
+    "label": "Hyeongseon Jeon",
+    "source": "전형선 증명사진.jpg",
+    "source_dimensions": [
+      413,
+      531
+    ],
+    "source_sha256": "c629327b401c8a06d56528e1147743165b55525aefeea23fd1a5a0072f694b7a",
+    "destination": "content/people/hyeongseon-jeon/photo.jpg",
+    "web_dimensions": [
+      413,
+      531
+    ],
+    "web_bytes": 52315
+  },
+  {
+    "category": "portrait",
+    "label": "Sungeun Park",
+    "source": "박성은_사진.jfif",
+    "source_dimensions": [
+      2672,
+      3436
+    ],
+    "source_sha256": "7e03273097fac4e8b67382f4378186f4f646f409ff180cd96ca1dce493ca11f0",
+    "destination": "content/people/sungeun-park/photo.jpg",
+    "web_dimensions": [
+      778,
+      1000
+    ],
+    "web_bytes": 140327
+  },
+  {
+    "category": "portrait",
+    "label": "Geonwoo Park",
+    "source": "건우.jpg",
+    "source_dimensions": [
+      1678,
+      2198
+    ],
+    "source_sha256": "9fe86762dbce8d736abbdf820c195fd2020726f48dd811af8db3c53bafcdcbc6",
+    "destination": "content/people/geonwoo-park/photo.jpg",
+    "web_dimensions": [
+      763,
+      1000
+    ],
+    "web_bytes": 108966
+  },
+  {
+    "category": "portrait",
+    "label": "Donggyu Kim",
+    "source": "김동규.png",
+    "source_dimensions": [
+      1086,
+      1448
+    ],
+    "source_sha256": "fb86733f3f11fd7d050929008188a76b5e51d1aa9d646e54f5a17ba1c6455309",
+    "destination": "content/people/donggyu-kim/photo.jpg",
+    "web_dimensions": [
+      750,
+      1000
+    ],
+    "web_bytes": 144289
+  },
+  {
+    "category": "portrait",
+    "label": "Sanghyeok Park",
+    "source": "박상혁.jpg",
+    "source_dimensions": [
+      420,
+      522
+    ],
+    "source_sha256": "456cc53779aadcb971557dde7488b2e2fe7f0284f925ed4139c80767ce2bc116",
+    "destination": "content/people/sanghyeok-park/photo.jpg",
+    "web_dimensions": [
+      420,
+      522
+    ],
+    "web_bytes": 41673
+  },
+  {
+    "category": "portrait",
+    "label": "Nayoon Kim",
+    "source": "김나윤.jpg",
+    "source_dimensions": [
+      1836,
+      2360
+    ],
+    "source_sha256": "cb360d512f9d95d40cb4b89d9071a4bfc30dea33f48e28b2ffc16cb15c9d68cf",
+    "destination": "content/people/nayoon-kim/photo.jpg",
+    "web_dimensions": [
+      778,
+      1000
+    ],
+    "web_bytes": 167774
+  },
+  {
+    "category": "portrait",
+    "label": "Seongil Cho",
+    "source": "연구실 증명사진/조성일.jpg",
+    "source_dimensions": [
+      467,
+      600
+    ],
+    "source_sha256": "2436cf9051bae1fa2fe5f896ad2e74c11286156f6dcda536134f74a441a58488",
+    "destination": "content/people/seongil-cho/photo.jpg",
+    "web_dimensions": [
+      467,
+      600
+    ],
+    "web_bytes": 73459
+  },
+  {
+    "category": "portrait",
+    "label": "Heewon Choi",
+    "source": "연구실 증명사진/최희원.png",
+    "source_dimensions": [
+      1086,
+      1448
+    ],
+    "source_sha256": "a30a4fa2a9d82cbcdc126bedc5d88a0d3e17f81f1d492e82c6146eee02cff4de",
+    "destination": "content/people/heewon-choi/photo.jpg",
+    "web_dimensions": [
+      750,
+      1000
+    ],
+    "web_bytes": 136280
+  },
+  {
+    "category": "research",
+    "label": "integrated-motion",
+    "source": "IVMC.jpg",
+    "source_dimensions": [
+      7765,
+      5905
+    ],
+    "source_sha256": "9cd6dc5cd2d4d1917e7923104f2baac9b36c9037103371fb88c0737438bf7a98",
+    "destination": "content/research/integrated-motion/figure.webp",
+    "web_dimensions": [
+      2400,
+      1825
+    ],
+    "web_bytes": 424224
+  },
+  {
+    "category": "research",
+    "label": "remote-mobility",
+    "source": "Teleoperation.jpg",
+    "source_dimensions": [
+      3130,
+      3048
+    ],
+    "source_sha256": "2cc8c22a12513feb2293b2cccf9f2f8c1d462be757a3a6096c32d083b819bec7",
+    "destination": "content/research/remote-mobility/figure.webp",
+    "web_dimensions": [
+      2400,
+      2337
+    ],
+    "web_bytes": 722400
+  },
+  {
+    "category": "research",
+    "label": "future-echassis",
+    "source": "IMC.jpg",
+    "source_dimensions": [
+      2424,
+      2235
+    ],
+    "source_sha256": "4a0a55e75422a1b23a442edab65b32fd92247a9c188f725ccd5e86ddeb7e40e7",
+    "destination": "content/research/future-echassis/figure.webp",
+    "web_dimensions": [
+      2400,
+      2213
+    ],
+    "web_bytes": 955480
+  },
+  {
+    "category": "research",
+    "label": "learning-estimation",
+    "source": "fault.jpg",
+    "source_dimensions": [
+      6237,
+      5670
+    ],
+    "source_sha256": "d9dd9512f737651b77faf4e71e90b607edfc71ae543d5811c0b832114c7d8dc4",
+    "destination": "content/research/learning-estimation/figure.webp",
+    "web_dimensions": [
+      2400,
+      2182
+    ],
+    "web_bytes": 494500
+  },
+  {
+    "category": "research",
+    "label": "mobility-mechanism",
+    "source": "tiltingmobility.jpg",
+    "source_dimensions": [
+      3862,
+      4114
+    ],
+    "source_sha256": "8dcd6e1fee663712ce1ba219a2e8d3608099736ce842c173b9af60f3465bd65e",
+    "destination": "content/research/mobility-mechanism/figure.webp",
+    "web_dimensions": [
+      2253,
+      2400
+    ],
+    "web_bytes": 1094622
+  },
+  {
+    "category": "research",
+    "label": "ecorner",
+    "source": "ECMSYSTEM.jpg",
+    "source_dimensions": [
+      3169,
+      4009
+    ],
+    "source_sha256": "7bcb5fccc5c26df33e8c48ef471a3ba943b010778381c4f62d41ff10b5c3c874",
+    "destination": "content/research/ecorner/figure.webp",
+    "web_dimensions": [
+      1897,
+      2400
+    ],
+    "web_bytes": 957862
+  },
+  {
+    "category": "research",
+    "label": "48v-steering",
+    "source": "48V.jpg",
+    "source_dimensions": [
+      9137,
+      9019
+    ],
+    "source_sha256": "d78fcdc3aee57ebafe1f4634febc4a68fd071649c0cf3b58a3cc1418df2783c1",
+    "destination": "content/research/48v-steering/figure.webp",
+    "web_dimensions": [
+      2400,
+      2369
+    ],
+    "web_bytes": 686988
+  },
+  {
+    "category": "research",
+    "label": "data-driven",
+    "source": "lugre.jpg",
+    "source_dimensions": [
+      10208,
+      10191
+    ],
+    "source_sha256": "c8d63dd816b06424067b3f0e6f9504eb8a98540a90827a2714c2cf2f614d5216",
+    "destination": "content/research/data-driven/figure.webp",
+    "web_dimensions": [
+      2400,
+      2396
+    ],
+    "web_bytes": 522748
+  },
+  {
+    "category": "research",
+    "label": "human-machine",
+    "source": "hmi1.jpg",
+    "source_dimensions": [
+      3255,
+      3226
+    ],
+    "source_sha256": "784ba62e335708c31fb12c7be96f949345f601c79b296acc87aa5779c0dd0243",
+    "destination": "content/research/human-machine/figure.webp",
+    "web_dimensions": [
+      2400,
+      2379
+    ],
+    "web_bytes": 966192
+  },
+  {
+    "category": "research",
+    "label": "ros-navigation",
+    "source": "AMR1.jpg",
+    "source_dimensions": [
+      3734,
+      3427
+    ],
+    "source_sha256": "3cb8ead7e3ca913fa88a85d39d66b995f41bf724b87bd7c50eeb6a6a368562fa",
+    "destination": "content/research/ros-navigation/figure.webp",
+    "web_dimensions": [
+      2400,
+      2203
+    ],
+    "web_bytes": 510352
+  },
+  {
+    "category": "research",
+    "label": "agv-amr-design",
+    "source": "AGV2.jpg",
+    "source_dimensions": [
+      7640,
+      7120
+    ],
+    "source_sha256": "f4b73e55b21209f3d163cdc7ee136ca55bb439956695a4d2b9c9211b83d3c34b",
+    "destination": "content/research/agv-amr-design/figure.webp",
+    "web_dimensions": [
+      2400,
+      2237
+    ],
+    "web_bytes": 605000
+  },
+  {
+    "category": "gallery",
+    "label": "Together at the laboratory",
+    "source": "lab2.jpg",
+    "source_dimensions": [
+      698,
+      360
+    ],
+    "source_sha256": "ca215a969bb3b1579932652762edfc313a83009781df69e017252bc20cf08a38",
+    "destination": "content/gallery/lab-team/photo.jpg",
+    "web_dimensions": [
+      698,
+      360
+    ],
+    "web_bytes": 77253
+  },
+  {
+    "category": "gallery",
+    "label": "Spring gathering",
+    "source": "생일사진/봄나들이사진.jpg",
+    "source_dimensions": [
+      4032,
+      3024
+    ],
+    "source_sha256": "cb41c55dadbaab86582853a01ca3ec1bb4a965490d909e682272579cb18706bf",
+    "destination": "content/gallery/spring-gathering/photo.jpg",
+    "web_dimensions": [
+      1800,
+      1350
+    ],
+    "web_bytes": 1037020
+  },
+  {
+    "category": "gallery",
+    "label": "Research exchange",
+    "source": "생일사진/칭화대.jpg",
+    "source_dimensions": [
+      4401,
+      1874
+    ],
+    "source_sha256": "48997f3b52173abf0daf18ba30d43618d5556f99c4561cf2238566a1e41550e3",
+    "destination": "content/gallery/tsinghua-exchange/photo.jpg",
+    "web_dimensions": [
+      1800,
+      766
+    ],
+    "web_bytes": 436389
+  },
+  {
+    "category": "gallery",
+    "label": "Conference moments",
+    "source": "생일사진/학회사진.jpg",
+    "source_dimensions": [
+      2920,
+      1506
+    ],
+    "source_sha256": "02081c70ec8cc4fe2d042b928387b49e81e5c92a2a02dcb3b154a53f3c993637",
+    "destination": "content/gallery/conference-moments/photo.jpg",
+    "web_dimensions": [
+      1800,
+      928
+    ],
+    "web_bytes": 546769
+  },
+  {
+    "category": "gallery",
+    "label": "Winter workshop",
+    "source": "연구실 증명사진/그림4.png",
+    "source_dimensions": [
+      2481,
+      1148
+    ],
+    "source_sha256": "4b01d34ce257c9a17920820072557ba538b88a585ccf0915ceb51f23e2b59b0d",
+    "destination": "content/gallery/winter-workshop/photo.jpg",
+    "web_dimensions": [
+      1800,
+      833
+    ],
+    "web_bytes": 447169
+  },
+  {
+    "category": "gallery",
+    "label": "Graduation moments",
+    "source": "졸업식.jpg",
+    "source_dimensions": [
+      3972,
+      1393
+    ],
+    "source_sha256": "b23ab5652f300571fe5c117797a79a0c90030212c71dbd199ed18eefd14f92d9",
+    "destination": "content/gallery/graduation-moments/photo.jpg",
+    "web_dimensions": [
+      1800,
+      631
+    ],
+    "web_bytes": 395886
+  },
+  {
+    "category": "gallery",
+    "label": "Driving simulator",
+    "source": "sils1.jpg",
+    "source_dimensions": [
+      1523,
+      1125
+    ],
+    "source_sha256": "c755942ccd193e41122c87054d7c20ad438ee66dd9d51da7c92a434230d8d59c",
+    "destination": "content/gallery/driving-simulator/photo.jpg",
+    "web_dimensions": [
+      1523,
+      1125
+    ],
+    "web_bytes": 399593
+  },
+  {
+    "category": "gallery",
+    "label": "Vehicle testing",
+    "source": "P5170039.JPG",
+    "source_dimensions": [
+      3200,
+      1800
+    ],
+    "source_sha256": "abe49c7bed765fdc8608879f783845c4b67b980395b5f1c8e757c9cce148becd",
+    "destination": "content/gallery/vehicle-testing/photo.jpg",
+    "web_dimensions": [
+      1800,
+      1013
+    ],
+    "web_bytes": 481621
+  },
+  {
+    "category": "news",
+    "label": "Celebrating together",
+    "source": "연구실 증명사진/승철생일.jpg",
+    "source_dimensions": [
+      5712,
+      4284
+    ],
+    "source_sha256": "7c33b031ff74862320145a592c87672722d7a7576b63cc69e9dd7581c365325e",
+    "destination": "content/news/birthday-2026/photo.jpg",
+    "web_dimensions": [
+      1800,
+      1350
+    ],
+    "web_bytes": 450435
+  },
+  {
+    "category": "home",
+    "label": "Experimental mobility platform",
+    "source": "ecm차량.jpeg",
+    "source_dimensions": [
+      4000,
+      2552
+    ],
+    "source_sha256": "5c75b538a644832b9778cfb043d8f9f40f4577ed4348a937105ebb5451f63397",
+    "destination": "assets/images/home/ecorner-platform.jpg",
+    "web_dimensions": [
+      1500,
+      957
+    ],
+    "web_bytes": 394800
+  },
+  {
+    "category": "home",
+    "label": "Driving simulator",
+    "source": "sils1.jpg",
+    "source_dimensions": [
+      1523,
+      1125
+    ],
+    "source_sha256": "c755942ccd193e41122c87054d7c20ad438ee66dd9d51da7c92a434230d8d59c",
+    "destination": "assets/images/home/driving-simulator.jpg",
+    "web_dimensions": [
+      850,
+      628
+    ],
+    "web_bytes": 189672
+  },
+  {
+    "category": "home",
+    "label": "Our team",
+    "source": "lab2.jpg",
+    "source_dimensions": [
+      698,
+      360
+    ],
+    "source_sha256": "ca215a969bb3b1579932652762edfc313a83009781df69e017252bc20cf08a38",
+    "destination": "assets/images/home/lab-team.jpg",
+    "web_dimensions": [
+      698,
+      360
+    ],
+    "web_bytes": 83613
+  }
+]

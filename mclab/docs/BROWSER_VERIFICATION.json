@@ -1,0 +1,268 @@
+{
+  "checks": 65,
+  "passed": 65,
+  "errors": [],
+  "results": [
+    {
+      "test": "index renders",
+      "pass": true
+    },
+    {
+      "test": "index no teaching link",
+      "pass": true
+    },
+    {
+      "test": "index no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "index all photos load",
+      "pass": true
+    },
+    {
+      "test": "people renders",
+      "pass": true
+    },
+    {
+      "test": "people no teaching link",
+      "pass": true
+    },
+    {
+      "test": "people no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "people all photos load",
+      "pass": true
+    },
+    {
+      "test": "13 original portrait photos",
+      "pass": true
+    },
+    {
+      "test": "professor renders",
+      "pass": true
+    },
+    {
+      "test": "professor no teaching link",
+      "pass": true
+    },
+    {
+      "test": "professor no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "professor all photos load",
+      "pass": true
+    },
+    {
+      "test": "research renders",
+      "pass": true
+    },
+    {
+      "test": "research no teaching link",
+      "pass": true
+    },
+    {
+      "test": "research no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "research all photos load",
+      "pass": true
+    },
+    {
+      "test": "11 research original figures",
+      "pass": true
+    },
+    {
+      "test": "Research figure viewer opens",
+      "pass": true
+    },
+    {
+      "test": "Research viewer Escape closes",
+      "pass": true
+    },
+    {
+      "test": "publications renders",
+      "pass": true
+    },
+    {
+      "test": "publications no teaching link",
+      "pass": true
+    },
+    {
+      "test": "publications no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "publications all photos load",
+      "pass": true
+    },
+    {
+      "test": "Publication search works",
+      "pass": true
+    },
+    {
+      "test": "projects renders",
+      "pass": true
+    },
+    {
+      "test": "projects no teaching link",
+      "pass": true
+    },
+    {
+      "test": "projects no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "projects all photos load",
+      "pass": true
+    },
+    {
+      "test": "Project cards preserved",
+      "pass": true
+    },
+    {
+      "test": "news renders",
+      "pass": true
+    },
+    {
+      "test": "news no teaching link",
+      "pass": true
+    },
+    {
+      "test": "news no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "news all photos load",
+      "pass": true
+    },
+    {
+      "test": "8 photo galleries",
+      "pass": true
+    },
+    {
+      "test": "Gallery viewer opens",
+      "pass": true
+    },
+    {
+      "test": "join renders",
+      "pass": true
+    },
+    {
+      "test": "join no teaching link",
+      "pass": true
+    },
+    {
+      "test": "join no horizontal overflow",
+      "pass": true
+    },
+    {
+      "test": "join all photos load",
+      "pass": true
+    },
+    {
+      "test": "index 320px no overflow",
+      "pass": true
+    },
+    {
+      "test": "people 320px no overflow",
+      "pass": true
+    },
+    {
+      "test": "research 320px no overflow",
+      "pass": true
+    },
+    {
+      "test": "news 320px no overflow",
+      "pass": true
+    },
+    {
+      "test": "index 390px no overflow",
+      "pass": true
+    },
+    {
+      "test": "people 390px no overflow",
+      "pass": true
+    },
+    {
+      "test": "research 390px no overflow",
+      "pass": true
+    },
+    {
+      "test": "news 390px no overflow",
+      "pass": true
+    },
+    {
+      "test": "mobile nav opens",
+      "pass": true
+    },
+    {
+      "test": "mobile Teaching absent",
+      "pass": true
+    },
+    {
+      "test": "index 768px no overflow",
+      "pass": true
+    },
+    {
+      "test": "people 768px no overflow",
+      "pass": true
+    },
+    {
+      "test": "research 768px no overflow",
+      "pass": true
+    },
+    {
+      "test": "news 768px no overflow",
+      "pass": true
+    },
+    {
+      "test": "index 1024px no overflow",
+      "pass": true
+    },
+    {
+      "test": "people 1024px no overflow",
+      "pass": true
+    },
+    {
+      "test": "research 1024px no overflow",
+      "pass": true
+    },
+    {
+      "test": "news 1024px no overflow",
+      "pass": true
+    },
+    {
+      "test": "Standalone preview renders",
+      "pass": true
+    },
+    {
+      "test": "Standalone people navigation",
+      "pass": true
+    },
+    {
+      "test": "Standalone all embedded portraits load",
+      "pass": true
+    },
+    {
+      "test": "Teaching absent in site search",
+      "pass": true
+    },
+    {
+      "test": "Dark mode switches",
+      "pass": true
+    },
+    {
+      "test": "Standalone image lightbox",
+      "pass": true
+    },
+    {
+      "test": "No JavaScript errors",
+      "pass": true
+    }
+  ],
+  "scope": "Chromium rendering of complete portable preview via set_content. Local/file/HTTP navigation blocked by execution policy. All generated images embedded; deployed paths checked separately. No live GitHub deployment test."
+}

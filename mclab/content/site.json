@@ -1,0 +1,341 @@
+{
+  "config": {
+    "name": "Mobility Control Laboratory",
+    "shortName": "MCLab",
+    "institution": "DGIST",
+    "department": "Department of Robotics and Mechatronics Engineering",
+    "email": "khnam@dgist.ac.kr",
+    "phone": "+82-53-785-6234",
+    "office": "E6-212",
+    "address": "333 Techno Jungang-daero, Hyeonpung-eup, Dalseong-gun, Daegu 42988, Republic of Korea",
+    "reviewed": "2026-10-10",
+    "established": "2025",
+    "siteUrl": "https://nkh6189-sys.github.io/mclab-dgist.github.io/",
+    "heroImage": "assets/images/home/ecorner-platform.jpg",
+    "sourceUrl": "https://sites.google.com/view/mclab/",
+    "tagline": "Intelligence in motion.",
+    "description": "We connect vehicle dynamics, intelligent control, and AI to advance safe, agile, and efficient mobility.",
+    "repositoryUrl": "https://github.com/nkh6189-sys/mclab-dgist.github.io",
+    "contentMode": "folders",
+    "labRoom": "E6-115",
+    "secondaryEmail": "nkh6189@gmail.com",
+    "jointLab": "Hyundai Motors Joint Research Laboratory",
+    "mission": "Mobility Control Laboratory aims to develop safe and efficient control technologies for e-chassis systems and next-generation mobility systems. We research innovative control algorithms and AI-based solutions applicable to various mobility platforms such as autonomous vehicles, electric vehicles, and mobile robots.",
+    "missionKo": "모빌리티 제어 연구실은 전동 섀시와 차세대 모빌리티를 위한 안전하고 효율적인 제어 기술을 연구합니다. 차량동역학·메카트로닉스·인공지능을 연결하여 자율주행차, 전기자동차, 이동로봇에 적용할 수 있는 제어 알고리즘과 AI 기반 솔루션을 개발합니다.",
+    "heroAlt": "MCLab experimental e-Corner mobility platform in the laboratory",
+    "heroCaption": "From algorithms to real mobility.",
+    "heroGallery": [
+      {
+        "image": "assets/images/home/driving-simulator.jpg",
+        "title": "Driving simulator",
+        "alt": "The laboratory driving simulator"
+      },
+      {
+        "image": "assets/images/home/lab-team.jpg",
+        "title": "Our team",
+        "alt": "MCLab team with a mobility platform"
+      }
+    ],
+    "photoRevision": "2026-10-10-original-assets"
+  },
+  "pi": {
+    "name": "Kanghyun Nam",
+    "nameKo": "남강현",
+    "role": "Associate Professor",
+    "email": "khnam@dgist.ac.kr",
+    "photo": "",
+    "interests": [
+      "Vehicle dynamics & integrated control",
+      "X-by-Wire & electrified chassis",
+      "AI-assisted modeling & estimation",
+      "Precision motion control"
+    ],
+    "education": [
+      {
+        "period": "Oct. 2009–Sep. 2012",
+        "degree": "Ph.D., Electrical Engineering",
+        "school": "The University of Tokyo, Japan",
+        "detail": "Advisors: Prof. Yoichi Hori and Prof. Hiroshi Fujimoto. Best Graduate Student Award, Department of Electrical Engineering (2012)."
+      },
+      {
+        "period": "Mar. 2007–Jan. 2009",
+        "degree": "M.S., Mechanical Engineering",
+        "school": "KAIST, Republic of Korea",
+        "detail": "Advisor: Prof. Seibum Choi."
+      },
+      {
+        "period": "Mar. 2000–Feb. 2007",
+        "degree": "B.S., Mechanical Engineering",
+        "school": "Kyungpook National University, Republic of Korea",
+        "detail": "Summa cum laude."
+      }
+    ],
+    "experience": [
+      {
+        "period": "Aug. 2025–present",
+        "role": "Associate Professor",
+        "org": "DGIST"
+      },
+      {
+        "period": "Mar. 2021–Jul. 2025",
+        "role": "Associate Professor",
+        "org": "Yeungnam University"
+      },
+      {
+        "period": "Mar. 2015–Feb. 2021",
+        "role": "Assistant Professor",
+        "org": "Yeungnam University"
+      },
+      {
+        "period": "Oct. 2012–Feb. 2015",
+        "role": "Senior Engineer",
+        "org": "Samsung Electronics, Mechatronics R&D Center"
+      },
+      {
+        "period": "Jan. 2009–Sep. 2009",
+        "role": "Control Engineer",
+        "org": "Mando"
+      }
+    ],
+    "service": [
+      {
+        "period": "Aug. 2026–present",
+        "title": "Associate Editor, Automotive Innovation"
+      },
+      {
+        "period": "Jan. 2022–present",
+        "title": "Associate Editor, IEEE Vehicular Technology Magazine"
+      },
+      {
+        "period": "Jun. 2019–present",
+        "title": "Associate Editor, IEEE Transactions on Vehicular Technology"
+      }
+    ],
+    "awards": [
+      {
+        "year": "2024",
+        "title": "Joint Research Laboratory designation",
+        "detail": "“On-road holonomic driving system joint research Laboratory,” Hyundai Motors Group (Feb. 2024)."
+      },
+      {
+        "year": "2017",
+        "title": "한국자동차공학회 학회발전 기여상",
+        "detail": "Korean Society of Automotive Engineers (Nov. 16, 2017)."
+      },
+      {
+        "year": "2014",
+        "title": "Best Paper Award",
+        "detail": "IEEE Transactions on Industrial Electronics."
+      },
+      {
+        "year": "2012",
+        "title": "Best Graduate Student Award",
+        "detail": "Department of Electrical Engineering, The University of Tokyo (Sep. 2012)."
+      },
+      {
+        "year": "2012",
+        "title": "Grand Prize",
+        "detail": "1st Hyundai Global Forum in Japan, Hyundai Motors (Jun. 2012)."
+      }
+    ],
+    "reviewing": [
+      "IEEE Transactions on Industrial Electronics",
+      "IEEE Transactions on Vehicular Technology",
+      "IEEE/ASME Transactions on Mechatronics",
+      "IEEE Transactions on Intelligent Transportation Systems"
+    ]
+  },
+  "research": [
+    {
+      "id": "motion",
+      "number": "01",
+      "title": "Integrated Vehicle Motion Control",
+      "short": "Vehicle motion",
+      "label": "VEHICLE DYNAMICS × CONTROL",
+      "description": "Coordinating steering, braking, driving, and suspension to shape vehicle motion.",
+      "detail": "We investigate how multiple chassis actuators can work together to improve handling, stability, comfort, and energy efficiency. Modeling, state estimation, and control allocation connect vehicle-level objectives to actuator-level motion.",
+      "topics": [
+        "Vehicle dynamics",
+        "Integrated chassis control",
+        "Control allocation",
+        "Handling & ride comfort"
+      ],
+      "questions": [
+        "How can multiple actuators deliver a coherent vehicle response?",
+        "How should handling, comfort, and efficiency be balanced under constraints?"
+      ],
+      "pubIds": [
+        "j26-gprukf",
+        "j26-htfo",
+        "j22-yaw"
+      ],
+      "projectIds": [
+        "g1",
+        "g5",
+        "i1"
+      ]
+    },
+    {
+      "id": "xbywire",
+      "number": "02",
+      "title": "X-by-Wire & Electrified Chassis",
+      "short": "X-by-Wire",
+      "label": "MECHATRONICS × ELECTRIFICATION",
+      "description": "Precise and reliable control of the next generation of chassis actuators.",
+      "detail": "Our work spans steer-by-wire, brake-by-wire, 48 V e-steering, and e-Corner actuation. We study robust motion control, motor synchronization, steering feel, and fault-tolerant control for electrified mobility.",
+      "topics": [
+        "Steer-by-Wire",
+        "Brake-by-Wire",
+        "48 V e-steering",
+        "Fault tolerance"
+      ],
+      "questions": [
+        "How can steering and braking remain precise under disturbances?",
+        "How can redundant actuators be coordinated reliably?"
+      ],
+      "pubIds": [
+        "j26-sync",
+        "j26-ftc",
+        "j26-feel"
+      ],
+      "projectIds": [
+        "g3",
+        "g4",
+        "g5"
+      ]
+    },
+    {
+      "id": "learning",
+      "number": "03",
+      "title": "AI-Based Modeling & State Estimation",
+      "short": "AI & estimation",
+      "label": "PHYSICS × LEARNING",
+      "description": "Combining physical insight and data to understand complex motion systems.",
+      "detail": "We combine physical models, observations, and learning algorithms to estimate vehicle and actuator states. Research topics include tire-force estimation, friction modeling, fault detection, and data-driven control.",
+      "topics": [
+        "Physics-informed learning",
+        "State observers",
+        "Friction modeling",
+        "Fault diagnosis"
+      ],
+      "questions": [
+        "How can physical structure make learning more useful for control?",
+        "How can vehicle states be inferred from limited measurements?"
+      ],
+      "pubIds": [
+        "j26-cnn",
+        "j26-gprukf",
+        "j26-sft"
+      ],
+      "projectIds": [
+        "g6",
+        "i1"
+      ]
+    },
+    {
+      "id": "teleoperation",
+      "number": "04",
+      "title": "Teleoperation & Future Mobility",
+      "short": "Future mobility",
+      "label": "HUMAN × MACHINE × MOBILITY",
+      "description": "Connecting human intent and intelligent control across new mobility platforms.",
+      "detail": "We investigate remote driving, human–machine interaction, tilting mobility, and autonomous mobile robots. Network-aware control, feedback design, mechanism development, and motion planning support these platforms.",
+      "topics": [
+        "Remote driving",
+        "Human–machine interfaces",
+        "Tilting mobility",
+        "AGV / AMR control"
+      ],
+      "questions": [
+        "How can remote control remain intuitive despite network delay?",
+        "How can new mechanisms enable agile and accessible mobility?"
+      ],
+      "pubIds": [
+        "c26-tilt",
+        "j23-amr",
+        "j24-tilt"
+      ],
+      "projectIds": [
+        "g2",
+        "i2"
+      ]
+    }
+  ],
+  "news": [],
+  "gallery": [],
+  "recruitment": {
+    "heading": "Build the future of mobility with us.",
+    "cycle": "Graduate & undergraduate research opportunities",
+    "cycleKo": "대학원생·학부연구생 모집",
+    "integrated": 3,
+    "phd": null,
+    "note": "Positions, eligibility, financial support, and admission dates must be confirmed with the principal investigator.",
+    "areas": [
+      "Integrated vehicle motion control",
+      "Autonomous and teleoperated mobility control",
+      "Steer-by-Wire and Brake-by-Wire system control",
+      "Active suspension and active anti-roll control",
+      "High-precision electric actuator motion control"
+    ],
+    "showConfirmedCounts": false,
+    "masters": 4,
+    "noticePeriod": "2027 Spring",
+    "noticeSource": "https://sites.google.com/view/mclab/home",
+    "noticeSnapshotKo": "기존 /home 페이지의 2027년 전기 공고: 석사 4명, 석박사통합 3명. 원본 루트 페이지 및 이전 이관 자료와 인원 표기가 달라 현재 모집 정원으로 확정하지 않았습니다.",
+    "benefits": [
+      "Full scholarship and stipend support, as advertised on the original lab website; confirm current eligibility and terms.",
+      "Opportunities for industry collaboration, including Hyundai Motor Company.",
+      "Support for international conferences and joint research, subject to the applicable program."
+    ],
+    "focus": [
+      "Control of Steer / Brake / Drive-by-Wire systems",
+      "Integrated vehicle motion control",
+      "AI-based vehicle modeling and control",
+      "Mobility AI"
+    ],
+    "areasKo": [
+      "고성능 차량 통합제어 알고리즘 연구 (현대자동차 공동연구)",
+      "자율주행·원격차량 제어 연구 (BRL 과제, 현대자동차 공동연구)",
+      "Steer-by-Wire 및 Brake-by-Wire(EMB) 시스템제어 연구",
+      "Active suspension 및 Active anti-roll bar 시스템제어 연구",
+      "전동 액추에이터 고정밀 모션제어 이론 및 응용 연구"
+    ],
+    "additionalAreasKo": [
+      "배터리·파워트레인·차량 모델 기반 전기자동차 최적 모션제어",
+      "48 V 차세대 조향·제동 시스템 제어 알고리즘 (HL Mando 공동연구)",
+      "AI/ML 기반 차량 상태추정 및 고장진단 알고리즘"
+    ]
+  },
+  "sources": {
+    "home": "https://sites.google.com/view/mclab/home",
+    "people": "https://sites.google.com/view/mclab/team",
+    "research": "https://sites.google.com/view/mclab/research-areas",
+    "publications": "https://sites.google.com/view/mclab/publications",
+    "projects": "https://sites.google.com/view/mclab/projects",
+    "news": "https://sites.google.com/view/mclab/lab-newsevents",
+    "contact": "https://sites.google.com/view/mclab/contact"
+  },
+  "researchPrograms": [
+    {
+      "id": "vehicle-dynamics",
+      "number": "01",
+      "title": "Vehicle Dynamics and Integrated Motion Control",
+      "titleKo": "차량동역학 및 통합 모션제어",
+      "description": "Research on modeling, analysis, and control of dynamic vehicle behavior. Develops advanced algorithms to optimize stability, handling, and ride comfort. Enhances overall vehicle safety and driving performance."
+    },
+    {
+      "id": "mechatronics",
+      "number": "02",
+      "title": "Mechatronics for Future e-Mobility",
+      "titleKo": "미래 전동 모빌리티 메카트로닉스",
+      "description": "Integration of advanced mechatronic systems for electrified mobility platforms. Focuses on developing intelligent actuators and control algorithms for enhanced vehicle efficiency and performance."
+    },
+    {
+      "id": "mobile-robots",
+      "number": "03",
+      "title": "Autonomous Driving of AGV / AMR",
+      "titleKo": "AGV·AMR 자율주행 및 모션제어",
+      "description": "Motion control and path planning for autonomous driving of AGV/AMR in industrial logistics environments."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: j22-yaw
+공개: true
+표시순서: 31
+연도: 2022
+제목: Integrated Yaw Stability Control of Electric Vehicle Equipped with Front/Rear Steer-by-Wire Systems and Four In-Wheel Motors
+저자: Y. Seo, K. Cho, and K. H. Nam*
+학술지: Electronics
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 11, no. 8, pp. 1–25, Apr. 2022
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: JCR Q2
+원문서지: Y. Seo, K. Cho, and K. H. Nam*, “Integrated Yaw Stability Control of Electric Vehicle Equipped with Front/Rear Steer-by-Wire Systems and Four In-Wheel Motors,” Electronics, vol. 11, no. 8, pp. 1–25, Apr. 2022.
+출처: https://sites.google.com/view/mclab/publications

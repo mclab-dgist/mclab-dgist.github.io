@@ -1,0 +1,2318 @@
+{
+  "checks": 578,
+  "passed": 578,
+  "results": [
+    {
+      "test": "people records preserved",
+      "pass": true
+    },
+    {
+      "test": "people/insu-chung/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/insu-chung/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/insu-chung/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/insu-chung/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/minhyeong-kim/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/minhyeong-kim/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/minhyeong-kim/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/minhyeong-kim/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jinwoo-kim/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jinwoo-kim/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jinwoo-kim/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jinwoo-kim/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/yejin-lee/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/yejin-lee/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/yejin-lee/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/yejin-lee/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/wonchang-yang/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/wonchang-yang/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/wonchang-yang/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/wonchang-yang/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/gibeom-kim/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/gibeom-kim/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/gibeom-kim/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/gibeom-kim/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/hyeongseon-jeon/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/hyeongseon-jeon/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/hyeongseon-jeon/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/hyeongseon-jeon/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeonghyeon-woo/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeonghyeon-woo/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeonghyeon-woo/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeonghyeon-woo/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seungchul-shin/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seungchul-shin/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seungchul-shin/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seungchul-shin/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeongwon-lee/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeongwon-lee/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeongwon-lee/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/jeongwon-lee/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sungeun-park/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sungeun-park/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sungeun-park/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sungeun-park/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/geonwoo-park/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/geonwoo-park/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/geonwoo-park/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/geonwoo-park/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/donggyu-kim/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/donggyu-kim/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/donggyu-kim/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/donggyu-kim/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/heewon-choi/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/heewon-choi/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/heewon-choi/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/heewon-choi/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seongil-cho/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seongil-cho/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seongil-cho/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/seongil-cho/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sanghyeok-park/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sanghyeok-park/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sanghyeok-park/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/sanghyeok-park/group preserved",
+      "pass": true
+    },
+    {
+      "test": "people/nayoon-kim/name preserved",
+      "pass": true
+    },
+    {
+      "test": "people/nayoon-kim/nameKo preserved",
+      "pass": true
+    },
+    {
+      "test": "people/nayoon-kim/role preserved",
+      "pass": true
+    },
+    {
+      "test": "people/nayoon-kim/group preserved",
+      "pass": true
+    },
+    {
+      "test": "publications records preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-preview/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-preview/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-preview/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-preview/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-preview/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-st-tilt/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-st-tilt/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-st-tilt/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-st-tilt/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/sub-st-tilt/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sft/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sft/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sft/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sft/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sft/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-cnn/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-cnn/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-cnn/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-cnn/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-cnn/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-abs/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-abs/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-abs/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-abs/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-abs/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/c26-tilt/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/c26-tilt/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/c26-tilt/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/c26-tilt/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/c26-tilt/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-ftc/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-ftc/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-ftc/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-ftc/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-ftc/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-htfo/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-htfo/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-htfo/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-htfo/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-htfo/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sync/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sync/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sync/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sync/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-sync/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-gprukf/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-gprukf/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-gprukf/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-gprukf/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-gprukf/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-feel/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-feel/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-feel/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-feel/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j26-feel/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-1/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-1/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-1/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-1/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-1/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-2/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-2/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-2/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-2/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-2/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j24-tilt/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j24-tilt/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j24-tilt/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j24-tilt/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j24-tilt/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-4/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-4/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-4/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-4/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2024-4/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-5/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-5/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-5/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-5/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-5/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j23-amr/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j23-amr/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j23-amr/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j23-amr/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j23-amr/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-7/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-7/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-7/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-7/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2023-7/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-8/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-8/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-8/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-8/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-8/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-9/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-9/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-9/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-9/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-9/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-10/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-10/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-10/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-10/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-10/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-11/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-11/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-11/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-11/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-11/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-12/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-12/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-12/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-12/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2022-12/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j22-yaw/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j22-yaw/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j22-yaw/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j22-yaw/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/j22-yaw/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-14/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-14/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-14/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-14/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-14/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-15/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-15/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-15/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-15/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-15/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-16/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-16/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-16/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-16/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-16/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-17/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-17/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-17/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-17/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-17/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-18/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-18/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-18/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-18/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2021-18/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-19/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-19/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-19/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-19/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-19/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-20/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-20/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-20/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-20/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-20/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-21/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-21/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-21/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-21/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-21/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-22/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-22/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-22/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-22/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-22/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-23/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-23/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-23/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-23/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-23/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-24/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-24/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-24/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-24/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2020-24/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-25/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-25/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-25/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-25/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-25/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-26/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-26/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-26/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-26/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-26/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-27/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-27/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-27/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-27/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-27/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-28/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-28/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-28/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-28/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2019-28/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-29/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-29/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-29/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-29/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-29/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-30/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-30/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-30/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-30/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2018-30/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-31/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-31/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-31/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-31/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-31/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-32/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-32/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-32/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-32/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2017-32/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-33/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-33/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-33/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-33/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-33/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-34/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-34/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-34/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-34/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2016-34/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-35/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-35/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-35/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-35/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-35/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-36/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-36/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-36/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-36/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2015-36/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-37/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-37/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-37/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-37/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-37/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-38/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-38/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-38/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-38/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2014-38/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2013-39/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2013-39/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2013-39/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2013-39/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2013-39/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-40/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-40/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-40/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-40/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-40/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-41/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-41/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-41/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-41/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/archive-2012-41/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/wip-tcn/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/wip-tcn/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/wip-tcn/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/wip-tcn/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/wip-tcn/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-hierarchical/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-hierarchical/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-hierarchical/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-hierarchical/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-hierarchical/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag1/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag1/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag1/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag1/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag1/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag2/title preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag2/authors preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag2/venue preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag2/year preserved",
+      "pass": true
+    },
+    {
+      "test": "publications/review-airbag2/doi preserved",
+      "pass": true
+    },
+    {
+      "test": "projects records preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i3/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i3/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i3/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i3/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i2/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i2/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i2/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i2/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g1/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g1/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g1/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g1/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g2/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g2/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g2/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g2/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i1/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i1/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i1/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/i1/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g6/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g6/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g6/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g6/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g3/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g3/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g3/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g3/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g4/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g4/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g4/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g4/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-2/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-2/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-2/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-2/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g5/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g5/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g5/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/g5/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-3/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-3/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-3/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-3/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-4/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-4/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-4/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-4/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-9/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-9/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-9/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-9/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-5/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-5/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-5/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-5/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-6/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-6/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-6/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-6/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-7/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-7/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-7/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-7/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-10/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-10/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-10/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-10/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-11/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-11/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-11/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-11/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-15/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-15/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-15/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-15/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-1/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-1/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-1/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-1/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-16/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-16/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-16/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-16/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-21/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-21/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-21/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-21/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-17/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-17/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-17/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-17/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-22/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-22/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-22/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-22/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-12/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-12/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-12/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-12/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-23/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-23/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-23/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-23/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-18/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-18/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-18/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-18/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-19/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-19/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-19/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-19/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-26/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-26/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-26/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-26/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-27/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-27/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-27/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-27/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-14/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-14/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-14/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-14/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-8/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-8/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-8/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-8/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-13/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-13/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-13/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-13/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-24/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-24/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-24/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-24/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-25/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-25/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-25/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-25/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-32/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-32/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-32/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-32/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-30/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-30/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-30/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-30/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-20/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-20/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-20/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-20/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-33/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-33/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-33/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-33/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-31/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-31/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-31/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-31/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-29/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-29/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-29/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-29/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-34/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-34/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-34/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-34/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-38/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-38/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-38/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-38/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-37/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-37/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-37/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-37/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-36/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-36/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-36/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-36/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-39/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-39/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-39/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-39/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-35/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-35/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-35/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-35/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-40/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-40/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-40/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-40/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-41/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-41/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-41/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-41/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-28/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-28/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-28/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-28/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-43/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-43/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-43/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-43/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-42/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-42/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-42/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-42/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-44/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-44/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-44/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-44/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-45/title preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-45/start preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-45/end preserved",
+      "pass": true
+    },
+    {
+      "test": "projects/completed-45/funder preserved",
+      "pass": true
+    },
+    {
+      "test": "Teaching data removed",
+      "pass": true
+    },
+    {
+      "test": "Teaching route removed",
+      "pass": true
+    },
+    {
+      "test": "Teaching not deployed",
+      "pass": true
+    },
+    {
+      "test": "Teaching sitemap removed",
+      "pass": true
+    },
+    {
+      "test": "All deployed photo paths exist",
+      "pass": true
+    },
+    {
+      "test": "All source snapshot photo paths exist",
+      "pass": true
+    },
+    {
+      "test": "No input source files in public Pages artifact",
+      "pass": true
+    },
+    {
+      "test": "No bundled fonts",
+      "pass": true
+    },
+    {
+      "test": "13 portrait records with original files",
+      "pass": true
+    },
+    {
+      "test": "11 original research figures",
+      "pass": true
+    },
+    {
+      "test": "8 gallery items",
+      "pass": true
+    }
+  ]
+}

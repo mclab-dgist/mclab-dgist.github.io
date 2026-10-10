@@ -1,0 +1,13 @@
+{
+  "version": "2026-10-10",
+  "source": "MCLab prior migration package plus original Google Sites public pages",
+  "live_deployed": false,
+  "unit_tests_passed": 37,
+  "browser_checks_passed": 317,
+  "browser_pages": 9,
+  "browser_method": "Offline Chromium; compiled sources loaded inline under the configured project base URL",
+  "original_photos_migrated": false,
+  "deployment_source": "GitHub Actions",
+  "target_repository": "nkh6189-sys/mclab-dgist.github.io",
+  "notes": "content/ is the source of truth. data/site-data.js is an initial compiled snapshot. See MIGRATION_REVIEW_KO.md for source conflicts."
+}

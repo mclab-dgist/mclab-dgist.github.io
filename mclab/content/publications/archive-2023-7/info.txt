@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2023-7
+공개: true
+표시순서: 25
+연도: 2023
+제목: Optimizing Yarn Tension in Textile Production with Tension–Position Cascade Control Method Using Kalman Filter
+저자: A. Neaz, E. H. Lee, T. H. Jin, K. C. Cho*, and K. H. Nam*
+학술지: Sensors
+DOI: 10.3390/s23125494
+종류: Journal
+상태: Published
+권호쪽: vol. 23, no. 12, article 5494, 2023
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: JCR Q1
+원문서지: A. Neaz, E. H. Lee, T. H. Jin, K. C. Cho*, and K. H. Nam*, “Optimizing Yarn Tension in Textile Production with Tension–Position Cascade Control Method Using Kalman Filter,” Sensors, vol. 23, no. 12, article 5494, 2023.
+출처: https://sites.google.com/view/mclab/publications

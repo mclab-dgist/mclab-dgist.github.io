@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2019-27
+공개: true
+표시순서: 45
+연도: 2019
+제목: Dynamic Handling Characteristics Control of an In-Wheel-Motor Driven Electric Vehicle Based on Multiple Sliding Mode Control Approach
+저자: M. S. Chae, Y. J. Hyun, K. S. Yi, and K. H. Nam*
+학술지: IEEE Access
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 7, pp. 132448–132458, Sep. 2019
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: 
+원문서지: M. S. Chae, Y. J. Hyun, K. S. Yi, and K. H. Nam*, “Dynamic Handling Characteristics Control of an In-Wheel-Motor Driven Electric Vehicle Based on Multiple Sliding Mode Control Approach,” IEEE Access, vol. 7, pp. 132448–132458, Sep. 2019.
+출처: https://sites.google.com/view/mclab/publications

@@ -1,0 +1,13 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: completed-15
+공개: true
+표시순서: 33
+코드: 
+제목: Ultra-Safe Integrated EILS Plant Model Modeling
+지원기관: Korea Automotive Technology Institute
+지원구분: Government
+시작: 2022-06
+종료: 2022-11
+상태: auto
+출처: https://sites.google.com/view/mclab/projects

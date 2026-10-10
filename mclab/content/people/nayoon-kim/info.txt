@@ -1,0 +1,11 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: nayoon-kim
+공개: true
+표시순서: 26
+이름: Nayoon Kim
+과정: Undergraduate Intern (3rd year)
+분류: Undergraduate interns
+연구분야: Personal tilting mobility control
+이메일: kny1210@dgist.ac.kr
+사진: photo.jpg

@@ -1,0 +1,96 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>기존 홈페이지 이관·검토 기록</title><style>*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172943;font:15px/1.85 Arial,"Malgun Gothic",sans-serif}main{max-width:1000px;margin:40px auto;padding:35px 46px 55px;background:white;border:1px solid #dde5f0;border-radius:16px}.banner{background:#142541;color:white;padding:28px 32px;border-radius:12px;margin-bottom:28px}.banner p{color:#cad9f0;font-size:13px;margin:8px 0}.tag{font-size:11px;letter-spacing:2px;color:#b9d0ff}h1{font-size:32px;letter-spacing:-1px;line-height:1.35;margin:12px 0 20px}h2{font-size:24px;line-height:1.45;border-bottom:1px solid #dce4ef;padding-bottom:10px;margin-top:40px}h3{font-size:19px}p,li{font-size:14px;color:#4e5f78}li{margin:9px 0}strong{color:#172943}a{color:#285de6;text-decoration:none;overflow-wrap:anywhere}code{font:12px/1.7 Consolas,"Malgun Gothic",monospace;background:#eef3fb;border-radius:3px;padding:2px 4px;overflow-wrap:anywhere}pre{padding:20px;background:#f3f6fb;border:1px solid #dce4ef;border-radius:8px;white-space:pre-wrap;overflow-wrap:anywhere}pre code{background:none;padding:0}table{width:100%;border-collapse:collapse;margin:20px 0;font-size:13px}th,td{padding:12px 14px;text-align:left;border:1px solid #dce4ef;vertical-align:top}th{background:#eef3fb}blockquote{background:#eef3ff;border-left:3px solid #285de6;margin:20px 0;padding:12px 20px}.foot{margin-top:35px;border-top:1px solid #dce4ef;padding-top:20px;font-size:12px;color:#65738a}@media(max-width:700px){main{margin:12px;padding:22px 18px;border-radius:8px}h1{font-size:26px}h2{font-size:22px}.banner{padding:24px}td,th{padding:9px;font-size:11px}}@media print{body{background:white}main{margin:0;max-width:none;border:0;padding:20px}.banner{background:#edf2fa;color:#172943}.banner p,.tag{color:#4e5f78}pre,table{break-inside:avoid}}</style></head><body><main><header class="banner"><div class="tag">MCLAB · DGIST / OCTOBER 2026</div><h1>기존 홈페이지 이관·검토 기록</h1><p>대상 저장소 nkh6189-sys/mclab-dgist.github.io · GitHub Actions 배포 방식</p></header><h1>MCLab 원본 홈페이지 이관 점검</h1>
+<p>확인일: 2026-10-10. 초기 제작 자료는 2026-10-09 이관본이며 이번 보강과 구분합니다.</p>
+<h2>반영 범위</h2>
+<table>
+<thead>
+<tr>
+  <th>원본</th>
+  <th>새 홈페이지에서 반영한 내용</th>
+  <th>수량/비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Home 및 /home</td>
+  <td>연구실 목적, 전동 섀시·차세대 모빌리티 설명, 모집 연구 분야, 지원 안내, 장학금·공동연구·학회 지원 설명</td>
+  <td>영문 원문 및 한국어 설명, 조건 확인 안내</td>
+</tr>
+<tr>
+  <td>Team</td>
+  <td>교수님 + 실명 구성원 정보, 연구 관심 분야·이메일, 학위 분류</td>
+  <td>교수님 1 + 구성원 17. 임시 000 항목 제외</td>
+</tr>
+<tr>
+  <td>Team PI</td>
+  <td>전체 학력 기간, 경력 5개, 수상·연구실 지정 5개, 편집위원 3개 및 심사 대상 저널 4개</td>
+  <td>경력을 임의로 합치지 않고 분리</td>
+</tr>
+<tr>
+  <td>Research</td>
+  <td>원래의 3개 대분류, 11개 세부 주제·설명</td>
+  <td>단순 4개 카드 요약 외에 원문 체계 추가</td>
+</tr>
+<tr>
+  <td>Publications</td>
+  <td>초기 56개 레코드 유지, 이전 소속 41건의 권·호·쪽·원문 주석</td>
+  <td>게재 50/미게재 6은 이관본의 구분이지 출판사 전체 검증 결과가 아님</td>
+</tr>
+<tr>
+  <td>Projects</td>
+  <td>초기 54건 유지, 기간·기관·정부/산업체/기관 분류, 원문에 있는 PI 표기</td>
+  <td>자동 날짜 상태. 문서별 차이는 아래 참고</td>
+</tr>
+<tr>
+  <td>News/events 및 Home</td>
+  <td>2025-08-01 연구실 개소·개소 행사, 2026-01-30 생일·신입 구성원 환영</td>
+  <td>날짜가 확인된 서로 다른 소식 2건. 개소 소식을 중복 생성하지 않음</td>
+</tr>
+<tr>
+  <td>Contact</td>
+  <td>전체 주소·이메일·전화·Office E6-212 및 Lab E6-115</td>
+  <td>지도 검색 링크 연결</td>
+</tr>
+<tr>
+  <td>Images</td>
+  <td>원본 인물·연구·행사 이미지 URL 접근 시도</td>
+  <td>다운로드 실패. 사진이 없는 인물은 이니셜 표시</td>
+</tr>
+</tbody>
+</table>
+<p>기존 Mission과 연구 주제 설명은 의미를 보존하며 철자·공백·대소문자 등을 정돈했습니다. 신규 4개 연구 경로와 연구질문은 기존 버전의 편집 문안입니다. 원래 연구 구조는 그와 별도로 3개 대분류로 명시합니다.</p>
+<h2>원본 페이지 간 차이: 최신성 단정 금지</h2>
+<p>웹 도구가 반환한 페이지에 과거 수집본이 포함되어 초기 이관본과 내용이 일치하지 않는 부분이 있습니다. 현재 원본 Google Sites의 편집 상태를 실시간으로 모두 확인했다는 뜻은 아닙니다.</p>
+<ul>
+<li><strong>모집:</strong> 원본 루트에는 2026 가을 석박사 2명, /home에는 2027 전기 석사 4명·석박통합 3명, 초기 패키지에는 2027 전기 석박통합 2명·박사 1명이 기록되어 있었습니다. 새 홈페이지는 대학원·학부 연구기회를 안내하되, 숫자를 현재 확정 정원처럼 표시하지 않습니다. /home 공고 숫자는 접힌 “원문 공고 참고”에 출처와 함께 보존합니다. 교수님 확인 후 공개 숫자를 확정해야 합니다.</li>
+<li><strong>구성원:</strong> 초기 이관본에는 Heewon Choi, Seongil Cho 등이 있으나 이번에 읽힌 Team 수집본에는 보이지 않습니다. 최근 패키지 구성원을 자동 삭제하지 않았습니다. Sanghyeok Park의 관심 분야도 초기에는 Active suspension control, 수집본에는 Integrated vehicle dynamics control입니다. 재학/연구 주제 변경 여부는 교수님 확인 대상입니다.</li>
+<li><strong>2026 논문:</strong> CNN–LuGre와 SFT 논문은 초기 이관본에 DOI와 게재 목록 정보가 있지만 이번에 읽힌 과거 수집본에는 심사 중으로 나타납니다. 게재 상태를 과거 단계로 되돌리지 않았습니다. 출판사 원문과 전체 DOI를 다시 감사한 것은 아닙니다.</li>
+<li><strong>에어백 원고:</strong> <code>review-airbag2</code>의 초기 제목은 “Gaussian Process-Based Airbag Deployment Algorithm with Uncertainty Estimation Using Real Crash-Test Data”, 이번 수집본은 “Uncertainty-Aware Airbag Deployment via Gaussian Process Classification with Physics-Informed Additive Kernels”입니다. 제목 변경인지 별개 원고인지 확정할 수 없어 중복 논문을 생성하지 않고 초기 항목을 유지했습니다.</li>
+<li><strong>정부과제:</strong> 초기 <code>g1</code>의 2026.09–2031.08 과제가 이번 과거 수집본에는 없어 후속 과제 번호가 하나씩 다릅니다. 번호만으로 동일성을 판단해 덮어쓰지 않고 기존 ID와 제목을 보존했습니다.</li>
+<li><strong>현대차 I-2:</strong> 초기 패키지는 “Research on Real-Vehicle Validation of Teleoperation for Application to Level 4 Autonomous Driving”, 2026.10–2027.09입니다. 이번 수집본에는 “Development of Remote Steering Technology for Unmanned Mobility Based on Steer-by-Wire Systems (Phase2)”, 2026.09–2027.08입니다. 서로 다른 계약인지 제목·기간 변경인지 확정하지 못해 과제를 임의로 추가하거나 삭제하지 않았습니다. 이 원문 변형과 기간을 여기 보존하며 공개 목록의 최종 확정이 필요합니다.</li>
+</ul>
+<h2>서지정보 보강 주의</h2>
+<ul>
+<li>이전 소속 41건에 원문 권·호·쪽 정보를 보완했습니다. 출판사의 완전한 서지정보 검증을 대신하지 않습니다.</li>
+<li><code>archive-2020-21</code>에 원문 <code>pp. 180433–80443</code>가 있어 그대로 보존하고 오류 가능성을 표시했습니다. 잘못된 범위를 BibTeX pages로 자동 내보내지 않습니다.</li>
+<li><code>archive-2024-4</code>는 원문 저자가 <code>et al.</code>로 줄어 있습니다. 보이지 않는 저자를 임의로 채우지 않았으며 BibTeX에 검토 안내가 있습니다.</li>
+<li>JCR Q1/Q2/Top %는 삭제하지 않고 접힌 “Imported bibliographic notes” 안에 <strong>원문 표기</strong>로 보존했습니다. 기준연도/판이 없어 현재 저널 순위로 검증된 숫자처럼 표기하지 않습니다.</li>
+<li>출판되지 않은 원고는 Published 또는 Accepted와 분리하고, DOI를 채웠다는 이유로 상태를 자동 승격시키지 않습니다.</li>
+<li>공개되지 않은 원문, 계약서, 비공개 데이터는 이관하지 않았습니다.</li>
+</ul>
+<h2>사진·연구 그림</h2>
+<p>교수님 사진과 연구 대표 그림의 <code>lh3.googleusercontent.com/sitesv/…</code> 주소 접근 및 다운로드가 실패했습니다. 웹에 보이는 것과 파일로 내려받을 수 있는 것은 다릅니다. 이번 ZIP에는 실사진을 넣지 않았으며, 다 받았다고 표시하지 않습니다. 실제 사진을 해당 폴더에 추가하면 후속 배포에서 자동 연결됩니다.</p>
+<p>대상 폴더: <code>content/people/&lt;ID&gt;/photo.jpg</code>, <code>content/research/&lt;ID&gt;/figure.png</code>, <code>content/news/&lt;ID&gt;/photo.jpg</code>, <code>content/gallery/&lt;ID&gt;/photo.jpg</code>.</p>
+<h2>원본 출처</h2>
+<ul>
+<li>https://sites.google.com/view/mclab/</li>
+<li>https://sites.google.com/view/mclab/home</li>
+<li>https://sites.google.com/view/mclab/team</li>
+<li>https://sites.google.com/view/mclab/research-areas</li>
+<li>https://sites.google.com/view/mclab/publications</li>
+<li>https://sites.google.com/view/mclab/projects</li>
+<li>https://sites.google.com/view/mclab/lab-newsevents</li>
+<li>https://sites.google.com/view/mclab/contact</li>
+</ul>
+<h2>신규 기능과 검증 경계</h2>
+<p>파일 폴더를 처리하는 빌드·검증·GitHub Actions 배포 설정, 로컬 정보 작성 도구, 단일 HTML 미리보기를 추가했습니다. 로컬 자동검사와 브라우저 검수 결과는 별도 검증 보고서에 기록합니다. 실제 GitHub 저장소 내용은 접근 확인되지 않았고 원격 쓰기 권한도 연결되지 않아 업로드·공개를 수행하지 않았습니다.</p>
+<footer class="foot">파일 제작·로컬 검증본입니다. 실제 GitHub 저장소 업로드와 공개 여부는 별도로 확인해야 합니다.</footer></main></body></html>

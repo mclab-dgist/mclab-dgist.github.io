@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2023-5
+공개: true
+표시순서: 23
+연도: 2023
+제목: A Twisted Gaussian Risk Model Considering Target Vehicle Longitudinal-Lateral Motion States for Host Vehicle Trajectory Planning
+저자: Z. Zhou, Y. Wang*, G. Zhou, K. H. Nam*, Z. Ji, and C. Yin
+학술지: IEEE Transactions on Intelligent Transportation Systems
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 24, no. 12, pp. 13685–13697, Dec. 2023
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: JCR Top 2%
+원문서지: Z. Zhou, Y. Wang*, G. Zhou, K. H. Nam*, Z. Ji, and C. Yin, “A Twisted Gaussian Risk Model Considering Target Vehicle Longitudinal-Lateral Motion States for Host Vehicle Trajectory Planning,” IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 12, pp. 13685–13697, Dec. 2023.
+출처: https://sites.google.com/view/mclab/publications

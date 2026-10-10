@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2018-29
+공개: true
+표시순서: 47
+연도: 2018
+제목: Disturbance Observer-Based Sideslip Angle Control for Improving Cornering Characteristics of In-Wheel Motor Electric Vehicles
+저자: H. S. Kim, Y. J. Hyun, and K. H. Nam*
+학술지: International Journal of Automotive Technology
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 19, no. 6, Dec. 2018
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: 
+원문서지: H. S. Kim, Y. J. Hyun, and K. H. Nam*, “Disturbance Observer-Based Sideslip Angle Control for Improving Cornering Characteristics of In-Wheel Motor Electric Vehicles,” International Journal of Automotive Technology, vol. 19, no. 6, Dec. 2018.
+출처: https://sites.google.com/view/mclab/publications

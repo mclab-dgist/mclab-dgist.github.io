@@ -1,0 +1,22 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2020-21
+공개: true
+표시순서: 39
+연도: 2020
+제목: Vehicle Side-Slip Angle Estimation of Ground Vehicles Based on a Lateral Acceleration Compensation
+저자: K. Cho, H. Son, Y. Wang, K. H. Nam*, and S. B. Choi
+학술지: IEEE Access
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 8, pp. 180433–80443, Oct. 2020
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: 
+원문서지: K. Cho, H. Son, Y. Wang, K. H. Nam*, and S. B. Choi, “Vehicle Side-Slip Angle Estimation of Ground Vehicles Based on a Lateral Acceleration Compensation,” IEEE Access, vol. 8, pp. 180433–80443, Oct. 2020.
+참고: The page range 180433–80443 is reproduced from the original website and appears inconsistent. Verify with the publisher before citing; this range is omitted from generated BibTeX.
+출처: https://sites.google.com/view/mclab/publications

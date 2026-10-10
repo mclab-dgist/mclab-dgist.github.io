@@ -1,0 +1,22 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2013-39
+공개: true
+표시순서: 57
+연도: 2013
+제목: Estimation of Sideslip and Roll Angles of Electric Vehicles Using Lateral Tire Force Sensors Through RLS and Kalman Filter Approaches
+저자: K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori
+학술지: IEEE Transactions on Industrial Electronics
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 60, no. 3, pp. 988–1000, Mar. 2013
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: 
+원문서지: K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori, “Estimation of Sideslip and Roll Angles of Electric Vehicles Using Lateral Tire Force Sensors Through RLS and Kalman Filter Approaches,” IEEE Transactions on Industrial Electronics, vol. 60, no. 3, pp. 988–1000, Mar. 2013.
+참고: 2014 Best Paper Award for IEEE Transactions on Industrial Electronics, as noted on the original website.
+출처: https://sites.google.com/view/mclab/publications

@@ -1,0 +1,12 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: kanghyun-nam
+공개: true
+표시순서: 0
+이름: Kanghyun Nam
+한글이름: 남강현
+과정: Associate Professor
+이메일: khnam@dgist.ac.kr
+사진: photo.jpg
+분류: Faculty
+연구분야: Vehicle dynamics & integrated control / X-by-Wire & electrified chassis / AI-assisted modeling & estimation / Precision motion control

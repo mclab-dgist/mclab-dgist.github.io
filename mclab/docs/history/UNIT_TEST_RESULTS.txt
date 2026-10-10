@@ -1,0 +1,42 @@
+test_accepted_does_not_become_published (test_content.ContentTests.test_accepted_does_not_become_published) ... ok
+test_add_modify_hide_delete (test_content.ContentTests.test_add_modify_hide_delete) ... ok
+test_ambiguous_photos_fail (test_content.ContentTests.test_ambiguous_photos_fail) ... ok
+test_boolean_typo_rejected (test_content.ContentTests.test_boolean_typo_rejected) ... ok
+test_dates_and_month_boundaries (test_content.ContentTests.test_dates_and_month_boundaries) ... ok
+test_doi_normalization_and_duplicate (test_content.ContentTests.test_doi_normalization_and_duplicate) ... ok
+test_duplicate_json (test_content.ContentTests.test_duplicate_json) ... ok
+test_duplicate_keys (test_content.ContentTests.test_duplicate_keys) ... ok
+test_extra_assets_only_in_pages_artifact (test_content.ContentTests.test_extra_assets_only_in_pages_artifact) ... ok
+test_failed_build_preserves_previous_output (test_content.ContentTests.test_failed_build_preserves_previous_output) ... ok
+test_filename_id_consistency (test_content.ContentTests.test_filename_id_consistency) ... ok
+test_gallery_without_photo_rejected (test_content.ContentTests.test_gallery_without_photo_rejected) ... ok
+test_hidden_news_is_not_deployed (test_content.ContentTests.test_hidden_news_is_not_deployed) ... ok
+test_html_data_escaped (test_content.ContentTests.test_html_data_escaped) ... ok
+test_invalid_project_dates (test_content.ContentTests.test_invalid_project_dates) ... ok
+test_invalid_source_url_rejected (test_content.ContentTests.test_invalid_source_url_rejected) ... ok
+test_korean_enum (test_content.ContentTests.test_korean_enum) ... ok
+test_manual_project_status (test_content.ContentTests.test_manual_project_status) ... ok
+test_mislabelled_image (test_content.ContentTests.test_mislabelled_image) ... ok
+test_missing_explicit_photo_fails (test_content.ContentTests.test_missing_explicit_photo_fails) ... ok
+test_missing_required_info (test_content.ContentTests.test_missing_required_info) ... ok
+test_multiline (test_content.ContentTests.test_multiline) ... ok
+test_news_folder_loaded_and_photo_linked (test_content.ContentTests.test_news_folder_loaded_and_photo_linked) ... ok
+test_news_month_without_day_rejected (test_content.ContentTests.test_news_month_without_day_rejected) ... ok
+test_only_public_linked_assets_deployed (test_content.ContentTests.test_only_public_linked_assets_deployed) ... ok
+test_output_guard (test_content.ContentTests.test_output_guard) ... ok
+test_path_traversal_rejected (test_content.ContentTests.test_path_traversal_rejected) ... ok
+test_pdf_only_not_interpreted (test_content.ContentTests.test_pdf_only_not_interpreted) ... ok
+test_photo_autolink_and_hash (test_content.ContentTests.test_photo_autolink_and_hash) ... ok
+test_publication_source_notes_preserved (test_content.ContentTests.test_publication_source_notes_preserved) ... ok
+test_published_year_required (test_content.ContentTests.test_published_year_required) ... ok
+test_repository_current_content_valid (test_content.ContentTests.test_repository_current_content_valid) ... ok
+test_research_program_checked (test_content.ContentTests.test_research_program_checked) ... ok
+test_script_url_rejected (test_content.ContentTests.test_script_url_rejected) ... ok
+test_txt_and_bom (test_content.ContentTests.test_txt_and_bom) ... ok
+test_undated_gallery_with_photo_allowed (test_content.ContentTests.test_undated_gallery_with_photo_allowed) ... ok
+test_unknown_key_rejected (test_content.ContentTests.test_unknown_key_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.081s
+
+OK

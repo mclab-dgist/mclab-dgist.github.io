@@ -1,0 +1,10 @@
+# Public gallery record. Date left blank because it was not verified.
+ID: lab-team
+공개: true
+표시순서: 1
+날짜: 
+제목: Together at the laboratory
+내용: MCLab team with the laboratory mobility platform.
+대표그림: photo.jpg
+사진설명: MCLab team with the laboratory mobility platform.
+출처: 

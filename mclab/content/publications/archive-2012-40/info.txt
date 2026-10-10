@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2012-40
+공개: true
+표시순서: 58
+연도: 2012
+제목: Robust Yaw Stability Control for Electric Vehicles Based on Active Front Steering Control Through Steer-by-Wire (SbW) System
+저자: K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori
+학술지: International Journal of Automotive Technology
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 13, no. 7, pp. 1169–1176, Dec. 2012
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: 
+원문서지: K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori, “Robust Yaw Stability Control for Electric Vehicles Based on Active Front Steering Control Through Steer-by-Wire (SbW) System,” International Journal of Automotive Technology, vol. 13, no. 7, pp. 1169–1176, Dec. 2012.
+출처: https://sites.google.com/view/mclab/publications

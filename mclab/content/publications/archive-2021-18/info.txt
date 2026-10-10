@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2021-18
+공개: true
+표시순서: 36
+연도: 2021
+제목: Model Predictive Control Framework for Improving Vehicle Cornering Performance Using Handling Characteristics
+저자: K. Han, G. Park, G. S. Sankar, K. H. Nam*, and S. B. Choi*
+학술지: IEEE Transactions on Intelligent Transportation Systems
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 22, no. 5, pp. 3014–3024, May 2021
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: JCR Top 2%
+원문서지: K. Han, G. Park, G. S. Sankar, K. H. Nam*, and S. B. Choi*, “Model Predictive Control Framework for Improving Vehicle Cornering Performance Using Handling Characteristics,” IEEE Transactions on Intelligent Transportation Systems, vol. 22, no. 5, pp. 3014–3024, May 2021.
+출처: https://sites.google.com/view/mclab/publications

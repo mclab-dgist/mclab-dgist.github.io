@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2024-1
+공개: true
+표시순서: 19
+연도: 2024
+제목: Synchronous Control of a Dual-Motor Driving Rack and Pinion Module for Steer-by-Wire System
+저자: I. S. Chung, S. H. Oh*, and K. H. Nam*
+학술지: IEEE Access
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 12, pp. 195358–195369, Dec. 2024
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: JCR Q2
+원문서지: I. S. Chung, S. H. Oh*, and K. H. Nam*, “Synchronous Control of a Dual-Motor Driving Rack and Pinion Module for Steer-by-Wire System,” IEEE Access, vol. 12, pp. 195358–195369, Dec. 2024.
+출처: https://sites.google.com/view/mclab/publications

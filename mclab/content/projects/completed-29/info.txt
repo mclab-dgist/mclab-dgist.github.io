@@ -1,0 +1,13 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: completed-29
+공개: true
+표시순서: 47
+코드: 
+제목: Development of 2-Speed Reducer for Electric Commercial Vehicles
+지원기관: Regional Cooperation Industry Promotion Project
+지원구분: Government
+시작: 2018-10
+종료: 2020-09
+상태: auto
+출처: https://sites.google.com/view/mclab/projects

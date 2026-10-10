@@ -1,0 +1,19 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: j26-abs
+공개: true
+표시순서: 12
+연도: 2026
+제목: Model-Based Antilock Brake System with Integrated Wheel Brake Pressure Sensing for Robust Slip Control
+저자: K. Cho, S. Choi, and K. H. Nam*
+학술지: International Journal of Automotive Technology
+DOI: 10.1007/s12239-026-00500-3
+종류: Journal
+상태: Published
+권호쪽: 
+대표논문: false
+소속구분: DGIST
+영상: 
+코드: 
+관련과제: 
+출처: https://sites.google.com/view/mclab/publications

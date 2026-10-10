@@ -1,0 +1,50 @@
+name: Update and deploy MCLab
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+# Read-only while validating and building. No token or API key to configure.
+permissions:
+  contents: read
+
+concurrency:
+  group: mclab-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Validate and test folder processing
+        run: python3 -m unittest discover -s tests -v
+      - name: Build website from content folders
+        run: python3 scripts/build_site.py
+      - name: Upload website only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy verified website
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,22 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2024-4
+공개: true
+표시순서: 22
+연도: 2024
+제목: Tire Normal Force Estimation Based on Integrated Suspension State Measurement
+저자: D. Cheon, W. Choi, K. Nam, et al.
+학술지: International Journal of Control, Automation and Systems
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 22, no. 6, pp. 1902–1911, May 2024
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: 
+원문서지: D. Cheon, W. Choi, K. Nam, et al., “Tire Normal Force Estimation Based on Integrated Suspension State Measurement,” International Journal of Control, Automation and Systems, vol. 22, no. 6, pp. 1902–1911, May 2024.
+참고: The author list is abbreviated in the original website. Check the publisher record for the complete author list before citing.
+출처: https://sites.google.com/view/mclab/publications

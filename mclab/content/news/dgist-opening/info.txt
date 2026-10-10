@@ -1,0 +1,10 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: dgist-opening
+날짜: 2025-08-01
+구분: Milestone
+제목: Mobility Control Laboratory opens at DGIST
+내용: We are excited to announce the opening of the Mobility Control Laboratory at DGIST. We warmly welcome new members—students, researchers, and collaborators eager to shape the future of mobility. The lab opening event was held on August 1, 2025.
+출처: https://sites.google.com/view/mclab/
+공개: true
+대표그림: 

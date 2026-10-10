@@ -1,0 +1,10 @@
+# Public gallery record. Date left blank because it was not verified.
+ID: tsinghua-exchange
+공개: true
+표시순서: 3
+날짜: 
+제목: Research exchange
+내용: Research exchange and group photographs from the original lab archive.
+대표그림: photo.jpg
+사진설명: Research exchange and group photographs from the original lab archive.
+출처: 

@@ -1,0 +1,21 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: archive-2022-12
+공개: true
+표시순서: 30
+연도: 2022
+제목: Robust Periodic Adaptive Disturbance Observer Based Control Considering Long-Term Instability Problems for High-Load Motion Systems
+저자: K. Cho and K. H. Nam*
+학술지: IEEE Transactions on Industrial Electronics
+DOI: 
+종류: Journal
+상태: Published
+권호쪽: vol. 69, no. 6, pp. 6258–6266, Jun. 2022
+대표논문: false
+소속구분: Before DGIST
+영상: 
+코드: 
+관련과제: 
+원문순위표기: JCR Top 4.6%
+원문서지: K. Cho and K. H. Nam*, “Robust Periodic Adaptive Disturbance Observer Based Control Considering Long-Term Instability Problems for High-Load Motion Systems,” IEEE Transactions on Industrial Electronics, vol. 69, no. 6, pp. 6258–6266, Jun. 2022.
+출처: https://sites.google.com/view/mclab/publications
