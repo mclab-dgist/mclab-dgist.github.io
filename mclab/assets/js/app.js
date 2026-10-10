@@ -88,10 +88,49 @@
   function cta(){return `<section class="section compact"><div class="container"><div class="cta-band"><div><h2>Great ideas move better together.</h2><p>We welcome curious students, researchers, and collaborators working toward the next generation of mobility.</p></div><a class="btn btn-light" href="${link('join')}">Join MCLab ${right}</a></div></div></section>`;}
   function missionSection(){return `<section class="section soft mission-section"><div class="container mission-grid"><div><div class="eyebrow">ABOUT MCLAB</div><h2>Control technologies.<br>Real mobility.</h2><span class="pill">${esc(C.jointLab)}</span></div><div><p class="mission-copy">${esc(C.mission)}</p><p class="mission-ko" lang="ko">${esc(C.missionKo)}</p><div class="mission-stats"><span><strong>${(D.researchPrograms||[]).length}</strong> research programs</span><span><strong>${(D.researchTopics||[]).length}</strong> research themes</span></div></div></div></section>`;}
   function home(){
-    const heroText=String(C.tagline || 'Intelligence in motion.');
-    const splitAt=heroText.indexOf(' in ');
-    const heroTitle=splitAt>0?esc(heroText.slice(0,splitAt))+'<span>'+esc(heroText.slice(splitAt+1))+'</span>':esc(heroText);
-    return `<section class="hero simple-home"><div class="container hero-layout"><div class="hero-copy"><div class="eyebrow">DGIST · MOBILITY CONTROL LABORATORY</div><h1>${heroTitle}</h1><p class="hero-intro">${esc(C.description)}</p><div class="button-row"><a class="btn" href="${link('research')}">Research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">People ${right}</a></div></div></div></section>
+    const visual=`<div class="mobility-visual" role="img" aria-label="Concept illustration of intelligent vehicle motion control with coordinated steering, braking, and driving">
+      <div class="mobility-visual-top"><span class="signal-dot"></span> VEHICLE MOTION INTELLIGENCE <span>DGIST · MCLab</span></div>
+      <svg viewBox="0 0 620 440" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="vehiclePaint" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f4faff"/><stop offset="1" stop-color="#bcd4f3"/></linearGradient>
+          <linearGradient id="flowBlue" x1="0" x2="1"><stop stop-color="#3b92ee"/><stop offset="1" stop-color="#85d8f7"/></linearGradient>
+        </defs>
+        <g class="motion-grid"><path d="M0 75H620 M0 145H620 M0 215H620 M0 285H620 M0 355H620 M75 0V440 M145 0V440 M215 0V440 M285 0V440 M355 0V440 M425 0V440 M495 0V440 M565 0V440"/></g>
+        <circle cx="308" cy="224" r="177" fill="none" stroke="#b9d5f2" stroke-width="1.5" stroke-dasharray="6 9"/>
+        <circle cx="308" cy="224" r="129" fill="none" stroke="#d3e5f6" stroke-width="1.5"/>
+        <path d="M134 224H80 M482 224H538 M308 48V82 M308 367V404" stroke="#77b4ee" stroke-width="2" stroke-dasharray="6 8"/>
+        <g transform="translate(217 79)">
+          <rect x="4" y="36" width="28" height="79" rx="10" fill="#102a54" transform="rotate(-12 18 76)"/>
+          <rect x="151" y="36" width="28" height="79" rx="10" fill="#102a54" transform="rotate(12 165 76)"/>
+          <rect x="4" y="205" width="28" height="79" rx="10" fill="#102a54"/>
+          <rect x="151" y="205" width="28" height="79" rx="10" fill="#102a54"/>
+          <path d="M61 5Q91 -5 121 5L150 64V256Q91 291 32 256V64Z" fill="url(#vehiclePaint)" stroke="#467ab9" stroke-width="3"/>
+          <path d="M61 20H121L139 75H43Z" fill="#204779" opacity=".82"/>
+          <path d="M43 182H139L131 249Q91 268 51 249Z" fill="#c4e1f8" stroke="#7caad4"/>
+          <path d="M44 89H138M44 166H138" stroke="#6095c7" stroke-width="3"/>
+          <path d="M91 93V167" stroke="#4689d6" stroke-width="3" stroke-dasharray="6 7"/>
+          <path d="M56 13H126" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+        </g>
+        <g fill="none" stroke="url(#flowBlue)" stroke-width="4" stroke-linecap="round">
+          <path d="M168 170Q120 128 146 90"/><path d="M446 170Q495 128 471 90"/>
+          <path d="M169 280Q119 322 146 362"/><path d="M446 280Q495 322 471 362"/>
+        </g>
+        <g fill="#3183dd"><path d="M141 93l2 -19 14 13z"/><path d="M476 93l-2 -19 -14 13z"/><path d="M142 361l1 20 14 -13z"/><path d="M474 361l-1 20 -14 -13z"/></g>
+        <g class="mobility-diagram-labels" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#294c79">
+          <text x="65" y="112">STEERING</text><text x="475" y="112">BRAKING</text>
+          <text x="72" y="349">DRIVING</text><text x="475" y="349">STABILITY</text>
+        </g>
+        <circle cx="308" cy="224" r="7" fill="#2c8edc"/><circle cx="308" cy="224" r="17" fill="none" stroke="#2c8edc" stroke-width="1.5"/>
+      </svg>
+      <div class="mobility-visual-bottom"><span>STEER · BRAKE · DRIVE · SUSPENSION</span><span>PHYSICS × AI</span></div>
+    </div>`;
+    return `<section class="hero simple-home mobility-home"><div class="container hero-layout"><div class="hero-copy">
+      <div class="eyebrow">MOBILITY CONTROL LABORATORY · DGIST</div>
+      <h1>Engineering<br><span>intelligent motion.</span></h1>
+      <p class="hero-intro">Advancing future mobility through vehicle dynamics, electrified chassis control, and AI.</p>
+      <div class="button-row"><a class="btn" href="${link('research')}">Explore Research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">Our Team ${right}</a></div>
+      <div class="mobility-keywords"><span>Vehicle Dynamics</span><span>X-by-Wire</span><span>Intelligent Control</span></div>
+    </div><div class="hero-visual">${visual}</div></div></section>
     <section class="section simple-research"><div class="container">${sectionHead('RESEARCH','What we do.',`<a class="text-link" href="${link('research')}">Explore research ${right}</a>`)}${researchCards()}</div></section>
     <section class="section simple-publications"><div class="container">${sectionHead('PUBLICATIONS','Selected work.',`<a class="text-link" href="${link('publications')}">All publications ${right}</a>`)}${selectedPapers()}</div></section>
     <section class="simple-contact"><div class="container"><div><h2>Join MCLab.</h2><p>Interested in vehicle dynamics, intelligent control, or future mobility?</p></div><a class="btn" href="${link('join')}">Contact &amp; opportunities ${arrow}</a></div></section>`;
