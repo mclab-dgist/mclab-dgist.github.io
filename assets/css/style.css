@@ -437,3 +437,12 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
  .site-header .nav-link{font-size:17px}
  .site-header .primary-nav{gap:6px}
 }
+
+
+/* Header wordmark: MC + Lab only, without emblem or secondary subtitle. */
+.site-header .brand{gap:0;align-items:center}
+.site-header .brand-name{font-size:clamp(39px,3.7vw,53px);font-weight:800;letter-spacing:-2px;line-height:1.05;color:#fff}
+.site-header .brand-name span{color:#75b8ff}
+.site-header .nav-row{min-height:92px}
+@media(max-width:1180px){.site-header .brand-name{font-size:43px}}
+@media(max-width:650px){.site-header .brand-name{font-size:39px}.site-header .nav-row{min-height:75px}}
