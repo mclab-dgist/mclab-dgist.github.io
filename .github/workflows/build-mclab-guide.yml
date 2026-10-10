@@ -1,0 +1,55 @@
+name: Build MCLab update-guide PDF
+
+on:
+  push:
+    branches: [docs/update-guide-20261010]
+    paths:
+      - docs/update-guide/build_guide.py
+      - .github/workflows/build-mclab-guide.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mclab-update-guide-pdf
+  cancel-in-progress: false
+
+jobs:
+  guide:
+    if: github.ref == 'refs/heads/docs/update-guide-20261010'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out documentation branch
+        uses: actions/checkout@v4
+      - name: Install Korean fonts and PDF tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-nanum
+          python3 -m pip install --disable-pip-version-check reportlab PyMuPDF
+      - name: Compile and generate guide
+        run: |
+          python3 -m py_compile docs/update-guide/build_guide.py
+          python3 docs/update-guide/build_guide.py
+      - name: Keep downloadable guide artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MCLab-Data-Update-Guide-KO
+          path: |
+            docs/update-guide/MCLab_Data_Update_Guide_KO.pdf
+            docs/update-guide/MCLab_Update_Templates.zip
+            docs/update-guide/verification.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Save PDF only to documentation branch
+        run: |
+          test "$(git branch --show-current)" = 'docs/update-guide-20261010'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs/update-guide
+          if ! git diff --cached --quiet; then
+            git commit -m 'docs: publish Korean PDF guide and validated examples'
+            git push origin HEAD:refs/heads/docs/update-guide-20261010
+          fi
+          echo 'PDF generated on docs/update-guide-20261010 only. Main and gh-pages are unchanged.' >> "$GITHUB_STEP_SUMMARY"
