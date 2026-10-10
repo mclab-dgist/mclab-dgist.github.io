@@ -371,3 +371,46 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .home-notice-secondary time{color:var(--muted);font-size:13px}
 @media(max-width:900px){.home-news-notice-grid{grid-template-columns:1fr;gap:48px}.home-news-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.home-news-photo img{aspect-ratio:1.4}}
 @media(max-width:600px){.home-news-notice{padding:48px 0 65px}.home-news-gallery{grid-template-columns:1fr}.home-news-notice-grid{gap:44px}.home-news-photo img{aspect-ratio:1.65}.home-notice-card p,.home-notice-card li{font-size:16px}.home-notice-secondary>a{grid-template-columns:85px 1fr}}
+
+
+/* High-contrast MCLab identity refresh — designed for readable text and visual hierarchy. */
+:root{--soft:#edf3fa;--soft-blue:#e6f0fc;--line:#cbd9e8;--muted:#455c79;--card:#ffffff}
+.site-header{background:#0c2341;border-bottom:1px solid #294669}
+.site-header .brand-name{font-size:29px;color:#fff}
+.site-header .brand-name span{color:#74b8ff}
+.site-header .brand-sub{font-size:11px;color:#c7d9ef}
+.site-header .brand-icon{width:51px;height:51px}
+.site-header .nav-link{color:#e1ebf9;font-size:14px}
+.site-header .nav-link:hover,.site-header .nav-link.active{color:#8acbff}
+.site-header .nav-link.active:after{background:#66b8ff}
+.site-header .icon-btn,.site-header .nav-join{color:#fff}
+.site-header .nav-join{border-color:#6e8bac}
+.site-header .icon-btn:hover{background:#29486a}
+.brand.brand-has-logo .brand-icon{width:220px;height:76px;max-width:27vw}
+.brand.brand-has-logo .brand-icon img{object-fit:contain}
+.hero.philosophy-home{background:linear-gradient(117deg,#06172d 0%,#10365e 68%,#1d5687 100%);border-bottom:0;padding:100px 0 90px;position:relative;overflow:hidden}
+.hero.philosophy-home:after{content:"";position:absolute;inset:auto -12% -54% 22%;height:65%;border:1px solid #78b6f833;border-radius:50%;transform:rotate(-11deg);pointer-events:none}
+.philosophy-home .philosophy-kicker{color:#91caff}
+.philosophy-home h1{color:#fff}
+.philosophy-home h1 span{color:#75b9ff}
+.philosophy-home .philosophy-lead{color:#f3f8ff}
+.philosophy-home .philosophy-statement{color:#d1e1f3}
+.philosophy-home .philosophy-statement strong{color:#fff}
+.philosophy-home .philosophy-values{border-color:#587696}
+.philosophy-home .philosophy-values span{color:#b8d1eb}
+.philosophy-home .btn-outline{background:transparent;color:#fff;border-color:#8caccb}
+.philosophy-home .btn-outline:hover{background:#244c75;color:#fff}
+.home-news-notice{background:#eff4fa;padding:75px 0 100px}
+.home-column-heading{border-bottom:2px solid #b9cce1}
+.home-column-heading h2{color:#0c284a}
+.home-news-photo{box-shadow:0 8px 24px #14385d0b;border-color:#d0deec}
+.home-news-photo span{background:#fff;color:#15304f}
+.home-notice-card,.home-notice-secondary{background:#fff;border:1px solid #d0deec;border-radius:13px;padding:27px;box-shadow:0 8px 24px #14385d09}
+.home-notice-secondary{margin-top:18px}
+.home-notice-card h3,.home-notice-secondary h3{color:#122d4e}
+.home-notice-card p,.home-notice-card li{color:#415a78}
+:root[data-theme=dark] .home-news-notice{background:#15253b}
+:root[data-theme=dark] .home-column-heading h2,:root[data-theme=dark] .home-notice-card h3,:root[data-theme=dark] .home-notice-secondary h3{color:#eaf2ff}
+:root[data-theme=dark] .home-notice-card,:root[data-theme=dark] .home-notice-secondary{background:#1c3049}
+:root[data-theme=dark] .home-notice-card p,:root[data-theme=dark] .home-notice-card li{color:#c1d1e5}
+@media(max-width:800px){.brand.brand-has-logo .brand-icon{width:165px;height:60px;max-width:43vw}.hero.philosophy-home{padding:70px 0 65px}.home-notice-card,.home-notice-secondary{padding:22px}}
