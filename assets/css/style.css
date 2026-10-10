@@ -226,3 +226,9 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
   .program-heading .program-ko,.program-ko{font-size:17px}
   .ko-name{font-size:19px}
 }
+
+/* Homepage hero without photo: keep headline centered in a clean text layout. */
+.simple-home .hero-layout{display:block;max-width:1100px}
+.simple-home .hero-copy{max-width:800px}
+.simple-home .hero-intro{max-width:650px}
+@media(max-width:700px){.simple-home .hero-layout{display:block}}
