@@ -299,3 +299,21 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
  .research-program .topic-card{padding:16px}
  .research-program .research-image-button .topic-image{min-height:0;max-height:none;aspect-ratio:1.45}
 }
+
+
+/* Editorial two-column project listing inspired by academic grant summaries. */
+.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.project-editorial{padding:29px 30px 27px;border:1px solid var(--line);border-radius:14px;box-shadow:none}
+.project-editorial .project-top{justify-content:flex-start;gap:12px;margin-bottom:15px}
+.project-editorial .project-code{font:700 14px/1.5 "Pretendard Variable",sans-serif;color:var(--ink);padding-left:13px;border-left:4px solid #28a46a}
+.project-editorial .pill{font-size:12px}
+.project-editorial h3{font-size:clamp(19px,1.65vw,23px);line-height:1.43;letter-spacing:-.3px;margin:0 0 21px}
+.project-editorial .project-image{width:100%;max-height:none;height:auto;aspect-ratio:16/8.5;object-fit:contain;background:#f8fafc;border:1px solid var(--line);border-radius:9px;padding:10px;margin:0 0 21px}
+.project-facts{display:grid;gap:10px;margin:0}
+.project-facts>div{display:grid;grid-template-columns:112px minmax(0,1fr);gap:12px;align-items:start}
+.project-facts dt{font-size:14px;font-weight:700;color:var(--ink)}
+.project-facts dd{margin:0;font-size:15px;line-height:1.55;color:var(--muted);overflow-wrap:anywhere}
+.project-editorial .project-summary{font-size:15px;line-height:1.75;margin:20px 0 0;border-top:1px solid var(--line);padding-top:15px}
+.project-editorial .paper-links{margin-top:17px}
+@media(max-width:900px){.project-grid{grid-template-columns:1fr}.project-editorial{padding:25px}}
+@media(max-width:520px){.project-facts>div{grid-template-columns:90px minmax(0,1fr);gap:9px}.project-facts dt,.project-facts dd{font-size:14px}.project-editorial h3{font-size:20px}}
