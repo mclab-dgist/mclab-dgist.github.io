@@ -317,3 +317,29 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .project-editorial .paper-links{margin-top:17px}
 @media(max-width:900px){.project-grid{grid-template-columns:1fr}.project-editorial{padding:25px}}
 @media(max-width:520px){.project-facts>div{grid-template-columns:90px minmax(0,1fr);gap:9px}.project-facts dt,.project-facts dd{font-size:14px}.project-editorial h3{font-size:20px}}
+
+
+/* Text-led laboratory philosophy hero — intentionally no photo or illustration. */
+.hero.philosophy-home{padding:112px 0 95px;background:linear-gradient(130deg,#f8fbff 0%,#fff 64%);border-bottom:1px solid var(--line)}
+.philosophy-hero-inner{max-width:1120px}
+.philosophy-kicker{color:var(--blue);font-size:13px;font-weight:750;letter-spacing:2px;margin-bottom:31px}
+.philosophy-home h1{font-size:clamp(64px,7.5vw,108px);line-height:1.02;letter-spacing:-5px;font-weight:780;margin:0 0 28px;color:var(--ink)}
+.philosophy-home h1 span{color:var(--blue)}
+.philosophy-lead{font-size:clamp(22px,2.3vw,29px);line-height:1.4;font-weight:650;color:var(--ink);margin:0 0 23px;max-width:900px}
+.philosophy-statement{font-size:18px;line-height:1.85;max-width:830px;color:var(--muted);margin-bottom:32px}
+.philosophy-statement strong{font-weight:650;color:var(--ink)}
+.philosophy-actions{display:flex;flex-wrap:wrap;gap:12px}
+.philosophy-values{display:flex;gap:23px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:65px;padding-top:25px}
+.philosophy-values span{font-size:12px;font-weight:750;letter-spacing:1.25px;color:var(--muted)}
+.philosophy-values span+span:before{content:"·";margin-right:23px;color:var(--blue)}
+:root[data-theme=dark] .hero.philosophy-home{background:linear-gradient(130deg,#15243a 0%,var(--bg) 68%)}
+@media(max-width:700px){
+ .hero.philosophy-home{padding:65px 0 54px}
+ .philosophy-kicker{font-size:11px;letter-spacing:1.3px}
+ .philosophy-home h1{font-size:clamp(55px,12vw,78px);letter-spacing:-3px}
+ .philosophy-lead{font-size:22px}
+ .philosophy-statement{font-size:16px}
+ .philosophy-values{gap:12px;margin-top:42px}
+ .philosophy-values span{font-size:11px}
+ .philosophy-values span+span:before{margin-right:12px}
+}
