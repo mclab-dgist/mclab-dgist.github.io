@@ -1,3 +1,4 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css');
 /* Original MCLab design. No external fonts, frameworks, or tracking scripts. */
 :root{color-scheme:light;--bg:#fff;--soft:#f5f7fb;--soft-blue:#eef3ff;--ink:#101d36;--muted:#59677e;--blue:#285de6;--blue-dark:#1748bf;--line:#e0e6ef;--card:#fff;--nav:#ffffffed;--shadow:0 12px 42px #12294f0a;--green:#216b51;--radius:16px;--max:1200px}
 :root[data-theme=dark]{color-scheme:dark;--bg:#101725;--soft:#172132;--soft-blue:#1a2b47;--ink:#e9eef9;--muted:#a6b4c9;--blue:#82a6ff;--blue-dark:#b0c7ff;--line:#2b3950;--card:#172132;--nav:#101725f2;--shadow:0 12px 42px #0002;--green:#89d3b0}
@@ -198,4 +199,30 @@ body{line-height:1.72}
   }
   .research-program .topic-card h3{font-size:21px}
   .research-program .topic-card p{font-size:16px}
+}
+
+
+/* Korean typography refinement: Pretendard Variable with local/system fallbacks. */
+body,button,input,select,textarea{
+  font-family:"Pretendard Variable",Pretendard,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
+  font-family:"Pretendard Variable",Pretendard,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  word-break:keep-all;
+  overflow-wrap:break-word;
+}
+.korean{font-size:17px;line-height:1.9;letter-spacing:-.015em}
+.korean p,.korean li,.korean span{font-size:inherit;line-height:inherit}
+.korean ul,.korean ol{font-size:17px;line-height:1.9}
+.program-heading .program-ko,.program-ko{font-size:18px;line-height:1.7;font-weight:550}
+.ko-name{font-size:21px;font-weight:500}
+.people-section h2 span{font-size:16px}
+.admissions-box .fine-print{font-size:13px;line-height:1.75}
+.tag{font-size:12px}
+.footer-grid p,.footer-grid a{font-size:13px}
+.footer-grid h4{font-size:12px}
+@media(max-width:650px){
+  .korean,.korean ul,.korean ol{font-size:16px}
+  .program-heading .program-ko,.program-ko{font-size:17px}
+  .ko-name{font-size:19px}
 }
