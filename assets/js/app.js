@@ -168,7 +168,7 @@
   function projectCards(ps){return ps.map(p=>`<article class="project-card project-editorial" id="${esc(p.id)}">
     <div class="project-top"><span class="project-code">${esc(p.code||p.category.toUpperCase())}</span><span class="pill ${p.status==='Ongoing'?'green':p.status==='Upcoming'?'amber':'neutral'}">${esc(p.status)}</span></div>
     <h3>${esc(p.title)}</h3>
-    ${p.image&&safeURL(p.image)?`<img class="project-image" src="${safeURL(p.image)}" alt="Conceptual research illustration for ${esc(p.title)}" loading="lazy">`:''}
+
     <dl class="project-facts">
       <div><dt>Role</dt><dd>${esc(p.leadRole||'Research collaboration')}</dd></div>
       <div><dt>Period</dt><dd>${esc(p.start.replace('-','.'))} – ${esc(p.end.replace('-','.'))}</dd></div>
