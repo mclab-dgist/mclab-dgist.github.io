@@ -120,3 +120,8 @@ h3{font-size:clamp(22px,2vw,25px)}
   .topic-card p{font-size:16px}
   .image-dialog h2{font-size:16px}
 }
+
+/* Official lab-logo slot: image replaces the temporary symbol when supplied. */
+.brand-icon:has(img){background:transparent;border-radius:0;width:48px;height:48px}
+.brand-icon img{width:100%;height:100%;object-fit:contain}
+.brand-logo-fallback svg{width:26px;height:26px}
