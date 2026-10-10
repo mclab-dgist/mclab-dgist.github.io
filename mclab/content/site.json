@@ -36,7 +36,8 @@
         "alt": "MCLab team with a mobility platform"
       }
     ],
-    "photoRevision": "2026-10-10-original-assets"
+    "photoRevision": "2026-10-10-original-assets",
+    "logoImage": "assets/images/mclab-official-logo.jpg"
   },
   "pi": {
     "name": "Kanghyun Nam",
