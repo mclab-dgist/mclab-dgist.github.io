@@ -345,7 +345,17 @@ def build(root:Path,output:Path,today:str|None=None) -> dict[str,Any]:
         for name in PAGES:
             p=root/(name+'.html')
             if not p.is_file():raise ContentError(f'필수 화면 파일 없음: {p.name}')
-            shutil.copy2(p,dest/p.name)
+            html=p.read_text(encoding='utf-8')
+            # Cache busting uses actual file contents, so updates are automatic on every build.
+            # All page templates share these assets; the data hash changes with folder edits.
+            versions={
+                'assets/css/style.css':hashlib.sha256((root/'assets/css/style.css').read_bytes()).hexdigest()[:12],
+                'assets/js/app.js':hashlib.sha256((root/'assets/js/app.js').read_bytes()).hexdigest()[:12],
+                'data/site-data.js':hashlib.sha256(js_data(data).encode('utf-8')).hexdigest()[:12],
+            }
+            for asset,version in versions.items():
+                html=html.replace(f'"{asset}"',f'"{asset}?v={version}"')
+            (dest/p.name).write_text(html,encoding='utf-8')
         for name in ('.nojekyll','robots.txt','sitemap.xml'):
             if (root/name).is_file():shutil.copy2(root/name,dest/name)
         # Website assets are public by design. Reject links and ignore readme/hidden files.
