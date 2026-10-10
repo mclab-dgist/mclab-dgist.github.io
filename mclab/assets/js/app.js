@@ -88,6 +88,11 @@
   function cta(){return `<section class="section compact"><div class="container"><div class="cta-band"><div><h2>Great ideas move better together.</h2><p>We welcome curious students, researchers, and collaborators working toward the next generation of mobility.</p></div><a class="btn btn-light" href="${link('join')}">Join MCLab ${right}</a></div></div></section>`;}
   function missionSection(){return `<section class="section soft mission-section"><div class="container mission-grid"><div><div class="eyebrow">ABOUT MCLAB</div><h2>Control technologies.<br>Real mobility.</h2><span class="pill">${esc(C.jointLab)}</span></div><div><p class="mission-copy">${esc(C.mission)}</p><p class="mission-ko" lang="ko">${esc(C.missionKo)}</p><div class="mission-stats"><span><strong>${(D.researchPrograms||[]).length}</strong> research programs</span><span><strong>${(D.researchTopics||[]).length}</strong> research themes</span></div></div></div></section>`;}
   function home(){
+    const photos=['tsinghua-exchange','conference-moments','spring-gathering','lab-team'];
+    const gallery=photos.map(id=>D.gallery.find(g=>g.id===id)).filter(g=>g&&safeURL(g.image));
+    const R=D.recruitment||{};
+    const focus=(R.focus||R.areas||[]).slice(0,5);
+    const newsGallery=gallery.map(g=>`<a class="home-news-photo" href="${link('news',g.id)}"><img src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}" loading="lazy"><span>${esc(g.title)}</span></a>`).join('');
     return `<section class="hero philosophy-home"><div class="container philosophy-hero-inner">
       <div class="philosophy-kicker">DGIST · MOBILITY CONTROL LABORATORY</div>
       <h1>Intelligence<br><span>in motion.</span></h1>
@@ -96,9 +101,25 @@
       <div class="philosophy-actions"><a class="btn" href="${link('research')}">Explore our research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">Meet MCLab ${right}</a></div>
       <div class="philosophy-values" aria-label="Research philosophy"><span>PHYSICS FIRST</span><span>INTELLIGENCE BY DESIGN</span><span>REAL-WORLD IMPACT</span></div>
     </div></section>
-    <section class="section simple-research"><div class="container">${sectionHead('RESEARCH','What we do.',`<a class="text-link" href="${link('research')}">Explore research ${right}</a>`)}${researchCards()}</div></section>
-    <section class="section simple-publications"><div class="container">${sectionHead('PUBLICATIONS','Selected work.',`<a class="text-link" href="${link('publications')}">All publications ${right}</a>`)}${selectedPapers()}</div></section>
-    <section class="simple-contact"><div class="container"><div><h2>Join MCLab.</h2><p>Interested in vehicle dynamics, intelligent control, or future mobility?</p></div><a class="btn" href="${link('join')}">Contact &amp; opportunities ${arrow}</a></div></section>`;
+    <section class="section home-news-notice"><div class="container home-news-notice-grid">
+      <div class="home-news-column"><div class="home-column-heading"><h2>MCLab NEWS</h2><a href="${link('news')}">View all ${right}</a></div>
+        <div class="home-news-gallery">${newsGallery||'<p>News and lab photographs will be posted here.</p>'}</div>
+      </div>
+      <div class="home-notice-column"><div class="home-column-heading"><h2>NOTICE</h2><a href="${link('join')}">Join us ${right}</a></div>
+        <article class="home-notice-card"><span class="notice-category">RECRUITMENT</span>
+          <h3>Graduate &amp; Undergraduate Researchers</h3>
+          <p lang="ko">모빌리티 제어 연구실에서 차량제어·전동 샤시·모빌리티 AI 연구에 관심 있는 학생 및 연구원을 환영합니다.</p>
+          <p>We welcome motivated students and researchers interested in intelligent mobility and advanced vehicle control.</p>
+          <h4>Research Focus</h4><ul>${focus.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+          <h4>Opportunities</h4><p>Graduate research, undergraduate internships, and industry-academic collaboration. Availability and support are subject to confirmation.</p>
+          <p class="home-notice-contact"><strong>Contact</strong> <a href="mailto:${esc(C.email)}">${esc(C.email)}</a></p>
+          <a class="text-link" href="${link('join')}">Application &amp; details ${right}</a>
+        </article>
+        <article class="home-notice-secondary"><span class="notice-category">LAB UPDATES</span><h3>Recent announcements</h3>
+          ${[...D.news].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,2).map(n=>`<a href="${link('news',n.id)}"><time datetime="${esc(n.date)}">${esc(n.date)}</time><span>${esc(n.title)}</span></a>`).join('')}
+        </article>
+      </div>
+    </div></section>`;
   }
   function piCard(full=false){
     return `<article class="pi-feature"><div class="profile-art">${D.pi.photo&&safeURL(D.pi.photo)?`<img src="${safeURL(D.pi.photo)}" alt="${esc(D.pi.name)}">`:`<span class="profile-initials">KN</span><span class="portrait-label">MCLAB · PRINCIPAL INVESTIGATOR</span>`}</div><div><span class="pill">PRINCIPAL INVESTIGATOR</span><h2>${esc(D.pi.name)}<span class="ko-name" lang="ko">${esc(D.pi.nameKo)}</span></h2><p>${esc(D.pi.role)} · DGIST<br>${esc(C.department)}</p>${tagRow(D.pi.interests)}<div class="button-row">${!full?`<a class="btn small" href="${link('professor')}">Faculty profile ${right}</a>`:''}<a class="btn btn-outline small" href="mailto:${esc(D.pi.email)}">${esc(D.pi.email)} ${arrow}</a></div></div></article>`;
