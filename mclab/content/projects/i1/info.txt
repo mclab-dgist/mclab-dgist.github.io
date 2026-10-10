@@ -11,3 +11,4 @@ ID: i1
 종료: 2027-12
 상태: auto
 출처: https://sites.google.com/view/mclab/projects
+대표그림: figure.svg
