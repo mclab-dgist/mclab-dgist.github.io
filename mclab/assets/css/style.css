@@ -483,3 +483,19 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
   .site-header .primary-nav .nav-link.active,
   .site-header .primary-nav .nav-link[aria-current="page"]{font-size:17px}
 }
+
+
+/* PI name: slightly smaller, consistent Pretendard for English and Korean. */
+.pi-feature h2{
+  font-family:"Pretendard Variable",Pretendard,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  font-size:clamp(27px,2.65vw,36px);
+  font-weight:730;
+  letter-spacing:-.7px;
+  line-height:1.4;
+}
+.pi-feature h2 .pi-degree{font:inherit;color:var(--ink)}
+.pi-feature h2 .ko-name{
+  font-family:inherit;font-size:inherit;font-weight:inherit;letter-spacing:inherit;
+  color:var(--ink);margin-left:18px;white-space:nowrap;
+}
+@media(max-width:650px){.pi-feature h2{font-size:27px}.pi-feature h2 .ko-name{margin-left:10px}}
