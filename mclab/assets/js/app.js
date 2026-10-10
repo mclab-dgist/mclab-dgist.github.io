@@ -91,10 +91,7 @@
     const heroText=String(C.tagline || 'Intelligence in motion.');
     const splitAt=heroText.indexOf(' in ');
     const heroTitle=splitAt>0?esc(heroText.slice(0,splitAt))+'<span>'+esc(heroText.slice(splitAt+1))+'</span>':esc(heroText);
-    const heroPhoto=C.heroImage && safeURL(C.heroImage)
-      ? `<img class="simple-hero-image" src="${safeURL(C.heroImage)}" alt="${esc(C.heroAlt||'MCLab experimental platform')}" fetchpriority="high" decoding="async">`
-      : motionBoard();
-    return `<section class="hero simple-home"><div class="container hero-layout"><div class="hero-copy"><div class="eyebrow">DGIST · MOBILITY CONTROL LABORATORY</div><h1>${heroTitle}</h1><p class="hero-intro">${esc(C.description)}</p><div class="button-row"><a class="btn" href="${link('research')}">Research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">People ${right}</a></div></div><div class="hero-visual">${heroPhoto}</div></div></section>
+    return `<section class="hero simple-home"><div class="container hero-layout"><div class="hero-copy"><div class="eyebrow">DGIST · MOBILITY CONTROL LABORATORY</div><h1>${heroTitle}</h1><p class="hero-intro">${esc(C.description)}</p><div class="button-row"><a class="btn" href="${link('research')}">Research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">People ${right}</a></div></div></div></section>
     <section class="section simple-research"><div class="container">${sectionHead('RESEARCH','What we do.',`<a class="text-link" href="${link('research')}">Explore research ${right}</a>`)}${researchCards()}</div></section>
     <section class="section simple-publications"><div class="container">${sectionHead('PUBLICATIONS','Selected work.',`<a class="text-link" href="${link('publications')}">All publications ${right}</a>`)}${selectedPapers()}</div></section>
     <section class="simple-contact"><div class="container"><div><h2>Join MCLab.</h2><p>Interested in vehicle dynamics, intelligent control, or future mobility?</p></div><a class="btn" href="${link('join')}">Contact &amp; opportunities ${arrow}</a></div></section>`;
