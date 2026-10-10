@@ -49,7 +49,7 @@ PUB_ALIASES={'게재':'Published','게재완료':'Published','출판':'Published
 PROJECT_STATUSES=['auto','Ongoing','Upcoming','Completed','On hold','Cancelled']
 PROJECT_ALIASES={'자동':'auto','진행':'Ongoing','진행중':'Ongoing','예정':'Upcoming','완료':'Completed','종료':'Completed','보류':'On hold','중단':'Cancelled'}
 CATEGORY_ALIASES={'정부':'Government','정부과제':'Government','산업체':'Industry','산업체과제':'Industry','기관':'Institutional','교내':'Institutional'}
-IMAGE_EXTS={'.jpg','.jpeg','.png','.webp'}
+IMAGE_EXTS={'.jpg','.jpeg','.png','.webp','.svg'}
 
 class ContentError(ValueError):
     """A user-editable input is invalid."""
@@ -134,6 +134,22 @@ def check_media(path: Path, extensions:set[str]) -> None:
     with path.open('rb') as f:head=f.read(16)
     ext=path.suffix.lower()
     good={'.jpg':head.startswith(b'\xff\xd8\xff'),'.jpeg':head.startswith(b'\xff\xd8\xff'),'.png':head.startswith(b'\x89PNG\r\n\x1a\n'),'.webp':head.startswith(b'RIFF') and head[8:12]==b'WEBP','.pdf':head.startswith(b'%PDF-')}.get(ext,False)
+    if ext=='.svg':
+        # SVG files must be static diagrams; reject scripts, external resources and active content.
+        import xml.etree.ElementTree as ET
+        try:
+            tree=ET.parse(path)
+            allowed_tags={'svg','rect','path','text','line','circle','ellipse','polyline','polygon','g','title','desc'}
+            allowed_attrs={'xmlns','viewBox','width','height','x','y','x1','y1','x2','y2','rx','ry','cx','cy','r','d','fill','stroke','stroke-width','font-family','font-size','font-weight','text-anchor','opacity','transform','role','aria-label','points','stroke-linecap','stroke-linejoin'}
+            for node in tree.iter():
+                if node.tag.rsplit('}',1)[-1] not in allowed_tags:raise ValueError('unsafe SVG element')
+                for key,value in node.attrib.items():
+                    if key.rsplit('}',1)[-1] not in allowed_attrs or 'url(' in value.lower():
+                        raise ValueError('unsafe SVG attribute')
+            if tree.getroot().tag.rsplit('}',1)[-1]!='svg':raise ValueError('missing SVG root')
+        except (ET.ParseError,ValueError) as exc:
+            raise ContentError(f'허용하지 않는 SVG 내용: {path.name}: {exc}') from exc
+        good=True
     if not good:raise ContentError(f'확장자와 실제 파일 형식이 다릅니다: {path.name}')
 
 def media(value: str, folder:Path, category:str, slug:str, extensions:set[str], names: tuple[str,...], assets:dict[str,Path]) -> str:
