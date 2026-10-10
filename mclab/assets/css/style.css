@@ -177,3 +177,25 @@ body{line-height:1.72}
  .simple-contact .container{flex-direction:column;gap:22px}
  .simple-contact h2{font-size:29px}
 }
+
+
+/* Larger research illustrations — preserve entire original diagrams. */
+.research-program .topic-grid{grid-template-columns:1fr;gap:30px}
+.research-program .topic-card{padding:28px 34px 32px}
+.research-program .research-image-button{max-width:100%;margin-bottom:24px}
+.research-program .research-image-button .topic-image{
+  width:100%;height:auto;max-height:none;aspect-ratio:16/9;
+  object-fit:contain;object-position:center;padding:12px 18px;
+}
+.research-program .topic-card h3{font-size:24px}
+.research-program .topic-card p{font-size:17px;max-width:950px}
+.research-program .research-image-button>span{font-size:13px}
+@media(max-width:700px){
+  .research-program .topic-card{padding:16px 16px 22px}
+  .research-program .topic-grid{gap:20px}
+  .research-program .research-image-button .topic-image{
+    aspect-ratio:auto;min-height:240px;max-height:480px;padding:8px;
+  }
+  .research-program .topic-card h3{font-size:21px}
+  .research-program .topic-card p{font-size:16px}
+}
