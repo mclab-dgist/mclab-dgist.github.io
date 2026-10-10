@@ -1,105 +1,68 @@
-name: Deploy site
+name: Install and deploy MCLab
 
 on:
   push:
-    branches:
-      - master
-      - main
+    branches: [main]
     paths:
-      - "assets/**"
-      - "_sass/**"
-      - "_scripts/**"
-      - "**.bib"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/*.md"
-      - "**.yml"
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
-      - "!CONTRIBUTING.md"
-      - "!CUSTOMIZE.md"
-      - "!FAQ.md"
-      - "!INSTALL.md"
-      - "!README.md"
-  pull_request:
-    branches:
-      - master
-      - main
-    paths:
-      - "assets/**"
-      - "_sass/**"
-      - "_scripts/**"
-      - "**.bib"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/*.md"
-      - "**.yml"
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml"
-      - "!lighthouse_results/**"
-      - "!CONTRIBUTING.md"
-      - "!CUSTOMIZE.md"
-      - "!FAQ.md"
-      - "!INSTALL.md"
-      - "!README.md"
+      - "MCLab_Original_Photos_No_Teaching.zip"
+      - "mclab/**"
+      - ".github/mclab/**"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: mclab-install-and-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Check out repository
         uses: actions/checkout@v4
-      - name: Setup Ruby 💎
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.3.5"
-          bundler-cache: true
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-          cache: "pip" # caching pip dependencies
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
-      - name: Install and Build 🔧
+      - name: Test safe package installer
+        run: python3 -m unittest discover -s .github/mclab -p 'test_*.py' -v
+      - name: Import approved package once
+        id: package
+        run: python3 .github/mclab/import_package.py
+      - name: Explain initial upload requirement
+        if: steps.package.outputs.ready != 'true'
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
-      - name: Purge unused CSS 🧹
+          echo '## MCLab package not uploaded yet' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Upload MCLab_Original_Photos_No_Teaching.zip to the repository root on main. Do not unzip or rename it.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'No existing website files or published pages have been replaced.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Validate website content and images
+        if: steps.package.outputs.ready == 'true'
+        working-directory: mclab
+        run: python3 -m unittest discover -s tests -v
+      - name: Build website from content folders
+        if: steps.package.outputs.ready == 'true'
+        working-directory: mclab
+        run: python3 scripts/build_site.py
+      - name: Commit imported source for future folder updates
+        if: steps.package.outputs.imported == 'true'
         run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
-      - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- mclab
+          if ! git diff --cached --quiet; then
+            git commit -m 'feat: Install original-photo MCLab website without Teaching'
+            git push origin HEAD:main
+          fi
+      - name: Publish verified website to existing gh-pages branch
+        if: steps.package.outputs.ready == 'true'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: _site
+          branch: gh-pages
+          folder: mclab/_site
+          clean: true
+      - name: Explain content management
+        if: steps.package.outputs.ready == 'true'
+        run: |
+          echo '## MCLab website built and gh-pages updated' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Edit mclab/content/people, mclab/content/publications, or mclab/content/projects and commit to main for future updates.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'The initial ZIP is not re-imported over your edits. Teaching is excluded from the generated website.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Confirm the public URL in Settings > Pages. This workflow uses the existing gh-pages branch deployment method.' >> "$GITHUB_STEP_SUMMARY"
