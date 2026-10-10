@@ -95,7 +95,7 @@ def ensure(height: float) -> None:
         raise RuntimeError(f'Page {page_no} overflow: y={y:.1f}, height={height:.1f}')
 
 
-def p(text: str, size=12.0, leading=19.0, gap=10, color=INK, bold_text=False):
+def p(text: str, size=12.0, leading=19.0, gap=8, color=INK, bold_text=False):
     global y
     item = para_obj(text, size, leading, color, bold_text)
     _, height = item.wrap(CW, H)
@@ -124,7 +124,7 @@ def step(number: int, title: str, body: str):
     c.drawCentredString(M + 13, y - 18.2, str(number))
     t.drawOn(c, M + 42, y - ht)
     b.drawOn(c, M + 42, y - ht - 5 - hb)
-    y -= height + 15
+    y -= height + 11
 
 
 def note(title: str, body: str, warn=False):
@@ -134,13 +134,13 @@ def note(title: str, body: str, warn=False):
     width = CW - 30
     _, ht = tp.wrap(width, H)
     _, hb = bp.wrap(width, H)
-    height = ht + hb + 31
+    height = ht + hb + 27
     ensure(height)
     c.setFillColor(AMBER if warn else PALE)
     c.roundRect(M, y - height, CW, height, 8, fill=1, stroke=0)
     tp.drawOn(c, M + 15, y - 12 - ht)
     bp.drawOn(c, M + 15, y - 18 - ht - hb)
-    y -= height + 14
+    y -= height + 11
 
 
 def code(text: str, size=11.2):
@@ -152,7 +152,7 @@ def code(text: str, size=11.2):
     if size < 9.2:
         raise RuntimeError(f'Code too wide on page {page_no}')
     leading = size * 1.52
-    height = len(lines) * leading + 25
+    height = len(lines) * leading + 22
     ensure(height)
     c.setFillColor(PALE)
     c.setStrokeColor(LINE)
@@ -163,7 +163,7 @@ def code(text: str, size=11.2):
     for line in lines:
         c.drawString(M + 14, baseline, line)
         baseline -= leading
-    y -= height + 14
+    y -= height + 11
 
 
 def table(headers, rows, widths=None, size=10.8):
@@ -178,14 +178,14 @@ def table(headers, rows, widths=None, size=10.8):
         ('VALIGN', (0, 0), (-1, -1), 'TOP'),
         ('LEFTPADDING', (0, 0), (-1, -1), 10),
         ('RIGHTPADDING', (0, 0), (-1, -1), 10),
-        ('TOPPADDING', (0, 0), (-1, -1), 9),
-        ('BOTTOMPADDING', (0, 0), (-1, -1), 9),
+        ('TOPPADDING', (0, 0), (-1, -1), 8),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
         ('LINEBELOW', (0, 0), (-1, -1), .5, LINE),
     ]))
     _, height = t.wrap(CW, H)
     ensure(height)
     t.drawOn(c, M, y - height)
-    y -= height + 14
+    y -= height + 11
 
 
 def url(text: str, target: str):

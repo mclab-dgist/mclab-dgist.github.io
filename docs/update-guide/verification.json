@@ -1,0 +1,93 @@
+{
+  "checked_at_kst": "2026-10-10T14:45:05.939384+09:00",
+  "website": {
+    "status": 200,
+    "url": "https://nkh6189-sys.github.io/mclab-dgist.github.io/",
+    "title": "You R. Name"
+  },
+  "installed_folder": {
+    "status": 404,
+    "url": "https://api.github.com/repos/nkh6189-sys/mclab-dgist.github.io/contents/mclab?ref=main",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "scope": "Documentation-only branch. No changes to main, gh-pages or production deployment settings.",
+  "pdf": {
+    "pages": 12,
+    "bytes": 210144,
+    "sha256": "8a53983aa9a88d5fc11291cd65280dfb0d15d2b30012422f0bc2da579a2699ec",
+    "link_annotations": 10,
+    "font_resources": 5,
+    "layout_checks": [
+      {
+        "page": 1,
+        "content_bottom_y": 268.89,
+        "minimum_y": 56
+      },
+      {
+        "page": 2,
+        "content_bottom_y": 155.45,
+        "minimum_y": 56
+      },
+      {
+        "page": 3,
+        "content_bottom_y": 111.09,
+        "minimum_y": 56
+      },
+      {
+        "page": 4,
+        "content_bottom_y": 185.31,
+        "minimum_y": 56
+      },
+      {
+        "page": 5,
+        "content_bottom_y": 140.25,
+        "minimum_y": 56
+      },
+      {
+        "page": 6,
+        "content_bottom_y": 80.58,
+        "minimum_y": 56
+      },
+      {
+        "page": 7,
+        "content_bottom_y": 79.43,
+        "minimum_y": 56
+      },
+      {
+        "page": 8,
+        "content_bottom_y": 67.83,
+        "minimum_y": 56
+      },
+      {
+        "page": 9,
+        "content_bottom_y": 102.23,
+        "minimum_y": 56
+      },
+      {
+        "page": 10,
+        "content_bottom_y": 161.11,
+        "minimum_y": 56
+      },
+      {
+        "page": 11,
+        "content_bottom_y": 143.21,
+        "minimum_y": 56
+      },
+      {
+        "page": 12,
+        "content_bottom_y": 125.45,
+        "minimum_y": 56
+      }
+    ],
+    "text_extraction": "passed",
+    "rendered_pages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      10,
+      12
+    ]
+  }
+}
