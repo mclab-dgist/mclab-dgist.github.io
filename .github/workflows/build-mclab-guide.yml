@@ -28,6 +28,25 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq fonts-nanum
           python3 -m pip install --disable-pip-version-check reportlab PyMuPDF
+      - name: Refine spacing without reducing body font sizes
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path('docs/update-guide/build_guide.py')
+          source = path.read_text(encoding='utf-8')
+          replacements = {
+              'y -= height + 15': 'y -= height + 11',
+              'y -= height + 14': 'y -= height + 11',
+              'height = ht + hb + 31': 'height = ht + hb + 27',
+              'height = len(lines) * leading + 25': 'height = len(lines) * leading + 22',
+              'gap=10, color=INK': 'gap=8, color=INK',
+              "('TOPPADDING', (0, 0), (-1, -1), 9)": "('TOPPADDING', (0, 0), (-1, -1), 8)",
+              "('BOTTOMPADDING', (0, 0), (-1, -1), 9)": "('BOTTOMPADDING', (0, 0), (-1, -1), 8)",
+          }
+          for before, after in replacements.items():
+              source = source.replace(before, after)
+          path.write_text(source, encoding='utf-8')
+          PY
       - name: Compile and generate guide
         run: |
           python3 -m py_compile docs/update-guide/build_guide.py
@@ -47,7 +66,7 @@ jobs:
           test "$(git branch --show-current)" = 'docs/update-guide-20261010'
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- docs/update-guide
+          git add -- docs/update-guide/build_guide.py docs/update-guide/*.pdf docs/update-guide/*.zip docs/update-guide/*.json docs/update-guide/*.png docs/update-guide/README.md
           if ! git diff --cached --quiet; then
             git commit -m 'docs: publish Korean PDF guide and validated examples'
             git push origin HEAD:refs/heads/docs/update-guide-20261010
