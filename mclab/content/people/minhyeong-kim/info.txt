@@ -4,7 +4,7 @@ ID: minhyeong-kim
 공개: true
 표시순서: 11
 이름: Minhyeong Kim
-과정: Ph.D. Candidate
+과정: Ph.D. Student
 분류: Ph.D. students
 연구분야: AI-based e-chassis control and precision motion control
 이메일: mh_kim@dgist.ac.kr
