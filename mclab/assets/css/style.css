@@ -967,3 +967,6 @@ body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.
   background:var(--card);
   border-color:var(--line);
 }
+
+/* Project status badges: increase Ongoing / Completed by two steps. */
+.project-editorial .pill{font-size:15px;line-height:1.5;padding:5px 11px}
