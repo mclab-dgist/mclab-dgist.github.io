@@ -825,3 +825,6 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
 .pub-row .pub-authors{font-size:13px}
 .pub-row .pub-venue{font-size:13px;line-height:1.7}
 .pub-row .paper-links .resource-btn{font-size:11px}
+
+/* Publication Publisher / BibTeX buttons: 12px. */
+.pub-row .paper-links .resource-btn{font-size:12px}
