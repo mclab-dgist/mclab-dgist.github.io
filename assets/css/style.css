@@ -499,3 +499,16 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
   color:var(--ink);margin-left:18px;white-space:nowrap;
 }
 @media(max-width:650px){.pi-feature h2{font-size:27px}.pi-feature h2 .ko-name{margin-left:10px}}
+
+
+/* 2026-10-11: simplified page headings and legible people details. */
+.philosophy-kicker{font-size:17px;font-weight:750;letter-spacing:1.45px}
+.simple-page-hero{padding:54px 0 44px}
+.simple-page-hero h1{font-size:clamp(38px,4.2vw,56px);margin:0;letter-spacing:-1.4px}
+.person-body .person-role{font-size:15px;font-weight:600;line-height:1.55}
+.person-body .person-interest{font-size:15px;line-height:1.7}
+.person-body .person-email{font-size:15px;font-weight:750;overflow-wrap:anywhere}
+.person-body .person-name-ko{font-size:15px}
+.person-body .person-dates,.person-body .person-affiliation{font-size:14px}
+.gallery-card figcaption p{font-size:15px;line-height:1.7}
+@media(max-width:650px){.philosophy-kicker{font-size:14px}.simple-page-hero{padding:40px 0 34px}}
