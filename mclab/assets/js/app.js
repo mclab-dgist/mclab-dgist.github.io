@@ -108,7 +108,11 @@
       <p class="philosophy-lead">Engineering safer, smarter, and more efficient mobility.</p>
       <p class="philosophy-statement">We unite <strong>vehicle dynamics</strong>, <strong>intelligent control</strong>, and <strong>AI</strong> to turn physical insight into reliable motion — from electrified chassis systems to next-generation mobility.</p>
       <div class="philosophy-actions"><a class="btn" href="${link('research')}">Explore our research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">Meet MCLab ${right}</a></div>
-      <div class="philosophy-values" aria-label="Research philosophy"><span>PHYSICS FIRST</span><span>INTELLIGENCE BY DESIGN</span><span>REAL-WORLD IMPACT</span></div>
+      <div class="philosophy-values philosophy-pillars" aria-label="MCLab research, education and social philosophy">
+        <div class="philosophy-pillar"><span class="pillar-label">RESEARCH</span><strong>Physics Meets Intelligence.</strong><p lang="ko">물리 기반의 깊은 이해와 AI의 융합으로 새로운 모빌리티 기술을 창조한다.</p></div>
+        <div class="philosophy-pillar"><span class="pillar-label">EDUCATION</span><strong>Learn by Doing.<br>Grow by Challenging.</strong><p lang="ko">직접 실험하고 도전하며 스스로 문제를 해결하는 연구자로 성장한다.</p></div>
+        <div class="philosophy-pillar"><span class="pillar-label">SOCIAL</span><strong>Respect People.<br>Create Impact.</strong><p lang="ko">상호 존중과 협력을 바탕으로 사회에 기여하는 의미 있는 기술을 만든다.</p></div>
+      </div>
     </div></section>
     <section class="section home-news-notice"><div class="container home-news-notice-grid">
       <div class="home-news-column"><div class="home-column-heading"><h2>MCLab NEWS</h2><a href="${link('news')}">View all ${right}</a></div>
