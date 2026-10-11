@@ -1062,3 +1062,9 @@ body[data-page="publications"] .publication-toolbar-actions .resource-btn:hover{
   body[data-page="publications"] .publications-toolbar .search-field{grid-column:1}
   body[data-page="publications"] .publication-toolbar-actions{grid-column:1}
 }
+
+/* Publications search/filter panel: one-step larger typography. */
+body[data-page="publications"] .publications-toolbar .field-label{font-size:13px}
+body[data-page="publications"] .publications-toolbar .input,
+body[data-page="publications"] .publications-toolbar .select{font-size:16px;height:49px}
+body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-size:14px}
