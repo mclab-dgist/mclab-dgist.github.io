@@ -116,7 +116,7 @@
       </div>
       <div class="home-notice-column"><div class="home-column-heading"><h2>NOTICE</h2><a href="${link('join')}">Join us ${right}</a></div>
         <article class="home-notice-card"><span class="notice-category">RECRUITMENT · 연구원 모집</span>
-          <h3>Join MCLab</h3>
+          <h3>Join MCLab</h3><p class="recruitment-closed" role="status">2027년 봄학기 모집 완료 <span lang="en">· Spring 2027 Recruitment Closed</span></p>
           <div class="recruitment-language" lang="ko">
             <p><strong>모집 대상</strong> · 학부연구생, 석사 및 박사과정 학생</p>
             <p><strong>연구 분야</strong> · X-by-Wire, 통합 차량 모션제어, AI 기반 모델링·제어, Mobility AI</p>
