@@ -754,3 +754,7 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .research-detail h2{font-size:24px}
 .research-detail .detail-text{font-size:14px;line-height:1.75}
 @media(max-width:700px){.page-hero .research-hero-headline{font-size:32px}.framework-heading h2{font-size:25px}.program-heading h2{font-size:22px}.research-program .topic-card h3{font-size:17px}}
+
+/* DGIST MCLab wordmark: keep the institute name readable and balanced. */
+.site-header .brand-name .brand-dgist{color:#fff;font-size:.63em;font-weight:750;letter-spacing:-.5px;vertical-align:baseline;margin-right:.12em}
+@media(max-width:650px){.site-header .brand-name{font-size:34px}.site-header .brand-name .brand-dgist{font-size:.62em}}
