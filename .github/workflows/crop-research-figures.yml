@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install pillow
-      - name: Crop research images conservatively
+      - run: python -m pip install pillow numpy
+      - name: Crop research topic titles and margins
         run: python .github/mclab/crop_research_figures.py
       - name: Commit updated research figures
         run: |
