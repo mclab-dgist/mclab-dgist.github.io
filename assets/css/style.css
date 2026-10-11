@@ -739,3 +739,18 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .pi-feature h2{font-size:clamp(21px,1.95vw,27px);line-height:1.4}
 .pi-feature h2 .ko-name,.pi-feature h2 .pi-degree{font-size:inherit;font-weight:inherit}
 @media(max-width:650px){.pi-feature h2{font-size:21px}}
+
+
+/* Research typography harmonized with People, Publications and Projects. */
+.page-hero .research-hero-headline{font-size:clamp(32px,3.4vw,46px);line-height:1.22;letter-spacing:-1.2px}
+.page-hero:has(.research-hero-headline)>.container>p{font-size:16px;line-height:1.7}
+.framework-heading h2{font-size:clamp(25px,2.65vw,34px);line-height:1.35}
+.framework-heading p{font-size:15px;line-height:1.8}
+.program-heading h2{font-size:25px;line-height:1.4}
+.program-heading p{font-size:14px;line-height:1.75}
+.program-heading .program-ko{font-size:13px}
+.research-program .topic-card h3{font-size:18px;line-height:1.5}
+.research-program .topic-card p{font-size:14px;line-height:1.75}
+.research-detail h2{font-size:24px}
+.research-detail .detail-text{font-size:14px;line-height:1.75}
+@media(max-width:700px){.page-hero .research-hero-headline{font-size:32px}.framework-heading h2{font-size:25px}.program-heading h2{font-size:22px}.research-program .topic-card h3{font-size:17px}}
