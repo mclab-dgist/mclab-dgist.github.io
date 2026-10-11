@@ -921,3 +921,18 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
 :root[data-theme=dark] .pub-row .pub-venue,
 :root[data-theme=dark] .pub-row .pub-venue .pub-jcr,
 :root[data-theme=dark] .pub-row .pub-venue .pub-jcr-top{color:#f5f7fa}
+
+
+/* Explicit light-mode publication ink: override theme/legacy venue blue. */
+html:not([data-theme="dark"]) body[data-page="publications"] .pub-row .pub-authors,
+html:not([data-theme="dark"]) body[data-page="publications"] .pub-row .pub-authors *,
+html:not([data-theme="dark"]) body[data-page="publications"] .pub-row .pub-venue,
+html:not([data-theme="dark"]) body[data-page="publications"] .pub-row .pub-venue *{
+  color:#111111!important;
+}
+html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-authors,
+html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-authors *,
+html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-venue,
+html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-venue *{
+  color:#f5f7fa!important;
+}
