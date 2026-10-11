@@ -975,3 +975,14 @@ body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.
 .pub-row.pub-row-wip .pub-venue{margin-bottom:5px;line-height:1.5}
 .pub-row.pub-row-wip .paper-links{margin-top:6px;padding-top:6px}
 @media(max-width:600px){.pub-row.pub-row-wip{padding-top:9px;padding-bottom:9px}}
+
+
+/* Publication resources share the status/type row, freeing vertical space. */
+.pub-row .pub-meta{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-bottom:4px}
+.pub-row .pub-inline-resources{display:inline-flex;align-items:center;min-width:0}
+.pub-row .pub-inline-resources .paper-links{display:inline-flex;align-items:center;flex-wrap:wrap;gap:7px;margin:0;padding:0;border:0}
+.pub-row .pub-inline-resources .resource-btn{font-size:12px;padding:3px 9px;line-height:1.5}
+.pub-row .pub-venue{margin-bottom:3px}
+.pub-row{padding-top:13px;padding-bottom:13px}
+.pub-row.pub-row-wip{padding-top:9px;padding-bottom:9px}
+@media(max-width:600px){.pub-row .pub-meta{gap:6px}.pub-row .pub-inline-resources .resource-btn{font-size:11px}.pub-row{padding-top:11px;padding-bottom:11px}}
