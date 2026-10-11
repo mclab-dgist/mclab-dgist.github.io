@@ -714,3 +714,13 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .philosophy-pillars .philosophy-pillar p{color:#c4d7eb;font-size:13px;line-height:1.75;margin:11px 0 0;word-break:keep-all}
 .philosophy-pillars .philosophy-pillar+.philosophy-pillar:before{content:none}
 @media(max-width:780px){.philosophy-values.philosophy-pillars{grid-template-columns:1fr;gap:19px;margin-top:42px}.philosophy-pillars .philosophy-pillar,.philosophy-pillars .philosophy-pillar+.philosophy-pillar{padding:0 0 18px;border-left:0;border-bottom:1px solid #547393}.philosophy-pillars .philosophy-pillar:last-child{border-bottom:0}.philosophy-pillars .philosophy-pillar strong{min-height:0;font-size:20px}.philosophy-pillars .philosophy-pillar p{font-size:14px}}
+
+
+/* Projects: one-step smaller card typography; keep page heading unchanged. */
+.project-editorial h3{font-size:clamp(17px,1.45vw,20px);line-height:1.5}
+.project-editorial .project-facts dt{font-size:13px}
+.project-editorial .project-facts dd{font-size:14px}
+.project-editorial .project-summary{font-size:14px;line-height:1.7}
+.project-editorial .project-code{font-size:12px}
+.project-editorial .pill{font-size:11px}
+@media(max-width:650px){.project-editorial h3{font-size:17px}.project-editorial .project-facts dt{font-size:13px}.project-editorial .project-facts dd{font-size:14px}}
