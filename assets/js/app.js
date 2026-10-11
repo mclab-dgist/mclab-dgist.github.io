@@ -172,13 +172,13 @@
     const pct=source.match(/JCR\s*Top\s*(\d+(?:\.\d+)?)\s*%/i);
     if(pct){
       const value=Number(pct[1]);
-      if(value<=5)return ` <strong class="pub-jcr pub-jcr-top">JCR Top ${esc(pct[1])}%</strong>`;
-      if(value<=25)return ' <strong class="pub-jcr">JCR Q1</strong>';
-      if(value<=50)return ' <strong class="pub-jcr">JCR Q2</strong>';
+      if(value<=5)return ` <strong class="pub-jcr pub-jcr-top">(JCR Top ${esc(pct[1])}%)</strong>`;
+      if(value<=25)return ' <strong class="pub-jcr">(JCR Q1)</strong>';
+      if(value<=50)return ' <strong class="pub-jcr">(JCR Q2)</strong>';
       return '';
     }
     const quartile=source.match(/JCR\s*(Q[12])\b/i);
-    return quartile?` <strong class="pub-jcr">JCR ${esc(quartile[1].toUpperCase())}</strong>`:'';
+    return quartile?` <strong class="pub-jcr">(JCR ${esc(quartile[1].toUpperCase())})</strong>`:'';
   }
   function pubRows(ps){
     // Number published papers separately for each publication year.
