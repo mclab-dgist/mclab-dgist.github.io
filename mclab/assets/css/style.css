@@ -684,3 +684,8 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
   .home-news-caption strong{font-size:16px}
   .home-news-caption small{font-size:13px}
 }
+
+/* JCR annotation sits beside journal/year, not in the publication title. */
+.pub-venue .pub-jcr{font-family:inherit;font-size:inherit;font-weight:750;color:var(--ink);white-space:nowrap}
+.pub-venue .pub-jcr-top{color:#165aa6}
+:root[data-theme=dark] .pub-venue .pub-jcr-top{color:#8ac7ff}
