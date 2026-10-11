@@ -568,3 +568,9 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 /* Active industry projects use a subtle orange status badge. */
 .project-editorial .pill.industry-active-status{background:#fff0dc;color:#9b4b0a;border:1px solid #f1bd80}
 :root[data-theme=dark] .project-editorial .pill.industry-active-status{background:#58371c;color:#ffd6a5;border-color:#aa753f}
+
+/* Publication type colors: Journal blue, Conference violet. */
+.pub-meta .pub-type-journal{background:#e5f0ff;color:#14549e;border:1px solid #a9c9f2}
+.pub-meta .pub-type-conference{background:#f0e9ff;color:#653e9c;border:1px solid #cdb7f2}
+:root[data-theme=dark] .pub-meta .pub-type-journal{background:#19395d;color:#b5d8ff;border-color:#3f6b9d}
+:root[data-theme=dark] .pub-meta .pub-type-conference{background:#37284e;color:#e1ccff;border-color:#71549b}
