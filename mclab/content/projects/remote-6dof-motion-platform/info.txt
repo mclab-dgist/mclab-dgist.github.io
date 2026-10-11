@@ -4,7 +4,7 @@ ID: remote-6dof-motion-platform
 표시순서: 19
 코드:
 제목: Development of a 6-DOF Motion Control Platform for Remote Driving Stability Enhancement
-지원기관: SUL Co., Ltd.
+지원기관: (주)에스유엘
 지원구분: Industry
 시작: 2026-10
 종료: 2027-06
