@@ -996,3 +996,7 @@ body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.
 .pub-row{padding-top:17px;padding-bottom:17px}
 .pub-row.pub-row-wip{padding-top:10px;padding-bottom:10px}
 @media(max-width:600px){.pub-row{padding-top:14px;padding-bottom:14px}.pub-row.pub-row-wip{padding-top:9px;padding-bottom:9px}}
+
+/* Tighter gap between publication venue/JCR line and Publisher/BibTeX controls. */
+.pub-row .pub-venue{margin-bottom:3px}
+.pub-row .paper-links{margin-top:3px;padding-top:5px}
