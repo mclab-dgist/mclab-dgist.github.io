@@ -94,7 +94,7 @@
     const R=D.recruitment||{};
     const focus=(R.focus||R.areas||[]).slice(0,5);
     const newsGallery=gallery.map(g=>`<a class="home-news-photo" href="${link('news',g.id)}"><img src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}" loading="lazy"><span>${esc(g.title)}</span></a>`).join('');
-    return `<section class="hero philosophy-home"><div class="container philosophy-hero-inner">
+    return `<section class="hero philosophy-home video-home"><video class="home-background-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1" onerror="this.style.display=\'none\'"><source src="assets/video/mclab-hero.mp4" type="video/mp4"></video><div class="home-video-shade" aria-hidden="true"></div><div class="container philosophy-hero-inner">
       <div class="philosophy-kicker">DGIST · MOBILITY CONTROL LABORATORY</div>
       <h1>Intelligence<br><span>in motion.</span></h1>
       <p class="philosophy-lead">Engineering safer, smarter, and more efficient mobility.</p>
