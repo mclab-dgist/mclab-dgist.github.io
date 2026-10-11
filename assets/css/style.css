@@ -649,3 +649,6 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 @media(max-width:820px){.home-news-notice-grid{grid-template-columns:1fr;gap:45px}.home-news-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.home-news-notice{padding:53px 0 70px}.home-news-gallery{grid-template-columns:1fr}.home-news-photo:first-child{grid-column:auto}.home-news-photo img,.home-news-photo:first-child img{aspect-ratio:1.65}.home-notice-card{padding:24px}.home-column-heading h2{font-size:29px}}
 @media(prefers-reduced-motion:reduce){.home-news-photo,.home-news-photo img{transition:none}}
+
+/* Chronological publication numbers integrated with titles. */
+.pub-row h3 .pub-title-number{color:var(--blue);font-size:.9em;font-weight:700;white-space:nowrap}
