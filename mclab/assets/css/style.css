@@ -967,3 +967,11 @@ body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.
   background:var(--card);
   border-color:var(--line);
 }
+
+/* Work in Progress: compact spacing without affecting published papers. */
+.pub-row.pub-row-wip{padding-top:10px;padding-bottom:10px}
+.pub-row.pub-row-wip h3{margin-top:4px;margin-bottom:3px}
+.pub-row.pub-row-wip .pub-authors{margin-bottom:3px;line-height:1.55}
+.pub-row.pub-row-wip .pub-venue{margin-bottom:5px;line-height:1.5}
+.pub-row.pub-row-wip .paper-links{margin-top:6px;padding-top:6px}
+@media(max-width:600px){.pub-row.pub-row-wip{padding-top:9px;padding-bottom:9px}}
