@@ -769,3 +769,54 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
 /* Project category and status labels: one step larger. */
 .project-editorial .project-code{font-size:13px}
 .project-editorial .pill{font-size:12px}
+
+
+/* MCLab philosophy: editorial glass panels; original wording unchanged. */
+.philosophy-values.philosophy-pillars{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;
+  margin-top:58px;padding:18px 0 0;border-top:1px solid rgba(180,214,246,.35);
+  align-items:stretch;
+}
+.philosophy-pillars .philosophy-pillar,
+.philosophy-pillars .philosophy-pillar+.philosophy-pillar{
+  position:relative;display:flex;flex-direction:column;min-width:0;
+  padding:26px 25px 27px;border:1px solid rgba(182,217,255,.20);
+  border-radius:14px;background:linear-gradient(145deg,rgba(20,51,86,.65),rgba(8,30,59,.54));
+  box-shadow:0 12px 28px rgba(0,12,29,.15);
+  backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+}
+.philosophy-pillars .philosophy-pillar:before{
+  content:"";position:absolute;left:25px;top:0;width:38px;height:3px;
+  border-radius:0 0 4px 4px;background:#74baff;
+}
+.philosophy-pillars .philosophy-pillar+.philosophy-pillar:before{content:""}
+.philosophy-pillars .pillar-label{
+  display:block;margin:0 0 16px;color:#9cc9f3;font-size:11px;
+  font-weight:750;letter-spacing:2.1px;line-height:1.5;
+}
+.philosophy-pillars .philosophy-pillar strong{
+  display:block;min-height:68px;margin:0;color:#fff;
+  font-family:"Pretendard Variable",Pretendard,"Noto Sans KR",sans-serif;
+  font-size:clamp(18px,1.65vw,23px);font-weight:720;line-height:1.42;letter-spacing:-.65px;
+}
+.philosophy-pillars .philosophy-pillar p{
+  margin:13px 0 0;color:#c8d9eb;font-size:14px;font-weight:400;
+  line-height:1.8;letter-spacing:-.15px;word-break:keep-all;
+}
+@media(max-width:900px){
+  .philosophy-values.philosophy-pillars{gap:10px}
+  .philosophy-pillars .philosophy-pillar,.philosophy-pillars .philosophy-pillar+.philosophy-pillar{padding:22px 18px}
+  .philosophy-pillars .philosophy-pillar strong{font-size:18px}
+  .philosophy-pillars .philosophy-pillar p{font-size:13px}
+}
+@media(max-width:700px){
+  .philosophy-values.philosophy-pillars{grid-template-columns:1fr;gap:13px;margin-top:38px}
+  .philosophy-pillars .philosophy-pillar,.philosophy-pillars .philosophy-pillar+.philosophy-pillar{
+    border:1px solid rgba(182,217,255,.20);padding:21px 22px 23px;
+  }
+  .philosophy-pillars .philosophy-pillar strong{font-size:21px;min-height:0}
+  .philosophy-pillars .philosophy-pillar p{font-size:14px}
+}
+@media(prefers-reduced-transparency:reduce){
+  .philosophy-pillars .philosophy-pillar{backdrop-filter:none;-webkit-backdrop-filter:none;background:#102b4a}
+}
