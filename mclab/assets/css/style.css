@@ -590,3 +590,8 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
   background:linear-gradient(115deg,#1b304c,#233a56);
   border-bottom-color:#35506c;
 }
+
+/* Slightly smaller PI name, keeping English and Korean typography matched. */
+.pi-feature h2{font-size:clamp(25px,2.35vw,32px);line-height:1.4}
+.pi-feature h2 .ko-name{font-size:inherit;font-weight:inherit}
+@media(max-width:650px){.pi-feature h2{font-size:25px}}
