@@ -215,7 +215,7 @@
     });update();
   }
   function projects(){return `${simpleHero('PROJECTS')}<section class="section"><div class="container"><div class="toolbar project-toolbar"><label><span class="field-label">Search projects</span><input type="search" class="input" id="project-search" placeholder="Project title, sponsor, or keyword"></label><label><span class="field-label">Funding category</span><select class="select" id="project-category"><option value="all">All categories</option><option>Government</option><option>Industry</option><option>Institutional</option></select></label></div><div class="filter-row"><div class="filter-buttons" role="group" aria-label="Project status">${['Ongoing','Completed'].map((s,i)=>`<button class="filter-button ${i===0?'active':''}" data-project-status="${s}" aria-pressed="${i===0}">${s==='all'?'All projects':s}</button>`).join('')}</div><span class="result-count" id="project-count" role="status" aria-live="polite"></span></div><div class="project-grid" id="project-results"></div></div></section>`;}
-  function projectCards(ps){return ps.map(p=>`<article class="project-card project-editorial" id="${esc(p.id)}">
+  function projectCards(ps){return ps.map(p=>`<article class="project-card project-editorial ${p.category==='Industry'?'project-industry':'project-government'}" id="${esc(p.id)}">
     <div class="project-top"><span class="project-code ${p.category==='Industry'?'project-code-industry':'project-code-government'}">${esc(p.category==='Industry'?'Industry':'Government')}</span><span class="pill ${p.status==='Ongoing'?'green':p.status==='Upcoming'?'amber':'neutral'} ${p.category==='Industry'&&(p.status==='Ongoing'||p.status==='Upcoming')?'industry-active-status':''}">${esc(p.status)}</span></div>
     <h3>${esc(p.title)}</h3>
 
