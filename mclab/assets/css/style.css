@@ -896,3 +896,7 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
   .project-editorial.project-government:hover,
   .project-editorial.project-industry:hover{transform:none}
 }
+
+/* Published badge contrast on light-blue DGIST paper cards. */
+.pub-row .pub-meta .pub-status-published{background:#fff;border:1.5px solid #4e82b6;color:#245b91;font-weight:650}
+:root[data-theme=dark] .pub-row .pub-meta .pub-status-published{background:#203b58;border-color:#83b8e7;color:#d7ebff}
