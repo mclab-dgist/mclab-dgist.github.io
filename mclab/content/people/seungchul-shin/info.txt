@@ -8,4 +8,5 @@ ID: seungchul-shin
 분류: M.S. students
 연구분야: Future mobility mechanisms, motion control, and tilting mobility
 이메일: witguy0130@dgist.ac.kr
-사진: 
+사진:
+사진: shin.jpg
