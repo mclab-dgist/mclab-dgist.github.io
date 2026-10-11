@@ -537,3 +537,13 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 
 /* Publication cards no longer have an index-number column. */
 .pub-row{grid-template-columns:minmax(0,1fr);gap:0}
+
+
+/* People cards: one-step smaller typography, with clear email affordance. */
+.person-body h3{font-size:16px;line-height:1.4}
+.person-body .person-name-ko{font-size:14px}
+.person-body .person-role{font-size:14px;line-height:1.55}
+.person-body .person-interest{font-size:14px;line-height:1.65}
+.person-body .person-email{display:inline-flex;align-items:baseline;gap:7px;font-size:14px;font-weight:750;line-height:1.55;overflow-wrap:anywhere}
+.person-body .person-mail-icon{font-size:16px;font-weight:500;line-height:1;color:var(--blue);flex-shrink:0}
+@media(max-width:650px){.person-body h3{font-size:16px}.person-body .person-role,.person-body .person-interest,.person-body .person-email{font-size:14px}}
