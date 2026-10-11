@@ -8,4 +8,4 @@ ID: yejin-lee
 분류: Ph.D. students
 연구분야: Battery system design and control for robots and mobility
 이메일: yejin.lee@dgist.ac.kr
-사진: 
+사진: photo.jpg
