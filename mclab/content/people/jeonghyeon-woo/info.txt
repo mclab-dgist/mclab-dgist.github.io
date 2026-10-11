@@ -8,5 +8,4 @@ ID: jeonghyeon-woo
 분류: M.S. students
 연구분야: Teleoperated mobility and advanced visual feedback
 이메일: woo@dgist.ac.kr
-사진:
 사진: photo.jpg
