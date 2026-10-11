@@ -165,7 +165,7 @@
     if(p.type!=='Journal'||!isPublished(p)||Number(p.year)!==2026)return '';
     // Display only supplied ranking annotations. Do not infer JCR quartiles from journal names.
     const source=(p.sourceRanking||'').trim();
-    const pct=source.match(/JCR\\s*Top\\s*(\\d+(?:\\.\\d+)?)\\s*%/i);
+    const pct=source.match(/JCR\s*Top\s*(\d+(?:\.\d+)?)\s*%/i);
     if(pct){
       const value=Number(pct[1]);
       if(value<=5)return ` <strong class="pub-jcr pub-jcr-top">JCR Top ${esc(pct[1])}%</strong>`;
@@ -173,7 +173,7 @@
       if(value<=50)return ' <strong class="pub-jcr">JCR Q2</strong>';
       return '';
     }
-    const quartile=source.match(/JCR\\s*(Q[12])\\b/i);
+    const quartile=source.match(/JCR\s*(Q[12])\b/i);
     return quartile?` <strong class="pub-jcr">JCR ${esc(quartile[1].toUpperCase())}</strong>`:'';
   }
   function pubRows(ps){
