@@ -115,24 +115,21 @@
         <div class="home-news-gallery">${newsGallery||'<p>News and lab photographs will be posted here.</p>'}</div>
       </div>
       <div class="home-notice-column"><div class="home-column-heading"><h2>NOTICE</h2><a href="${link('join')}">Join us ${right}</a></div>
-        <article class="home-notice-card"><span class="notice-category">RECRUITMENT</span>
-          <h3>Undergraduate Interns, M.S. &amp; Ph.D. Students</h3>
-          <p>Mobility Control Laboratory welcomes motivated <strong>undergraduate, M.S., and Ph.D. students</strong> interested in next-generation mobility systems.</p>
-          <h4>🔧 Research Focus</h4>
-          <ul>
-            <li>Control of Steer/Brake/Drive-by-Wire Systems</li>
-            <li>Integrated Vehicle Motion Control</li>
-            <li>AI-Based Vehicle Modeling and Control</li>
-            <li>Mobility AI</li>
-          </ul>
-          <h4>🎓 Benefits</h4>
-          <ul>
-            <li>Full scholarship and stipend support (subject to DGIST eligibility and funding).</li>
-            <li>Opportunities for industry collaboration (e.g., Hyundai Motor Company).</li>
-            <li>Support for international conference participation and joint research.</li>
-          </ul>
-          <h4>✉️ How to Apply</h4>
-          <p>Please send your CV or a brief Statement of Purpose to <a href="mailto:khnam@dgist.ac.kr">khnam@dgist.ac.kr</a>.</p>
+        <article class="home-notice-card"><span class="notice-category">RECRUITMENT · 연구원 모집</span>
+          <h3>Join MCLab</h3>
+          <div class="recruitment-language" lang="ko">
+            <p><strong>모집 대상</strong> · 학부연구생, 석사 및 박사과정 학생</p>
+            <p><strong>연구 분야</strong> · X-by-Wire, 통합 차량 모션제어, AI 기반 모델링·제어, Mobility AI</p>
+            <p><strong>연구 지원</strong> · 장학금·연구장려금(지원 자격 및 재원에 따름), 산학협력 및 국제학회 참여 기회</p>
+            <p><strong>지원 방법</strong> · 이력서 또는 간단한 연구계획서를 이메일로 제출</p>
+          </div>
+          <div class="recruitment-language recruitment-language-en" lang="en">
+            <p><strong>Positions</strong> · Undergraduate interns, M.S. and Ph.D. students</p>
+            <p><strong>Research</strong> · X-by-Wire, integrated motion control, AI-assisted modeling and control, Mobility AI</p>
+            <p><strong>Support</strong> · Scholarships and stipends (subject to eligibility and funding), industry collaboration and international conferences</p>
+            <p><strong>Apply</strong> · Email your CV or brief research statement</p>
+          </div>
+          <p class="home-notice-contact"><strong>✉</strong> <a href="mailto:khnam@dgist.ac.kr">khnam@dgist.ac.kr</a></p>
           <a class="text-link" href="${link('join')}">Application &amp; details ${right}</a>
         </article>
         <article class="home-notice-secondary"><span class="notice-category">LAB UPDATES</span><h3>Recent announcements</h3>
