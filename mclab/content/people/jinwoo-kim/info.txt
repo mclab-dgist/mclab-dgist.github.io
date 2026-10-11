@@ -4,7 +4,7 @@ ID: jinwoo-kim
 공개: true
 표시순서: 12
 이름: Jinwoo Kim
-과정: Ph.D. Candidate
+과정: Ph.D. Student
 분류: Ph.D. students
 연구분야: Integrated vehicle dynamics and e-chassis modeling / control
 이메일: jinwoo.kim@dgist.ac.kr
