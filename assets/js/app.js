@@ -91,7 +91,7 @@
   function home(){
     // Home news: a photo-led editorial stream, preserving original lab images.
     // Intentionally exclude lab-team, which was removed from the homepage by request.
-    const photos=['tsinghua-exchange','conference-moments','spring-gathering','graduation-moments','winter-workshop','vehicle-testing'];
+    const photos=['tsinghua-exchange','conference-moments','spring-gathering','graduation-moments','winter-workshop'];
     const gallery=photos.map(id=>D.gallery.find(g=>g.id===id)).filter(g=>g&&safeURL(g.image));
     const newsCaptions={
       'tsinghua-exchange':'Sharing ideas and building international research connections.',
