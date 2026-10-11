@@ -4,10 +4,9 @@ ID: remote-6dof-motion-platform
 표시순서: 19
 코드:
 제목: Development of a 6-DOF Motion Control Platform for Remote Driving Stability Enhancement
-지원기관: (주)에스유엘
+지원기관: SUM Co., Ltd.
 지원구분: Industry
 시작: 2026-10
 종료: 2027-06
 상태: auto
 책임구분: PI
-요약: Development of a six-degree-of-freedom motion platform for remote driving simulation, including vehicle-motion generation, inverse-kinematics-based control, and integrated software-in-the-loop and hardware-in-the-loop verification.
