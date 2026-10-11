@@ -4,7 +4,7 @@ ID: wonchang-yang
 공개: true
 표시순서: 14
 이름: Wonchang Yang
-과정: Ph.D. Candidate
+과정: Integrated M.S.–Ph.D. Student
 분류: Ph.D. students
 연구분야: Advanced motion control of multi-actuating steer-by-wire systems
 이메일: wchyang@dgist.ac.kr
