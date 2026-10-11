@@ -986,3 +986,13 @@ body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.
 .pub-row{padding-top:13px;padding-bottom:13px}
 .pub-row.pub-row-wip{padding-top:9px;padding-bottom:9px}
 @media(max-width:600px){.pub-row .pub-meta{gap:6px}.pub-row .pub-inline-resources .resource-btn{font-size:11px}.pub-row{padding-top:11px;padding-bottom:11px}}
+
+
+/* Revert inline publication controls and restore the preceding layout. */
+.pub-row .pub-meta{margin-bottom:0}
+.pub-row .paper-links{margin-top:11px;padding-top:10px;border-top:1px solid var(--line)}
+.pub-row .paper-links .resource-btn{font-size:12px;padding:4px 9px}
+.pub-row .pub-venue{margin-bottom:11px}
+.pub-row{padding-top:17px;padding-bottom:17px}
+.pub-row.pub-row-wip{padding-top:10px;padding-bottom:10px}
+@media(max-width:600px){.pub-row{padding-top:14px;padding-bottom:14px}.pub-row.pub-row-wip{padding-top:9px;padding-bottom:9px}}
