@@ -1068,3 +1068,39 @@ body[data-page="publications"] .publications-toolbar .field-label{font-size:13px
 body[data-page="publications"] .publications-toolbar .input,
 body[data-page="publications"] .publications-toolbar .select{font-size:16px;height:49px}
 body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-size:14px}
+
+
+/* Projects search and filter: match Publications premium panel and typography. */
+body[data-page="projects"] .project-toolbar{
+  display:grid;grid-template-columns:minmax(220px,2fr) minmax(170px,.8fr);
+  gap:17px;align-items:end;padding:24px 26px 22px;margin-bottom:23px;
+  border:1px solid #cbdcec;border-radius:16px;
+  background:linear-gradient(125deg,#eaf2fa 0%,#f4f8fd 66%,#edf4fa 100%);
+  box-shadow:0 8px 26px rgba(22,58,96,.055);
+}
+body[data-page="projects"] .project-toolbar label{display:block;min-width:0;grid-column:auto}
+body[data-page="projects"] .project-toolbar .field-label{
+  display:block;font-size:13px;font-weight:750;letter-spacing:1.1px;
+  color:#355a7d;margin:0 0 9px;line-height:1.4;
+}
+body[data-page="projects"] .project-toolbar .input,
+body[data-page="projects"] .project-toolbar .select{
+  width:100%;height:49px;border-radius:9px;border:1px solid #c4d5e8;
+  background:#fff;color:#172f4c;font-size:16px;padding:0 13px;
+}
+body[data-page="projects"] .project-toolbar .input:focus,
+body[data-page="projects"] .project-toolbar .select:focus{
+  outline:2px solid #85b9ed;outline-offset:1px;border-color:#4d90d0;
+}
+:root[data-theme=dark] body[data-page="projects"] .project-toolbar{
+  background:linear-gradient(125deg,#1c3047,#21384f);border-color:#3b5671;
+}
+:root[data-theme=dark] body[data-page="projects"] .project-toolbar .field-label{color:#b9d6f2}
+:root[data-theme=dark] body[data-page="projects"] .project-toolbar .input,
+:root[data-theme=dark] body[data-page="projects"] .project-toolbar .select{
+  background:#14283d;color:#edf5ff;border-color:#46627d;
+}
+@media(max-width:600px){
+  body[data-page="projects"] .project-toolbar{grid-template-columns:1fr;padding:19px 17px;gap:13px}
+  body[data-page="projects"] .project-toolbar label{grid-column:1}
+}
