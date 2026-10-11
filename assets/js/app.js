@@ -108,12 +108,23 @@
       </div>
       <div class="home-notice-column"><div class="home-column-heading"><h2>NOTICE</h2><a href="${link('join')}">Join us ${right}</a></div>
         <article class="home-notice-card"><span class="notice-category">RECRUITMENT</span>
-          <h3>Graduate &amp; Undergraduate Researchers</h3>
-          <p lang="ko">모빌리티 제어 연구실에서 차량제어·전동 샤시·모빌리티 AI 연구에 관심 있는 학생 및 연구원을 환영합니다.</p>
-          <p>We welcome motivated students and researchers interested in intelligent mobility and advanced vehicle control.</p>
-          <h4>Research Focus</h4><ul>${focus.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-          <h4>Opportunities</h4><p>Graduate research, undergraduate internships, and industry-academic collaboration. Availability and support are subject to confirmation.</p>
-          <p class="home-notice-contact"><strong>Contact</strong> <a href="mailto:${esc(C.email)}">${esc(C.email)}</a></p>
+          <h3>Undergraduate Interns, M.S. &amp; Ph.D. Students</h3>
+          <p>Mobility Control Laboratory welcomes motivated <strong>undergraduate, M.S., and Ph.D. students</strong> interested in next-generation mobility systems.</p>
+          <h4>🔧 Research Focus</h4>
+          <ul>
+            <li>Control of Steer/Brake/Drive-by-Wire Systems</li>
+            <li>Integrated Vehicle Motion Control</li>
+            <li>AI-Based Vehicle Modeling and Control</li>
+            <li>Mobility AI</li>
+          </ul>
+          <h4>🎓 Benefits</h4>
+          <ul>
+            <li>Full scholarship and stipend support (subject to DGIST eligibility and funding).</li>
+            <li>Opportunities for industry collaboration (e.g., Hyundai Motor Company).</li>
+            <li>Support for international conference participation and joint research.</li>
+          </ul>
+          <h4>✉️ How to Apply</h4>
+          <p>Please send your CV or a brief Statement of Purpose to <a href="mailto:khnam@dgist.ac.kr">khnam@dgist.ac.kr</a>.</p>
           <a class="text-link" href="${link('join')}">Application &amp; details ${right}</a>
         </article>
         <article class="home-notice-secondary"><span class="notice-category">LAB UPDATES</span><h3>Recent announcements</h3>
