@@ -765,3 +765,7 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 body[data-page="publications"] .source-record,
 body[data-page="publications"] details.source-record,
 body[data-page="publications"] .pub-row details:has(> summary){display:none!important}
+
+/* Project category and status labels: one step larger. */
+.project-editorial .project-code{font-size:13px}
+.project-editorial .pill{font-size:12px}
