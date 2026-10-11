@@ -547,3 +547,6 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .person-body .person-email{display:inline-flex;align-items:baseline;gap:7px;font-size:14px;font-weight:750;line-height:1.55;overflow-wrap:anywhere}
 .person-body .person-mail-icon{font-size:16px;font-weight:500;line-height:1;color:var(--blue);flex-shrink:0}
 @media(max-width:650px){.person-body h3{font-size:16px}.person-body .person-role,.person-body .person-interest,.person-body .person-email{font-size:14px}}
+
+/* People email links: normal weight, not bold. */
+.person-body .person-email{font-weight:400}
