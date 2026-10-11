@@ -564,3 +564,7 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 /* Differentiate project funding types with restrained accent bars. */
 .project-editorial .project-code-industry{border-left-color:#ed8a30}
 .project-editorial .project-code-government{border-left-color:#28a46a}
+
+/* Active industry projects use a subtle orange status badge. */
+.project-editorial .pill.industry-active-status{background:#fff0dc;color:#9b4b0a;border:1px solid #f1bd80}
+:root[data-theme=dark] .project-editorial .pill.industry-active-status{background:#58371c;color:#ffd6a5;border-color:#aa753f}
