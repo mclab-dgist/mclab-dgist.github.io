@@ -595,3 +595,7 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .pi-feature h2{font-size:clamp(25px,2.35vw,32px);line-height:1.4}
 .pi-feature h2 .ko-name{font-size:inherit;font-weight:inherit}
 @media(max-width:650px){.pi-feature h2{font-size:25px}}
+
+/* More readable Principal Investigator label above the PI name. */
+.pi-feature .pill{font-size:13px;letter-spacing:.65px;padding:6px 11px;font-weight:700}
+@media(max-width:650px){.pi-feature .pill{font-size:12px}}
