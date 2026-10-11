@@ -189,7 +189,6 @@
       <div><dt>Role</dt><dd>${esc(p.category==='Industry'||p.id==='g1'||p.id==='g6'?'PI':'Co-PI')}</dd></div>
       <div><dt>Period</dt><dd>${esc(p.start.replace('-','.'))} – ${esc(p.end.replace('-','.'))}</dd></div>
       <div><dt>Funding Source</dt><dd>${esc(p.funder)}</dd></div>
-      <div><dt>Category</dt><dd>${esc(p.category)}</dd></div>
     </dl>
     ${p.summary?`<p class="project-summary">${esc(p.summary)}</p>`:''}
     ${p.attachment||p.url?`<div class="paper-links">${p.attachment?ext(p.attachment,'Public summary · PDF '+arrow,'resource-btn'):''}${p.url?ext(p.url,'Project link '+arrow,'resource-btn'):''}</div>`:''}
