@@ -865,3 +865,34 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
 /* DGIST published papers: soft blue background without a strong left accent. */
 .pub-row.pub-row-dgist{border-left:1px solid #d3e4f8}
 :root[data-theme=dark] .pub-row.pub-row-dgist{border-left:1px solid #385677}
+
+
+/* Unified premium sky-blue project cards for every funding category. */
+.project-editorial.project-government,
+.project-editorial.project-industry{
+  background:linear-gradient(140deg,#dcecfb 0%,#e5f1fc 58%,#edf6fd 100%);
+  border:1px solid #bcd5ed;
+  border-radius:15px;
+  box-shadow:0 7px 24px rgba(31,79,125,.09);
+}
+.project-editorial.project-government:hover,
+.project-editorial.project-industry:hover{
+  background:linear-gradient(140deg,#d8e9f9 0%,#e3f0fc 60%,#eaf5fd 100%);
+  border-color:#9cbfe1;
+  box-shadow:0 13px 30px rgba(31,79,125,.13);
+  transform:translateY(-2px);
+}
+:root[data-theme=dark] .project-editorial.project-government,
+:root[data-theme=dark] .project-editorial.project-industry{
+  background:linear-gradient(140deg,#213e5c,#274966 65%,#2c4b66);
+  border-color:#456b8b;
+}
+:root[data-theme=dark] .project-editorial.project-government:hover,
+:root[data-theme=dark] .project-editorial.project-industry:hover{
+  background:linear-gradient(140deg,#284b6e,#2c5174);
+  border-color:#6b9cc3;
+}
+@media(prefers-reduced-motion:reduce){
+  .project-editorial.project-government:hover,
+  .project-editorial.project-industry:hover{transform:none}
+}
