@@ -550,3 +550,6 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 
 /* People email links: normal weight, not bold. */
 .person-body .person-email{font-weight:400}
+
+/* Academic program labels use regular, non-bold typography. */
+.person-body .person-role{font-weight:400}
