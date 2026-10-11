@@ -842,3 +842,22 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
   border-color:#385677;border-left-color:#75b8ff;
 }
 @media(max-width:600px){.pub-row.pub-row-dgist{padding:17px 15px;margin:9px 0 13px}}
+
+
+/* Refined project cards: subtle funding-specific tones, depth, and hierarchy. */
+.project-editorial.project-government{
+  background:linear-gradient(145deg,#f2f8fc 0%,#f8fbfe 68%,#ffffff 100%);
+  border:1px solid #d8e5ef;
+  box-shadow:0 6px 22px rgba(23,57,88,.055);
+}
+.project-editorial.project-industry{
+  background:linear-gradient(145deg,#fff7ee 0%,#fffbf5 65%,#ffffff 100%);
+  border:1px solid #efdfcd;
+  box-shadow:0 6px 22px rgba(93,63,32,.05);
+}
+.project-editorial{transition:box-shadow .22s ease,border-color .22s ease,transform .22s ease}
+.project-editorial.project-government:hover{border-color:#a9c8e2;box-shadow:0 13px 30px rgba(23,57,88,.10);transform:translateY(-2px)}
+.project-editorial.project-industry:hover{border-color:#e7c59f;box-shadow:0 13px 30px rgba(93,63,32,.09);transform:translateY(-2px)}
+:root[data-theme=dark] .project-editorial.project-government{background:linear-gradient(145deg,#1c3146,#1a293a);border-color:#35536b}
+:root[data-theme=dark] .project-editorial.project-industry{background:linear-gradient(145deg,#382d25,#26272e);border-color:#66503c}
+@media(prefers-reduced-motion:reduce){.project-editorial{transition:none}.project-editorial:hover{transform:none}}
