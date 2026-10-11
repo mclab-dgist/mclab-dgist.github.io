@@ -698,3 +698,8 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .home-notice-card .recruitment-language-en{border-top:1px solid var(--line);margin-top:13px;padding-top:20px}
 .home-notice-card .home-notice-contact{border-top:1px solid var(--line);padding-top:17px;margin-top:10px;font-size:16px}
 @media(max-width:600px){.home-notice-card .recruitment-language p{font-size:14px}}
+
+/* Spring 2027 recruitment closure — visible without overpowering the notice. */
+.home-notice-card .recruitment-closed{display:block;background:#fff0f0;border:1px solid #f1b7b7;border-left:4px solid #d72d36;border-radius:7px;padding:12px 14px;color:#b4232d;font-size:16px;font-weight:750;line-height:1.55;margin:0 0 20px}
+.home-notice-card .recruitment-closed span{font-size:13px;font-weight:600}
+:root[data-theme=dark] .home-notice-card .recruitment-closed{background:#42242a;border-color:#92474c;color:#ffb5b8}
