@@ -4,7 +4,7 @@ ID: kanghyun-nam
 공개: true
 표시순서: 0
 이름: Kanghyun Nam
-한글이름: 남강현(南康鉉)
+한글이름: 남강현 (南康鉉)
 과정: Associate Professor
 이메일: khnam@dgist.ac.kr
 사진: photo.jpg
