@@ -948,3 +948,22 @@ html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-venue *{
 /* All publication entries share the same plain background. */
 body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.pub-row-dgist{background:transparent;border-left:0;border-right:0;border-top:0;border-radius:0;box-shadow:none;margin-left:0;margin-right:0}
 :root[data-theme=dark] body[data-page="publications"] .pub-row{background:transparent}
+
+
+/* All project cards: uniform clean white background regardless of funding category. */
+.project-editorial.project-government,
+.project-editorial.project-industry,
+.project-editorial.project-government:hover,
+.project-editorial.project-industry:hover{
+  background:#ffffff;
+  border-color:#dce4ed;
+}
+.project-editorial.project-government:hover,
+.project-editorial.project-industry:hover{box-shadow:0 9px 25px rgba(31,79,125,.09)}
+:root[data-theme=dark] .project-editorial.project-government,
+:root[data-theme=dark] .project-editorial.project-industry,
+:root[data-theme=dark] .project-editorial.project-government:hover,
+:root[data-theme=dark] .project-editorial.project-industry:hover{
+  background:var(--card);
+  border-color:var(--line);
+}
