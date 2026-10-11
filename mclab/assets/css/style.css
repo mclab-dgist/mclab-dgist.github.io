@@ -828,3 +828,17 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
 
 /* Publication Publisher / BibTeX buttons: 12px. */
 .pub-row .paper-links .resource-btn{font-size:12px}
+
+
+/* Subtle DGIST-era publication emphasis without changing bibliographic content. */
+.pub-row.pub-row-dgist{
+  background:linear-gradient(105deg,#edf5ff 0%,#f4f8ff 100%);
+  border:1px solid #d3e4f8;border-left:4px solid #4c93e0;
+  border-radius:11px;padding:23px 24px;margin:10px 0 16px;
+}
+.pub-row.pub-row-dgist:target{background:#e1efff;outline:3px solid #a7cdf5}
+:root[data-theme=dark] .pub-row.pub-row-dgist{
+  background:linear-gradient(105deg,#1b304c,#1b2a40);
+  border-color:#385677;border-left-color:#75b8ff;
+}
+@media(max-width:600px){.pub-row.pub-row-dgist{padding:17px 15px;margin:9px 0 13px}}
