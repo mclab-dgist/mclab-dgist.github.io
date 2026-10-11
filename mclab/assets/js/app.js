@@ -165,7 +165,7 @@
   }
   function publicationSource(p){return p.sourceCitation||p.sourceRanking||p.note?`<details class="source-record"><summary>Imported bibliographic notes</summary>${p.sourceCitation?`<p>${esc(p.sourceCitation)}</p>`:''}${p.sourceRanking?`<p><strong>Original website annotation:</strong> ${esc(p.sourceRanking)}. The JCR edition/year was not specified; this is not a verified current ranking.</p>`:''}${p.note?`<p class="record-warning">${esc(p.note)}</p>`:''}${p.source?ext(p.source,'Original publication list '+arrow):''}</details>`:'';}
   function jcrBadge(p){
-    if(p.type!=='Journal'||!isPublished(p))return '';
+    if(p.type!=='Journal'||!isPublished(p)||Number(p.year)!==2026)return '';
     // Display only supplied ranking annotations. Do not infer JCR quartiles from journal names.
     const source=(p.sourceRanking||'').trim();
     const pct=source.match(/JCR\\s*Top\\s*(\\d+(?:\\.\\d+)?)\\s*%/i);
