@@ -599,3 +599,53 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 /* More readable Principal Investigator label above the PI name. */
 .pi-feature .pill{font-size:13px;letter-spacing:.65px;padding:6px 11px;font-weight:700}
 @media(max-width:650px){.pi-feature .pill{font-size:12px}}
+
+
+/* 2026 MCLab homepage — refined editorial NEWS / NOTICE layout. */
+.home-news-notice{
+  background:linear-gradient(135deg,#e9f1fa 0%,#f2f6fc 52%,#e7eef8 100%);
+  padding:88px 0 112px;
+}
+.home-news-notice-grid{grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);gap:40px}
+.home-news-column,.home-notice-column{min-width:0}
+.home-column-heading{padding:0 0 20px;margin-bottom:25px;border-bottom:2px solid #b6cce5}
+.home-column-heading h2{font-size:clamp(30px,3vw,40px);letter-spacing:-1.3px;font-weight:800}
+.home-column-heading a{
+  font-size:13px;font-weight:700;color:#1a578f;border:1px solid #bdd1e7;
+  background:#ffffffa8;border-radius:99px;padding:9px 14px;text-decoration:none;
+  transition:background .2s,border-color .2s;
+}
+.home-column-heading a:hover{background:#fff;border-color:#73a5d5}
+.home-news-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;align-items:start}
+.home-news-photo{position:relative;border-radius:15px;overflow:hidden;background:#fff;border:1px solid #d4e1ee;box-shadow:0 10px 28px #14375b12;transition:transform .22s,box-shadow .22s}
+.home-news-photo:first-child{grid-column:1/-1}
+.home-news-photo img{aspect-ratio:1.36;object-fit:cover;transition:transform .35s}
+.home-news-photo:first-child img{aspect-ratio:1.8}
+.home-news-photo:hover{transform:translateY(-3px);box-shadow:0 16px 36px #14375b20}
+.home-news-photo:hover img{transform:scale(1.04)}
+.home-news-photo span{font-size:15px;font-weight:700;line-height:1.45;padding:15px 18px;color:#1b3655}
+.home-news-photo:first-child span{font-size:18px;padding:18px 21px}
+.home-notice-card,.home-notice-secondary{border:1px solid #d4e1ee;border-radius:17px;background:#fff;box-shadow:0 10px 30px #14375b10}
+.home-notice-card{padding:32px 33px 34px;position:relative;overflow:hidden}
+.home-notice-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(#2e88d4,#82c6ed)}
+.home-notice-card .notice-category{display:inline-flex;border-radius:99px;padding:7px 12px;background:#e9f3ff;color:#1a5d9d;letter-spacing:.8px;font-size:11px}
+.home-notice-card h3{font-size:clamp(23px,2.2vw,30px);letter-spacing:-.7px;line-height:1.35;margin:18px 0}
+.home-notice-card p{font-size:16px;line-height:1.82}
+.home-notice-card p[lang=ko]{font-size:17px;color:#243f5e;word-break:keep-all}
+.home-notice-card h4{font-size:17px;margin:23px 0 10px}
+.home-notice-card li{font-size:15px;line-height:1.7;margin-bottom:7px}
+.home-notice-card .text-link{display:inline-flex;align-items:center;background:#123d6c;color:#fff;padding:12px 17px;border-radius:9px;margin-top:13px;font-size:14px;font-weight:700}
+.home-notice-card .text-link:hover{background:#2366a4;color:#fff}
+.home-notice-secondary{padding:25px 29px;margin-top:18px}
+.home-notice-secondary .notice-category{font-size:11px;letter-spacing:1px}
+.home-notice-secondary h3{font-size:22px}
+.home-notice-secondary>a{transition:color .2s}
+.home-notice-secondary>a:hover{color:#1a70b9}
+:root[data-theme=dark] .home-news-notice{background:linear-gradient(135deg,#16273d,#1c3049)}
+:root[data-theme=dark] .home-news-photo span{background:#1c3049;color:#e5f0ff}
+:root[data-theme=dark] .home-notice-card,:root[data-theme=dark] .home-notice-secondary{background:#1c3049;border-color:#3b526c}
+:root[data-theme=dark] .home-notice-card p[lang=ko]{color:#d9e9f8}
+@media(max-width:1000px){.home-news-notice-grid{gap:27px}.home-notice-card{padding:26px}.home-news-photo:first-child img{aspect-ratio:1.55}}
+@media(max-width:820px){.home-news-notice-grid{grid-template-columns:1fr;gap:45px}.home-news-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.home-news-notice{padding:53px 0 70px}.home-news-gallery{grid-template-columns:1fr}.home-news-photo:first-child{grid-column:auto}.home-news-photo img,.home-news-photo:first-child img{aspect-ratio:1.65}.home-notice-card{padding:24px}.home-column-heading h2{font-size:29px}}
+@media(prefers-reduced-motion:reduce){.home-news-photo,.home-news-photo img{transition:none}}
