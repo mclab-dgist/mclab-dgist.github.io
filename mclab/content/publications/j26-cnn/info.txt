@@ -9,6 +9,7 @@ ID: j26-cnn
 학술지: IEEE Transactions on Industrial Electronics
 DOI: 10.1109/TIE.2026.3734547
 종류: Journal
+원문순위표기: JCR Top 4.3%
 상태: Published
 권호쪽: 
 대표논문: true
