@@ -861,3 +861,7 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
 :root[data-theme=dark] .project-editorial.project-government{background:linear-gradient(145deg,#1c3146,#1a293a);border-color:#35536b}
 :root[data-theme=dark] .project-editorial.project-industry{background:linear-gradient(145deg,#382d25,#26272e);border-color:#66503c}
 @media(prefers-reduced-motion:reduce){.project-editorial{transition:none}.project-editorial:hover{transform:none}}
+
+/* DGIST published papers: soft blue background without a strong left accent. */
+.pub-row.pub-row-dgist{border-left:1px solid #d3e4f8}
+:root[data-theme=dark] .pub-row.pub-row-dgist{border-left:1px solid #385677}
