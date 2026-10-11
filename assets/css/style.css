@@ -512,3 +512,12 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .person-body .person-dates,.person-body .person-affiliation{font-size:14px}
 .gallery-card figcaption p{font-size:15px;line-height:1.7}
 @media(max-width:650px){.philosophy-kicker{font-size:14px}.simple-page-hero{padding:40px 0 34px}}
+
+
+/* Research identity: AI + physics-based modeling, control and learning. */
+.page-hero:has(.research-hero-headline){padding-top:66px;padding-bottom:48px;background:linear-gradient(120deg,#edf4fc 0%,#f9fbff 74%);border-bottom:1px solid var(--line)}
+.page-hero .research-hero-headline{display:block;font-size:clamp(35px,4.25vw,59px);line-height:1.17;letter-spacing:-1.8px;font-weight:750;color:var(--ink)}
+.page-hero .research-hero-headline em{font-style:normal;color:var(--blue)}
+.page-hero:has(.research-hero-headline)> .container >p{font-size:18px;max-width:810px;line-height:1.75;margin-top:22px}
+:root[data-theme=dark] .page-hero:has(.research-hero-headline){background:linear-gradient(120deg,#192b43,var(--bg))}
+@media(max-width:700px){.page-hero .research-hero-headline{font-size:clamp(31px,7.2vw,44px);letter-spacing:-1px}.page-hero:has(.research-hero-headline){padding-top:44px;padding-bottom:32px}}
