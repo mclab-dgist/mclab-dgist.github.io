@@ -8,4 +8,5 @@ ID: jeongwon-lee
 분류: M.S. students
 연구분야: Integrated vehicle dynamics and EMB system control
 이메일: jeongwon35@dgist.ac.kr
-사진: 
+사진:
+사진: lee.jpg
