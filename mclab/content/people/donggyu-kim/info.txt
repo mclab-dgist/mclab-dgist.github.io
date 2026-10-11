@@ -4,7 +4,7 @@ ID: donggyu-kim
 공개: true
 표시순서: 22
 이름: Donggyu Kim
-과정: Undergraduate Intern (4th year)
+과정: Undergraduate Intern
 분류: Undergraduate interns
 연구분야: Steer-by-Wire system control
 이메일: chocohopang@kookmin.ac.kr
