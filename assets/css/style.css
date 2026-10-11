@@ -758,3 +758,10 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 /* DGIST MCLab wordmark: keep the institute name readable and balanced. */
 .site-header .brand-name .brand-dgist{color:#fff;font-size:.63em;font-weight:750;letter-spacing:-.5px;vertical-align:baseline;margin-right:.12em}
 @media(max-width:650px){.site-header .brand-name{font-size:34px}.site-header .brand-name .brand-dgist{font-size:.62em}}
+
+
+/* Publication bibliographic import notes are permanently hidden.
+   This also covers any legacy cached publication markup. */
+body[data-page="publications"] .source-record,
+body[data-page="publications"] details.source-record,
+body[data-page="publications"] .pub-row details:has(> summary){display:none!important}
