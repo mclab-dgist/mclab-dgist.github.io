@@ -9,6 +9,7 @@ ID: j26-sft
 학술지: Mechanical Systems and Signal Processing
 DOI: 10.1016/j.ymssp.2026.115004
 종류: Journal
+원문순위표기: JCR Top 3%
 상태: Published
 권호쪽: Vol. 260
 대표논문: true
