@@ -703,3 +703,14 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .home-notice-card .recruitment-closed{display:block;background:#fff0f0;border:1px solid #f1b7b7;border-left:4px solid #d72d36;border-radius:7px;padding:12px 14px;color:#b4232d;font-size:16px;font-weight:750;line-height:1.55;margin:0 0 20px}
 .home-notice-card .recruitment-closed span{font-size:13px;font-weight:600}
 :root[data-theme=dark] .home-notice-card .recruitment-closed{background:#42242a;border-color:#92474c;color:#ffb5b8}
+
+
+/* Three balanced MCLab philosophy pillars on the homepage hero. */
+.philosophy-values.philosophy-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:58px;padding-top:27px;border-top:1px solid #6684a4}
+.philosophy-pillars .philosophy-pillar{min-width:0;padding:7px 24px 5px 0}
+.philosophy-pillars .philosophy-pillar+.philosophy-pillar{padding-left:24px;border-left:1px solid #547393}
+.philosophy-pillars .pillar-label{display:block;color:#9ac9fa;font-size:11px;font-weight:750;letter-spacing:1.6px;margin-bottom:13px}
+.philosophy-pillars .philosophy-pillar strong{display:block;color:#fff;font-size:clamp(17px,1.6vw,22px);line-height:1.38;font-weight:730;letter-spacing:-.35px;min-height:60px}
+.philosophy-pillars .philosophy-pillar p{color:#c4d7eb;font-size:13px;line-height:1.75;margin:11px 0 0;word-break:keep-all}
+.philosophy-pillars .philosophy-pillar+.philosophy-pillar:before{content:none}
+@media(max-width:780px){.philosophy-values.philosophy-pillars{grid-template-columns:1fr;gap:19px;margin-top:42px}.philosophy-pillars .philosophy-pillar,.philosophy-pillars .philosophy-pillar+.philosophy-pillar{padding:0 0 18px;border-left:0;border-bottom:1px solid #547393}.philosophy-pillars .philosophy-pillar:last-child{border-bottom:0}.philosophy-pillars .philosophy-pillar strong{min-height:0;font-size:20px}.philosophy-pillars .philosophy-pillar p{font-size:14px}}
