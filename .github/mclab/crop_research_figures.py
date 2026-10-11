@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Conservatively crop margins and isolated title strips from research figures.
+"""Crop the 11 research-topic images: remove outer margins and detached title strips.
 
-Originals remain recoverable through Git history. Only research/figure.webp files
-are edited; the large featured integrated-control framework is untouched.
+Keeps diagrams, axes and legends when connected to the main artwork. Originals
+remain recoverable in Git history. This deliberately excludes the featured figure.
 """
 from pathlib import Path
-from PIL import Image, ImageChops, ImageStat
-import io
+from PIL import Image, ImageChops, ImageFilter
+import numpy as np
 
 ROOT = Path("mclab/content/research")
 for path in sorted(ROOT.glob("*/figure.webp")):
@@ -14,51 +14,61 @@ for path in sorted(ROOT.glob("*/figure.webp")):
     w, h = im.size
     if w < 200 or h < 160:
         continue
-    # Estimate paper/canvas background using corners; do not assume pure white.
-    corners = [im.getpixel(p) for p in ((0, 0), (w-1, 0), (0, h-1), (w-1, h-1))]
-    bg = tuple(sorted(c[k] for c in corners)[2] for k in range(3))
-    sample = im.resize((min(720,w), min(720,h)))
-    sw, sh = sample.size
-    pix = sample.load()
-    occupancy = []
-    for y in range(sh):
-        count = 0
-        for x in range(sw):
-            c = pix[x,y]
-            if max(abs(c[k]-bg[k]) for k in range(3)) > 30:
-                count += 1
-        occupancy.append(count/sw)
-    active = [i for i,v in enumerate(occupancy) if v > .012]
-    if not active:
+    # Downsample for robust layout detection, keeping the original for output.
+    sample = im.copy()
+    sample.thumbnail((1000, 1000))
+    a = np.asarray(sample, dtype=np.int16)
+    sh, sw = a.shape[:2]
+    # Estimate neutral canvas from edge/corner pixels.
+    edge = np.concatenate((a[:max(2,sh//70)].reshape(-1,3),
+                           a[-max(2,sh//70):].reshape(-1,3),
+                           a[:, :max(2,sw//70)].reshape(-1,3),
+                           a[:, -max(2,sw//70):].reshape(-1,3)))
+    bg = np.median(edge, axis=0)
+    deviation = np.max(np.abs(a-bg), axis=2)
+    ink = deviation > 25
+    # Ignore isolated speckles, but retain diagram lines and small labels.
+    row = ink.mean(axis=1)
+    col = ink.mean(axis=0)
+    active_y = np.flatnonzero(row > .004)
+    active_x = np.flatnonzero(col > .004)
+    if not len(active_y) or not len(active_x):
+        print("SKIP blank",path)
         continue
-    top, bottom = active[0], active[-1]
-    # Remove an isolated header/title only when a clear blank horizontal gap exists
-    # near the top and the main figure below is substantially larger.
-    gaps=[]
-    for y in range(top+1, min(int(sh*.34),bottom-2)):
-        if occupancy[y] < .006:
-            z=y
-            while z < sh and occupancy[z] < .006:
-                z+=1
-            if z-y >= max(7,int(sh*.025)):
-                gaps.append((y,z))
-    for y,z in gaps:
-        if y < sh*.27 and bottom-z > sh*.48 and z-top < sh*.34:
-            top=z
-            break
-    # Trim left/right using the remaining content area.
-    ys=int(top*h/sh); ye=min(h,int((bottom+1)*h/sh))
-    bbox=ImageChops.difference(im.crop((0,ys,w,ye)), Image.new("RGB",(w,ye-ys),bg)).convert("L").point(lambda v:255 if v>32 else 0).getbbox()
-    if not bbox:
-        continue
-    x0,x1=bbox[0],bbox[2]
-    pad=max(8,int(min(w,h)*.018))
-    box=(max(0,x0-pad),max(0,ys-pad),min(w,x1+pad),min(h,ye+pad))
-    nw,nh=box[2]-box[0],box[3]-box[1]
-    # Avoid aggressive cropping or nearly invisible changes.
-    if nw < w*.55 or nh < h*.48 or (nw>w*.975 and nh>h*.975):
-        print("SKIP",path,"unsafe/minimal",box)
-        continue
+    top, bottom = int(active_y[0]), int(active_y[-1]+1)
+    # Locate a blank band separating a short heading from the actual diagram.
+    # Never remove more than 30% from the top or trim title without a gap.
+    runs = []
+    isblank = row < .003
+    k = top
+    while k < min(bottom, int(sh*.40)):
+        if isblank[k]:
+            z=k
+            while z < sh and isblank[z]: z+=1
+            if z-k >= max(6,int(sh*.012)): runs.append((k,z))
+            k=z
+        else:k+=1
+    for y,z in runs:
+        if y-top < sh*.29 and z < bottom-sh*.38 and z > top+sh*.025:
+            # Content after the gap must be substantial compared with heading.
+            if ink[z:bottom].sum() > ink[top:y].sum()*2.5:
+                top=z
+                print("TITLE STRIP",path.name,"removed",z,"of",sh,"sample rows")
+                break
+    # Recalculate horizontal extent after title removal.
+    sub=ink[top:bottom]
+    xc=np.flatnonzero(sub.mean(axis=0)>.003)
+    if not len(xc):continue
+    left,right=int(xc[0]),int(xc[-1]+1)
+    # Minimal safety padding to prevent cropping border strokes.
+    pad=max(3,int(min(sw,sh)*.009))
+    left=max(0,left-pad);right=min(sw,right+pad)
+    top=max(0,top-pad);bottom=min(sh,bottom+pad)
+    box=(int(left*w/sw),int(top*h/sh),int(right*w/sw),int(bottom*h/sh))
+    if box[2]-box[0]<w*.42 or box[3]-box[1]<h*.35:
+        print("SKIP risky",path,box);continue
+    if box[0]<3 and box[1]<3 and box[2]>w-3 and box[3]>h-3:
+        print("SKIP already tight",path);continue
     out=im.crop(box)
     out.save(path,"WEBP",quality=94,method=6)
-    print("CROPPED",path,f"{w}x{h} -> {out.width}x{out.height}",box)
+    print("CROPPED",path,im.size,"->",out.size,"box",box)
