@@ -904,3 +904,7 @@ body[data-page="publications"] .pub-row details:has(> summary){display:none!impo
 /* Project category and status badges: one additional typography step. */
 .project-editorial .project-code{font-size:14px}
 .project-editorial .pill{font-size:13px}
+
+/* Uniform Ongoing status badge for Government and Industry projects. */
+.project-editorial .pill.green,.project-editorial .pill.green.industry-active-status{background:#e3f2e9;color:#226b50;border:1px solid #a7d5b8}
+:root[data-theme=dark] .project-editorial .pill.green,:root[data-theme=dark] .project-editorial .pill.green.industry-active-status{background:#204938;color:#b9e6cc;border-color:#4d9271}
