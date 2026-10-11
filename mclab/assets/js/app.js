@@ -93,7 +93,15 @@
     // Intentionally exclude lab-team, which was removed from the homepage by request.
     const photos=['tsinghua-exchange','conference-moments','spring-gathering','graduation-moments','winter-workshop','vehicle-testing'];
     const gallery=photos.map(id=>D.gallery.find(g=>g.id===id)).filter(g=>g&&safeURL(g.image));
-    const newsGallery=gallery.map((g,i)=>`<a class="home-news-photo" href="${link('news',g.id)}"><img src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}" loading="lazy"><span>${esc(g.title)}</span></a>`).join('');
+    const newsCaptions={
+      'tsinghua-exchange':'Sharing ideas and building international research connections.',
+      'conference-moments':'Presenting our research and connecting with the automotive engineering community.',
+      'spring-gathering':'Growing stronger together through moments beyond the lab.',
+      'graduation-moments':'Celebrating milestones and the people behind our research.',
+      'winter-workshop':'Exchanging ideas and strengthening teamwork beyond everyday research.',
+      'vehicle-testing':'Bringing vehicle control research closer to real-world mobility.'
+    };
+    const newsGallery=gallery.map(g=>`<a class="home-news-photo" href="${link('news',g.id)}"><img src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}" loading="lazy"><span class="home-news-caption"><strong>${esc(g.title)}</strong><small>${esc(newsCaptions[g.id]||g.text||g.title)}</small></span></a>`).join('');
     return `<section class="hero philosophy-home video-home"><video class="home-background-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1" onerror="this.style.display=\'none\'"><source src="assets/video/gemini_generated_video.mp4" type="video/mp4"></video><div class="home-video-shade" aria-hidden="true"></div><div class="container philosophy-hero-inner">
       <div class="philosophy-kicker">DGIST · MOBILITY CONTROL LABORATORY</div>
       <h1>Intelligence<br><span>in motion.</span></h1>
