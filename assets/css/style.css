@@ -724,3 +724,13 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .project-editorial .project-code{font-size:12px}
 .project-editorial .pill{font-size:11px}
 @media(max-width:650px){.project-editorial h3{font-size:17px}.project-editorial .project-facts dt{font-size:13px}.project-editorial .project-facts dd{font-size:14px}}
+
+
+/* Projects: second step down in card typography, preserving readability. */
+.project-editorial h3{font-size:clamp(16px,1.3vw,18px);line-height:1.5}
+.project-editorial .project-facts dt{font-size:12px}
+.project-editorial .project-facts dd{font-size:13px}
+.project-editorial .project-summary{font-size:13px;line-height:1.7}
+.project-editorial .project-code{font-size:11px}
+.project-editorial .pill{font-size:10px}
+@media(max-width:650px){.project-editorial h3{font-size:16px}.project-editorial .project-facts dt{font-size:12px}.project-editorial .project-facts dd{font-size:13px}}
