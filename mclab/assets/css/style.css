@@ -944,3 +944,7 @@ html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-venue *{
 .pub-row h3{margin-top:6px;margin-bottom:5px}
 .pub-row .paper-links{margin-top:11px;padding-top:10px}
 @media(max-width:600px){.pub-row{padding-top:14px;padding-bottom:14px}.pub-row.pub-row-dgist{padding-top:15px;padding-bottom:15px;margin-top:5px;margin-bottom:7px}}
+
+/* All publication entries share the same plain background. */
+body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.pub-row-dgist{background:transparent;border-left:0;border-right:0;border-top:0;border-radius:0;box-shadow:none;margin-left:0;margin-right:0}
+:root[data-theme=dark] body[data-page="publications"] .pub-row{background:transparent}
