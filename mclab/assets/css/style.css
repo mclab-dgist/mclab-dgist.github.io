@@ -936,3 +936,11 @@ html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-venue,
 html[data-theme="dark"] body[data-page="publications"] .pub-row .pub-venue *{
   color:#f5f7fa!important;
 }
+
+
+/* Publications: tighter vertical rhythm between individual papers. */
+.pub-row{padding-top:17px;padding-bottom:17px}
+.pub-row.pub-row-dgist{padding-top:17px;padding-bottom:17px;margin-top:6px;margin-bottom:9px}
+.pub-row h3{margin-top:6px;margin-bottom:5px}
+.pub-row .paper-links{margin-top:11px;padding-top:10px}
+@media(max-width:600px){.pub-row{padding-top:14px;padding-bottom:14px}.pub-row.pub-row-dgist{padding-top:15px;padding-bottom:15px;margin-top:5px;margin-bottom:7px}}
