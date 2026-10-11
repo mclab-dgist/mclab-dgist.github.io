@@ -89,11 +89,11 @@
   function cta(){return `<section class="section compact"><div class="container"><div class="cta-band"><div><h2>Great ideas move better together.</h2><p>We welcome curious students, researchers, and collaborators working toward the next generation of mobility.</p></div><a class="btn btn-light" href="${link('join')}">Join MCLab ${right}</a></div></div></section>`;}
   function missionSection(){return `<section class="section soft mission-section"><div class="container mission-grid"><div><div class="eyebrow">ABOUT MCLAB</div><h2>Control technologies.<br>Real mobility.</h2><span class="pill">${esc(C.jointLab)}</span></div><div><p class="mission-copy">${esc(C.mission)}</p><p class="mission-ko" lang="ko">${esc(C.missionKo)}</p><div class="mission-stats"><span><strong>${(D.researchPrograms||[]).length}</strong> research programs</span><span><strong>${(D.researchTopics||[]).length}</strong> research themes</span></div></div></div></section>`;}
   function home(){
-    const photos=['tsinghua-exchange','conference-moments','spring-gathering'];
+    // Home news: a photo-led editorial stream, preserving original lab images.
+    // Intentionally exclude lab-team, which was removed from the homepage by request.
+    const photos=['tsinghua-exchange','conference-moments','spring-gathering','graduation-moments','winter-workshop','vehicle-testing'];
     const gallery=photos.map(id=>D.gallery.find(g=>g.id===id)).filter(g=>g&&safeURL(g.image));
-    const R=D.recruitment||{};
-    const focus=(R.focus||R.areas||[]).slice(0,5);
-    const newsGallery=gallery.map(g=>`<a class="home-news-photo" href="${link('news',g.id)}"><img src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}" loading="lazy"><span>${esc(g.title)}</span></a>`).join('');
+    const newsGallery=gallery.map((g,i)=>`<a class="home-news-photo" href="${link('news',g.id)}"><img src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}" loading="lazy"><span>${esc(g.title)}</span></a>`).join('');
     return `<section class="hero philosophy-home video-home"><video class="home-background-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1" onerror="this.style.display=\'none\'"><source src="assets/video/gemini_generated_video.mp4" type="video/mp4"></video><div class="home-video-shade" aria-hidden="true"></div><div class="container philosophy-hero-inner">
       <div class="philosophy-kicker">DGIST · MOBILITY CONTROL LABORATORY</div>
       <h1>Intelligence<br><span>in motion.</span></h1>
