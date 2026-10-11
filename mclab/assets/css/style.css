@@ -574,3 +574,19 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .pub-meta .pub-type-conference{background:#f0e9ff;color:#653e9c;border:1px solid #cdb7f2}
 :root[data-theme=dark] .pub-meta .pub-type-journal{background:#19395d;color:#b5d8ff;border-color:#3f6b9d}
 :root[data-theme=dark] .pub-meta .pub-type-conference{background:#37284e;color:#e1ccff;border-color:#71549b}
+
+
+/* Darker, unified title bands on People, Research, Publications, Projects, News. */
+.page-hero,.simple-page-hero{
+  background:linear-gradient(115deg,#dce8f6 0%,#e8eff8 72%,#edf3fa 100%);
+  border-bottom:1px solid #c4d4e6;
+}
+.page-hero:has(.research-hero-headline){
+  background:linear-gradient(115deg,#dce8f6 0%,#e8eff8 72%,#edf3fa 100%);
+  border-bottom:1px solid #c4d4e6;
+}
+:root[data-theme=dark] .page-hero,:root[data-theme=dark] .simple-page-hero,
+:root[data-theme=dark] .page-hero:has(.research-hero-headline){
+  background:linear-gradient(115deg,#1b304c,#233a56);
+  border-bottom-color:#35506c;
+}
