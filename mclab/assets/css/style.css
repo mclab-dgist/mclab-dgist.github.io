@@ -689,3 +689,12 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 .pub-venue .pub-jcr{font-family:inherit;font-size:inherit;font-weight:750;color:var(--ink);white-space:nowrap}
 .pub-venue .pub-jcr-top{color:#165aa6}
 :root[data-theme=dark] .pub-venue .pub-jcr-top{color:#8ac7ff}
+
+
+/* Bilingual recruitment notice: concise, equally readable Korean and English. */
+.home-notice-card .recruitment-language{padding:8px 0}
+.home-notice-card .recruitment-language p{font-size:15px;line-height:1.8;margin:0 0 12px;word-break:keep-all}
+.home-notice-card .recruitment-language strong{color:var(--ink);font-weight:700}
+.home-notice-card .recruitment-language-en{border-top:1px solid var(--line);margin-top:13px;padding-top:20px}
+.home-notice-card .home-notice-contact{border-top:1px solid var(--line);padding-top:17px;margin-top:10px;font-size:16px}
+@media(max-width:600px){.home-notice-card .recruitment-language p{font-size:14px}}
