@@ -361,7 +361,7 @@ def build(root:Path,output:Path,today:str|None=None) -> dict[str,Any]:
         # Website assets are public by design. Reject links and ignore readme/hidden files.
         for source in (root/'assets').rglob('*'):
             if source.is_symlink():raise ContentError(f'assets 안의 심볼릭 링크: {source}')
-            if source.is_file() and not any(p.startswith('.') for p in source.relative_to(root/'assets').parts) and source.suffix.lower() in {'.css','.js','.svg','.jpg','.jpeg','.png','.webp','.ico'}:
+            if source.is_file() and not any(p.startswith('.') for p in source.relative_to(root/'assets').parts) and source.suffix.lower() in {'.css','.js','.svg','.jpg','.jpeg','.png','.webp','.ico','.mp4','.webm'}:
                 target=dest/source.relative_to(root);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
         (dest/'data').mkdir()
         (dest/'data/site-data.js').write_text(js_data(data),encoding='utf-8')
