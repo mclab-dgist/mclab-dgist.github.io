@@ -1000,3 +1000,6 @@ body[data-page="publications"] .pub-row,body[data-page="publications"] .pub-row.
 /* Tighter gap between publication venue/JCR line and Publisher/BibTeX controls. */
 .pub-row .pub-venue{margin-bottom:3px}
 .pub-row .paper-links{margin-top:3px;padding-top:5px}
+
+/* Remove unnecessary divider above publication Publisher / BibTeX buttons. */
+.pub-row .paper-links{border-top:none;padding-top:0}
