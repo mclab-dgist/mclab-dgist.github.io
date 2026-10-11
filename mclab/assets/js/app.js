@@ -161,8 +161,7 @@
       </div></section><section class="section"><div class="container">${programs.map(g=>`<section class="research-program" id="${esc(g.id)}"><div class="program-heading"><span class="program-number">${esc(g.number)}</span><div><h2>${esc(g.title)}</h2><p class="program-ko" lang="ko">${esc(g.titleKo)}</p><p>${esc(g.description)}</p></div></div><div class="topic-grid">${topics.filter(t=>t.program===g.id).map(t=>`<article class="topic-card" id="${esc(t.id)}">${t.image?`<button type="button" class="research-image-button" data-image-open="${safeURL(t.image)}" data-image-title="${esc(t.title)}" aria-label="Enlarge research image: ${esc(t.title)}"><img loading="lazy" class="topic-image" src="${safeURL(t.image)}" alt="${esc(t.title)}"><span>View image <span aria-hidden="true">↗</span></span></button>`:''}<h3>${esc(t.title)}</h3><p>${esc(t.description)}</p>${t.video?ext(t.video,'Research video '+arrow):''}</article>`).join('')}</div></section>`).join('')}</div></section>${cta()}`;
   }
   function publications(){
-    const years=[...new Set(D.publications.map(p=>p.year).filter(Boolean))].sort((a,b)=>b-a);
-    return `${simpleHero('PUBLICATIONS')}<section class="section"><div class="container"><div class="toolbar publications-toolbar"><label class="search-field"><span class="field-label">Search publications</span><input type="search" class="input" id="pub-search" placeholder="Title, author, venue, or keyword" aria-controls="pub-results"></label><label><span class="field-label">Year</span><select class="select" id="pub-year"><option value="all">All years</option>${years.map(y=>`<option value="${y}">${y}</option>`).join('')}<option value="none">Not assigned</option></select></label><label class="type-field"><span class="field-label">Publication type</span><select class="select" id="pub-type"><option value="all">All types</option><option>Journal</option><option>Conference</option></select></label><label><span class="field-label">Affiliation period</span><select class="select" id="pub-era"><option value="all">All periods</option><option>DGIST</option><option>Before DGIST</option></select></label></div><div class="filter-row"><button class="resource-btn" id="export-bib">Export filtered BibTeX ↓</button></div><div id="pub-results"></div></div></section>`;
+    return `${simpleHero('PUBLICATIONS')}<section class="section"><div class="container"><div id="pub-results"></div></div></section>`;
   }
   function jcrBadge(p){
     if(p.type!=='Journal'||!isPublished(p)||Number(p.year)!==2026)return '';
@@ -195,24 +194,9 @@
     return [...groups].map(([year,rows])=>`<div class="pub-year"><h2>${esc(year)}</h2></div>${rows.map(p=>`<article class="pub-row ${!isPublished(p)&&!['Accepted','Preprint'].includes(p.status)?'pub-row-wip':''}" id="${esc(p.id)}"><div><div class="pub-meta"><span class="pill ${isPublished(p)?'neutral pub-status-published':'amber'}">${esc(isPublished(p)?'Published':(['Under review','Submitted','In preparation'].includes(p.status)?'Under review':p.status))}</span><span class="pill pub-type-badge ${p.type==='Journal'?'pub-type-journal':p.type==='Conference'?'pub-type-conference':'neutral'}">${esc(p.type)}</span>${p.era==='Before DGIST'?'<span class="pill neutral">Before DGIST</span>':''}${!isPublished(p)&&p.year?`<span class="pill neutral">${p.year}</span>`:''}</div><h3>${isPublished(p)?`<span class="pub-title-number">[${publicationNumbers.get(p.id)}]</span> `:''}${esc(p.title)}</h3><p class="pub-authors">${esc(p.authors).replace(/K\. H\. Nam\*?/g,m=>`<strong>${m}</strong>`)}</p><div class="pub-venue">${esc(p.venue)}${p.details?' · '+esc(p.details):''}${isPublished(p)&&p.year?' · '+p.year:''}${jcrBadge(p)}</div>${p.image&&safeURL(p.image)?`<img class="publication-image" src="${safeURL(p.image)}" alt="Research illustration for ${esc(p.title)}" loading="lazy">`:''}${paperLinks(p)}</div></article>`).join('')}`).join('');
   }
   function setupPubs(anchor){
-    let status='all';
-    const target=D.publications.find(p=>p.id===anchor);if(target)status='all';
-    const update=()=>{
-      const q=$('#pub-search').value.trim().toLocaleLowerCase();
-      const y=$('#pub-year').value,t=$('#pub-type').value,era=$('#pub-era').value;
-      visiblePublications=D.publications.filter(p=>(status==='all'||(status==='Published'?isPublished(p):p.status===status))&&(y==='all'||(y==='none'?!p.year:String(p.year)===y))&&(t==='all'||p.type===t)&&(era==='all'||p.era===era)&&(!q||[p.title,p.authors,p.venue,p.doi,p.status].join(' ').toLocaleLowerCase().includes(q)));
-      
-      $('#pub-results').innerHTML=visiblePublications.length?pubRows(visiblePublications):'<div class="empty-state"><h3>No matching publications</h3><p>Try another keyword, year, type, or status.</p><button class="btn small" id="reset-pubs">Reset filters</button></div>';
-      
-      $$('[data-pub-status]').forEach(b=>{b.classList.toggle('active',b.dataset.pubStatus===status);b.setAttribute('aria-pressed',String(b.dataset.pubStatus===status));});
-      $('#reset-pubs')?.addEventListener('click',()=>{$('#pub-search').value='';$('#pub-year').value='all';$('#pub-type').value='all';$('#pub-era').value='all';status='all';update();});
-    };
-    $$('[data-pub-status]').forEach(b=>b.addEventListener('click',()=>{status=b.dataset.pubStatus;update();}));
-    ['#pub-search','#pub-year','#pub-type','#pub-era'].forEach(s=>$(s).addEventListener(s==='#pub-search'?'input':'change',update));
-    $('#export-bib').addEventListener('click',()=>{
-      if(!visiblePublications.length){$('#pub-count').textContent='There are no records to export. Adjust the filters first.';return;}
-      downloadText(visiblePublications.map(toBib).join('\n\n'),'mclab-publications.bib','application/x-bibtex');
-    });update();
+    visiblePublications=D.publications;
+    const results=$('#pub-results');
+    if(results)results.innerHTML=pubRows(visiblePublications);
   }
   function projects(){return `${simpleHero('PROJECTS')}<section class="section"><div class="container"><div class="toolbar project-toolbar"><label><span class="field-label">Search projects</span><input type="search" class="input" id="project-search" placeholder="Project title, sponsor, or keyword"></label><label><span class="field-label">Funding category</span><select class="select" id="project-category"><option value="all">All categories</option><option>Government</option><option>Industry</option><option>Institutional</option></select></label></div><div class="filter-row"><div class="filter-buttons" role="group" aria-label="Project status">${['Ongoing','Completed'].map((s,i)=>`<button class="filter-button ${i===0?'active':''}" data-project-status="${s}" aria-pressed="${i===0}">${s==='all'?'All projects':s}</button>`).join('')}</div><span class="result-count" id="project-count" role="status" aria-live="polite"></span></div><div class="project-grid" id="project-results"></div></div></section>`;}
   function projectCards(ps){return ps.map(p=>`<article class="project-card project-editorial ${p.category==='Industry'?'project-industry':'project-government'}" id="${esc(p.id)}">
