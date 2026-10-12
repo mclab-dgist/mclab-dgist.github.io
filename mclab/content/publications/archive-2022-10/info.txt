@@ -7,7 +7,7 @@ ID: archive-2022-10
 제목: Design and Robust Control of a Precise Torque Controllable Steering Module for Steer-by-Wire Systems
 저자: D. Cheon, K. H. Nam*, and S. Oh*
 학술지: IEEE Transactions on Industrial Electronics
-DOI: 
+DOI: 10.1109/TIE.2021.3139195
 종류: Journal
 상태: Published
 권호쪽: vol. 69, no. 12, pp. 13245–13254, Dec. 2022
