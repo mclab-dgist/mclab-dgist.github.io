@@ -1341,3 +1341,26 @@ body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-s
  .join-language-panel .join-research-areas{grid-template-columns:1fr;padding:12px 23px 22px;gap:12px}
  .join-language-panel .join-research-area{padding:19px}
 }
+
+
+/* Join Team: refined layered backgrounds for bilingual 2x2 research cards. */
+.join-bilingual-section{background:radial-gradient(ellipse at 12% 6%,rgba(125,171,215,.17),transparent 42%),radial-gradient(ellipse at 88% 78%,rgba(106,154,202,.12),transparent 45%),linear-gradient(180deg,#f1f5fa 0%,#eaf1f8 52%,#f5f8fc 100%)}
+.join-language-panel{background:#fcfdff;border-color:#d5e1ee;box-shadow:0 18px 48px rgba(21,49,80,.08)}
+.join-language-panel .join-research-area{background:linear-gradient(145deg,#ffffff 5%,#edf5fc 100%);border:1px solid #d5e5f3;box-shadow:0 8px 22px rgba(27,76,121,.06);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.join-language-panel .join-research-area:nth-child(2){background:linear-gradient(145deg,#ffffff 5%,#edf3fa 100%)}
+.join-language-panel .join-research-area:nth-child(3){background:linear-gradient(145deg,#ffffff 5%,#eaf5f4 100%);border-color:#d3e7e4}
+.join-language-panel .join-research-area:nth-child(4){background:linear-gradient(145deg,#ffffff 5%,#f0f1fa 100%);border-color:#dedff0}
+.join-language-panel .join-research-area:hover{transform:translateY(-3px);border-color:#91b9da;box-shadow:0 13px 30px rgba(25,69,113,.11)}
+.join-language-panel .join-research-number{background:#dcecf9;color:#1c5688}
+.join-language-panel .join-research-area:nth-child(3) .join-research-number{background:#d9eee9;color:#216a60}
+.join-language-panel .join-research-area:nth-child(4) .join-research-number{background:#e6e7f8;color:#555a96}
+:root[data-theme=dark] .join-bilingual-section{background:radial-gradient(ellipse at 15% 10%,#24436288,transparent 48%),linear-gradient(180deg,#101d2d,#172a3d)}
+:root[data-theme=dark] .join-language-panel{background:#192c41;border-color:#38536d}
+:root[data-theme=dark] .join-language-panel .join-research-area,
+:root[data-theme=dark] .join-language-panel .join-research-area:nth-child(2),
+:root[data-theme=dark] .join-language-panel .join-research-area:nth-child(3),
+:root[data-theme=dark] .join-language-panel .join-research-area:nth-child(4){background:linear-gradient(145deg,#233d55,#1d3248);border-color:#3d5870}
+:root[data-theme=dark] .join-language-panel .join-research-number{background:#315a7d;color:#e1f2ff}
+:root[data-theme=dark] .join-language-panel .join-research-area:nth-child(3) .join-research-number{background:#295b53;color:#d2f5e8}
+:root[data-theme=dark] .join-language-panel .join-research-area:nth-child(4) .join-research-number{background:#46476c;color:#e5e3ff}
+@media(prefers-reduced-motion:reduce){.join-language-panel .join-research-area{transition:none}.join-language-panel .join-research-area:hover{transform:none}}
