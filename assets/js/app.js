@@ -237,29 +237,27 @@
   function join(){
     const topicsKo=[
       ['모집 대상','학부연구생, 석사 및 박사과정 학생'],
-      ['연구 분야','X-by-Wire, 통합 차량 모션제어, AI 기반 모델링·제어, Mobility AI'],
+      ['연구 분야','X-by-Wire 시스템, 차량 통합모션제어, AI 기반 모델개발 및 상태추정, 학습 기반 고정밀 모션제어'],
       ['연구 지원','장학금·연구장려금(지원 자격 및 재원에 따름), 산학협력 및 국제학회 참여 기회'],
       ['지원 방법','이력서 또는 간단한 연구계획서를 이메일로 제출']
     ];
     const topicsEn=[
       ['Positions','Undergraduate interns, M.S. and Ph.D. students'],
-      ['Research','X-by-Wire, integrated motion control, AI-assisted modeling and control, Mobility AI'],
+      ['Research','X-by-Wire systems, integrated vehicle motion control, AI-based modeling and state estimation, learning-based precision motion control'],
       ['Support','Scholarships and stipends (subject to eligibility and funding), industry collaboration and international conferences'],
       ['Apply','Email your CV or brief research statement']
     ];
     const areasKo=[
-      ['고성능 차량 통합제어','',['SbW·후륜조향·토크벡터링·능동현가 통합제어','차량 상태 추정 및 최적 운동·타이어 힘 분배','핸들링·승차감·효율 최적화와 HIL 검증']],
-      ['자율주행 및 원격차량제어','',['자율주행 경로 추종 및 차량 운동제어','통신 지연·지터 대응 원격주행 제어','예측·강인제어, HMI 및 Physical AI']],
-      ['Steer-by-Wire 및 Brake-by-Wire 제어','',['조향·제동 액추에이터 정밀 위치·토크 제어','조향감 재현, 랙 힘·EMB 클램핑력 추정','마찰 보상 및 DOB·학습 기반 강인제어']],
-      ['능동현가 및 Active Anti-Roll Bar 제어','',['승차감·롤 운동·횡하중 이동 제어','노면 예측 및 주파수 기반 제어','조향·제동·현가 통합제어와 HIL 검증']],
-      ['Sim-to-Real 전동화샤시부품 모델개발 및 제어','',['BLDC/PMSM 위치·속도·토크 정밀제어','마찰·공진·외란 모델링 및 보상','DOB·적응제어·Physics-Informed Learning 응용']]
+      ['X-by-Wire 및 전동화 샤시 시스템제어','',['SbW·EMB·능동현가·Active Anti-Roll Bar의 모델링 및 제어','액추에이터 힘·토크 추정, 정밀 추종 및 강인제어','마찰·외란 보상과 고장진단·안전 상태전환']],
+      ['고성능 차량 통합모션제어','',['조향·제동·구동·현가 통합제어 및 최적 타이어 힘 분배','핸들링·승차감·에너지 효율을 고려한 예측·최적제어','자율·원격주행 모션제어 및 HIL 기반 성능 검증']],
+      ['AI 기반 샤시 모델개발 및 차량 상태추정','',['물리·AI 융합모델 및 Sim-to-Real 가상센서 개발','타이어 힘·노면 마찰·차체 운동상태 추정','실시간 AI 추론 기반 모델 적응·이상감지·고장진단']],
+      ['학습 기반 고정밀 모션제어 및 실시간 AI 응용','',['전동 액추에이터 위치·속도·토크 고정밀 제어','DOB·Sliding Mode Control과 학습 기반 마찰·외란 보상','경량 AI 모델의 실시간 제어기 구현 및 전동화 샤시부품 응용']]
     ];
     const areasEn=[
-      ['High-Performance Integrated Vehicle Control','',['Integrated control of SbW, RWS, torque vectoring and active suspension','Vehicle-state estimation and optimal motion/tire-force allocation','Handling, ride and efficiency optimization with HIL validation']],
-      ['Autonomous Driving and Remote Vehicle Control','',['Autonomous path tracking and vehicle motion control','Remote driving under communication delay and jitter','Predictive/robust control, HMI and Physical AI']],
-      ['Steer-by-Wire and Brake-by-Wire Control','',['Precision position and torque control of steering/braking actuators','Steering-feel reproduction, rack-force and EMB clamping-force estimation','Friction compensation and DOB/learning-based robust control']],
-      ['Active Suspension and Active Anti-Roll Bar Control','',['Ride, roll-motion and lateral load-transfer control','Road-preview and frequency-aware control','Integrated chassis control with HIL validation']],
-      ['Sim-to-Real Modeling and Control of Electrified Chassis Components','',['High-precision BLDC/PMSM position, speed and torque control','Friction, resonance and disturbance modeling/compensation','DOB, adaptive control and physics-informed learning']]
+      ['X-by-Wire and Electrified Chassis System Control','',['Modeling and control of SbW, EMB, active suspension and active anti-roll bars','Actuator force/torque estimation, precision tracking and robust control','Friction/disturbance compensation, fault diagnosis and safe-state transitions']],
+      ['High-Performance Integrated Vehicle Motion Control','',['Coordinated steering, braking, propulsion and suspension control with optimal tire-force allocation','Predictive and optimal control for handling, ride comfort and energy efficiency','Motion control for autonomous/remote driving and HIL validation']],
+      ['AI-Based Chassis Modeling and Vehicle State Estimation','',['Physics–AI hybrid models and Sim-to-Real virtual sensors','Tire-force, road-friction and vehicle-motion-state estimation','Real-time AI inference for model adaptation, anomaly detection and fault diagnosis']],
+      ['Learning-Based Precision Motion Control and Real-Time AI','',['High-precision position, speed and torque control of electrified actuators','DOB/sliding-mode control with learning-based friction and disturbance compensation','Deployment of lightweight AI on real-time controllers for electrified chassis components']]
     ];
     const areaPanels=(areas)=>`<div class="join-research-areas">${areas.map(([title,meta,points],i)=>`<section class="join-research-area"><div class="join-research-heading"><span class="join-research-number">${String(i+1).padStart(2,'0')}</span><h3>${title}</h3></div>${meta?`<p class="join-research-meta">${meta}</p>`:''}<ul>${points.map(point=>`<li>${point}</li>`).join('')}</ul></section>`).join('')}</div>`;
     const panel=(language,title,status,items,button,areas)=>`<article class="join-language-panel" lang="${language}"><div class="join-panel-top"><h2>${title}</h2><p class="join-panel-status" role="status">${status}</p></div><dl class="join-panel-details">${items.map(([term,description])=>`<div class="join-panel-item"><dt>${term}</dt><dd>${description}</dd></div>`).join('')}</dl><div class="join-research-label">${language==='ko'?'세부 연구분야':'Research Areas'}</div>${areaPanels(areas)}<div class="join-panel-footer"><a class="btn" href="mailto:khnam@dgist.ac.kr?subject=${encodeURIComponent('MCLab research opportunity inquiry')}">${button} ${right}</a><a href="mailto:khnam@dgist.ac.kr" class="join-panel-email">khnam@dgist.ac.kr</a></div></article>`;
