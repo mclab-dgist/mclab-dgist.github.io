@@ -7,7 +7,7 @@ ID: archive-2015-35
 제목: Application of Novel Lateral Tire Force Sensors to Vehicle Parameter Estimation of Electric Vehicles
 저자: K. H. Nam
 학술지: Sensors
-DOI: 
+DOI: 10.3390/s151128385
 종류: Journal
 상태: Published
 권호쪽: vol. 15, pp. 28385–28401, Nov. 2015
