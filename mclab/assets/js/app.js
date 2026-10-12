@@ -248,15 +248,15 @@
       ['Apply','Email your CV or brief research statement']
     ];
     const areasKo=[
-      ['고성능 차량 통합제어','현대자동차 공동연구',['SbW·후륜조향·토크벡터링·능동현가 통합제어','차량 상태 추정 및 최적 운동·타이어 힘 분배','핸들링·승차감·효율 최적화와 HIL 검증']],
-      ['자율주행 및 원격차량제어','BRL·현대자동차 공동연구',['자율주행 경로 추종 및 차량 운동제어','통신 지연·지터 대응 원격주행 제어','예측·강인제어, HMI 및 Physical AI']],
+      ['고성능 차량 통합제어','',['SbW·후륜조향·토크벡터링·능동현가 통합제어','차량 상태 추정 및 최적 운동·타이어 힘 분배','핸들링·승차감·효율 최적화와 HIL 검증']],
+      ['자율주행 및 원격차량제어','',['자율주행 경로 추종 및 차량 운동제어','통신 지연·지터 대응 원격주행 제어','예측·강인제어, HMI 및 Physical AI']],
       ['Steer-by-Wire 및 Brake-by-Wire 제어','',['조향·제동 액추에이터 정밀 위치·토크 제어','조향감 재현, 랙 힘·EMB 클램핑력 추정','마찰 보상 및 DOB·학습 기반 강인제어']],
       ['능동현가 및 Active Anti-Roll Bar 제어','',['승차감·롤 운동·횡하중 이동 제어','노면 예측 및 주파수 기반 제어','조향·제동·현가 통합제어와 HIL 검증']],
       ['Sim-to-Real 전동화샤시부품 모델개발 및 제어','',['BLDC/PMSM 위치·속도·토크 정밀제어','마찰·공진·외란 모델링 및 보상','DOB·적응제어·Physics-Informed Learning 응용']]
     ];
     const areasEn=[
-      ['High-Performance Integrated Vehicle Control','Hyundai Motor Company collaboration',['Integrated control of SbW, RWS, torque vectoring and active suspension','Vehicle-state estimation and optimal motion/tire-force allocation','Handling, ride and efficiency optimization with HIL validation']],
-      ['Autonomous Driving and Remote Vehicle Control','BRL and Hyundai Motor Company collaboration',['Autonomous path tracking and vehicle motion control','Remote driving under communication delay and jitter','Predictive/robust control, HMI and Physical AI']],
+      ['High-Performance Integrated Vehicle Control','',['Integrated control of SbW, RWS, torque vectoring and active suspension','Vehicle-state estimation and optimal motion/tire-force allocation','Handling, ride and efficiency optimization with HIL validation']],
+      ['Autonomous Driving and Remote Vehicle Control','',['Autonomous path tracking and vehicle motion control','Remote driving under communication delay and jitter','Predictive/robust control, HMI and Physical AI']],
       ['Steer-by-Wire and Brake-by-Wire Control','',['Precision position and torque control of steering/braking actuators','Steering-feel reproduction, rack-force and EMB clamping-force estimation','Friction compensation and DOB/learning-based robust control']],
       ['Active Suspension and Active Anti-Roll Bar Control','',['Ride, roll-motion and lateral load-transfer control','Road-preview and frequency-aware control','Integrated chassis control with HIL validation']],
       ['Sim-to-Real Modeling and Control of Electrified Chassis Components','',['High-precision BLDC/PMSM position, speed and torque control','Friction, resonance and disturbance modeling/compensation','DOB, adaptive control and physics-informed learning']]
