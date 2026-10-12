@@ -7,7 +7,7 @@ ID: archive-2020-20
 제목: System Identification Method Based on a Disturbance Observer Using Symmetric Reference Trajectories in PMLSM-Based Motion Systems
 저자: K. Cho and K. H. Nam*
 학술지: IEEE Access
-DOI: 
+DOI: 10.1109/ACCESS.2020.3042343
 종류: Journal
 상태: Published
 권호쪽: vol. 8, pp. 216197–216209, Dec. 2020
