@@ -7,7 +7,7 @@ ID: archive-2016-34
 제목: Periodic Learning Disturbance Observer Based Precision Motion Control in PMLSM Motion Systems Considering Long-Term Instability Problem
 저자: K. H. Cho and K. H. Nam*
 학술지: International Journal of Precision Engineering and Manufacturing
-DOI: 
+DOI: 10.1007/s12541-016-0134-5
 종류: Journal
 상태: Published
 권호쪽: vol. 17, no. 9, pp. 1101–1112, Sep. 2016
