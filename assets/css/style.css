@@ -1449,3 +1449,8 @@ body[data-page="join"] .join-contact-address{font-size:12px}
  .site-footer .footer-location-address span,
  .site-footer .footer-map-link{font-size:12px}
 }
+
+
+/* Slightly smaller Join us badge in the shared top navigation. */
+.site-header .nav-join{font-size:13px;padding:8px 11px;line-height:1.4}
+@media(max-width:800px){.site-header .nav-join{font-size:11px;padding:7px 10px}}
