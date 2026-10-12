@@ -7,7 +7,7 @@ ID: archive-2012-40
 제목: Robust Yaw Stability Control for Electric Vehicles Based on Active Front Steering Control Through Steer-by-Wire (SbW) System
 저자: K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori
 학술지: International Journal of Automotive Technology
-DOI: 
+DOI: 10.1007/s12239-012-0120-6
 종류: Journal
 상태: Published
 권호쪽: vol. 13, no. 7, pp. 1169–1176, Dec. 2012
