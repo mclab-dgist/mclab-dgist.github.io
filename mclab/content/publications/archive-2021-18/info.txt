@@ -7,7 +7,7 @@ ID: archive-2021-18
 제목: Model Predictive Control Framework for Improving Vehicle Cornering Performance Using Handling Characteristics
 저자: K. Han, G. Park, G. S. Sankar, K. H. Nam*, and S. B. Choi*
 학술지: IEEE Transactions on Intelligent Transportation Systems
-DOI: 
+DOI: 10.1109/TITS.2020.2978948
 종류: Journal
 상태: Published
 권호쪽: vol. 22, no. 5, pp. 3014–3024, May 2021
