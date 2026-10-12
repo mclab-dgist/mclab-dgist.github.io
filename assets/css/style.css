@@ -1408,3 +1408,17 @@ body[data-page="join"] .join-contact-address{font-size:12px}
  body[data-page="join"] .join-bilingual-section .join-research-heading h3{font-size:18px}
  body[data-page="join"] .join-bilingual-section .join-research-area li{font-size:14.5px}
 }
+
+
+/* Minimal shared footer: one compact row, responsive on narrow screens. */
+.site-footer{padding:23px 0;background:var(--soft);border-top:1px solid var(--line)}
+.footer-compact{display:flex;align-items:center;justify-content:space-between;gap:20px 32px;flex-wrap:wrap}
+.footer-compact-brand{display:flex;align-items:center;gap:15px;min-width:0}
+.footer-compact-brand .footer-brand{font-size:23px;line-height:1.1;white-space:nowrap}
+.footer-compact-brand>span{font-size:11px;color:var(--muted);white-space:nowrap}
+.footer-compact-nav{display:flex;flex-wrap:wrap;align-items:center;gap:10px 19px}
+.footer-compact-nav a{font-size:12px;font-weight:600;color:var(--muted)}
+.footer-compact-nav a:hover,.footer-compact-email:hover{color:var(--blue)}
+.footer-compact-email{font-size:12px;font-weight:700;color:var(--blue);white-space:nowrap}
+@media(max-width:1050px){.footer-compact{gap:15px 25px}.footer-compact-nav{order:3;width:100%}}
+@media(max-width:600px){.site-footer{padding:20px 0}.footer-compact-brand{flex-wrap:wrap;gap:5px 11px}.footer-compact-brand>span{font-size:10px}.footer-compact-nav{gap:8px 15px}.footer-compact-nav a,.footer-compact-email{font-size:11px}}
