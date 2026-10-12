@@ -7,7 +7,7 @@ ID: archive-2024-1
 제목: Synchronous Control of a Dual-Motor Driving Rack and Pinion Module for Steer-by-Wire System
 저자: I. S. Chung, S. H. Oh*, and K. H. Nam*
 학술지: IEEE Access
-DOI: 
+DOI: 10.1109/ACCESS.2024.3520139
 종류: Journal
 상태: Published
 권호쪽: vol. 12, pp. 195358–195369, Dec. 2024
