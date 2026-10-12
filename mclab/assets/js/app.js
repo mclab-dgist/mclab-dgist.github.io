@@ -135,9 +135,9 @@
             <p><strong>Apply</strong> · Email your CV or brief research statement</p>
           </div>
           <p class="home-notice-contact"><strong>✉</strong> <a href="mailto:khnam@dgist.ac.kr">khnam@dgist.ac.kr</a></p>
+          <div class="home-recruitment-video"><video autoplay muted loop playsinline preload="metadata" aria-label="MCLab mobility research demonstration video"><source src="assets/video/MCLab.mp4" type="video/mp4"></video></div>
           <a class="text-link" href="${link('join')}">Application &amp; details ${right}</a>
         </article>
-        <div class="home-recruitment-video"><video autoplay muted loop playsinline preload="metadata" aria-label="MCLab mobility research demonstration video"><source src="assets/video/MCLab.mp4" type="video/mp4"></video></div>
       </div>
     </div></section>`;
   }
