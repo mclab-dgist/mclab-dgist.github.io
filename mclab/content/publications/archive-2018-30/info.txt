@@ -7,7 +7,7 @@ ID: archive-2018-30
 제목: Development of Wheel Pressure Control Algorithm for Electronic Stability Control (ESC) System of Commercial Trucks
 저자: M. J. Seo, C. H. Yoo, S. S. Park, and K. H. Nam*
 학술지: Sensors
-DOI: 
+DOI: 10.3390/s18072317
 종류: Journal
 상태: Published
 권호쪽: vol. 18, no. 7, article 2317, Jul. 2018
