@@ -7,7 +7,7 @@ ID: archive-2019-27
 제목: Dynamic Handling Characteristics Control of an In-Wheel-Motor Driven Electric Vehicle Based on Multiple Sliding Mode Control Approach
 저자: M. S. Chae, Y. J. Hyun, K. S. Yi, and K. H. Nam*
 학술지: IEEE Access
-DOI: 
+DOI: 10.1109/ACCESS.2019.2940434
 종류: Journal
 상태: Published
 권호쪽: vol. 7, pp. 132448–132458, Sep. 2019
