@@ -7,7 +7,7 @@ ID: archive-2020-22
 제목: Torque Vectoring Algorithm of Electronic-Four-Wheel Drive Vehicles for Enhancement of Cornering Performance
 저자: G. Park, K. Han, K. H. Nam*, H. Kim, and S. B. Choi
 학술지: IEEE Transactions on Vehicular Technology
-DOI: 
+DOI: 10.1109/TVT.2020.2978099
 종류: Journal
 상태: Published
 권호쪽: vol. 69, no. 4, pp. 3668–3679, Apr. 2020
