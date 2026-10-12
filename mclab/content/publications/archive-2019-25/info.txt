@@ -7,7 +7,7 @@ ID: archive-2019-25
 제목: Robust Flow Control of a Syringe Pump Based on Dual-Loop Disturbance Observers
 저자: H. S. Kim, D. S. Cheon, J. S. Lim, and K. H. Nam*
 학술지: IEEE Access
-DOI: 
+DOI: 10.1109/ACCESS.2019.2942062
 종류: Journal
 상태: Published
 권호쪽: vol. 7, pp. 135427–135438, Sep. 2019
