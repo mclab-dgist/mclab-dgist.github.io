@@ -7,7 +7,7 @@ ID: archive-2024-4
 제목: Tire Normal Force Estimation Based on Integrated Suspension State Measurement
 저자: D. Cheon, W. Choi, K. Nam, et al.
 학술지: International Journal of Control, Automation and Systems
-DOI: 
+DOI: 10.1007/s12555-023-0768-x
 종류: Journal
 상태: Published
 권호쪽: vol. 22, no. 6, pp. 1902–1911, May 2024
