@@ -7,7 +7,7 @@ ID: j24-tilt
 제목: Dynamic Modeling and Control of a 4-Wheel Narrow Tilting Vehicle
 저자: S. Y. Lee, H. S. Cho, and K. H. Nam*
 학술지: Actuators
-DOI: 
+DOI: 10.3390/act13060210
 종류: Journal
 상태: Published
 권호쪽: vol. 13, no. 6, Jun. 2024
