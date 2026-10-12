@@ -7,7 +7,7 @@ ID: archive-2020-23
 제목: Inter-Target Occlusion Handling in Multi-Extended Target Tracking Based on Labeled Multi-Bernoulli Filter Using Laser Range Finder
 저자: K. Dai, Y. Wang, J. S. Hu, K. H. Nam, and C. Yin
 학술지: IEEE/ASME Transactions on Mechatronics
-DOI: 
+DOI: 10.1109/TMECH.2020.2994066
 종류: Journal
 상태: Published
 권호쪽: vol. 25, no. 4, pp. 1719–1728, Aug. 2020
