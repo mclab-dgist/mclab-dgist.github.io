@@ -7,7 +7,7 @@ ID: archive-2024-2
 제목: Modeling and Control of a Road Wheel Actuation Module in Steer-by-Wire System
 저자: I. S. Chung, J. D. Choi, and K. H. Nam*
 학술지: Actuators
-DOI: 
+DOI: 10.3390/act13080311
 종류: Journal
 상태: Published
 권호쪽: vol. 13, no. 8, Aug. 2024
