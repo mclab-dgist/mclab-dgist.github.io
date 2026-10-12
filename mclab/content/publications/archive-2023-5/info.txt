@@ -7,7 +7,7 @@ ID: archive-2023-5
 제목: A Twisted Gaussian Risk Model Considering Target Vehicle Longitudinal-Lateral Motion States for Host Vehicle Trajectory Planning
 저자: Z. Zhou, Y. Wang*, G. Zhou, K. H. Nam*, Z. Ji, and C. Yin
 학술지: IEEE Transactions on Intelligent Transportation Systems
-DOI: 
+DOI: 10.1109/TITS.2023.3298110
 종류: Journal
 상태: Published
 권호쪽: vol. 24, no. 12, pp. 13685–13697, Dec. 2023
