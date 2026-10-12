@@ -3,7 +3,6 @@ ID: jihoon-hwang
 공개: true
 표시순서: 10
 이름: Jihoon Hwang
-한글이름: 황지훈
 과정: Post-Master's Researcher
 분류: Researchers
 연구분야: Integrated Vehicle Control / Novel Human–Machine Interfaces (HMI)
