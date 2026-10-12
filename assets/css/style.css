@@ -1432,3 +1432,20 @@ body[data-page="join"] .join-contact-address{font-size:12px}
 .footer-map-link:hover{background:var(--soft-blue);border-color:var(--blue)}
 .footer-map-link span[aria-hidden]{font-size:15px}
 @media(max-width:750px){.footer-location{align-items:flex-start;flex-direction:column;gap:11px}.footer-map-link{white-space:normal}}
+
+
+/* Shared footer: one-step larger type across all pages. */
+.site-footer .footer-compact-brand .footer-brand{font-size:25px}
+.site-footer .footer-compact-brand>span{font-size:13px}
+.site-footer .footer-compact-nav a{font-size:14px}
+.site-footer .footer-compact-email{font-size:14px}
+.site-footer .footer-location-address span{font-size:13px;line-height:1.6}
+.site-footer .footer-map-link{font-size:13px}
+@media(max-width:600px){
+ .site-footer .footer-compact-brand .footer-brand{font-size:24px}
+ .site-footer .footer-compact-brand>span{font-size:12px}
+ .site-footer .footer-compact-nav a,
+ .site-footer .footer-compact-email{font-size:13px}
+ .site-footer .footer-location-address span,
+ .site-footer .footer-map-link{font-size:12px}
+}
