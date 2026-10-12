@@ -1151,3 +1151,17 @@ body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-s
 .join-panel-email:hover{text-decoration:underline}
 @media(max-width:800px){.join-bilingual-grid{grid-template-columns:1fr}.join-panel-top{min-height:0}.join-language-panel{max-width:100%}}
 @media(max-width:520px){.join-panel-top{padding:26px 23px}.join-panel-details{padding:10px 23px}.join-panel-item{grid-template-columns:1fr;gap:5px;padding:17px 0}.join-panel-footer{padding:20px 23px 27px}}
+
+
+/* Detailed research opportunities: matching Korean and English panels. */
+.join-research-label{margin:8px 34px 0;padding:18px 0 9px;border-top:2px solid var(--line);font-size:16px;font-weight:800;color:var(--ink)}
+.join-research-areas{padding:0 34px 15px}
+.join-research-area{padding:21px 0;border-bottom:1px solid var(--line)}
+.join-research-area:last-child{border-bottom:0}
+.join-research-heading{display:flex;align-items:flex-start;gap:11px}
+.join-research-number{flex:none;color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.6px;padding-top:5px}
+.join-research-heading h3{font-size:17px;line-height:1.5;margin:0;color:var(--ink)}
+.join-research-meta{font-size:12px!important;color:var(--blue)!important;font-weight:700;line-height:1.6;margin:8px 0 12px 29px}
+.join-research-area ul{margin:12px 0 0;padding-left:43px;color:var(--muted)}
+.join-research-area li{font-size:13px;line-height:1.75;margin:0 0 8px;overflow-wrap:anywhere}
+@media(max-width:520px){.join-research-label{margin:8px 23px 0}.join-research-areas{padding:0 23px 10px}.join-research-heading h3{font-size:16px}.join-research-area ul{padding-left:28px}.join-research-meta{margin-left:26px}}
