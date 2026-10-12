@@ -1165,3 +1165,18 @@ body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-s
 .join-research-area ul{margin:12px 0 0;padding-left:43px;color:var(--muted)}
 .join-research-area li{font-size:13px;line-height:1.75;margin:0 0 8px;overflow-wrap:anywhere}
 @media(max-width:520px){.join-research-label{margin:8px 23px 0}.join-research-areas{padding:0 23px 10px}.join-research-heading h3{font-size:16px}.join-research-area ul{padding-left:28px}.join-research-meta{margin-left:26px}}
+
+
+/* Join Team: synchronize all corresponding bilingual rows on desktop. */
+@supports (grid-template-rows:subgrid){
+  @media(min-width:801px){
+    .join-bilingual-grid{grid-template-rows:repeat(12,auto);align-items:stretch}
+    .join-language-panel{display:grid;grid-template-rows:subgrid;grid-row:span 12;align-content:stretch}
+    .join-language-panel .join-panel-details,
+    .join-language-panel .join-research-areas{display:contents}
+    .join-language-panel .join-panel-item{padding:19px 34px;margin:0;align-content:center}
+    .join-language-panel .join-research-label{margin:0 34px;padding:19px 0 10px;align-self:stretch}
+    .join-language-panel .join-research-area{padding:20px 34px;align-self:stretch}
+    .join-language-panel .join-panel-footer{margin:0;align-self:stretch;align-content:end}
+  }
+}
