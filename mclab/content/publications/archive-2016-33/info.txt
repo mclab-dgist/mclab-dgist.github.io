@@ -7,7 +7,7 @@ ID: archive-2016-33
 제목: Position Estimation Using Linear Hall Sensors for Permanent Magnet Linear Motor Systems
 저자: J. H. Kim, S. B. Choi, K. H. Cho, and K. H. Nam
 학술지: IEEE Transactions on Industrial Electronics
-DOI: 
+DOI: 10.1109/TIE.2016.2591899
 종류: Journal
 상태: Published
 권호쪽: vol. 63, no. 12, pp. 7644–7652, Dec. 2016
