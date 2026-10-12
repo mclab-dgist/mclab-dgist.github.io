@@ -7,7 +7,7 @@ ID: j23-amr
 제목: Design and Implementation of an Integrated Control System for Omnidirectional Mobile Robots in Industrial Logistics
 저자: A. Neaz, S. Lee, and K. H. Nam*
 학술지: Sensors
-DOI: 
+DOI: 10.3390/s23063184
 종류: Journal
 상태: Published
 권호쪽: vol. 23, no. 6, pp. 1–23, Mar. 2023
