@@ -1299,3 +1299,22 @@ body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-s
 /* Recruitment status uses an accessible red accent on both language panels. */
 .join-panel-status{background:#fff0f1;color:#bd1e2d;border:1px solid #f0b1b9;font-weight:800}
 :root[data-theme=dark] .join-panel-status{background:#51242c;color:#ffb8c0;border-color:#9d4b58}
+
+
+/* Join Team: one-step larger typography and prominent red recruitment status. */
+.join-bilingual-section .join-panel-top h2{font-size:clamp(29px,2.6vw,36px)}
+.join-bilingual-section .join-panel-status{background:#fff0f1;color:#d41426;border:1px solid #e88b97;font-size:15px;font-weight:850;line-height:1.5}
+.join-bilingual-section .join-panel-item dt{font-size:15px}
+.join-bilingual-section .join-panel-item dd{font-size:15px;line-height:1.55}
+.join-bilingual-section .join-research-label{font-size:17px}
+.join-bilingual-section .join-research-number{font-size:13px}
+.join-bilingual-section .join-research-heading h3{font-size:18px;line-height:1.4}
+.join-bilingual-section .join-research-area li{font-size:14px;line-height:1.6}
+.join-bilingual-section .join-panel-footer .btn{font-size:14px}
+.join-bilingual-section .join-panel-email{font-size:14px}
+:root[data-theme=dark] .join-bilingual-section .join-panel-status{background:#5b202b;color:#ffb7c0;border-color:#ce6b79}
+@media(max-width:520px){
+ .join-bilingual-section .join-panel-top h2{font-size:29px}
+ .join-bilingual-section .join-research-heading h3{font-size:17px}
+ .join-bilingual-section .join-research-area li{font-size:13.5px}
+}
