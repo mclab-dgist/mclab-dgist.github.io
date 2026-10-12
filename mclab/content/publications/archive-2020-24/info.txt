@@ -7,7 +7,7 @@ ID: archive-2020-24
 제목: Design of a Robust Rack Position Controller Based on 1-D AMESIM Model of a Steer-By-Wire System
 저자: H. Hwang and K. H. Nam*
 학술지: International Journal of Automotive Technology
-DOI: 
+DOI: 10.1007/s12239-020-0039-2
 종류: Journal
 상태: Published
 권호쪽: vol. 21, no. 2, pp. 419–425, Apr. 2020
