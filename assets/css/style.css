@@ -1462,3 +1462,13 @@ body[data-page="join"] .join-contact-address{font-size:12px}
 .home-recruitment-video{margin-top:18px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#102b48;box-shadow:0 10px 26px rgba(19,51,82,.10)}
 .home-recruitment-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 @media(max-width:600px){.home-recruitment-video{margin-top:13px;border-radius:11px}}
+
+
+/* Home recruitment: refined, more prominent bilingual heading. */
+.home-news-notice .home-notice-card>.notice-category{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:800;letter-spacing:.65px;line-height:1.45;color:#154d83;background:linear-gradient(115deg,#e6f2ff,#f0f7ff);border:1px solid #bcd7f0;border-radius:8px;padding:10px 14px;box-shadow:0 3px 12px rgba(35,94,150,.06)}
+.home-news-notice .home-notice-card>.notice-category:before{content:"";display:inline-block;width:7px;height:7px;flex:none;border-radius:50%;background:#2d82c9;box-shadow:0 0 0 3px #d3e9fc}
+.home-news-notice .home-notice-card>.home-recruitment-video{margin:16px 0 17px;border-radius:12px}
+.home-news-notice .home-notice-card>.home-recruitment-video video{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.home-news-notice .home-notice-card>.home-recruitment-video+.text-link{margin-top:0}
+:root[data-theme=dark] .home-news-notice .home-notice-card>.notice-category{background:linear-gradient(115deg,#203c58,#284966);border-color:#436d94;color:#d8edff}
+@media(max-width:600px){.home-news-notice .home-notice-card>.notice-category{font-size:13px;padding:9px 11px}}
