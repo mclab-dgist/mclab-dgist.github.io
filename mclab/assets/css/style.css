@@ -1108,9 +1108,9 @@ body[data-page="projects"] .project-toolbar .select:focus{
 
 /* Search/filter controls: one step smaller on Publications and Projects. */
 body[data-page="publications"] .publications-toolbar .field-label,
-body[data-page="projects"] .project-toolbar .field-label{font-size:12px}
+body[data-page="projects"] .project-toolbar .field-label{font-size:11px}
 body[data-page="publications"] .publications-toolbar .input,
 body[data-page="publications"] .publications-toolbar .select,
 body[data-page="projects"] .project-toolbar .input,
-body[data-page="projects"] .project-toolbar .select{font-size:15px}
-body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-size:13px}
+body[data-page="projects"] .project-toolbar .select{font-size:14px}
+body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-size:12px}
