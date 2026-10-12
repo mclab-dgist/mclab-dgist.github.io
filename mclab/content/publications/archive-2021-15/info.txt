@@ -7,7 +7,7 @@ ID: archive-2021-15
 제목: Steering Feel Improvement by Mathematical Modeling of the Electric Power Steering System
 저자: J. Choi, K. H. Nam*, and S. Oh*
 학술지: Mechatronics
-DOI: 
+DOI: 10.1016/j.mechatronics.2021.102629
 종류: Journal
 상태: Published
 권호쪽: vol. 78, pp. 1–8, Oct. 2021
