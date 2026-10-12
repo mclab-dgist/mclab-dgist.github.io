@@ -1131,3 +1131,23 @@ body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-s
 :root[data-theme=dark] .home-notice-card.recruitment-video-card{background:#102c4b}
 :root[data-theme=dark] .recruitment-video-card .recruitment-language strong{color:#fff}
 @media(prefers-reduced-motion:reduce){.recruitment-video-card .recruitment-bg-video{display:none}}
+
+
+/* Join the Team: balanced bilingual recruitment presentation. */
+.join-bilingual-section{background:var(--soft)}
+.join-bilingual-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.join-language-panel{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--card);box-shadow:0 14px 35px #153a6210}
+.join-panel-top{padding:32px 34px 28px;background:linear-gradient(125deg,#142e50,#215487);color:#fff;min-height:197px}
+.join-panel-label{font-size:11px;letter-spacing:2px;font-weight:750;color:#c3e2ff}
+.join-panel-top h2{font-size:clamp(26px,2.6vw,36px);letter-spacing:-.9px;margin:15px 0 15px;color:#fff}
+.join-panel-status{display:inline-block;background:#fff1f1;border:1px solid #ffd2d2;border-radius:7px;color:#a52430;font-weight:750;font-size:13px;padding:8px 12px;margin:0}
+.join-panel-details{margin:0;padding:12px 34px 10px;flex:1}
+.join-panel-item{display:grid;grid-template-columns:108px minmax(0,1fr);gap:15px;padding:21px 0;border-bottom:1px solid var(--line)}
+.join-panel-item:last-child{border-bottom:0}
+.join-panel-item dt{font-weight:750;color:var(--ink);font-size:14px}
+.join-panel-item dd{margin:0;color:var(--muted);font-size:14px;line-height:1.75;overflow-wrap:anywhere}
+.join-panel-footer{padding:20px 34px 32px;margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:15px}
+.join-panel-email{font-size:13px;color:var(--blue);overflow-wrap:anywhere}
+.join-panel-email:hover{text-decoration:underline}
+@media(max-width:800px){.join-bilingual-grid{grid-template-columns:1fr}.join-panel-top{min-height:0}.join-language-panel{max-width:100%}}
+@media(max-width:520px){.join-panel-top{padding:26px 23px}.join-panel-details{padding:10px 23px}.join-panel-item{grid-template-columns:1fr;gap:5px;padding:17px 0}.join-panel-footer{padding:20px 23px 27px}}
