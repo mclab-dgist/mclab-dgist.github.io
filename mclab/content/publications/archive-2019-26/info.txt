@@ -7,7 +7,7 @@ ID: archive-2019-26
 제목: Practical Synchronous Steering Angle Control of a Dual-Motor Driving Steer-by-Wire System
 저자: H. J. Hwang, H. J. Choi, and K. H. Nam*
 학술지: IEEE Access
-DOI: 
+DOI: 10.1109/ACCESS.2019.2938803
 종류: Journal
 상태: Published
 권호쪽: vol. 7, pp. 133100–133110, Sep. 2019
