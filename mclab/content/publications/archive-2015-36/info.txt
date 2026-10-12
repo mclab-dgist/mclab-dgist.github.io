@@ -7,7 +7,7 @@ ID: archive-2015-36
 제목: Design of an Adaptive Sliding Mode Controller for Robust Yaw Stabilisation of In-Wheel-Motor-Driven Electric Vehicles
 저자: K. H. Nam, H. Fujimoto, and Y. Hori
 학술지: International Journal of Vehicle Design
-DOI: 
+DOI: 10.1504/IJVD.2015.066474
 종류: Journal
 상태: Published
 권호쪽: vol. 67, no. 1, pp. 98–113, Mar. 2015
