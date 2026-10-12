@@ -7,7 +7,7 @@ ID: archive-2013-39
 제목: Estimation of Sideslip and Roll Angles of Electric Vehicles Using Lateral Tire Force Sensors Through RLS and Kalman Filter Approaches
 저자: K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori
 학술지: IEEE Transactions on Industrial Electronics
-DOI: 
+DOI: 10.1109/TIE.2012.2188874
 종류: Journal
 상태: Published
 권호쪽: vol. 60, no. 3, pp. 988–1000, Mar. 2013
