@@ -7,7 +7,7 @@ ID: archive-2022-11
 제목: Development of Vehicle Maneuvering System for Autonomous Driving
 저자: J. Choi, H. Lee, K. H. Nam*, and S. Oh
 학술지: Mechatronics
-DOI: 
+DOI: 10.1016/j.mechatronics.2022.102798
 종류: Journal
 상태: Published
 권호쪽: vol. 85, pp. 1–22, Aug. 2022
