@@ -656,7 +656,7 @@ html:lang(ko),[lang="ko"],.korean,.program-ko,.ko-name{
 
 /* Home MCLab NEWS: large photo-led vertical editorial gallery as requested. */
 .home-news-notice-grid{grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);gap:43px}
-.home-news-column .home-column-heading h2{font-style:italic;letter-spacing:-1.2px}
+.home-news-column .home-column-heading h2{font-style:normal;letter-spacing:-1.2px}
 .home-news-gallery{display:grid;grid-template-columns:1fr;gap:22px}
 .home-news-photo,.home-news-photo:first-child{grid-column:auto;display:block;overflow:hidden;border-radius:10px}
 .home-news-photo img,.home-news-photo:first-child img{display:block;width:100%;height:auto;aspect-ratio:1.9;object-fit:cover;transition:transform .3s ease}
