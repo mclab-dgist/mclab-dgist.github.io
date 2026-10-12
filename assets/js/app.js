@@ -119,7 +119,7 @@
         <div class="home-news-gallery">${newsGallery||'<p>News and lab photographs will be posted here.</p>'}</div>
       </div>
       <div class="home-notice-column"><div class="home-column-heading"><h2>NOTICE</h2><a href="${link('join')}">Join us ${right}</a></div>
-        <article class="home-notice-card"><span class="notice-category">RECRUITMENT · 연구원 모집</span>
+        <article class="home-notice-card recruitment-video-card"><video class="recruitment-bg-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true"><source src="assets/video/MCLab.mp4" type="video/mp4"></video><div class="recruitment-video-shade" aria-hidden="true"></div><div class="recruitment-video-content"><span class="notice-category">RECRUITMENT · 연구원 모집</span>
           <h3>Join MCLab</h3><p class="recruitment-closed" role="status">2027년 봄학기 모집 완료 <span lang="en">· Spring 2027 Recruitment Closed</span></p>
           <div class="recruitment-language" lang="ko">
             <p><strong>모집 대상</strong> · 학부연구생, 석사 및 박사과정 학생</p>
@@ -135,6 +135,7 @@
           </div>
           <p class="home-notice-contact"><strong>✉</strong> <a href="mailto:khnam@dgist.ac.kr">khnam@dgist.ac.kr</a></p>
           <a class="text-link" href="${link('join')}">Application &amp; details ${right}</a>
+          </div>
         </article>
         <article class="home-notice-secondary"><span class="notice-category">LAB UPDATES</span><h3>Recent announcements</h3>
           ${[...D.news].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,2).map(n=>`<a href="${link('news',n.id)}"><time datetime="${esc(n.date)}">${esc(n.date)}</time><span>${esc(n.title)}</span></a>`).join('')}
