@@ -7,7 +7,7 @@ ID: archive-2017-31
 제목: Steering Torque Control Using Variable Impedance Models for a Steer-By-Wire System
 저자: D. S. Cheon and K. H. Nam*
 학술지: International Journal of Automotive Technology
-DOI: 
+DOI: 10.1007/s12239-017-0026-4
 종류: Journal
 상태: Published
 권호쪽: vol. 18, no. 2, pp. 263–270, Apr. 2017
