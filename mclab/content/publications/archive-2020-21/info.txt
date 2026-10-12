@@ -7,7 +7,7 @@ ID: archive-2020-21
 제목: Vehicle Side-Slip Angle Estimation of Ground Vehicles Based on a Lateral Acceleration Compensation
 저자: K. Cho, H. Son, Y. Wang, K. H. Nam*, and S. B. Choi
 학술지: IEEE Access
-DOI: 
+DOI: 10.1109/ACCESS.2020.3028044
 종류: Journal
 상태: Published
 권호쪽: vol. 8, pp. 180433–80443, Oct. 2020
