@@ -7,7 +7,7 @@ ID: archive-2019-28
 제목: Kalman Filter-Based Tension Control Design for Industrial Roll-to-Roll System
 저자: H. J. Hwang, S. J. Eum, J. W. Lee, and K. H. Nam*
 학술지: Algorithms
-DOI: 
+DOI: 10.3390/a12040086
 종류: Journal
 상태: Published
 권호쪽: vol. 12, no. 4, Apr. 2019
