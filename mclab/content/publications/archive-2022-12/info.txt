@@ -7,7 +7,7 @@ ID: archive-2022-12
 제목: Robust Periodic Adaptive Disturbance Observer Based Control Considering Long-Term Instability Problems for High-Load Motion Systems
 저자: K. Cho and K. H. Nam*
 학술지: IEEE Transactions on Industrial Electronics
-DOI: 
+DOI: 10.1109/TIE.2021.3094413
 종류: Journal
 상태: Published
 권호쪽: vol. 69, no. 6, pp. 6258–6266, Jun. 2022
