@@ -7,7 +7,7 @@ ID: archive-2021-17
 제목: Distributed Intersection Conflict Resolution for Multiple Vehicles Considering Longitudinal-Lateral Dynamics
 저자: K. Wang, Y. Wang, L. Wang, H. Du, and K. H. Nam
 학술지: IEEE Transactions on Vehicular Technology
-DOI: 
+DOI: 10.1109/TVT.2021.3072629
 종류: Journal
 상태: Published
 권호쪽: vol. 70, no. 5, pp. 4166–4177, May 2021
