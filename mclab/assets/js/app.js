@@ -38,7 +38,7 @@
   };
   const icon = (name, cls='') => `<svg class="${cls}" viewBox="0 0 ${['motion','xbywire','learning','teleoperation'].includes(name)?36:24} ${['motion','xbywire','learning','teleoperation'].includes(name)?36:24}" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${glyphs[name] || glyphs.motion}</svg>`;
   const mark = '<svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 22V8l7 10 5-12 5 12 7-10v14"/></svg>';
-  const sourceNote = key => `<p class="source-note">Initial records adapted from the ${ext(D.sources[key] || D.sources.home,'MCLab website','inline-link')}. Maintained through the lab’s content folders. ${C.builtAt?'Site build: '+esc(C.builtAt.slice(0,10))+'. ':''}${key==='publications'?'Publication status is recorded explicitly; submission is not acceptance.':''}</p>`;
+  const sourceNote = key => key==='publications' ? '<p class="source-note">Publication status is recorded explicitly; submission is not acceptance.</p>' : '';
   const simpleHero = title => `<section class="page-hero simple-page-hero"><div class="container"><h1>${title}</h1></div></section>`;
   const pageHero = (label,title,desc,sub='') => `<section class="page-hero"><div class="container"><div class="eyebrow">${label}</div><h1>${title}</h1><p>${desc}</p>${sub}</div></section>`;
   const sectionHead = (eyebrow,title,extra='') => `<div class="section-header"><div><div class="eyebrow">${eyebrow}</div><h2>${title}</h2></div>${extra}</div>`;
