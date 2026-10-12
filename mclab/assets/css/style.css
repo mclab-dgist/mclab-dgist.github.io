@@ -1454,3 +1454,11 @@ body[data-page="join"] .join-contact-address{font-size:12px}
 /* Slightly smaller Join us badge in the shared top navigation. */
 .site-header .nav-join{font-size:13px;padding:8px 11px;line-height:1.4}
 @media(max-width:800px){.site-header .nav-join{font-size:11px;padding:7px 10px}}
+
+
+/* Recruitment video moved below the notice; clean readable notice card. */
+.home-news-notice .home-notice-column .home-notice-card{background:var(--card);color:var(--ink)}
+.home-news-notice .home-notice-column .home-notice-card .recruitment-language strong{color:var(--ink)}
+.home-recruitment-video{margin-top:18px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#102b48;box-shadow:0 10px 26px rgba(19,51,82,.10)}
+.home-recruitment-video video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+@media(max-width:600px){.home-recruitment-video{margin-top:13px;border-radius:11px}}
