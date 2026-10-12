@@ -7,7 +7,7 @@ ID: archive-2014-38
 제목: Advanced Motion Control of Electric Vehicles Based on Robust Lateral Tire Force Control via Active Front Steering
 저자: K. H. Nam, H. Fujimoto, and Y. Hori
 학술지: IEEE/ASME Transactions on Mechatronics
-DOI: 
+DOI: 10.1109/TMECH.2012.2233210
 종류: Journal
 상태: Published
 권호쪽: vol. 19, no. 1, pp. 289–299, Feb. 2014
