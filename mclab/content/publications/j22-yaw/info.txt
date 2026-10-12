@@ -7,7 +7,7 @@ ID: j22-yaw
 제목: Integrated Yaw Stability Control of Electric Vehicle Equipped with Front/Rear Steer-by-Wire Systems and Four In-Wheel Motors
 저자: Y. Seo, K. Cho, and K. H. Nam*
 학술지: Electronics
-DOI: 
+DOI: 10.3390/electronics11081277
 종류: Journal
 상태: Published
 권호쪽: vol. 11, no. 8, pp. 1–25, Apr. 2022
