@@ -7,7 +7,7 @@ ID: archive-2022-9
 제목: High Accuracy Driving Control of a Stone-Throwing Mobile Robot for Curling
 저자: J. Choi, K. H. Nam*, and S. Oh*
 학술지: IEEE Transactions on Automation Science and Engineering
-DOI: 
+DOI: 10.1109/TASE.2021.3114090
 종류: Journal
 상태: Published
 권호쪽: vol. 19, no. 4, pp. 3210–3221, Dec. 2022
