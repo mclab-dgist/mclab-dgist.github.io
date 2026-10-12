@@ -7,7 +7,7 @@ ID: archive-2021-14
 제목: Trajectory Prediction of Preceding Target Vehicles Based on Lane Crossing and Final Points Generation Model Considering Driving Styles
 저자: X. Liu, Y. Wang*, Z. Zhou, K. H. Nam*, C. Wei, and C. Yin*
 학술지: IEEE Transactions on Vehicular Technology
-DOI: 
+DOI: 10.1109/TVT.2021.3098429
 종류: Journal
 상태: Published
 권호쪽: vol. 70, no. 9, pp. 8720–8730, Sep. 2021
