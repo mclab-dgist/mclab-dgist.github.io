@@ -7,7 +7,7 @@ ID: archive-2018-29
 제목: Disturbance Observer-Based Sideslip Angle Control for Improving Cornering Characteristics of In-Wheel Motor Electric Vehicles
 저자: H. S. Kim, Y. J. Hyun, and K. H. Nam*
 학술지: International Journal of Automotive Technology
-DOI: 
+DOI: 10.1007/s12239-018-0105-1
 종류: Journal
 상태: Published
 권호쪽: vol. 19, no. 6, Dec. 2018
