@@ -1114,3 +1114,20 @@ body[data-page="publications"] .publications-toolbar .select,
 body[data-page="projects"] .project-toolbar .input,
 body[data-page="projects"] .project-toolbar .select{font-size:14px}
 body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-size:12px}
+
+
+/* Recruitment cinematic video background; graceful fallback until video is available. */
+.home-notice-card.recruitment-video-card{isolation:isolate;background:linear-gradient(135deg,#102c4b,#184f78);border-color:#2d5478;color:#fff}
+.recruitment-video-card .recruitment-bg-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;pointer-events:none}
+.recruitment-video-card .recruitment-video-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(7,24,46,.93),rgba(7,30,53,.79) 58%,rgba(9,35,58,.67));pointer-events:none}
+.recruitment-video-card .recruitment-video-content{position:relative;z-index:1}
+.recruitment-video-card .notice-category{background:rgba(204,230,255,.16);border:1px solid rgba(221,239,255,.28);color:#e5f4ff}
+.recruitment-video-card h3,.recruitment-video-card .recruitment-language strong{color:#fff}
+.recruitment-video-card .recruitment-language p,.recruitment-video-card .home-notice-contact,.recruitment-video-card .home-notice-contact a{color:#e1ecf6}
+.recruitment-video-card .recruitment-language-en,.recruitment-video-card .home-notice-contact{border-color:rgba(224,237,251,.25)}
+.recruitment-video-card .text-link{background:#fff;color:#153e67}
+.recruitment-video-card .text-link:hover{background:#d9ebff;color:#123d6c}
+.recruitment-video-card .recruitment-closed{background:rgba(75,22,30,.88);color:#ffe5e7;border-color:#d68d92}
+:root[data-theme=dark] .home-notice-card.recruitment-video-card{background:#102c4b}
+:root[data-theme=dark] .recruitment-video-card .recruitment-language strong{color:#fff}
+@media(prefers-reduced-motion:reduce){.recruitment-video-card .recruitment-bg-video{display:none}}
