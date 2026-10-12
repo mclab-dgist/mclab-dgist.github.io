@@ -7,7 +7,7 @@ ID: archive-2021-16
 제목: Game-Theory-Inspired Hierarchical Distributed Control Strategy for Cooperative Intersection Considering Priority Negotiation
 저자: K. Wang, Y. Wang*, H. Du, and K. H. Nam*
 학술지: IEEE Transactions on Vehicular Technology
-DOI: 
+DOI: 10.1109/TVT.2021.3086563
 종류: Journal
 상태: Published
 권호쪽: vol. 70, no. 7, pp. 6438–6449, Jul. 2021
