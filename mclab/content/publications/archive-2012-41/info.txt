@@ -7,7 +7,7 @@ ID: archive-2012-41
 제목: Lateral Stability Control of In-Wheel-Motor-Driven Electric Vehicles Based on Sideslip Angle Estimation Using Lateral Tire Force Sensors
 저자: K. H. Nam, H. Fujimoto, and Y. Hori
 학술지: IEEE Transactions on Vehicular Technology
-DOI: 
+DOI: 10.1109/TVT.2012.2191627
 종류: Journal
 상태: Published
 권호쪽: vol. 61, no. 5, pp. 1972–1985, Jun. 2012
