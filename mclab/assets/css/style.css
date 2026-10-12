@@ -1385,3 +1385,26 @@ body[data-page="publications"] .publication-toolbar-actions .resource-btn{font-s
 :root[data-theme=dark] .join-contact-details a{color:#9dd1ff}
 :root[data-theme=dark] .join-contact-address{border-color:#3d566e}
 @media(max-width:750px){.join-contact-strip{grid-template-columns:1fr;padding:21px}.join-contact-address{grid-column:1}}
+
+
+/* Join Team: increase all recruitment and contact typography by one step. */
+body[data-page="join"] .join-bilingual-section .join-panel-top h2{font-size:clamp(32px,2.9vw,39px)}
+body[data-page="join"] .join-bilingual-section .join-panel-status{font-size:16px}
+body[data-page="join"] .join-bilingual-section .join-panel-item dt{font-size:16px}
+body[data-page="join"] .join-bilingual-section .join-panel-item dd{font-size:16px}
+body[data-page="join"] .join-bilingual-section .join-research-label{font-size:19px}
+body[data-page="join"] .join-bilingual-section .join-research-number{font-size:14px}
+body[data-page="join"] .join-bilingual-section .join-research-heading h3{font-size:19px}
+body[data-page="join"] .join-bilingual-section .join-research-area li{font-size:15px}
+body[data-page="join"] .join-bilingual-section .join-panel-footer .btn{font-size:15px}
+body[data-page="join"] .join-bilingual-section .join-panel-email{font-size:15px}
+body[data-page="join"] .join-contact-kicker{font-size:11px}
+body[data-page="join"] .join-contact-identity strong{font-size:19px}
+body[data-page="join"] .join-contact-identity>span:last-child{font-size:13px}
+body[data-page="join"] .join-contact-details{font-size:14px}
+body[data-page="join"] .join-contact-address{font-size:12px}
+@media(max-width:520px){
+ body[data-page="join"] .join-bilingual-section .join-panel-top h2{font-size:32px}
+ body[data-page="join"] .join-bilingual-section .join-research-heading h3{font-size:18px}
+ body[data-page="join"] .join-bilingual-section .join-research-area li{font-size:14.5px}
+}
