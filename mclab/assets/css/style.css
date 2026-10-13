@@ -1597,3 +1597,10 @@ body[data-page="home"] .hero.video-home .home-background-video{
  transform:scale(1.4);
  transform-origin:center center;
 }
+
+
+/* Professor profile: two clickable addresses grouped under one email label. */
+.faculty-contact .faculty-email-group{display:inline-flex;align-items:center;flex-wrap:wrap;gap:5px 7px}
+.faculty-contact .faculty-email-group a{color:var(--blue);text-decoration:none}
+.faculty-contact .faculty-email-group a:hover{text-decoration:underline;text-underline-offset:3px}
+.faculty-contact .faculty-email-divider{color:var(--muted);padding:0 3px}
