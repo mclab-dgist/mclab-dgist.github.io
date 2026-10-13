@@ -1594,6 +1594,6 @@ body[data-page="home"] .hero.video-home .home-background-video{
  height:100%;
  object-fit:cover;
  object-position:center center;
- transform:scale(1.12);
+ transform:scale(1.4);
  transform-origin:center center;
 }
