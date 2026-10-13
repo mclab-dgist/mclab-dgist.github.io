@@ -248,13 +248,13 @@
     ];
     const areasKo=[
       ['전동화 X-by-Wire 샤시 시스템제어','',['SbW·EMB·능동현가·Active Anti-Roll Bar의 모델링 및 제어','랙추력, 클램핑력, 롤토크 정밀추정 및 강인제어','모방학습 기반 조향감 생성, EMB 기반 ABS/TCS/ESC 제어로직']],
-      ['고성능 차량 통합모션제어 및 차세대 원격주행','',['조향·제동·구동·현가 통합제어 및 최적 타이어 힘 분배','핸들링·승차감·에너지 효율을 위한 예측·최적제어','통신 지연·지터·패킷 손실 예측·보상, 양방향 원격조향 및 HIL 검증']],
+      ['고성능 차량 통합모션제어 및 차세대 원격주행','',['조향·제동·구동·현가 통합제어 및 최적 타이어 힘 분배','핸들링·승차감·에너지 효율을 위한 예측·최적제어','통신 지연 예측·시각보상, 양방향 원격제어 및 실차량 검증']],
       ['AI 기반 샤시 모델개발 및 차량 상태추정','',['물리·AI 융합 샤시모델 및 Sim-to-Real 가상센서 개발','타이어 힘(Fx-Fy-Fz)추정·노면 마찰·차체 운동상태 추정 및 실차평가','실시간 AI 추론 기반 모델 적응·이상감지·고장진단']],
       ['학습 기반 고정밀 모션제어 및 실시간 AI 응용','',['전동 액추에이터 위치·속도·토크 고정밀 제어','Learning-DOB·Sliding Mode Control과 학습 기반 마찰·외란 보상','실시간 임베디드 보드 기반 AI 추론 및 전동화 샤시모델 개발·제어']]
     ];
     const areasEn=[
       ['X-by-Wire and Electrified Chassis System Control','',['Modeling and control of SbW, EMB, active suspension and active anti-roll bars','Actuator force/torque estimation, precision tracking and robust control','Imitation learning-based steering feel generation and EMB-based ABS/TCS/ESC control logic']],
-      ['Integrated Vehicle Motion Control and Next-Generation Teleoperation','',['Coordinated steering, braking, propulsion and suspension control with optimal tire-force allocation','Predictive/optimal control for handling, ride comfort and energy efficiency','Prediction and compensation of latency, jitter and packet loss; bilateral remote steering and HIL validation']],
+      ['Integrated Vehicle Motion Control and Next-Generation Teleoperation','',['Coordinated steering, braking, propulsion and suspension control with optimal tire-force allocation','Predictive/optimal control for handling, ride comfort and energy efficiency','Communication-delay prediction and visual compensation, bilateral remote control and real-vehicle validation']],
       ['AI-Based Chassis Modeling and Vehicle State Estimation','',['Physics–AI hybrid models and Sim-to-Real virtual sensors','Tire-force, road-friction and vehicle-motion-state estimation','Real-time AI inference for model adaptation, anomaly detection and fault diagnosis']],
       ['Learning-Based Precision Motion Control and Real-Time AI','',['High-precision position, speed and torque control of electrified actuators','DOB/sliding-mode control with learning-based friction and disturbance compensation','Real-time AI inference and electrified chassis modeling and control on embedded hardware']]
     ];
