@@ -1538,3 +1538,17 @@ body[data-page="home"] .home-notice-card>.text-link:focus-visible{outline:3px so
 .philosophy-section-label{font-family:"Space Grotesk",Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:2.4px;color:#a8d4ff;margin:33px 0 -20px;text-transform:uppercase}
 .philosophy-section-label:before{content:"";display:inline-block;vertical-align:middle;width:24px;height:2px;margin-right:12px;background:#74b7f3}
 @media(max-width:780px){.philosophy-section-label{margin:27px 0 -13px;font-size:11px;letter-spacing:2px}}
+
+
+/* Premium slim recruitment banner — identical styling for Korean and English. */
+body[data-page="join"] .join-language-panel .join-panel-top{display:flex;align-items:center;justify-content:space-between;gap:22px;min-height:0;padding:22px 30px;background:radial-gradient(ellipse at 91% 18%,rgba(79,172,240,.27),transparent 34%),linear-gradient(108deg,#0d223b 0%,#153655 57%,#225a86 100%);isolation:isolate}
+body[data-page="join"] .join-language-panel .join-panel-top:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(127deg,transparent 66%,rgba(117,198,255,.08) 66.15%,transparent 66.35%),radial-gradient(circle at 101% -50%,transparent 0 155px,rgba(128,198,245,.22) 156px 157px,transparent 158px),radial-gradient(circle at 101% -50%,transparent 0 204px,rgba(128,198,245,.11) 205px 206px,transparent 207px);pointer-events:none}
+body[data-page="join"] .join-language-panel .join-panel-top:after{content:none}
+body[data-page="join"] .join-panel-heading{display:flex;align-items:center;gap:20px;flex-wrap:wrap;min-width:0;position:relative;z-index:1}
+body[data-page="join"] .join-bilingual-section .join-panel-top h2{font-size:clamp(28px,2.7vw,38px);line-height:1.2;letter-spacing:-.8px;margin:0;color:#fff}
+body[data-page="join"] .join-bilingual-section .join-panel-status{margin:0;background:#fff3f3;color:#d11427;border:1px solid #f0a9b1;border-radius:7px;font-size:clamp(12px,1.2vw,15px);font-weight:800;padding:9px 12px;line-height:1.3;white-space:normal}
+body[data-page="join"] .join-panel-signature{position:relative;z-index:1;display:flex;flex-direction:column;align-items:flex-end;gap:4px;white-space:nowrap;color:#a9cce9}
+body[data-page="join"] .join-panel-signature strong{font-family:"Space Grotesk",Arial,sans-serif;font-size:14px;letter-spacing:3px;font-weight:500}
+body[data-page="join"] .join-panel-signature span{font-family:"Space Grotesk",Arial,sans-serif;font-size:9px;letter-spacing:2px}
+@media(max-width:750px){body[data-page="join"] .join-language-panel .join-panel-top{padding:20px 22px}body[data-page="join"] .join-panel-signature{display:none}body[data-page="join"] .join-panel-heading{gap:12px}}
+@media(max-width:430px){body[data-page="join"] .join-bilingual-section .join-panel-top h2{font-size:27px}body[data-page="join"] .join-bilingual-section .join-panel-status{font-size:12px;padding:7px 9px}}
