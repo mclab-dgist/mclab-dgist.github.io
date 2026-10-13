@@ -1506,3 +1506,27 @@ body[data-page="home"] .home-notice-card>.text-link:focus-visible{outline:3px so
 :root[data-theme=dark] body[data-page="home"] .home-notice-card>.text-link{border-color:#448bc8;background:linear-gradient(110deg,#14508b,#2179b6);color:#fff}
 @media(max-width:600px){body[data-page="home"] .home-notice-card>.text-link{font-size:15px;min-height:51px}}
 @media(prefers-reduced-motion:reduce){body[data-page="home"] .home-notice-card>.text-link,body[data-page="home"] .home-notice-card>.text-link .arrow{transition:none}body[data-page="home"] .home-notice-card>.text-link:hover{transform:none}}
+
+
+/* Minimal three-column philosophy with Space Grotesk and Pretendard. */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Pretendard:wght@400;500;600&display=swap');
+.home-philosophy .philosophy-values.philosophy-pillars.philosophy-minimal,
+.philosophy-values.philosophy-pillars.philosophy-minimal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:35px;padding:21px 0 4px;border-top:1px solid rgba(168,201,233,.3);background:transparent;border-radius:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.philosophy-pillars.philosophy-minimal .philosophy-pillar,
+.philosophy-pillars.philosophy-minimal .philosophy-pillar+.philosophy-pillar{min-width:0;min-height:0;padding:4px 24px 8px;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.philosophy-pillars.philosophy-minimal .philosophy-pillar:first-child{padding-left:0}
+.philosophy-pillars.philosophy-minimal .philosophy-pillar+.philosophy-pillar{border-left:1px solid rgba(168,201,233,.25)}
+.philosophy-pillars.philosophy-minimal .philosophy-pillar:before,
+.philosophy-pillars.philosophy-minimal .philosophy-pillar:after{content:none;display:none}
+.philosophy-pillars.philosophy-minimal .pillar-label{font-family:"Space Grotesk",Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:1.65px;color:#9ec8ee;margin:0 0 8px}
+.philosophy-pillars.philosophy-minimal .philosophy-pillar strong{font-family:"Space Grotesk",Arial,sans-serif;font-size:clamp(17px,1.55vw,23px);font-weight:600;line-height:1.32;letter-spacing:-.65px;min-height:0;margin:0;color:#fff}
+.philosophy-pillars.philosophy-minimal .philosophy-pillar p{font-family:"Pretendard","Noto Sans KR","Malgun Gothic",sans-serif;font-size:13px;font-weight:400;line-height:1.55;color:#c9d8e8;margin:9px 0 0;word-break:keep-all}
+@media(max-width:780px){
+ .philosophy-values.philosophy-pillars.philosophy-minimal{grid-template-columns:1fr;gap:0;margin-top:28px;padding-top:12px}
+ .philosophy-pillars.philosophy-minimal .philosophy-pillar,
+ .philosophy-pillars.philosophy-minimal .philosophy-pillar:first-child,
+ .philosophy-pillars.philosophy-minimal .philosophy-pillar+.philosophy-pillar{padding:15px 0;border-left:0;border-bottom:1px solid rgba(168,201,233,.2)}
+ .philosophy-pillars.philosophy-minimal .philosophy-pillar:last-child{border-bottom:0}
+ .philosophy-pillars.philosophy-minimal .philosophy-pillar strong{font-size:20px}
+ .philosophy-pillars.philosophy-minimal .philosophy-pillar p{font-size:13px;margin-top:6px}
+}
