@@ -1552,3 +1552,22 @@ body[data-page="join"] .join-panel-signature strong{font-family:"Space Grotesk",
 body[data-page="join"] .join-panel-signature span{font-family:"Space Grotesk",Arial,sans-serif;font-size:9px;letter-spacing:2px}
 @media(max-width:750px){body[data-page="join"] .join-language-panel .join-panel-top{padding:20px 22px}body[data-page="join"] .join-panel-signature{display:none}body[data-page="join"] .join-panel-heading{gap:12px}}
 @media(max-width:430px){body[data-page="join"] .join-bilingual-section .join-panel-top h2{font-size:27px}body[data-page="join"] .join-bilingual-section .join-panel-status{font-size:12px;padding:7px 9px}}
+
+
+/* Publications only: compact Under review, Journal and Conference badges. */
+body[data-page="publications"] .pub-row .pub-meta .pill.amber,
+body[data-page="publications"] .pub-row .pub-meta .pub-type-journal,
+body[data-page="publications"] .pub-row .pub-meta .pub-type-conference{
+ font-size:10px;
+ line-height:1.25;
+ padding:2px 6px;
+ border-radius:4px;
+ letter-spacing:0;
+ gap:3px;
+}
+body[data-page="publications"] .pub-row .pub-meta{column-gap:5px;row-gap:4px}
+@media(max-width:600px){
+ body[data-page="publications"] .pub-row .pub-meta .pill.amber,
+ body[data-page="publications"] .pub-row .pub-meta .pub-type-journal,
+ body[data-page="publications"] .pub-row .pub-meta .pub-type-conference{font-size:9px;padding:2px 5px}
+}
