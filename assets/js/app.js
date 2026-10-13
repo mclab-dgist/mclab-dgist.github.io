@@ -109,6 +109,7 @@
       <p class="philosophy-lead">Engineering safer, smarter, and more efficient mobility.</p>
       <p class="philosophy-statement">We unite <strong>vehicle dynamics</strong>, <strong>intelligent control</strong>, and <strong>AI</strong> to turn physical insight into reliable motion — from electrified chassis systems to next-generation mobility.</p>
       <div class="philosophy-actions"><a class="btn" href="${link('research')}">Explore our research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">Meet MCLab ${right}</a></div>
+      <div class="philosophy-section-label">MCLAB PHILOSOPHY</div>
       <div class="philosophy-values philosophy-pillars philosophy-minimal" aria-label="MCLab research, education and social philosophy">
         <div class="philosophy-pillar"><span class="pillar-label">RESEARCH</span><strong>Physics Meets Intelligence.</strong><p lang="ko">물리와 AI의 융합으로 미래 모빌리티 혁신</p></div>
         <div class="philosophy-pillar"><span class="pillar-label">EDUCATION</span><strong>Learn by Doing.</strong><p lang="ko">실험과 도전을 통한 연구역량 성장</p></div>
