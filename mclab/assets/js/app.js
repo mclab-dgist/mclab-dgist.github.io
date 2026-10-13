@@ -126,13 +126,13 @@
           <div class="recruitment-language" lang="ko">
             <p><strong>모집 대상</strong> · 학부연구생, 석사, 석박통합 및 박사과정 학생</p>
             <p><strong>연구 분야</strong> · X-by-Wire, 통합 차량 모션제어, AI 기반 모델링·제어, Mobility AI</p>
-            <p><strong>연구 지원</strong> · 장학금·연구장려금(지원 자격 및 재원에 따름), 산학협력 및 국제학회 참여 기회</p>
+            <p><strong>연구 지원</strong> · 장학금·연구장려금(지원 자격 및 재원에 따름), 산학공동연구 및 국제학회 참여 기회</p>
             <p><strong>지원 방법</strong> · 이력서 또는 간단한 연구계획서를 이메일로 제출</p>
           </div>
           <div class="recruitment-language recruitment-language-en" lang="en">
             <p><strong>Positions</strong> · Undergraduate interns, M.S., Integrated M.S.–Ph.D., and Ph.D. students</p>
             <p><strong>Research</strong> · X-by-Wire, integrated motion control, AI-assisted modeling and control, Mobility AI</p>
-            <p><strong>Support</strong> · Scholarships and stipends (subject to eligibility and funding), industry collaboration and international conferences</p>
+            <p><strong>Support</strong> · Scholarships and stipends (subject to eligibility and funding), industry–academia joint research and international conferences</p>
             <p><strong>Apply</strong> · Email your CV or brief research statement</p>
           </div>
           <p class="home-notice-contact"><strong>✉</strong> <a href="mailto:khnam@dgist.ac.kr">khnam@dgist.ac.kr</a></p>
@@ -237,13 +237,13 @@
     const topicsKo=[
       ['모집 대상','학부연구생, 석사, 석박통합 및 박사과정 학생'],
       ['연구 분야','X-by-Wire 시스템, 차량 통합모션제어, Lv4 자율주행 대응 원격주행·통신지연보상, AI 기반 모델개발 및 상태추정, 학습 기반 고정밀 모션제어'],
-      ['연구 지원','장학금·연구장려금(지원 자격 및 재원에 따름), 산학협력 및 국제학회 참여 기회'],
+      ['연구 지원','장학금·연구장려금(지원 자격 및 재원에 따름), 산학공동연구 및 국제학회 참여 기회'],
       ['지원 방법','이력서 또는 간단한 연구계획서를 이메일로 제출']
     ];
     const topicsEn=[
       ['Positions','Undergraduate interns, M.S., Integrated M.S.–Ph.D., and Ph.D. students'],
       ['Research','X-by-Wire systems, integrated vehicle motion control, delay-compensated teleoperation for Level 4 autonomous vehicles, AI-based modeling and state estimation, learning-based precision motion control'],
-      ['Support','Scholarships and stipends (subject to eligibility and funding), industry collaboration and international conferences'],
+      ['Support','Scholarships and stipends (subject to eligibility and funding), industry–academia joint research and international conferences'],
       ['Apply','Email your CV or brief research statement']
     ];
     const areasKo=[
