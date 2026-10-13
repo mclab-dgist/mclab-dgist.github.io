@@ -1585,3 +1585,15 @@ body[data-page="publications"] .pub-row .pub-meta .pill.neutral{
 @media(max-width:600px){
  body[data-page="publications"] .pub-row .pub-meta .pill.neutral{font-size:9px;padding:2px 5px}
 }
+
+
+/* Home hero video: crop outer edges in the viewport without changing the MP4. */
+body[data-page="home"] .hero.video-home .home-background-video{
+ inset:0;
+ width:100%;
+ height:100%;
+ object-fit:cover;
+ object-position:center center;
+ transform:scale(1.12);
+ transform-origin:center center;
+}
