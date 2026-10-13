@@ -1571,3 +1571,17 @@ body[data-page="publications"] .pub-row .pub-meta{column-gap:5px;row-gap:4px}
  body[data-page="publications"] .pub-row .pub-meta .pub-type-journal,
  body[data-page="publications"] .pub-row .pub-meta .pub-type-conference{font-size:9px;padding:2px 5px}
 }
+
+
+/* Match publication year and Before DGIST badges to compact status/type badges. */
+body[data-page="publications"] .pub-row .pub-meta .pill.neutral{
+ font-size:10px;
+ line-height:1.25;
+ padding:2px 6px;
+ border-radius:4px;
+ letter-spacing:0;
+ gap:3px;
+}
+@media(max-width:600px){
+ body[data-page="publications"] .pub-row .pub-meta .pill.neutral{font-size:9px;padding:2px 5px}
+}
