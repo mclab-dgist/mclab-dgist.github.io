@@ -112,7 +112,7 @@
       <div class="philosophy-values philosophy-pillars philosophy-minimal" aria-label="MCLab research, education and social philosophy">
         <div class="philosophy-pillar"><span class="pillar-label">RESEARCH</span><strong>Physics Meets Intelligence.</strong><p lang="ko">물리와 AI의 융합으로 미래 모빌리티 혁신</p></div>
         <div class="philosophy-pillar"><span class="pillar-label">EDUCATION</span><strong>Learn by Doing.</strong><p lang="ko">실험과 도전을 통한 연구역량 성장</p></div>
-        <div class="philosophy-pillar"><span class="pillar-label">SOCIAL</span><strong>Respect &amp; Impact.</strong><p lang="ko">존중과 협력으로 실질적 가치 창출</p></div>
+        <div class="philosophy-pillar"><span class="pillar-label">SOCIAL</span><strong>Respect &amp; Collaboration.</strong><p lang="ko">존중과 협력으로 실질적 가치 창출</p></div>
       </div>
     </div></section>
     <section class="section home-news-notice"><div class="container home-news-notice-grid">
