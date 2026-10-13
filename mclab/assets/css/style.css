@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Pretendard:wght@400;500;600&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css');
 /* Original MCLab design. No external fonts, frameworks, or tracking scripts. */
 :root{color-scheme:light;--bg:#fff;--soft:#f5f7fb;--soft-blue:#eef3ff;--ink:#101d36;--muted:#59677e;--blue:#285de6;--blue-dark:#1748bf;--line:#e0e6ef;--card:#fff;--nav:#ffffffed;--shadow:0 12px 42px #12294f0a;--green:#216b51;--radius:16px;--max:1200px}
@@ -1509,7 +1510,7 @@ body[data-page="home"] .home-notice-card>.text-link:focus-visible{outline:3px so
 
 
 /* Minimal three-column philosophy with Space Grotesk and Pretendard. */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Pretendard:wght@400;500;600&display=swap');
+
 .home-philosophy .philosophy-values.philosophy-pillars.philosophy-minimal,
 .philosophy-values.philosophy-pillars.philosophy-minimal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:35px;padding:21px 0 4px;border-top:1px solid rgba(168,201,233,.3);background:transparent;border-radius:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
 .philosophy-pillars.philosophy-minimal .philosophy-pillar,
