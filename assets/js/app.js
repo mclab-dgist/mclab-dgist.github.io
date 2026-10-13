@@ -124,13 +124,13 @@
         <article class="home-notice-card"><span class="notice-category">RECRUITMENT · 연구원 모집</span>
           <h3>Join MCLab</h3><p class="recruitment-closed" role="status">2027년 봄학기 모집 완료 <span lang="en">· Spring 2027 Recruitment Closed</span></p>
           <div class="recruitment-language" lang="ko">
-            <p><strong>모집 대상</strong> · 학부연구생, 석사 및 박사과정 학생</p>
+            <p><strong>모집 대상</strong> · 학부연구생, 석사, 석박통합 및 박사과정 학생</p>
             <p><strong>연구 분야</strong> · X-by-Wire, 통합 차량 모션제어, AI 기반 모델링·제어, Mobility AI</p>
             <p><strong>연구 지원</strong> · 장학금·연구장려금(지원 자격 및 재원에 따름), 산학협력 및 국제학회 참여 기회</p>
             <p><strong>지원 방법</strong> · 이력서 또는 간단한 연구계획서를 이메일로 제출</p>
           </div>
           <div class="recruitment-language recruitment-language-en" lang="en">
-            <p><strong>Positions</strong> · Undergraduate interns, M.S. and Ph.D. students</p>
+            <p><strong>Positions</strong> · Undergraduate interns, M.S., Integrated M.S.–Ph.D., and Ph.D. students</p>
             <p><strong>Research</strong> · X-by-Wire, integrated motion control, AI-assisted modeling and control, Mobility AI</p>
             <p><strong>Support</strong> · Scholarships and stipends (subject to eligibility and funding), industry collaboration and international conferences</p>
             <p><strong>Apply</strong> · Email your CV or brief research statement</p>
@@ -235,13 +235,13 @@
   function news(){return `${pageHero('NEWS & LAB LIFE','A lab is more than its research.','Milestones, new beginnings, and moments shared by the MCLab community.')}<section class="section"><div class="container">${[...D.news].sort((a,b)=>b.date.localeCompare(a.date)).map(n=>`<article class="timeline-item" id="${esc(n.id)}"><span class="pill">${esc(n.tag||'Lab news')}</span><time class="news-date" datetime="${esc(n.date)}">${esc(n.date)}</time><h2>${esc(n.title)}</h2>${n.image?`<img class="news-image" src="${safeURL(n.image)}" alt="${esc(n.title)}" loading="lazy">`:''}<p>${esc(n.text)}</p>${n.source?ext(n.source,'Original announcement '+arrow):''}</article>`).join('')}<div style="margin-top:22px">${sectionHead('MOMENTS TOGETHER','Lab gallery.')}${D.gallery.length?`<div class="gallery-grid">${[...D.gallery].filter(g=>safeURL(g.image)).reverse().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).map(g=>`<figure class="gallery-card" id="${esc(g.id)}"><button type="button" class="gallery-image-button" data-image-open="${safeURL(g.image)}" data-image-title="${esc(g.title)}" aria-label="Enlarge photo: ${esc(g.title)}"><img loading="lazy" src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}"></button><figcaption><strong>${esc(g.title)}</strong>${g.date?`<time datetime="${esc(g.date)}"> · ${esc(g.date)}</time>`:''}<p>${esc(g.text||g.alt||g.title)}</p></figcaption></figure>`).join('')}</div>`:`<div class="callout">Original photo albums are available on the previous lab website. ${ext(C.sourceUrl,'View lab photos '+arrow)}</div>`}</div>${sourceNote('news')}</div></section>`;}
   function join(){
     const topicsKo=[
-      ['모집 대상','학부연구생, 석사 및 박사과정 학생'],
+      ['모집 대상','학부연구생, 석사, 석박통합 및 박사과정 학생'],
       ['연구 분야','X-by-Wire 시스템, 차량 통합모션제어, Lv4 자율주행 대응 원격주행·통신지연보상, AI 기반 모델개발 및 상태추정, 학습 기반 고정밀 모션제어'],
       ['연구 지원','장학금·연구장려금(지원 자격 및 재원에 따름), 산학협력 및 국제학회 참여 기회'],
       ['지원 방법','이력서 또는 간단한 연구계획서를 이메일로 제출']
     ];
     const topicsEn=[
-      ['Positions','Undergraduate interns, M.S. and Ph.D. students'],
+      ['Positions','Undergraduate interns, M.S., Integrated M.S.–Ph.D., and Ph.D. students'],
       ['Research','X-by-Wire systems, integrated vehicle motion control, delay-compensated teleoperation for Level 4 autonomous vehicles, AI-based modeling and state estimation, learning-based precision motion control'],
       ['Support','Scholarships and stipends (subject to eligibility and funding), industry collaboration and international conferences'],
       ['Apply','Email your CV or brief research statement']
