@@ -5,7 +5,7 @@ ID: wip-tcn
 표시순서: 60
 연도: 
 제목: TCN-Guided Predictive Gain Scheduling for Super-Twisting Sliding Mode Control of a Steer-by-Wire Road-Wheel Actuator
-저자: M. Kim, K. Cho, S. Lee, and K. H. Nam*
+저자: M. Kim, S. Lee, and K. H. Nam*
 학술지: IEEE Transactions on Industrial Electronics
 DOI: 
 종류: Journal
