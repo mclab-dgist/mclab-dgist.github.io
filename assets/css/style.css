@@ -1532,3 +1532,9 @@ body[data-page="home"] .home-notice-card>.text-link:focus-visible{outline:3px so
  .philosophy-pillars.philosophy-minimal .philosophy-pillar strong{font-size:20px}
  .philosophy-pillars.philosophy-minimal .philosophy-pillar p{font-size:13px;margin-top:6px}
 }
+
+
+/* Subtle section title above the three MCLab philosophy pillars. */
+.philosophy-section-label{font-family:"Space Grotesk",Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:2.4px;color:#a8d4ff;margin:33px 0 -20px;text-transform:uppercase}
+.philosophy-section-label:before{content:"";display:inline-block;vertical-align:middle;width:24px;height:2px;margin-right:12px;background:#74b7f3}
+@media(max-width:780px){.philosophy-section-label{margin:27px 0 -13px;font-size:11px;letter-spacing:2px}}
