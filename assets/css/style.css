@@ -1749,3 +1749,8 @@ body[data-page="professor"] .pi-feature h2 .pi-degree{font-size:inherit}
 /* PEOPLE: Korean name beside English researcher name, on the same baseline. */
 body[data-page="people"] .person-bilingual-name{font-family:"Inter","Noto Sans KR",sans-serif;font-size:17px;font-weight:600;line-height:1.4}
 body[data-page="people"] .person-bilingual-name .person-name-ko{display:inline;font-family:"Noto Sans KR",sans-serif;font-size:14px;font-weight:400;letter-spacing:-.25px;color:var(--muted);margin-left:5px;white-space:nowrap}
+
+
+/* PEOPLE: Korean names in black, 16px, inside parentheses. */
+body[data-page="people"] .person-bilingual-name .person-name-ko{font-size:16px;color:#000;font-weight:400}
+:root[data-theme="dark"] body[data-page="people"] .person-bilingual-name .person-name-ko{color:#fff}
