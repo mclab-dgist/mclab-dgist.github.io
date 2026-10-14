@@ -1834,5 +1834,5 @@ body[data-page="research"] .page-hero .research-hero-headline{
 
 
 /* Research hero headline: requested 50px desktop / 40px mobile caps. */
-body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(30px,3.4vw,50px)}
-@media(max-width:700px){body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(26px,6.5vw,46px)}}
+body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(30px,3.4vw,52px)}
+@media(max-width:700px){body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(26px,6.5vw,50px)}}
