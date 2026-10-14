@@ -1718,3 +1718,7 @@ body[data-page="professor"] .pi-feature h2{font-family:"Inter","Noto Sans KR",Ar
  body[data-page="people"] .pi-feature h2,
  body[data-page="professor"] .pi-feature h2{font-size:26px}
 }
+
+/* PEOPLE researcher names: 16px Inter SemiBold on all screen sizes. */
+body[data-page="people"] .person-body h3{font-size:16px;font-weight:600}
+@media(max-width:650px){body[data-page="people"] .person-body h3{font-size:16px}}
