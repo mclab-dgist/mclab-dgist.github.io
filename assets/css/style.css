@@ -1737,3 +1737,10 @@ body[data-page="professor"] .cv-line{grid-template-columns:minmax(160px,max-cont
 @media(max-width:600px){
  body[data-page="professor"] .cv-line{grid-template-columns:minmax(150px,max-content) minmax(0,1fr);gap:12px}
 }
+
+
+/* Professor profile name: one typography step smaller, including Korean name. */
+body[data-page="professor"] .pi-feature h2{font-size:clamp(24px,2.3vw,28px)}
+body[data-page="professor"] .pi-feature h2 .ko-name,
+body[data-page="professor"] .pi-feature h2 .pi-degree{font-size:inherit}
+@media(max-width:650px){body[data-page="professor"] .pi-feature h2{font-size:24px}}
