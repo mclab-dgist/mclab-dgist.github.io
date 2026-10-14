@@ -1699,3 +1699,22 @@ body[data-page="professor"] .pi-feature h2{font-size:clamp(29px,2.7vw,34px)}
  body[data-page="people"] .person-body .person-email{font-size:13px}
  body[data-page="people"] .pi-feature h2,body[data-page="professor"] .pi-feature h2{font-size:28px}
 }
+
+
+/* PEOPLE typography sizes requested: Inter with Noto Sans KR fallback. */
+body[data-page="people"] .person-body h3{font-family:"Inter","Noto Sans KR",Arial,sans-serif;font-size:18px;font-weight:600}
+body[data-page="people"] .person-body .person-role{font-family:"Inter","Noto Sans KR",Arial,sans-serif;font-size:13px;font-weight:500}
+body[data-page="people"] .person-body .person-interest{font-family:"Inter","Noto Sans KR",Arial,sans-serif;font-size:13px;font-weight:400}
+body[data-page="people"] .person-body .person-email{font-family:"Inter","Noto Sans KR",Arial,sans-serif;font-size:12px;font-weight:400}
+body[data-page="people"] .people-section h2{font-family:"Inter","Noto Sans KR",Arial,sans-serif;font-size:25px;font-weight:700}
+body[data-page="people"] .pi-feature h2,
+body[data-page="professor"] .pi-feature h2{font-family:"Inter","Noto Sans KR",Arial,sans-serif;font-size:clamp(26px,2.5vw,30px);font-weight:700}
+@media(max-width:650px){
+ body[data-page="people"] .person-body h3{font-size:18px}
+ body[data-page="people"] .person-body .person-role{font-size:13px}
+ body[data-page="people"] .person-body .person-interest{font-size:13px}
+ body[data-page="people"] .person-body .person-email{font-size:12px}
+ body[data-page="people"] .people-section h2{font-size:25px}
+ body[data-page="people"] .pi-feature h2,
+ body[data-page="professor"] .pi-feature h2{font-size:26px}
+}
