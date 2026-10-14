@@ -1744,3 +1744,8 @@ body[data-page="professor"] .pi-feature h2{font-size:clamp(24px,2.3vw,28px)}
 body[data-page="professor"] .pi-feature h2 .ko-name,
 body[data-page="professor"] .pi-feature h2 .pi-degree{font-size:inherit}
 @media(max-width:650px){body[data-page="professor"] .pi-feature h2{font-size:24px}}
+
+
+/* PEOPLE: Korean name beside English researcher name, on the same baseline. */
+body[data-page="people"] .person-bilingual-name{font-family:"Inter","Noto Sans KR",sans-serif;font-size:17px;font-weight:600;line-height:1.4}
+body[data-page="people"] .person-bilingual-name .person-name-ko{display:inline;font-family:"Noto Sans KR",sans-serif;font-size:14px;font-weight:400;letter-spacing:-.25px;color:var(--muted);margin-left:5px;white-space:nowrap}
