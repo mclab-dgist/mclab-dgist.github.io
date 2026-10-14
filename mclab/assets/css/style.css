@@ -1627,3 +1627,27 @@ body[data-page="join"] .join-language-panel[lang="en"] :is(h2,h3,dt,dd,p,li,a,sp
 body[data-page="join"] .join-panel-signature,
 body[data-page="join"] .join-panel-signature strong,
 body[data-page="join"] .join-panel-signature span{font-family:"Inter","Noto Sans KR",Arial,sans-serif}
+
+
+/* Featured framework: shared Korean MCLab research areas below the diagram. */
+.framework-research-areas{margin-top:30px}
+.framework-research-header{margin-bottom:18px}
+.framework-research-eyebrow{display:block;font-family:"Inter",Arial,sans-serif;color:var(--blue);font-size:11px;font-weight:750;letter-spacing:1.6px;margin-bottom:6px}
+.framework-research-header h3{font-family:"Noto Sans KR","Malgun Gothic",sans-serif;font-size:clamp(21px,2vw,27px);line-height:1.35;color:var(--ink);margin:0;letter-spacing:-.6px}
+.framework-research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.framework-research-card{padding:22px 23px;border:1px solid #d9e5f1;border-radius:12px;background:linear-gradient(145deg,#fff,#f0f6fc);min-width:0}
+.framework-research-card:nth-child(2){background:linear-gradient(145deg,#fff,#edf3fa)}
+.framework-research-card:nth-child(3){background:linear-gradient(145deg,#fff,#edf7f5);border-color:#d3e7e4}
+.framework-research-card:nth-child(4){background:linear-gradient(145deg,#fff,#f1f2fb);border-color:#dedff0}
+.framework-research-card-heading{display:flex;align-items:flex-start;gap:12px}
+.framework-research-num{flex:none;font:700 12px/1.5 "Inter",Arial,sans-serif;color:#286b9d;background:#e0effa;border-radius:6px;padding:5px 8px}
+.framework-research-card h4{font-family:"Noto Sans KR","Malgun Gothic",sans-serif;font-size:16px;line-height:1.5;color:#173c5e;letter-spacing:-.3px;margin:0}
+.framework-research-card ul{margin:13px 0 0;padding-left:20px}
+.framework-research-card li{font-family:"Noto Sans KR","Malgun Gothic",sans-serif;font-size:13px;line-height:1.65;color:#4b6276;margin-bottom:5px;word-break:keep-all}
+.framework-research-card li:last-child{margin-bottom:0}
+:root[data-theme=dark] .framework-research-card,
+:root[data-theme=dark] .framework-research-card:nth-child(n){background:linear-gradient(145deg,#243b53,#1d3148);border-color:#415b74}
+:root[data-theme=dark] .framework-research-card h4{color:#e7f2ff}
+:root[data-theme=dark] .framework-research-card li{color:#c3d2e2}
+:root[data-theme=dark] .framework-research-num{background:#315b7d;color:#d5ecff}
+@media(max-width:760px){.framework-research-grid{grid-template-columns:1fr;gap:12px}.framework-research-card{padding:19px}.framework-research-areas{margin-top:24px}}
