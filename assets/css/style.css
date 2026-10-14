@@ -1729,3 +1729,11 @@ body[data-page="professor"] .reviewer-list{font-size:13px}
 /* PEOPLE researcher names: 17px Inter SemiBold on all screen sizes. */
 body[data-page="people"] .person-body h3{font-size:17px;font-weight:600}
 @media(max-width:650px){body[data-page="people"] .person-body h3{font-size:17px}}
+
+
+/* Professor CV timeline: keep date ranges on a single line. */
+body[data-page="professor"] .cv-line .cv-year{white-space:nowrap}
+body[data-page="professor"] .cv-line{grid-template-columns:minmax(160px,max-content) minmax(0,1fr)}
+@media(max-width:600px){
+ body[data-page="professor"] .cv-line{grid-template-columns:minmax(150px,max-content) minmax(0,1fr);gap:12px}
+}
