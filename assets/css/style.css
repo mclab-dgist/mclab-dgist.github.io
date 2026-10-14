@@ -1651,3 +1651,10 @@ body[data-page="join"] .join-panel-signature span{font-family:"Inter","Noto Sans
 :root[data-theme=dark] .framework-research-card li{color:#c3d2e2}
 :root[data-theme=dark] .framework-research-num{background:#315b7d;color:#d5ecff}
 @media(max-width:760px){.framework-research-grid{grid-template-columns:1fr;gap:12px}.framework-research-card{padding:19px}.framework-research-areas{margin-top:24px}}
+
+
+/* Research areas precede featured framework while retaining the original cards. */
+.research-areas-first{padding-top:48px;padding-bottom:34px;background:var(--soft)}
+.research-areas-first .framework-research-areas{margin-top:0}
+.research-areas-first+.integrated-framework-feature{padding-top:42px}
+@media(max-width:760px){.research-areas-first{padding-top:30px;padding-bottom:25px}.research-areas-first+.integrated-framework-feature{padding-top:30px}}
