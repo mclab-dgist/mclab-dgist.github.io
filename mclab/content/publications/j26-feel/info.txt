@@ -5,7 +5,7 @@ ID: j26-feel
 표시순서: 18
 연도: 2026
 제목: Road Environment Aware Control Framework for Steering Feel Generation in Steer-by-Wire Systems
-저자: D. Cheon, K. H. Nam, and S. Oh
+저자: D. Cheon, K. H. Nam, and S. Oh*
 학술지: IEEE Transactions on Control Systems Technology
 DOI: 10.1109/TCST.2025.3624829
 종류: Journal
