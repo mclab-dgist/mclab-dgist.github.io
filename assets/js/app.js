@@ -166,7 +166,7 @@
     ];
   function research(){
     const programs=D.researchPrograms||[], topics=D.researchTopics||[];
-    return `${pageHero('RESEARCH','<span class="research-hero-headline">AI-Assisted Modeling,<br>Control &amp; Learning<br><em>for Mobility.</em></span>','Physics-informed intelligence for vehicle dynamics, electrified chassis systems, and autonomous mobility.','')}<section class="section research-areas-first"><div class="container">
+    return `${pageHero('','<span class="research-hero-headline">AI-Assisted Modeling,<br>Control &amp; Learning<br><em>for Mobility.</em></span>','','')}<section class="section research-areas-first"><div class="container">
       <section class="framework-research-areas framework-research-bilingual" aria-labelledby="framework-research-title">
         <div class="framework-research-header"><span class="framework-research-eyebrow">MCLAB · RESEARCH AREAS</span><h3 id="framework-research-title">MCLab 세부 연구분야 <span class="framework-research-english-title">/ Research Areas</span></h3></div>
         <div class="framework-research-category"><span class="framework-category-index">01–03</span><strong>차량 특화 연구 · Vehicle-Focused Research</strong></div>
