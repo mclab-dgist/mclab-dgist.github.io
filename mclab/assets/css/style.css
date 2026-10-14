@@ -1795,3 +1795,18 @@ body[data-page="people"] .person-bilingual-name .person-name-ko{font-size:16px;c
 .framework-research-bilingual .framework-research-card li{line-height:1.55;margin-bottom:3px}
 .framework-research-bilingual .framework-research-card[lang="en"] li{line-height:1.55}
 @media(max-width:760px){.framework-research-bilingual .framework-research-card ul{margin-top:6px}}
+
+
+/* Research hero: restore the original oversized three-line typography. */
+body[data-page="research"] .page-hero .research-hero-headline{
+ font-family:"Inter","Noto Sans KR",Arial,sans-serif;
+ font-size:clamp(48px,5.4vw,80px);
+ font-weight:800;
+ line-height:1.23;
+ letter-spacing:-2.5px;
+ color:var(--ink);
+}
+body[data-page="research"] .page-hero .research-hero-headline em{font-style:normal;color:var(--blue)}
+@media(max-width:700px){
+ body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(33px,7vw,49px);letter-spacing:-1.4px;line-height:1.18}
+}
