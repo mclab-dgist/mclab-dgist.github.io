@@ -1752,5 +1752,5 @@ body[data-page="people"] .person-bilingual-name .person-name-ko{display:inline;f
 
 
 /* PEOPLE: Korean names in black, 16px, inside parentheses. */
-body[data-page="people"] .person-bilingual-name .person-name-ko{font-size:16px;color:#000;font-weight:400}
+body[data-page="people"] .person-bilingual-name .person-name-ko{font-size:16px;color:#000;font-weight:700}
 :root[data-theme="dark"] body[data-page="people"] .person-bilingual-name .person-name-ko{color:#fff}
