@@ -1776,3 +1776,13 @@ body[data-page="people"] .person-bilingual-name .person-name-ko{font-size:16px;c
 :root[data-theme=dark] .framework-research-bilingual .framework-research-pair .framework-research-card{background:linear-gradient(145deg,#243b53,#1d3148);border-color:#415b74}
 :root[data-theme=dark] .framework-research-bilingual .framework-research-category{color:#cce4f7}
 @media(max-width:760px){.framework-research-bilingual .framework-research-pair{grid-template-columns:1fr;gap:10px}.framework-research-bilingual .framework-research-card h4{font-size:17px}.framework-research-bilingual .framework-research-card li{font-size:14px}}
+
+
+/* Balanced bilingual research card typography and matched row geometry. */
+.framework-research-bilingual .framework-research-pair{align-items:stretch}
+.framework-research-bilingual .framework-research-pair .framework-research-card{display:flex;flex-direction:column}
+.framework-research-bilingual .framework-research-card-heading{min-height:62px}
+.framework-research-bilingual .framework-research-card ul{margin-top:12px}
+.framework-research-bilingual .framework-research-card[lang="en"] h4{font-size:17px;line-height:1.45}
+.framework-research-bilingual .framework-research-card[lang="en"] li{font-size:14px;line-height:1.7}
+@media(max-width:760px){.framework-research-bilingual .framework-research-card-heading{min-height:0}}
