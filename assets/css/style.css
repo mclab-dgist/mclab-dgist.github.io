@@ -1673,3 +1673,29 @@ body[data-page="join"] .join-panel-signature span{font-family:"Inter","Noto Sans
  .framework-research-card h4{font-size:17px}
  .framework-research-card li{font-size:14px}
 }
+
+
+/* PEOPLE and professor profiles: Inter + Noto Sans KR typography. */
+body[data-page="people"] .pi-feature,
+body[data-page="people"] .people-section,
+body[data-page="professor"] .pi-feature,
+body[data-page="professor"] .profile-grid,
+body[data-page="professor"] .faculty-contact{font-family:"Inter","Noto Sans KR",Arial,sans-serif}
+body[data-page="people"] .pi-feature :is(h2,h3,p,a,span),
+body[data-page="people"] .people-section :is(h2,h3,p,a,span),
+body[data-page="professor"] .pi-feature :is(h2,h3,p,a,span),
+body[data-page="professor"] .profile-grid :is(h2,h3,p,a,span),
+body[data-page="professor"] .faculty-contact :is(a,span){font-family:"Inter","Noto Sans KR",Arial,sans-serif}
+body[data-page="people"] .person-body h3{font-size:20px;font-weight:650;letter-spacing:-.35px}
+body[data-page="people"] .person-body .person-role{font-size:14px;font-weight:500}
+body[data-page="people"] .person-body .person-interest{font-size:15px;line-height:1.65}
+body[data-page="people"] .person-body .person-email{font-size:14px;font-weight:400}
+body[data-page="people"] .people-section h2{font-size:26px}
+body[data-page="people"] .pi-feature h2{font-size:clamp(29px,2.7vw,34px)}
+body[data-page="professor"] .pi-feature h2{font-size:clamp(29px,2.7vw,34px)}
+@media(max-width:650px){
+ body[data-page="people"] .person-body h3{font-size:19px}
+ body[data-page="people"] .person-body .person-interest{font-size:14px}
+ body[data-page="people"] .person-body .person-email{font-size:13px}
+ body[data-page="people"] .pi-feature h2,body[data-page="professor"] .pi-feature h2{font-size:28px}
+}
