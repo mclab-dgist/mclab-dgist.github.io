@@ -1810,3 +1810,9 @@ body[data-page="research"] .page-hero .research-hero-headline em{font-style:norm
 @media(max-width:700px){
  body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(33px,7vw,49px);letter-spacing:-1.4px;line-height:1.18}
 }
+
+
+/* Remove decorative line above the Research hero heading only. */
+body[data-page="research"] .page-hero .eyebrow,
+body[data-page="research"] .page-hero .eyebrow::before{display:none!important}
+body[data-page="research"] .page-hero .research-hero-headline::before{content:none!important;display:none!important}
