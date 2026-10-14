@@ -1754,3 +1754,25 @@ body[data-page="people"] .person-bilingual-name .person-name-ko{display:inline;f
 /* PEOPLE: Korean names in black, 16px, inside parentheses. */
 body[data-page="people"] .person-bilingual-name .person-name-ko{font-size:16px;color:#000;font-weight:700}
 :root[data-theme="dark"] body[data-page="people"] .person-bilingual-name .person-name-ko{color:#fff}
+
+
+/* Research: bilingual side-by-side, four paired rows, original pastel card aesthetic. */
+.framework-research-bilingual .framework-research-english-title{font-family:"Inter",Arial,sans-serif;font-size:.65em;font-weight:500;color:var(--muted)}
+.framework-research-bilingual .framework-research-category{display:flex;align-items:center;gap:12px;margin:24px 0 14px;color:#1d537e;font-family:"Noto Sans KR","Inter",sans-serif;font-size:16px}
+.framework-research-bilingual .framework-category-index{font-family:"Inter",sans-serif;font-size:12px;font-weight:750;color:#23689e;background:#dcebf8;padding:7px 11px;border-radius:7px}
+.framework-research-bilingual .framework-category-mechatronics{padding-top:20px;border-top:1px solid #d3dfe9;color:#65548e}
+.framework-research-bilingual .framework-category-mechatronics .framework-category-index{color:#6752a6;background:#e9e3f8}
+.framework-research-bilingual .framework-research-grid{display:block}
+.framework-research-bilingual .framework-research-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.framework-research-bilingual .framework-research-pair .framework-research-card{height:100%}
+.framework-research-bilingual .framework-pair-1 .framework-research-card{background:linear-gradient(145deg,#fff,#f0f6fc);border-color:#d9e5f1}
+.framework-research-bilingual .framework-pair-2 .framework-research-card{background:linear-gradient(145deg,#fff,#edf7f5);border-color:#d3e7e4}
+.framework-research-bilingual .framework-pair-3 .framework-research-card{background:linear-gradient(145deg,#fff,#f1f2fb);border-color:#dedff0}
+.framework-research-bilingual .framework-pair-4 .framework-research-card{background:linear-gradient(145deg,#fff,#f6f1fb);border-color:#e1dcef}
+.framework-research-bilingual .framework-research-card[lang="en"] h4,
+.framework-research-bilingual .framework-research-card[lang="en"] li{font-family:"Inter",Arial,sans-serif}
+.framework-research-bilingual .framework-research-card h4{font-size:17px}
+.framework-research-bilingual .framework-research-card li{font-size:14px}
+:root[data-theme=dark] .framework-research-bilingual .framework-research-pair .framework-research-card{background:linear-gradient(145deg,#243b53,#1d3148);border-color:#415b74}
+:root[data-theme=dark] .framework-research-bilingual .framework-research-category{color:#cce4f7}
+@media(max-width:760px){.framework-research-bilingual .framework-research-pair{grid-template-columns:1fr;gap:10px}.framework-research-bilingual .framework-research-card h4{font-size:17px}.framework-research-bilingual .framework-research-card li{font-size:14px}}
