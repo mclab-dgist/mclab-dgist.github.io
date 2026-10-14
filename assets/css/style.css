@@ -1786,3 +1786,12 @@ body[data-page="people"] .person-bilingual-name .person-name-ko{font-size:16px;c
 .framework-research-bilingual .framework-research-card[lang="en"] h4{font-size:17px;line-height:1.45}
 .framework-research-bilingual .framework-research-card[lang="en"] li{font-size:14px;line-height:1.7}
 @media(max-width:760px){.framework-research-bilingual .framework-research-card-heading{min-height:0}}
+
+
+/* Compact vertical spacing between bilingual research titles and details. */
+.framework-research-bilingual .framework-research-card-heading{min-height:0}
+.framework-research-bilingual .framework-research-card ul{margin-top:7px}
+.framework-research-bilingual .framework-research-card{padding-top:18px;padding-bottom:18px}
+.framework-research-bilingual .framework-research-card li{line-height:1.55;margin-bottom:3px}
+.framework-research-bilingual .framework-research-card[lang="en"] li{line-height:1.55}
+@media(max-width:760px){.framework-research-bilingual .framework-research-card ul{margin-top:6px}}
