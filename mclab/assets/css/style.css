@@ -1816,3 +1816,18 @@ body[data-page="research"] .page-hero .research-hero-headline em{font-style:norm
 body[data-page="research"] .page-hero .eyebrow,
 body[data-page="research"] .page-hero .eyebrow::before{display:none!important}
 body[data-page="research"] .page-hero .research-hero-headline::before{content:none!important;display:none!important}
+
+
+/* Compact Research hero headline. */
+body[data-page="research"] .page-hero .research-hero-headline{
+ font-size:clamp(30px,3.1vw,46px);
+ line-height:1.2;
+ letter-spacing:-1.3px;
+}
+@media(max-width:700px){
+ body[data-page="research"] .page-hero .research-hero-headline{
+  font-size:clamp(26px,5.8vw,35px);
+  line-height:1.2;
+  letter-spacing:-.8px;
+ }
+}
