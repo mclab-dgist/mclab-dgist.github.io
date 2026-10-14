@@ -39,7 +39,7 @@ window.MCLAB_DATA = {
     ],
     "photoRevision": "2026-10-10-original-assets",
     "logoImage": "assets/images/mclab-official-logo.jpg",
-    "builtAt": "2026-10-14T20:51:53+09:00",
+    "builtAt": "2026-10-14T21:02:07+09:00",
     "statusDate": "2026-10-14"
   },
   "pi": {
@@ -265,28 +265,28 @@ window.MCLAB_DATA = {
   ],
   "news": [
     {
-      "text": "The lab celebrated Seungcheol’s birthday together with new MCLab members. Happy birthday, and welcome to the team!",
       "image": "media/news/birthday-2026/3a71b24a7f-photo.jpg",
+      "text": "The lab celebrated Seungcheol’s birthday together with new MCLab members. Happy birthday, and welcome to the team!",
       "date": "2026-01-30",
-      "tag": "Lab life",
       "source": "https://sites.google.com/view/mclab/",
+      "tag": "Lab life",
       "title": "Celebrating together, welcoming new members",
       "id": "birthday-2026"
     },
     {
-      "text": "We are excited to announce the opening of the Mobility Control Laboratory at DGIST. We warmly welcome new members—students, researchers, and collaborators eager to shape the future of mobility. The lab opening event was held on August 1, 2025.",
       "image": "",
+      "text": "We are excited to announce the opening of the Mobility Control Laboratory at DGIST. We warmly welcome new members—students, researchers, and collaborators eager to shape the future of mobility. The lab opening event was held on August 1, 2025.",
       "date": "2025-08-01",
-      "tag": "Milestone",
       "source": "https://sites.google.com/view/mclab/",
+      "tag": "Milestone",
       "title": "Mobility Control Laboratory opens at DGIST",
       "id": "dgist-opening"
     }
   ],
   "gallery": [
     {
-      "text": "MCLab team with the laboratory mobility platform.",
       "image": "media/gallery/lab-team/b69919169f-photo.jpg",
+      "text": "MCLab team with the laboratory mobility platform.",
       "date": "",
       "alt": "MCLab team with the laboratory mobility platform.",
       "source": "",
@@ -294,8 +294,8 @@ window.MCLAB_DATA = {
       "id": "lab-team"
     },
     {
-      "text": "A spring gathering of the MCLab community.",
       "image": "media/gallery/spring-gathering/c95e7f6e60-photo.jpg",
+      "text": "A spring gathering of the MCLab community.",
       "date": "",
       "alt": "A spring gathering of the MCLab community.",
       "source": "",
@@ -303,8 +303,8 @@ window.MCLAB_DATA = {
       "id": "spring-gathering"
     },
     {
-      "text": "Research exchange and group photographs from the original lab archive.",
       "image": "media/gallery/tsinghua-exchange/776c4b74ab-photo.jpg",
+      "text": "Research exchange and group photographs from the original lab archive.",
       "date": "",
       "alt": "Research exchange and group photographs from the original lab archive.",
       "source": "",
@@ -312,8 +312,8 @@ window.MCLAB_DATA = {
       "id": "tsinghua-exchange"
     },
     {
-      "text": "Conference photographs from the MCLab archive.",
       "image": "media/gallery/conference-moments/5336647b63-photo.jpg",
+      "text": "Conference photographs from the MCLab archive.",
       "date": "",
       "alt": "Conference photographs from the MCLab archive.",
       "source": "",
@@ -321,8 +321,8 @@ window.MCLAB_DATA = {
       "id": "conference-moments"
     },
     {
-      "text": "Workshop moments shared by the lab community.",
       "image": "media/gallery/winter-workshop/264e4bd331-photo.jpg",
+      "text": "Workshop moments shared by the lab community.",
       "date": "",
       "alt": "Workshop moments shared by the lab community.",
       "source": "",
@@ -330,8 +330,8 @@ window.MCLAB_DATA = {
       "id": "winter-workshop"
     },
     {
-      "text": "Graduation photographs from the original lab archive.",
       "image": "media/gallery/graduation-moments/22c55481ba-photo.jpg",
+      "text": "Graduation photographs from the original lab archive.",
       "date": "",
       "alt": "Graduation photographs from the original lab archive.",
       "source": "",
@@ -339,8 +339,8 @@ window.MCLAB_DATA = {
       "id": "graduation-moments"
     },
     {
-      "text": "The laboratory driving simulator and experimental setup.",
       "image": "media/gallery/driving-simulator/b842e43a58-photo.jpg",
+      "text": "The laboratory driving simulator and experimental setup.",
       "date": "",
       "alt": "The laboratory driving simulator and experimental setup.",
       "source": "",
@@ -348,8 +348,8 @@ window.MCLAB_DATA = {
       "id": "driving-simulator"
     },
     {
-      "text": "An experimental mobility platform at the test track.",
       "image": "media/gallery/vehicle-testing/200466549d-photo.jpg",
+      "text": "An experimental mobility platform at the test track.",
       "date": "",
       "alt": "An experimental mobility platform at the test track.",
       "source": "",
@@ -441,11 +441,11 @@ window.MCLAB_DATA = {
       "interest": "Integrated Vehicle Control / Novel Human–Machine Interfaces (HMI)",
       "email": "hjh8486@dgist.ac.kr",
       "photo": "media/people/jihoon-hwang/230f127376-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "minhyeong-kim",
@@ -455,11 +455,11 @@ window.MCLAB_DATA = {
       "interest": "AI-based e-chassis control and precision motion control",
       "email": "mh_kim@dgist.ac.kr",
       "photo": "media/people/minhyeong-kim/4884e8ad83-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "jinwoo-kim",
@@ -469,11 +469,11 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and e-chassis modeling / control",
       "email": "jinwoo.kim@dgist.ac.kr",
       "photo": "media/people/jinwoo-kim/b580538a88-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "yejin-lee",
@@ -483,11 +483,11 @@ window.MCLAB_DATA = {
       "interest": "Battery system design and control for robots and mobility",
       "email": "yejin.lee@dgist.ac.kr",
       "photo": "media/people/yejin-lee/9e84c08567-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "wonchang-yang",
@@ -497,11 +497,11 @@ window.MCLAB_DATA = {
       "interest": "Advanced motion control of multi-actuating steer-by-wire systems",
       "email": "wchyang@dgist.ac.kr",
       "photo": "media/people/wonchang-yang/373b885f15-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "gibeom-kim",
@@ -511,11 +511,11 @@ window.MCLAB_DATA = {
       "interest": "Bilateral motion control for teleoperated mobility",
       "email": "gbkim@dgist.ac.kr",
       "photo": "media/people/gibeom-kim/ad77965fa9-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "hyeongseon-jeon",
@@ -525,11 +525,11 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and active roll control",
       "email": "sun@dgist.ac.kr",
       "photo": "media/people/hyeongseon-jeon/7adb02c097-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "jeonghyeon-woo",
@@ -539,11 +539,11 @@ window.MCLAB_DATA = {
       "interest": "Teleoperated mobility and advanced visual feedback",
       "email": "woo@dgist.ac.kr",
       "photo": "media/people/jeonghyeon-woo/d970727da1-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "seungchul-shin",
@@ -553,11 +553,11 @@ window.MCLAB_DATA = {
       "interest": "Future mobility mechanisms, motion control, and tilting mobility",
       "email": "witguy0130@dgist.ac.kr",
       "photo": "media/people/seungchul-shin/fcce3aabe6-shin.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "jeongwon-lee",
@@ -567,11 +567,11 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and EMB system control",
       "email": "jeongwon35@dgist.ac.kr",
       "photo": "media/people/jeongwon-lee/5f13a187fa-lee.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "sungeun-park",
@@ -581,11 +581,11 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and active rear steering",
       "email": "separk@dgist.ac.kr",
       "photo": "media/people/sungeun-park/292341f173-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "geonwoo-park",
@@ -595,11 +595,11 @@ window.MCLAB_DATA = {
       "interest": "High-performance electric vehicle motion control",
       "email": "felixpark0505@dgist.ac.kr",
       "photo": "media/people/geonwoo-park/079271a65d-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "donggyu-kim",
@@ -609,11 +609,11 @@ window.MCLAB_DATA = {
       "interest": "Steer-by-Wire system control",
       "email": "chocohopang@kookmin.ac.kr",
       "photo": "media/people/donggyu-kim/17eeaec802-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "heewon-choi",
@@ -623,11 +623,11 @@ window.MCLAB_DATA = {
       "interest": "EMB system control",
       "email": "chw4491@naver.com",
       "photo": "media/people/heewon-choi/6dea99236b-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "seongil-cho",
@@ -637,11 +637,11 @@ window.MCLAB_DATA = {
       "interest": "AI-assisted vehicle control",
       "email": "tjddlf7545@dgist.ac.kr",
       "photo": "media/people/seongil-cho/933f34f351-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "sanghyeok-park",
@@ -651,11 +651,11 @@ window.MCLAB_DATA = {
       "interest": "Active suspension control",
       "email": "sh604546@dgist.ac.kr",
       "photo": "media/people/sanghyeok-park/5dacf3dc33-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     },
     {
       "id": "nayoon-kim",
@@ -665,11 +665,11 @@ window.MCLAB_DATA = {
       "interest": "Personal tilting mobility control",
       "email": "kny1210@dgist.ac.kr",
       "photo": "media/people/nayoon-kim/b6414cbae8-photo.jpg",
-      "nameKo": "",
+      "affiliation": "",
       "website": "",
+      "nameKo": "",
       "graduated": "",
-      "joined": "",
-      "affiliation": ""
+      "joined": ""
     }
   ],
   "publications": [
@@ -687,12 +687,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": 2027,
       "featured": false
     },
@@ -710,12 +710,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": 2027,
       "featured": false
     },
@@ -734,11 +734,11 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
       "year": 2026,
       "featured": true
     },
@@ -757,11 +757,11 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
       "year": 2026,
       "featured": true
     },
@@ -779,12 +779,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": 2026,
       "featured": false
     },
@@ -802,12 +802,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": 2026,
       "featured": false
     },
@@ -826,11 +826,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
       "year": 2026,
       "featured": false
     },
@@ -849,11 +849,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
       "year": 2026,
       "featured": false
     },
@@ -872,11 +872,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
       "year": 2026,
       "featured": false
     },
@@ -895,11 +895,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
       "year": 2026,
       "featured": true
     },
@@ -917,12 +917,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": 2026,
       "featured": false
     },
@@ -942,10 +942,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q2",
       "sourceCitation": "I. S. Chung, S. H. Oh*, and K. H. Nam*, “Synchronous Control of a Dual-Motor Driving Rack and Pinion Module for Steer-by-Wire System,” IEEE Access, vol. 12, pp. 195358–195369, Dec. 2024.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2024,
       "featured": false
     },
@@ -965,10 +965,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q2",
       "sourceCitation": "I. S. Chung, J. D. Choi, and K. H. Nam*, “Modeling and Control of a Road Wheel Actuation Module in Steer-by-Wire System,” Actuators, vol. 13, no. 8, Aug. 2024.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2024,
       "featured": false
     },
@@ -988,10 +988,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q2",
       "sourceCitation": "S. Y. Lee, H. S. Cho, and K. H. Nam*, “Dynamic Modeling and Control of a 4-Wheel Narrow Tilting Vehicle,” Actuators, vol. 13, no. 6, Jun. 2024.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2024,
       "featured": false
     },
@@ -1012,8 +1012,8 @@ window.MCLAB_DATA = {
       "sourceCitation": "D. Cheon, W. Choi, K. Nam, et al., “Tire Normal Force Estimation Based on Integrated Suspension State Measurement,” International Journal of Control, Automation and Systems, vol. 22, no. 6, pp. 1902–1911, May 2024.",
       "note": "The author list is abbreviated in the original website. Check the publisher record for the complete author list before citing.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
+      "image": "",
       "pdf": "",
       "year": 2024,
       "featured": false
@@ -1034,10 +1034,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Top 2%",
       "sourceCitation": "Z. Zhou, Y. Wang*, G. Zhou, K. H. Nam*, Z. Ji, and C. Yin, “A Twisted Gaussian Risk Model Considering Target Vehicle Longitudinal-Lateral Motion States for Host Vehicle Trajectory Planning,” IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 12, pp. 13685–13697, Dec. 2023.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2023,
       "featured": false
     },
@@ -1057,10 +1057,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q1",
       "sourceCitation": "A. Neaz, S. Lee, and K. H. Nam*, “Design and Implementation of an Integrated Control System for Omnidirectional Mobile Robots in Industrial Logistics,” Sensors, vol. 23, no. 6, pp. 1–23, Mar. 2023.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2023,
       "featured": false
     },
@@ -1080,10 +1080,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q1",
       "sourceCitation": "A. Neaz, E. H. Lee, T. H. Jin, K. C. Cho*, and K. H. Nam*, “Optimizing Yarn Tension in Textile Production with Tension–Position Cascade Control Method Using Kalman Filter,” Sensors, vol. 23, no. 12, article 5494, 2023.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2023,
       "featured": false
     },
@@ -1103,10 +1103,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Top 2%",
       "sourceCitation": "X. Liu, Y. Wang*, K. Jiang, Z. Zhou, K. H. Nam, and C. Yin, “Interactive Trajectory Prediction Using a Potential Field-Integrated Deep Learning Method for Surrounding Vehicles on Highways,” IEEE Transactions on Intelligent Transportation Systems, vol. 23, no. 10, pp. 19076–19087, Dec. 2022.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2022,
       "featured": false
     },
@@ -1126,10 +1126,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q1",
       "sourceCitation": "J. Choi, K. H. Nam*, and S. Oh*, “High Accuracy Driving Control of a Stone-Throwing Mobile Robot for Curling,” IEEE Transactions on Automation Science and Engineering, vol. 19, no. 4, pp. 3210–3221, Dec. 2022.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2022,
       "featured": false
     },
@@ -1149,10 +1149,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Top 4.6%",
       "sourceCitation": "D. Cheon, K. H. Nam*, and S. Oh*, “Design and Robust Control of a Precise Torque Controllable Steering Module for Steer-by-Wire Systems,” IEEE Transactions on Industrial Electronics, vol. 69, no. 12, pp. 13245–13254, Dec. 2022.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2022,
       "featured": false
     },
@@ -1172,10 +1172,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q2",
       "sourceCitation": "J. Choi, H. Lee, K. H. Nam*, and S. Oh, “Development of Vehicle Maneuvering System for Autonomous Driving,” Mechatronics, vol. 85, pp. 1–22, Aug. 2022.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2022,
       "featured": false
     },
@@ -1195,10 +1195,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Top 4.6%",
       "sourceCitation": "K. Cho and K. H. Nam*, “Robust Periodic Adaptive Disturbance Observer Based Control Considering Long-Term Instability Problems for High-Load Motion Systems,” IEEE Transactions on Industrial Electronics, vol. 69, no. 6, pp. 6258–6266, Jun. 2022.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2022,
       "featured": false
     },
@@ -1218,10 +1218,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q2",
       "sourceCitation": "Y. Seo, K. Cho, and K. H. Nam*, “Integrated Yaw Stability Control of Electric Vehicle Equipped with Front/Rear Steer-by-Wire Systems and Four In-Wheel Motors,” Electronics, vol. 11, no. 8, pp. 1–25, Apr. 2022.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2022,
       "featured": false
     },
@@ -1241,10 +1241,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q1",
       "sourceCitation": "X. Liu, Y. Wang*, Z. Zhou, K. H. Nam*, C. Wei, and C. Yin*, “Trajectory Prediction of Preceding Target Vehicles Based on Lane Crossing and Final Points Generation Model Considering Driving Styles,” IEEE Transactions on Vehicular Technology, vol. 70, no. 9, pp. 8720–8730, Sep. 2021.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2021,
       "featured": false
     },
@@ -1264,10 +1264,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q2",
       "sourceCitation": "J. Choi, K. H. Nam*, and S. Oh*, “Steering Feel Improvement by Mathematical Modeling of the Electric Power Steering System,” Mechatronics, vol. 78, pp. 1–8, Oct. 2021.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2021,
       "featured": false
     },
@@ -1287,10 +1287,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q1",
       "sourceCitation": "K. Wang, Y. Wang*, H. Du, and K. H. Nam*, “Game-Theory-Inspired Hierarchical Distributed Control Strategy for Cooperative Intersection Considering Priority Negotiation,” IEEE Transactions on Vehicular Technology, vol. 70, no. 7, pp. 6438–6449, Jul. 2021.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2021,
       "featured": false
     },
@@ -1310,10 +1310,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Q1",
       "sourceCitation": "K. Wang, Y. Wang, L. Wang, H. Du, and K. H. Nam, “Distributed Intersection Conflict Resolution for Multiple Vehicles Considering Longitudinal-Lateral Dynamics,” IEEE Transactions on Vehicular Technology, vol. 70, no. 5, pp. 4166–4177, May 2021.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2021,
       "featured": false
     },
@@ -1333,10 +1333,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "JCR Top 2%",
       "sourceCitation": "K. Han, G. Park, G. S. Sankar, K. H. Nam*, and S. B. Choi*, “Model Predictive Control Framework for Improving Vehicle Cornering Performance Using Handling Characteristics,” IEEE Transactions on Intelligent Transportation Systems, vol. 22, no. 5, pp. 3014–3024, May 2021.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2021,
       "featured": false
     },
@@ -1356,10 +1356,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. Cho and K. H. Nam*, “A High-Precision Motion Control Based on a Multi-Rate Periodic Adaptive Disturbance Observer of a Linear Actuator for High Load Systems,” IEEE Access, vol. 8, pp. 220935–220943, Dec. 2020.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2020,
       "featured": false
     },
@@ -1379,10 +1379,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. Cho and K. H. Nam*, “System Identification Method Based on a Disturbance Observer Using Symmetric Reference Trajectories in PMLSM-Based Motion Systems,” IEEE Access, vol. 8, pp. 216197–216209, Dec. 2020.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2020,
       "featured": false
     },
@@ -1403,8 +1403,8 @@ window.MCLAB_DATA = {
       "sourceCitation": "K. Cho, H. Son, Y. Wang, K. H. Nam*, and S. B. Choi, “Vehicle Side-Slip Angle Estimation of Ground Vehicles Based on a Lateral Acceleration Compensation,” IEEE Access, vol. 8, pp. 180433–80443, Oct. 2020.",
       "note": "The page range 180433–80443 is reproduced from the original website and appears inconsistent. Verify with the publisher before citing; this range is omitted from generated BibTeX.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
+      "image": "",
       "pdf": "",
       "year": 2020,
       "featured": false
@@ -1425,10 +1425,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "G. Park, K. Han, K. H. Nam*, H. Kim, and S. B. Choi, “Torque Vectoring Algorithm of Electronic-Four-Wheel Drive Vehicles for Enhancement of Cornering Performance,” IEEE Transactions on Vehicular Technology, vol. 69, no. 4, pp. 3668–3679, Apr. 2020.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2020,
       "featured": false
     },
@@ -1448,10 +1448,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. Dai, Y. Wang, J. S. Hu, K. H. Nam, and C. Yin, “Inter-Target Occlusion Handling in Multi-Extended Target Tracking Based on Labeled Multi-Bernoulli Filter Using Laser Range Finder,” IEEE/ASME Transactions on Mechatronics, vol. 25, no. 4, pp. 1719–1728, Aug. 2020.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2020,
       "featured": false
     },
@@ -1471,10 +1471,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "H. Hwang and K. H. Nam*, “Design of a Robust Rack Position Controller Based on 1-D AMESIM Model of a Steer-By-Wire System,” International Journal of Automotive Technology, vol. 21, no. 2, pp. 419–425, Apr. 2020.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2020,
       "featured": false
     },
@@ -1494,10 +1494,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "H. S. Kim, D. S. Cheon, J. S. Lim, and K. H. Nam*, “Robust Flow Control of a Syringe Pump Based on Dual-Loop Disturbance Observers,” IEEE Access, vol. 7, pp. 135427–135438, Sep. 2019.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2019,
       "featured": false
     },
@@ -1517,10 +1517,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "H. J. Hwang, H. J. Choi, and K. H. Nam*, “Practical Synchronous Steering Angle Control of a Dual-Motor Driving Steer-by-Wire System,” IEEE Access, vol. 7, pp. 133100–133110, Sep. 2019.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2019,
       "featured": false
     },
@@ -1540,10 +1540,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "M. S. Chae, Y. J. Hyun, K. S. Yi, and K. H. Nam*, “Dynamic Handling Characteristics Control of an In-Wheel-Motor Driven Electric Vehicle Based on Multiple Sliding Mode Control Approach,” IEEE Access, vol. 7, pp. 132448–132458, Sep. 2019.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2019,
       "featured": false
     },
@@ -1563,10 +1563,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "H. J. Hwang, S. J. Eum, J. W. Lee, and K. H. Nam*, “Kalman Filter-Based Tension Control Design for Industrial Roll-to-Roll System,” Algorithms, vol. 12, no. 4, Apr. 2019.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2019,
       "featured": false
     },
@@ -1586,10 +1586,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "H. S. Kim, Y. J. Hyun, and K. H. Nam*, “Disturbance Observer-Based Sideslip Angle Control for Improving Cornering Characteristics of In-Wheel Motor Electric Vehicles,” International Journal of Automotive Technology, vol. 19, no. 6, Dec. 2018.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2018,
       "featured": false
     },
@@ -1609,10 +1609,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "M. J. Seo, C. H. Yoo, S. S. Park, and K. H. Nam*, “Development of Wheel Pressure Control Algorithm for Electronic Stability Control (ESC) System of Commercial Trucks,” Sensors, vol. 18, no. 7, article 2317, Jul. 2018.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2018,
       "featured": false
     },
@@ -1632,10 +1632,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "D. S. Cheon and K. H. Nam*, “Steering Torque Control Using Variable Impedance Models for a Steer-By-Wire System,” International Journal of Automotive Technology, vol. 18, no. 2, pp. 263–270, Apr. 2017.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2017,
       "featured": false
     },
@@ -1655,10 +1655,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "D. S. Cheon and K. H. Nam*, “Pedaling Torque Sensor-less Power Assist Control of an Electric Bike Via Model-Based Impedance Control,” International Journal of Automotive Technology, vol. 18, no. 2, pp. 327–333, Apr. 2017.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2017,
       "featured": false
     },
@@ -1678,10 +1678,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "J. H. Kim, S. B. Choi, K. H. Cho, and K. H. Nam, “Position Estimation Using Linear Hall Sensors for Permanent Magnet Linear Motor Systems,” IEEE Transactions on Industrial Electronics, vol. 63, no. 12, pp. 7644–7652, Dec. 2016.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2016,
       "featured": false
     },
@@ -1701,10 +1701,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. H. Cho and K. H. Nam*, “Periodic Learning Disturbance Observer Based Precision Motion Control in PMLSM Motion Systems Considering Long-Term Instability Problem,” International Journal of Precision Engineering and Manufacturing, vol. 17, no. 9, pp. 1101–1112, Sep. 2016.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2016,
       "featured": false
     },
@@ -1724,10 +1724,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. H. Nam, “Application of Novel Lateral Tire Force Sensors to Vehicle Parameter Estimation of Electric Vehicles,” Sensors, vol. 15, pp. 28385–28401, Nov. 2015.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2015,
       "featured": false
     },
@@ -1747,10 +1747,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. H. Nam, H. Fujimoto, and Y. Hori, “Design of an Adaptive Sliding Mode Controller for Robust Yaw Stabilisation of In-Wheel-Motor-Driven Electric Vehicles,” International Journal of Vehicle Design, vol. 67, no. 1, pp. 98–113, Mar. 2015.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2015,
       "featured": false
     },
@@ -1770,10 +1770,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "Y. H. Kim, K. H. Nam, H. Fujimoto, and Yoichi Hori, “Caster-Wheeled Independent-Motor-Driven Electric Vehicle (CIMEV), Its Design and Control as a Future Mobility Solution,” International Journal of Mechanical Engineering and Robotics Research, vol. 3, no. 3, Jul. 2014.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2014,
       "featured": false
     },
@@ -1793,10 +1793,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. H. Nam, H. Fujimoto, and Y. Hori, “Advanced Motion Control of Electric Vehicles Based on Robust Lateral Tire Force Control via Active Front Steering,” IEEE/ASME Transactions on Mechatronics, vol. 19, no. 1, pp. 289–299, Feb. 2014.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2014,
       "featured": false
     },
@@ -1817,8 +1817,8 @@ window.MCLAB_DATA = {
       "sourceCitation": "K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori, “Estimation of Sideslip and Roll Angles of Electric Vehicles Using Lateral Tire Force Sensors Through RLS and Kalman Filter Approaches,” IEEE Transactions on Industrial Electronics, vol. 60, no. 3, pp. 988–1000, Mar. 2013.",
       "note": "2014 Best Paper Award for IEEE Transactions on Industrial Electronics, as noted on the original website.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
+      "image": "",
       "pdf": "",
       "year": 2013,
       "featured": false
@@ -1839,10 +1839,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori, “Robust Yaw Stability Control for Electric Vehicles Based on Active Front Steering Control Through Steer-by-Wire (SbW) System,” International Journal of Automotive Technology, vol. 13, no. 7, pp. 1169–1176, Dec. 2012.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2012,
       "featured": false
     },
@@ -1862,10 +1862,10 @@ window.MCLAB_DATA = {
       "sourceRanking": "",
       "sourceCitation": "K. H. Nam, H. Fujimoto, and Y. Hori, “Lateral Stability Control of In-Wheel-Motor-Driven Electric Vehicles Based on Sideslip Angle Estimation Using Lateral Tire Force Sensors,” IEEE Transactions on Vehicular Technology, vol. 61, no. 5, pp. 1972–1985, Jun. 2012.",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "note": "",
+      "image": "",
       "pdf": "",
+      "note": "",
       "year": 2012,
       "featured": false
     },
@@ -1883,12 +1883,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": null,
       "featured": false
     },
@@ -1906,12 +1906,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": null,
       "featured": false
     },
@@ -1929,12 +1929,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "image": "",
       "url": "",
-      "sourceCitation": "",
-      "note": "",
-      "sourceRanking": "",
+      "image": "",
       "pdf": "",
+      "note": "",
+      "sourceCitation": "",
+      "sourceRanking": "",
       "year": null,
       "featured": false
     }
@@ -1953,8 +1953,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/i3/203ddd3899-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -1970,8 +1970,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/i2/89941b6414-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -1986,9 +1986,9 @@ window.MCLAB_DATA = {
       "leadRole": "PI",
       "image": "",
       "attachment": "",
+      "source": "",
       "url": "",
       "summary": "",
-      "source": "",
       "statusMode": "auto"
     },
     {
@@ -2004,8 +2004,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2021,8 +2021,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g2/df9bdb5227-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2038,8 +2038,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/i1/dc50156724-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2055,8 +2055,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g6/361874fa15-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2072,8 +2072,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g3/2122203b0c-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2089,8 +2089,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g4/4075bea11d-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2123,8 +2123,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g5/940bf6fe26-figure.svg",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2276,8 +2276,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2310,8 +2310,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2327,8 +2327,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2344,8 +2344,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2361,8 +2361,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2378,8 +2378,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2395,8 +2395,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2412,8 +2412,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2429,8 +2429,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2446,8 +2446,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2463,8 +2463,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2480,8 +2480,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2514,8 +2514,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2531,8 +2531,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2548,8 +2548,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2565,8 +2565,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2582,8 +2582,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2599,8 +2599,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2616,8 +2616,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2633,8 +2633,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2650,8 +2650,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2667,8 +2667,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2684,8 +2684,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2701,8 +2701,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2718,8 +2718,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2735,8 +2735,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2752,8 +2752,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2769,8 +2769,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2786,8 +2786,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2803,8 +2803,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2820,8 +2820,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2837,8 +2837,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2854,8 +2854,8 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     },
     {
@@ -2871,109 +2871,109 @@ window.MCLAB_DATA = {
       "image": "",
       "attachment": "",
       "url": "",
-      "summary": "",
       "leadRole": "",
+      "summary": "",
       "statusMode": "auto"
     }
   ],
   "researchTopics": [
     {
-      "image": "media/research/integrated-motion/dbe78ef9bc-AI_motion.jpg",
-      "title": "Integrated Vehicle Motion Control",
       "program": "vehicle-dynamics",
-      "source": "",
-      "description": "Unified optimization of steering, braking, and powertrain dynamics for enhanced vehicle performance. Implements advanced AI-driven algorithms for adaptability and efficiency. Aims to ensure stability, safety, and improved driving experience.",
+      "image": "media/research/integrated-motion/dbe78ef9bc-AI_motion.jpg",
       "video": "",
+      "description": "Unified optimization of steering, braking, and powertrain dynamics for enhanced vehicle performance. Implements advanced AI-driven algorithms for adaptability and efficiency. Aims to ensure stability, safety, and improved driving experience.",
+      "source": "",
+      "title": "Integrated Vehicle Motion Control",
       "id": "integrated-motion"
     },
     {
-      "image": "media/research/remote-mobility/072bcbc393-figure.webp",
-      "title": "Tele-operated mobility control: Steer / Drive / Brake by Wireless",
       "program": "vehicle-dynamics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Advanced remote steering control addressing network delay and robust impedance control. Incorporates AI-based fault diagnosis and state estimation.",
+      "image": "media/research/remote-mobility/072bcbc393-figure.webp",
       "video": "",
+      "description": "Advanced remote steering control addressing network delay and robust impedance control. Incorporates AI-based fault diagnosis and state estimation.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "Tele-operated mobility control: Steer / Drive / Brake by Wireless",
       "id": "remote-mobility"
     },
     {
-      "image": "media/research/future-echassis/7ba89fb864-figure.webp",
-      "title": "Future e-chassis systems: multi-actuating systems with 48 V E/E",
       "program": "vehicle-dynamics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Development of next-generation electrified chassis with independent control of steering, braking, and driving actuators. Enhances vehicle safety, reliability, and driving dynamics through intelligent and adaptive algorithms.",
+      "image": "media/research/future-echassis/7ba89fb864-figure.webp",
       "video": "",
+      "description": "Development of next-generation electrified chassis with independent control of steering, braking, and driving actuators. Enhances vehicle safety, reliability, and driving dynamics through intelligent and adaptive algorithms.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "Future e-chassis systems: multi-actuating systems with 48 V E/E",
       "id": "future-echassis"
     },
     {
-      "image": "media/research/learning-estimation/8f47316727-figure.webp",
-      "title": "Learning-based state estimation and fault detection",
       "program": "vehicle-dynamics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Development of advanced artificial intelligence and machine learning algorithms for precise vehicle state estimation, fault diagnosis, and adaptive control, enhancing overall reliability and driving performance.",
+      "image": "media/research/learning-estimation/8f47316727-figure.webp",
       "video": "",
+      "description": "Development of advanced artificial intelligence and machine learning algorithms for precise vehicle state estimation, fault diagnosis, and adaptive control, enhancing overall reliability and driving performance.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "Learning-based state estimation and fault detection",
       "id": "learning-estimation"
     },
     {
-      "image": "media/research/mobility-mechanism/b299b4bbcf-figure.webp",
-      "title": "New mobility mechanism and motion control",
       "program": "mechatronics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Design and analysis of innovative mobility platforms with novel mechanical structures. Utilizes modeling and simulation techniques to evaluate stability, maneuverability, and efficiency.",
+      "image": "media/research/mobility-mechanism/b299b4bbcf-figure.webp",
       "video": "",
+      "description": "Design and analysis of innovative mobility platforms with novel mechanical structures. Utilizes modeling and simulation techniques to evaluate stability, maneuverability, and efficiency.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "New mobility mechanism and motion control",
       "id": "mobility-mechanism"
     },
     {
-      "image": "media/research/ecorner/56643537e4-figure.webp",
-      "title": "e-Corner module future mobility: advanced motion control",
       "program": "mechatronics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Development of modular wheel units integrating independent steering, driving, braking, and suspension functions. Enables enhanced vehicle maneuverability, flexibility, and performance in future urban mobility.",
+      "image": "media/research/ecorner/56643537e4-figure.webp",
       "video": "",
+      "description": "Development of modular wheel units integrating independent steering, driving, braking, and suspension functions. Enables enhanced vehicle maneuverability, flexibility, and performance in future urban mobility.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "e-Corner module future mobility: advanced motion control",
       "id": "ecorner"
     },
     {
-      "image": "media/research/48v-steering/88d4fea6a7-figure.webp",
-      "title": "Control of 48 V e-steering: energy, synchronization, and fault tolerance",
       "program": "mechatronics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Develops optimal power distribution and management strategies for 48 V electrified chassis systems. Implements intelligent control algorithms considering battery conditions, vehicle dynamics, and efficiency.",
+      "image": "media/research/48v-steering/88d4fea6a7-figure.webp",
       "video": "",
+      "description": "Develops optimal power distribution and management strategies for 48 V electrified chassis systems. Implements intelligent control algorithms considering battery conditions, vehicle dynamics, and efficiency.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "Control of 48 V e-steering: energy, synchronization, and fault tolerance",
       "id": "48v-steering"
     },
     {
-      "image": "media/research/data-driven/516b3c4ec4-figure.webp",
-      "title": "Data-driven modeling and control",
       "program": "mechatronics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Development of data-driven approaches for accurate system modeling, state estimation, and optimized control algorithms, enhancing adaptability and real-time performance.",
+      "image": "media/research/data-driven/516b3c4ec4-figure.webp",
       "video": "",
+      "description": "Development of data-driven approaches for accurate system modeling, state estimation, and optimized control algorithms, enhancing adaptability and real-time performance.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "Data-driven modeling and control",
       "id": "data-driven"
     },
     {
-      "image": "media/research/human-machine/2ffc82155b-HMI.jpg",
-      "title": "Human–machine interface (HMI)",
       "program": "mechatronics",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Design of intuitive interfaces to enhance driving safety, comfort, and users’ new experiences through optimized driver–vehicle interaction.",
+      "image": "media/research/human-machine/2ffc82155b-HMI.jpg",
       "video": "",
+      "description": "Design of intuitive interfaces to enhance driving safety, comfort, and users’ new experiences through optimized driver–vehicle interaction.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "Human–machine interface (HMI)",
       "id": "human-machine"
     },
     {
-      "image": "media/research/ros-navigation/4327580efd-figure.webp",
-      "title": "AMR path generation with AI for the ROS navigation framework",
       "program": "mobile-robots",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "An AI-based algorithm generates optimal paths for AMR navigation within the ROS framework. It enhances real-time adaptability and efficiency in dynamic environments.",
+      "image": "media/research/ros-navigation/4327580efd-figure.webp",
       "video": "",
+      "description": "An AI-based algorithm generates optimal paths for AMR navigation within the ROS framework. It enhances real-time adaptability and efficiency in dynamic environments.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "AMR path generation with AI for the ROS navigation framework",
       "id": "ros-navigation"
     },
     {
-      "image": "media/research/agv-amr-design/4f0f780804-figure.webp",
-      "title": "Design and motion control of AGV and AMR",
       "program": "mobile-robots",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "description": "Mechanical design and motion control strategies for AGV and AMR systems, addressing the integration of hardware architecture, drive mechanisms, and control algorithms to ensure high precision, stability, and adaptability in dynamic environments.",
+      "image": "media/research/agv-amr-design/4f0f780804-figure.webp",
       "video": "",
+      "description": "Mechanical design and motion control strategies for AGV and AMR systems, addressing the integration of hardware architecture, drive mechanisms, and control algorithms to ensure high precision, stability, and adaptability in dynamic environments.",
+      "source": "https://sites.google.com/view/mclab/research-areas",
+      "title": "Design and motion control of AGV and AMR",
       "id": "agv-amr-design"
     }
   ]
