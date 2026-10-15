@@ -1926,3 +1926,9 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card{disp
 body[data-page="research"] .hmi-dual-sbw-card video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#0b1c2c;border-radius:10px}
 body[data-page="research"] .hmi-dual-sbw-card h3{font-family:"Inter","Noto Sans KR",sans-serif;font-size:22px;line-height:1.42;margin:20px 0 0}
 @media(max-width:700px){body[data-page="research"] .hmi-dual-sbw-card h3{font-size:17px}}
+
+
+/* Match DualSbW title and description typography to the neighboring HMI card. */
+body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card h3{font-family:inherit;font-size:22px;line-height:1.42;margin:20px 0 18px}
+body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{font-family:inherit;font-size:16px;line-height:1.75;color:var(--muted);margin:0}
+@media(max-width:700px){body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card h3{font-size:17px}body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{font-size:14px}}
