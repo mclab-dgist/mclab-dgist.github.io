@@ -1999,3 +1999,8 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
  color:#ffd6a5;
  border-color:#aa753f;
 }
+
+
+/* Government / Industry: oversized bold first letter, no left accent bar. */
+.project-editorial .project-code{border-left:0;padding-left:0;display:inline-flex;align-items:baseline;gap:0}
+.project-editorial .project-code .project-initial{font-family:"Inter","Pretendard Variable",sans-serif;font-size:22px;font-weight:800;line-height:1;color:inherit}
