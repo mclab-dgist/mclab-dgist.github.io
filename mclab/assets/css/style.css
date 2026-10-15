@@ -2028,3 +2028,10 @@ body[data-page="research"] .page-hero .research-hero-headline em{display:inline;
 @media(max-width:700px){
  body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(34px,8.4vw,58px)}
 }
+
+/* Under-review publications: dark gray text and neutral status badge. */
+body[data-page="publications"] .pub-row.pub-row-wip h3,
+body[data-page="publications"] .pub-row.pub-row-wip .pub-authors,
+body[data-page="publications"] .pub-row.pub-row-wip .pub-authors strong,
+body[data-page="publications"] .pub-row.pub-row-wip .pub-venue{color:#444b55;}
+body[data-page="publications"] .pub-row.pub-row-wip .pub-meta .pill.amber{background:#e5e7eb;color:#374151;border-color:#cbd0d6;}
