@@ -1919,3 +1919,10 @@ body[data-page="research"] .driving-simulator-wide video{
  body[data-page="research"] .driving-simulator-wide video{width:100%}
  body[data-page="research"] .driving-simulator-wide .driving-simulator-subtitle{margin-bottom:14px}
 }
+
+
+/* Dual-motor SbW demonstration in the right-hand HMI research card. */
+body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card{display:flex;flex-direction:column;align-items:stretch;padding:20px 20px 27px;background:var(--card);border:1px solid var(--line);border-radius:15px;min-width:0}
+body[data-page="research"] .hmi-dual-sbw-card video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#0b1c2c;border-radius:10px}
+body[data-page="research"] .hmi-dual-sbw-card h3{font-family:"Inter","Noto Sans KR",sans-serif;font-size:22px;line-height:1.42;margin:20px 0 0}
+@media(max-width:700px){body[data-page="research"] .hmi-dual-sbw-card h3{font-size:17px}}
