@@ -2009,3 +2009,14 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
 /* Color-code only the oversized funding-category initial. */
 .project-editorial .project-code-government .project-initial{color:#28a46a}
 .project-editorial .project-code-industry .project-initial{color:#ed8a30}
+
+
+/* Research hero headline: larger on desktop and mobile. */
+body[data-page="research"] .page-hero .research-hero-headline{
+ font-size:clamp(38px,4.2vw,62px);
+}
+@media(max-width:700px){
+ body[data-page="research"] .page-hero .research-hero-headline{
+  font-size:clamp(38px,9.2vw,62px);
+ }
+}
