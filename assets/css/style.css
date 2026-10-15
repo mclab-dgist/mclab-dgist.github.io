@@ -2004,3 +2004,8 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
 /* Government / Industry: oversized bold first letter, no left accent bar. */
 .project-editorial .project-code{border-left:0;padding-left:0;display:inline-flex;align-items:baseline;gap:0}
 .project-editorial .project-code .project-initial{font-family:"Inter","Pretendard Variable",sans-serif;font-size:22px;font-weight:800;line-height:1;color:inherit}
+
+
+/* Color-code only the oversized funding-category initial. */
+.project-editorial .project-code-government .project-initial{color:#28a46a}
+.project-editorial .project-code-industry .project-initial{color:#ed8a30}
