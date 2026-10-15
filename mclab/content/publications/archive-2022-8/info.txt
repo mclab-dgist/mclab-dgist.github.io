@@ -4,10 +4,10 @@ ID: archive-2022-8
 공개: true
 표시순서: 26
 연도: 2022
-제목: Interactive Trajectory Prediction Using a Potential Field-Integrated Deep Learning Method for Surrounding Vehicles on Highways
+제목: Interactive Trajectory Prediction Using a Driving Risk Map-Integrated Deep Learning Method for Surrounding Vehicles on Highways
 저자: X. Liu, Y. Wang*, K. Jiang, Z. Zhou, K. H. Nam, and C. Yin
 학술지: IEEE Transactions on Intelligent Transportation Systems
-DOI: 
+DOI: 10.1109/TITS.2022.3160630
 종류: Journal
 상태: Published
 권호쪽: vol. 23, no. 10, pp. 19076–19087, Dec. 2022
@@ -17,5 +17,5 @@ DOI:
 코드: 
 관련과제: 
 원문순위표기: JCR Top 2%
-원문서지: X. Liu, Y. Wang*, K. Jiang, Z. Zhou, K. H. Nam, and C. Yin, “Interactive Trajectory Prediction Using a Potential Field-Integrated Deep Learning Method for Surrounding Vehicles on Highways,” IEEE Transactions on Intelligent Transportation Systems, vol. 23, no. 10, pp. 19076–19087, Dec. 2022.
+원문서지: X. Liu, Y. Wang*, K. Jiang, Z. Zhou, K. H. Nam, and C. Yin, “Interactive Trajectory Prediction Using a Driving Risk Map-Integrated Deep Learning Method for Surrounding Vehicles on Highways,” IEEE Transactions on Intelligent Transportation Systems, vol. 23, no. 10, pp. 19076–19087, Dec. 2022.
 출처: https://sites.google.com/view/mclab/publications
