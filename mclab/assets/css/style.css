@@ -1983,3 +1983,19 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
 
 /* Thicker funding-category accent bar in project card header. */
 .project-editorial .project-code{border-left-width:6px}
+
+
+/* Project labels: double the current 6px accent bar. */
+.project-editorial .project-code{border-left-width:12px}
+
+/* Industry Ongoing: orange badge, distinct from Government green. */
+.project-editorial.project-industry .pill.green.industry-active-status{
+ background:#fff0dc;
+ color:#9b4b0a;
+ border:1px solid #f1bd80;
+}
+:root[data-theme=dark] .project-editorial.project-industry .pill.green.industry-active-status{
+ background:#58371c;
+ color:#ffd6a5;
+ border-color:#aa753f;
+}
