@@ -1980,3 +1980,6 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
  color:#d4e3ff;
  border-color:#5d7ab4;
 }
+
+/* Thicker funding-category accent bar in project card header. */
+.project-editorial .project-code{border-left-width:6px}
