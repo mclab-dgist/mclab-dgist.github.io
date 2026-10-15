@@ -1959,3 +1959,11 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
  body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card h3{font-size:16px}
  body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{font-size:13px}
 }
+
+
+/* Research hero: two-step larger mobile headline, desktop unchanged. */
+@media(max-width:700px){
+ body[data-page="research"] .page-hero .research-hero-headline{
+  font-size:clamp(34px,8.5vw,58px);
+ }
+}
