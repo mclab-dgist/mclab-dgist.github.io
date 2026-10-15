@@ -1941,3 +1941,12 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
  body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card h3{font-size:16px}
  body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{font-size:13px}
 }
+
+
+/* Further reduce DualSbW card typography. */
+body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card h3{font-size:17px}
+body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{font-size:13px}
+@media(max-width:700px){
+ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card h3{font-size:15px}
+ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{font-size:12px}
+}
