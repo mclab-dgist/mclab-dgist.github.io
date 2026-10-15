@@ -1967,3 +1967,16 @@ body[data-page="research"] .research-program .topic-grid>.hmi-dual-sbw-card p{fo
   font-size:clamp(34px,8.5vw,58px);
  }
 }
+
+
+/* Industry Ongoing status: distinct indigo-blue instead of government green. */
+.project-editorial.project-industry .pill.green.industry-active-status{
+ background:#e8efff;
+ color:#2852a4;
+ border:1px solid #b9caf4;
+}
+:root[data-theme=dark] .project-editorial.project-industry .pill.green.industry-active-status{
+ background:#253a67;
+ color:#d4e3ff;
+ border-color:#5d7ab4;
+}
