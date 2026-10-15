@@ -156,13 +156,13 @@
       ['전동화 X-by-Wire 샤시 시스템제어','',['SbW·EMB·능동현가·Active Anti-Roll Bar의 모델링 및 제어','랙추력, 클램핑력, 롤토크 정밀추정 및 강인제어','모방학습 기반 조향감 생성, EMB 기반 ABS/TCS/ESC 제어로직']],
       ['고성능 차량 통합모션제어 및 Lv.4 자율주행 대응 차세대 원격주행','',['조향·제동·구동·현가 통합제어 및 최적 타이어 힘 분배','핸들링·승차감·에너지 효율을 위한 예측·최적제어','통신 지연 예측·시각보상, 양방향 원격제어 및 실차량 검증']],
       ['AI 기반 샤시 모델개발 및 차량 상태추정','',['물리·AI 융합 샤시모델 및 Sim-to-Real 가상센서 개발','타이어 힘(Fx-Fy-Fz)추정·노면 마찰·차체 운동상태 추정 및 실차평가','실시간 AI 추론 기반 모델 적응·이상감지·고장진단']],
-      ['학습 기반 고정밀 모션제어 및 실시간 AI 응용','',['전동 액추에이터 위치·속도·토크 고정밀 제어','Learning-DOB·Sliding Mode Control과 학습 기반 마찰·외란 보상','실시간 임베디드 보드 기반 AI 추론 및 전동화 샤시모델 개발·제어']]
+      ['학습 기반 고정밀 모션제어 및 실시간 AI 응용','',['전동 액추에이터 정밀제어 및 드라이버 개발','학습 기반 최적 튜닝, 비선형 마찰 및 외란 보상 알고리즘 연구','실시간 임베디드 AI 추론 및 산업용 장비 응용']]
     ];
   const researchAreasEn=[
       ['Electrified X-by-Wire Chassis Control','',['SbW, EMB, active suspension and anti-roll bar modeling/control','Rack, clamping-force and roll-torque estimation; robust control','Imitation-learned steering feel and EMB-based ABS/TCS/ESC']],
       ['Integrated Motion Control & Lv.4 Teleoperation','',['Integrated chassis control and optimal tire-force allocation','Predictive control for handling, comfort and energy efficiency','Delay prediction, visual compensation and real-vehicle validation']],
       ['AI Chassis Modeling & Vehicle State Estimation','',['Physics–AI chassis models and Sim-to-Real virtual sensors','Tire-force (Fx/Fy/Fz), road-friction and vehicle-state estimation','Real-time AI model adaptation, anomaly detection and diagnosis']],
-      ['Learning-Based Motion Control & Real-Time AI','',['Precision position, speed and torque control of electric actuators','Learning-DOB/SMC and learning-based friction/disturbance compensation','Embedded real-time AI inference and electrified chassis modeling/control']]
+      ['Learning-Based Motion Control & Real-Time AI','',['Precision electric actuator control and driver development','Learning-based optimal tuning, nonlinear friction and disturbance compensation','Real-time embedded AI inference and industrial equipment applications']]
     ];
   function research(){
     const programs=D.researchPrograms||[], topics=D.researchTopics||[];
