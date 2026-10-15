@@ -7,5 +7,5 @@ ID: human-machine
 제목: Human–machine interface (HMI)
 설명: Design of intuitive interfaces to enhance driving safety, comfort, and users’ new experiences through optimized driver–vehicle interaction.
 대표그림: HMI.jpg
-영상: https://raw.githubusercontent.com/mclab-dgist/mclab-dgist.github.io/main/mclab/content/research/human-machine/SbW_Steering_Feel_Overview.mp4
+영상: https://raw.githubusercontent.com/mclab-dgist/mclab-dgist.github.io/main/mclab/content/research/human-machine/SBW.mp4
 출처: https://sites.google.com/view/mclab/research-areas
