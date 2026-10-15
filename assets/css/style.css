@@ -1836,3 +1836,17 @@ body[data-page="research"] .page-hero .research-hero-headline{
 /* Research hero headline: requested 50px desktop / 40px mobile caps. */
 body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(30px,3.4vw,52px)}
 @media(max-width:700px){body[data-page="research"] .page-hero .research-hero-headline{font-size:clamp(26px,6.5vw,50px)}}
+
+
+/* HMI research: video beside existing representative image on wide screens. */
+body[data-page="research"] .topic-card:has(.hmi-video-panel){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:22px;align-items:start}
+body[data-page="research"] .topic-card:has(.hmi-video-panel)>.research-image-button{grid-column:1;grid-row:1 / span 3}
+body[data-page="research"] .topic-card:has(.hmi-video-panel)>h3{grid-column:1;grid-row:4}
+body[data-page="research"] .topic-card:has(.hmi-video-panel)>p{grid-column:1;grid-row:5}
+body[data-page="research"] .topic-card:has(.hmi-video-panel)>.hmi-video-panel{grid-column:2;grid-row:1 / span 5}
+body[data-page="research"] .hmi-video-panel{min-width:0}
+body[data-page="research"] .hmi-video-panel video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#0c1c2d;border-radius:11px}
+body[data-page="research"] .hmi-video-caption{padding:12px 2px 0}
+body[data-page="research"] .hmi-video-caption strong{display:block;font-family:"Inter",sans-serif;font-size:15px;color:var(--ink);line-height:1.4}
+body[data-page="research"] .hmi-video-caption p{font-size:13px;line-height:1.65;margin:7px 0 0;color:var(--muted)}
+@media(max-width:900px){body[data-page="research"] .topic-card:has(.hmi-video-panel){display:flex;flex-direction:column;gap:0}body[data-page="research"] .hmi-video-panel{width:100%;margin-top:18px}}
