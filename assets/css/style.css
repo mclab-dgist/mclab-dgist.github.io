@@ -2049,3 +2049,6 @@ body[data-page="publications"] .pub-row.pub-row-wip .pub-meta .pill.amber{backgr
 .nav-actions .dgist-logo-right img{display:block;width:150px;height:auto;max-height:42px;object-fit:contain}
 @media(max-width:980px){.nav-actions .dgist-logo-right img{width:95px}}
 @media(max-width:600px){.nav-actions .dgist-logo-right{margin-right:2px}.nav-actions .dgist-logo-right img{width:78px}}
+
+/* English-only philosophy captions on homepage. */
+body[data-page='home'] .philosophy-pillar p[lang='ko']{display:none!important}
