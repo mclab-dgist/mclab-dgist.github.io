@@ -2043,3 +2043,9 @@ body[data-page="publications"] .pub-row.pub-row-wip .pub-meta .pill.amber{backgr
 .header-brand-divider{height:36px;width:1px;background:var(--line);flex-shrink:0}
 @media(max-width:800px){.header-brand-group{gap:9px}.dgist-logo-link img{width:95px}.header-brand-divider{height:24px}}
 @media(max-width:400px){.header-brand-group{gap:7px}.dgist-logo-link img{width:78px}.header-brand-group .brand-name{font-size:22px}}
+
+/* DGIST logo relocated to the right side of the primary header. */
+.nav-actions .dgist-logo-right{display:flex;align-items:center;margin-right:8px;flex-shrink:0}
+.nav-actions .dgist-logo-right img{display:block;width:135px;height:auto;max-height:38px;object-fit:contain}
+@media(max-width:980px){.nav-actions .dgist-logo-right img{width:95px}}
+@media(max-width:600px){.nav-actions .dgist-logo-right{margin-right:2px}.nav-actions .dgist-logo-right img{width:78px}}
