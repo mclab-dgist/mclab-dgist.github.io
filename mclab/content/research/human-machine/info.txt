@@ -2,7 +2,7 @@
 # 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
 ID: human-machine
 공개: true
-표시순서: 9
+표시순서: 11
 대분류: mechatronics
 제목: Human–machine interface (HMI)
 설명: Design of intuitive interfaces to enhance driving safety, comfort, and users’ new experiences through optimized driver–vehicle interaction.
