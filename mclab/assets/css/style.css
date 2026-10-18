@@ -2057,3 +2057,8 @@ body[data-page='home'] .philosophy-pillar p[lang='ko']{display:none!important}
 body[data-page='research'] .research-program .research-image-button .topic-image{width:100%;height:auto;aspect-ratio:1.45;object-fit:cover;object-position:center;padding:0;max-height:none;margin:0;background:#fff}
 @media(max-width:820px){body[data-page='research'] .research-program .research-image-button .topic-image{aspect-ratio:16/10;padding:0;min-height:0;max-height:none}}
 @media(max-width:600px){body[data-page='research'] .research-program .research-image-button .topic-image{aspect-ratio:1.45;padding:0}}
+
+/* Research illustrations are 5:4: preserve every edge without cropping. */
+body[data-page='research'] .research-program .research-image-button .topic-image{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:contain;object-position:center;padding:0;max-height:none;margin:0;background:#fff}
+@media(max-width:820px){body[data-page='research'] .research-program .research-image-button .topic-image{aspect-ratio:5/4;object-fit:contain;padding:0;min-height:0;max-height:none}}
+@media(max-width:600px){body[data-page='research'] .research-program .research-image-button .topic-image{aspect-ratio:5/4;object-fit:contain;padding:0}}
