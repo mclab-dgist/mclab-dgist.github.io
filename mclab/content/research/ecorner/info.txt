@@ -2,7 +2,7 @@
 # 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
 ID: ecorner
 공개: true
-표시순서: 6
+표시순서: 8
 대분류: mechatronics
 제목: e-Corner module future mobility: advanced motion control
 설명: Development of modular wheel units integrating independent steering, driving, braking, and suspension functions. Enables enhanced vehicle maneuverability, flexibility, and performance in future urban mobility.
