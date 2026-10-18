@@ -6,6 +6,4 @@ ID: learning-estimation
 대분류: vehicle-dynamics
 제목: EMB Clamping Force Estimation and Control with HIL-Based ABS Validation
 설명: UKF-based estimation of brake pad contact point and clamping force, precision EMB force control with model-based compensation, and wheel-slip ABS control validated through EMB–CarSim hardware-in-the-loop experiments.
-대표그림: EMB.jpg
-영상: 
-출처: https://sites.google.com/view/mclab/research-areas
+대표그림: emb.jpg
