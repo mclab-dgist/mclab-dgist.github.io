@@ -2062,3 +2062,6 @@ body[data-page='research'] .research-program .research-image-button .topic-image
 body[data-page='research'] .research-program .research-image-button .topic-image{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:contain;object-position:center;padding:0;max-height:none;margin:0;background:#fff}
 @media(max-width:820px){body[data-page='research'] .research-program .research-image-button .topic-image{aspect-ratio:5/4;object-fit:contain;padding:0;min-height:0;max-height:none}}
 @media(max-width:600px){body[data-page='research'] .research-program .research-image-button .topic-image{aspect-ratio:5/4;object-fit:contain;padding:0}}
+
+/* Hide the two research program introduction headings, retaining all topic cards. */
+body[data-page='research'] .research-program>.program-heading{display:none!important}
