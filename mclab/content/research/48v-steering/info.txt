@@ -2,7 +2,7 @@
 # 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
 ID: 48v-steering
 공개: true
-표시순서: 7
+표시순서: 9
 대분류: mechatronics
 제목: Control of 48 V e-steering: energy, synchronization, and fault tolerance
 설명: Develops optimal power distribution and management strategies for 48 V electrified chassis systems. Implements intelligent control algorithms considering battery conditions, vehicle dynamics, and efficiency.
