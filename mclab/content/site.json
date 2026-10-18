@@ -314,20 +314,5 @@
     "news": "https://sites.google.com/view/mclab/lab-newsevents",
     "contact": "https://sites.google.com/view/mclab/contact"
   },
-  "researchPrograms": [
-    {
-      "id": "vehicle-dynamics",
-      "number": "01",
-      "title": "Vehicle Dynamics and Integrated Motion Control",
-      "titleKo": "차량동역학 및 통합 모션제어",
-      "description": "Research on modeling, analysis, and control of dynamic vehicle behavior. Develops advanced algorithms to optimize stability, handling, and ride comfort. Enhances overall vehicle safety and driving performance."
-    },
-    {
-      "id": "mechatronics",
-      "number": "02",
-      "title": "Mechatronics for Future e-Mobility",
-      "titleKo": "미래 전동 모빌리티 메카트로닉스",
-      "description": "Integration of advanced mechatronic systems for electrified mobility platforms. Focuses on developing intelligent actuators and control algorithms for enhanced vehicle efficiency and performance."
-    }
-  ]
+  "researchPrograms": []
 }
