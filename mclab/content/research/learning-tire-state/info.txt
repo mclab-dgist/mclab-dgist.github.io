@@ -4,4 +4,4 @@ ID: learning-tire-state
 대분류: vehicle-dynamics
 제목: Learning-based Tire Force and Vehicle State Estimation
 설명: Physical-AI framework combining GP-augmented EKF/UKF with vehicle dynamics models and onboard sensors to estimate tire forces, sideslip and road friction online for robust integrated chassis control.
-대표그림: 
+대표그림: observer.jpg
