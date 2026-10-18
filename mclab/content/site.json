@@ -328,13 +328,6 @@
       "title": "Mechatronics for Future e-Mobility",
       "titleKo": "미래 전동 모빌리티 메카트로닉스",
       "description": "Integration of advanced mechatronic systems for electrified mobility platforms. Focuses on developing intelligent actuators and control algorithms for enhanced vehicle efficiency and performance."
-    },
-    {
-      "id": "mobile-robots",
-      "number": "03",
-      "title": "Autonomous Driving of AGV / AMR",
-      "titleKo": "AGV·AMR 자율주행 및 모션제어",
-      "description": "Motion control and path planning for autonomous driving of AGV/AMR in industrial logistics environments."
     }
   ]
 }
