@@ -1,0 +1,7 @@
+ID: aarb-roll-handling
+공개: true
+표시순서: 3
+대분류: vehicle-dynamics
+제목: Integrated Roll and Handling Control Algorithm for Active Anti-Roll Bar (AARB)
+설명: Feedforward roll-moment control from predicted lateral acceleration with yaw-rate-feedback front-rear torque allocation for roll suppression and handling, verified by Simscape-CarSim co-simulation.
+대표그림: 
