@@ -15,7 +15,7 @@ window.MCLAB_DATA = {
     "siteUrl": "https://nkh6189-sys.github.io/mclab-dgist.github.io/",
     "heroImage": "assets/images/home/ecorner-platform.jpg",
     "sourceUrl": "https://sites.google.com/view/mclab/",
-    "tagline": "Intelligence in mobility.",
+    "tagline": "Intelligence in mobility",
     "description": "We connect vehicle dynamics, intelligent control, and AI to advance safe, agile, and efficient mobility.",
     "repositoryUrl": "https://github.com/nkh6189-sys/mclab-dgist.github.io",
     "contentMode": "folders",
