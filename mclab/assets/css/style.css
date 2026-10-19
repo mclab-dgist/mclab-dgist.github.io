@@ -2069,3 +2069,7 @@ body[data-page='research'] .research-program>.program-heading{display:none!impor
 /* Research hero headline: reduce font size by one step. */
 @media(min-width:701px){body[data-page='research'] .research-hero-headline{font-size:clamp(34px,3.5vw,52px)}}
 @media(max-width:700px){body[data-page='research'] .research-hero-headline{font-size:clamp(31px,7.7vw,54px)}}
+
+/* Publications: add breathing room beneath the Work in Progress heading. */
+body[data-page='publications'] .pub-year:has(h2) + .pub-row.pub-row-wip{padding-top:22px}
+@media(max-width:600px){body[data-page='publications'] .pub-year:has(h2) + .pub-row.pub-row-wip{padding-top:19px}}
