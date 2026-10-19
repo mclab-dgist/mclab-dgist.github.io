@@ -363,6 +363,14 @@ def build(root:Path,output:Path,today:str|None=None) -> dict[str,Any]:
             if source.is_symlink():raise ContentError(f'assets 안의 심볼릭 링크: {source}')
             if source.is_file() and not any(p.startswith('.') for p in source.relative_to(root/'assets').parts) and source.suffix.lower() in {'.css','.js','.svg','.jpg','.jpeg','.png','.webp','.ico','.mp4','.webm'}:
                 target=dest/source.relative_to(root);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
+        # Publish the two experiment videos used by the Research page.
+        for filename in ('SBW.mp4', 'DualSbW.mp4'):
+            source=root/'content'/'research'/'human-machine'/filename
+            if not source.is_file() or source.is_symlink():
+                raise ContentError(f'Research video missing: {filename}')
+            target=dest/'assets'/'video'/'research'/filename
+            target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(source,target)
         (dest/'data').mkdir()
         (dest/'data/site-data.js').write_text(js_data(data),encoding='utf-8')
         for rel,source in assets.items():
