@@ -105,7 +105,7 @@
     const newsGallery=gallery.map(g=>`<a class="home-news-photo" href="${link('news',g.id)}"><img src="${safeURL(g.image)}" alt="${esc(g.alt||g.title)}" loading="lazy"><span class="home-news-caption"><strong>${esc(g.title)}</strong><small>${esc(newsCaptions[g.id]||g.text||g.title)}</small></span></a>`).join('');
     return `<section class="hero philosophy-home video-home"><video class="home-background-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1" onerror="this.style.display=\'none\'"><source src="assets/video/gemini_generated_video.mp4" type="video/mp4"></video><div class="home-video-shade" aria-hidden="true"></div><div class="container philosophy-hero-inner">
       <div class="philosophy-kicker">DGIST · MOBILITY CONTROL LABORATORY</div>
-      <h1>Intelligence<br><span>in motion.</span></h1>
+      <h1>Intelligence<br><span>in mobility.</span></h1>
       <p class="philosophy-lead">Engineering safer, smarter, and more efficient mobility.</p>
       <p class="philosophy-statement">We unite <strong>vehicle dynamics</strong>, <strong>intelligent control</strong>, and <strong>AI</strong> to turn physical insight into reliable motion — from electrified chassis systems to next-generation mobility.</p>
       <div class="philosophy-actions"><a class="btn" href="${link('research')}">Explore our research ${arrow}</a><a class="btn btn-outline" href="${link('people')}">Meet MCLab ${right}</a></div>
