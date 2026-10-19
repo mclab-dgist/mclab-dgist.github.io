@@ -38,6 +38,24 @@ jobs:
         if: steps.package.outputs.ready == 'true'
         working-directory: mclab
         run: python3 -m unittest discover -s tests -v
+      - name: Encode research videos for desktop and mobile browsers
+        if: steps.package.outputs.ready == 'true'
+        working-directory: mclab
+        run: |
+          set -euo pipefail
+          mkdir -p assets/video/research
+          for video in SBW DualSbW; do
+            input="content/research/human-machine/${video}.mp4"
+            output="assets/video/research/${video}.mp4"
+            test -s "$input"
+            ffmpeg -hide_banner -loglevel error -nostdin -y -i "$input" \
+              -map 0:v:0 -map '0:a?' \
+              -vf "scale=w='min(1920,iw)':h='min(1080,ih)':force_original_aspect_ratio=decrease:force_divisible_by=2" \
+              -c:v libx264 -preset medium -crf 20 -pix_fmt yuv420p \
+              -c:a aac -b:a 128k -movflags +faststart "$output"
+            test -s "$output"
+            ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,pix_fmt -of default=noprint_wrappers=1 "$output"
+          done
       - name: Build website from content folders
         if: steps.package.outputs.ready == 'true'
         working-directory: mclab
