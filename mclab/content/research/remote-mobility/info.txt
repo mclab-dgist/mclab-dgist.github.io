@@ -4,6 +4,6 @@ ID: remote-mobility
 공개: true
 표시순서: 2
 대분류: vehicle-dynamics
-제목: Next-Generation Teleoperation Control for Level 4 Autonomous Vehicles
-설명: Advanced remote steering control addressing network delay and robust impedance control. Incorporates AI-based fault diagnosis and state estimation.
+제목: Digital Twin-Enabled Teleoperation with Predictive Visual Feedback and Delay Compensation
+설명: Digital twin-based teleoperation integrating four-camera surround-view reconstruction, predictive vehicle-state estimation, and delay-compensated steering control. Provides real-time visual overlays of predicted trajectories and risk regions to enhance remote driving accuracy, stability, and situational awareness under communication delays.
 대표그림: Tele.jpg
