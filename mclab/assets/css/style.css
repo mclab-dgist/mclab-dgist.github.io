@@ -2146,3 +2146,11 @@ body[data-page='home'] .notice-media-stack>.text-link{display:flex;align-items:c
 :root:not([data-theme='dark']) body[data-page='people'] .pi-feature,
 :root:not([data-theme='dark']) body[data-page='people'] .person-card{background:#FFFFFF;border-color:#C7D4E3;box-shadow:0 6px 22px rgba(16,43,76,.055)}
 :root:not([data-theme='dark']) body[data-page='people'] .people-section h2{color:#102B4C}
+
+/* Projects: sophisticated, slightly deeper alternating card palettes. */
+:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:nth-child(4n+1){background:linear-gradient(145deg,#D6E5F4,#E6EFF8);border-color:#B5CCE3}
+:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:nth-child(4n+2){background:linear-gradient(145deg,#DCE9E4,#EDF4F0);border-color:#BCD5C9}
+:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:nth-child(4n+3){background:linear-gradient(145deg,#E6E2F1,#F1EEF8);border-color:#CCC4E1}
+:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:nth-child(4n){background:linear-gradient(145deg,#F0E5D9,#F8F0E7);border-color:#E1CDB6}
+:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial{box-shadow:0 7px 22px rgba(19,47,78,.075);transition:transform .2s,box-shadow .2s,border-color .2s}
+:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:hover{filter:brightness(.985);box-shadow:0 14px 30px rgba(19,47,78,.12);transform:translateY(-2px)}
