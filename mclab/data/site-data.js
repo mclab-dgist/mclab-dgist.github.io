@@ -117,14 +117,14 @@ window.MCLAB_DATA = {
     ],
     "awards": [
       {
-        "year": "2024",
-        "title": "Joint Research Laboratory designation",
-        "detail": "“On-road holonomic driving system joint research Laboratory,” Hyundai Motors Group (Feb. 2024)."
-      },
-      {
         "year": "2020–2026",
         "title": "World’s Top 2% Scientists",
         "detail": "Stanford University / Elsevier research impact ranking (2020–2026)."
+      },
+      {
+        "year": "2024",
+        "title": "Joint Research Laboratory designation",
+        "detail": "“On-road holonomic driving system joint research Laboratory,” Hyundai Motors Group (Feb. 2024)."
       },
       {
         "year": "2017",
