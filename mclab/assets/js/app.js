@@ -117,9 +117,6 @@
       </div>
     </div></section>
     <section class="section home-news-notice"><div class="container home-news-notice-grid">
-      <div class="home-news-column"><div class="home-column-heading"><h2>MCLab NEWS</h2><a href="${link('news')}">View all ${right}</a></div>
-        <div class="home-news-gallery">${newsGallery||'<p>News and lab photographs will be posted here.</p>'}</div>
-      </div>
       <div class="home-notice-column"><div class="home-column-heading"><h2>NOTICE</h2><a href="${link('join')}">Join us ${right}</a></div>
         <article class="home-notice-card"><span class="notice-category">RECRUITMENT · 연구원 모집</span>
           <h3>Join MCLab</h3><p class="recruitment-closed" role="status">2027년 봄학기 모집 완료 <span lang="en">· Spring 2027 Recruitment Closed</span></p>
