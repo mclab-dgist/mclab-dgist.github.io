@@ -1986,6 +1986,20 @@ window.MCLAB_DATA = {
       "statusMode": "auto"
     },
     {
+      "id": "remote-6dof-motion-platform",
+      "title": "Development of a 6-DOF Motion Control Platform for Remote Driving Stability Enhancement",
+      "funder": "SUM Co., Ltd.",
+      "category": "Industry",
+      "start": "2026-10",
+      "end": "2027-06",
+      "status": "Ongoing",
+      "leadRole": "PI",
+      "summary": "",
+      "code": "",
+      "url": "",
+      "attachment": ""
+    },
+    {
       "id": "g1",
       "code": "G-1",
       "title": "Integrated 6-DOF Mobility Motion Control Based on Tire–Vehicle State Fusion and RL-Based Control Allocation",
