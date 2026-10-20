@@ -118,7 +118,7 @@
     </div></section>
     <section class="section home-news-notice"><div class="container home-news-notice-grid">
       <div class="home-notice-column"><div class="home-column-heading"><h2>NOTICE</h2><a href="${link('join')}">Join us ${right}</a></div>
-        <article class="home-notice-card"><span class="notice-category">RECRUITMENT · 연구원 모집</span>
+        <article class="home-notice-card">
           <h3>Join MCLab</h3><p class="recruitment-closed" role="status">2027년 봄학기 모집 완료 <span lang="en">· Spring 2027 Recruitment Closed</span></p>
           <div class="recruitment-language" lang="ko">
             <p><strong>모집 대상</strong> · 학부연구생, 석사, 석박통합 및 박사과정 학생</p>
