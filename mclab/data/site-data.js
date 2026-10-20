@@ -436,20 +436,6 @@ window.MCLAB_DATA = {
   ],
   "people": [
     {
-      "id": "insu-chung",
-      "name": "Insu Chung",
-      "role": "Postdoctoral Researcher",
-      "group": "Researchers",
-      "interest": "X-by-Wire system modeling and integrated control",
-      "email": "insu.chung@dgist.ac.kr",
-      "photo": "content/people/insu-chung/photo.jpg",
-      "affiliation": "",
-      "graduated": "",
-      "website": "",
-      "joined": "",
-      "nameKo": ""
-    },
-    {
       "id": "minhyeong-kim",
       "name": "Minhyeong Kim",
       "role": "Ph.D. Candidate",
@@ -2965,24 +2951,6 @@ window.MCLAB_DATA = {
       "title": "Human–machine interface (HMI)",
       "video": "",
       "id": "human-machine"
-    },
-    {
-      "description": "An AI-based algorithm generates optimal paths for AMR navigation within the ROS framework. It enhances real-time adaptability and efficiency in dynamic environments.",
-      "program": "mobile-robots",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "image": "content/research/ros-navigation/figure.webp",
-      "title": "AMR path generation with AI for the ROS navigation framework",
-      "video": "",
-      "id": "ros-navigation"
-    },
-    {
-      "description": "Mechanical design and motion control strategies for AGV and AMR systems, addressing the integration of hardware architecture, drive mechanisms, and control algorithms to ensure high precision, stability, and adaptability in dynamic environments.",
-      "program": "mobile-robots",
-      "source": "https://sites.google.com/view/mclab/research-areas",
-      "image": "content/research/agv-amr-design/figure.webp",
-      "title": "Design and motion control of AGV and AMR",
-      "video": "",
-      "id": "agv-amr-design"
     }
   ]
 };
