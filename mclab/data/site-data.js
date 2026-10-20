@@ -47,7 +47,7 @@ window.MCLAB_DATA = {
     "nameKo": "남강현",
     "role": "Associate Professor",
     "email": "khnam@dgist.ac.kr",
-    "photo": "content/people/kanghyun-nam/photo.jpg",
+    "photo": "media/people/kanghyun-nam/9e241a7464-photo.jpg",
     "interests": [
       "Vehicle dynamics & integrated control",
       "X-by-Wire & electrified chassis",
@@ -2963,7 +2963,7 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/research-areas",
       "image": "media/research/human-machine/2ffc82155b-HMI.jpg",
       "title": "Human–machine interface (HMI)",
-      "video": "",
+      "video": "assets/video/research/SBW.mp4",
       "id": "human-machine"
     }
   ]
