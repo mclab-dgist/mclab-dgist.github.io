@@ -1857,7 +1857,7 @@ window.MCLAB_DATA = {
     },
     {
       "id": "wip-tcn",
-      "title": "TCN-Guided Predictive Gain Scheduling for Super-Twisting Sliding Mode Control of a Steer-by-Wire Road-Wheel Actuator",
+      "title": "TCN-Guided Gain Scheduling for Super-Twisting Sliding-Mode Control of a Steer-by-Wire Road-Wheel Actuator",
       "authors": "M. Kim, S. Lee, and K. H. Nam*",
       "venue": "IEEE Transactions on Industrial Electronics",
       "doi": "",
