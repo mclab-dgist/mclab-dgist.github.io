@@ -2895,11 +2895,11 @@ window.MCLAB_DATA = {
       "id": "integrated-motion"
     },
     {
-      "description": "Advanced remote steering control addressing network delay and robust impedance control. Incorporates AI-based fault diagnosis and state estimation.",
+      "description": "Digital twin-based teleoperation integrating four-camera surround-view reconstruction, predictive vehicle-state estimation, and delay-compensated steering control. Provides real-time visual overlays of predicted trajectories and risk regions to enhance remote driving accuracy, stability, and situational awareness under communication delays.",
       "program": "vehicle-dynamics",
       "source": "https://sites.google.com/view/mclab/research-areas",
       "image": "media/research/remote-mobility/677fa8d70f-Tele.jpg",
-      "title": "Tele-operated mobility control: Steer / Drive / Brake by Wireless",
+      "title": "Digital Twin-Enabled Teleoperation with Predictive Visual Feedback and Delay Compensation",
       "video": "",
       "id": "remote-mobility"
     },
