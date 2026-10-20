@@ -2139,3 +2139,10 @@ body[data-page='home'] .home-notice-column .home-notice-card>.notice-media-stack
 body[data-page='home'] .notice-media-stack>.home-recruitment-video{width:100%;margin:0;box-shadow:0 12px 32px rgba(13,46,83,.12)}
 body[data-page='home'] .notice-media-stack>.text-link{display:flex;align-items:center;justify-content:center;width:100%;margin:0}
 @media(max-width:850px){body[data-page='home'] .home-notice-column .home-notice-card>.notice-media-stack{margin-top:18px;align-self:stretch;gap:14px}}
+
+/* People page: premium blue-gray backdrop with crisp white profile cards. */
+:root:not([data-theme='dark']) body[data-page='people']{background:#E5ECF4}
+:root:not([data-theme='dark']) body[data-page='people'] .simple-page-hero{background:#E5ECF4}
+:root:not([data-theme='dark']) body[data-page='people'] .pi-feature,
+:root:not([data-theme='dark']) body[data-page='people'] .person-card{background:#FFFFFF;border-color:#C7D4E3;box-shadow:0 6px 22px rgba(16,43,76,.055)}
+:root:not([data-theme='dark']) body[data-page='people'] .people-section h2{color:#102B4C}
