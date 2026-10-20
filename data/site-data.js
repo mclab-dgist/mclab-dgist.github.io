@@ -47,7 +47,7 @@ window.MCLAB_DATA = {
     "nameKo": "남강현",
     "role": "Associate Professor",
     "email": "khnam@dgist.ac.kr",
-    "photo": "content/people/kanghyun-nam/photo.jpg",
+    "photo": "media/people/kanghyun-nam/9e241a7464-photo.jpg",
     "interests": [
       "Vehicle dynamics & integrated control",
       "X-by-Wire & electrified chassis",
@@ -1986,6 +1986,20 @@ window.MCLAB_DATA = {
       "statusMode": "auto"
     },
     {
+      "id": "remote-6dof-motion-platform",
+      "title": "Development of a 6-DOF Motion Control Platform for Remote Driving Stability Enhancement",
+      "funder": "SUM Co., Ltd.",
+      "category": "Industry",
+      "start": "2026-10",
+      "end": "2027-06",
+      "status": "Ongoing",
+      "leadRole": "PI",
+      "summary": "",
+      "code": "",
+      "url": "",
+      "attachment": ""
+    },
+    {
       "id": "g1",
       "code": "G-1",
       "title": "Integrated 6-DOF Mobility Motion Control Based on Tire–Vehicle State Fusion and RL-Based Control Allocation",
@@ -2963,7 +2977,7 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/research-areas",
       "image": "media/research/human-machine/2ffc82155b-HMI.jpg",
       "title": "Human–machine interface (HMI)",
-      "video": "",
+      "video": "assets/video/research/SBW.mp4",
       "id": "human-machine"
     }
   ]
