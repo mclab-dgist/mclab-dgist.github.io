@@ -81,13 +81,8 @@ window.MCLAB_DATA = {
         "org": "DGIST"
       },
       {
-        "period": "Mar. 2021–Jul. 2025",
-        "role": "Associate Professor",
-        "org": "Yeungnam University"
-      },
-      {
-        "period": "Mar. 2015–Feb. 2021",
-        "role": "Assistant Professor",
+        "period": "Mar. 2015–Jul. 2025",
+        "role": "Assistant Professor / Associate Professor",
         "org": "Yeungnam University"
       },
       {
@@ -140,11 +135,6 @@ window.MCLAB_DATA = {
         "year": "2012",
         "title": "Best Graduate Student Award",
         "detail": "Department of Electrical Engineering, The University of Tokyo (Sep. 2012)."
-      },
-      {
-        "year": "2012",
-        "title": "Grand Prize",
-        "detail": "1st Hyundai Global Forum in Japan, Hyundai Motors (Jun. 2012)."
       }
     ],
     "reviewing": [
