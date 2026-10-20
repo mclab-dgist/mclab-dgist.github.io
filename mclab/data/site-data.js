@@ -129,7 +129,7 @@ window.MCLAB_DATA = {
       {
         "year": "2014",
         "title": "Best Paper Award",
-        "detail": "IEEE Transactions on Industrial Electronics."
+        "detail": "IEEE Transactions on Industrial Electronics (Nov. 2014)"
       },
       {
         "year": "2012",
