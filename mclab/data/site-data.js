@@ -59,7 +59,7 @@ window.MCLAB_DATA = {
         "period": "Oct. 2009–Sep. 2012",
         "degree": "Ph.D., Electrical Engineering",
         "school": "The University of Tokyo, Japan",
-        "detail": "Advisors: Prof. Yoichi Hori and Prof. Hiroshi Fujimoto. Best Graduate Student Award, Department of Electrical Engineering (2012)."
+        "detail": "Japanese Government Scholarship (MEXT).\nAdvisors: Prof. Yoichi Hori and Prof. Hiroshi Fujimoto.\nBest Graduate Student Award, Department of Electrical Engineering (2012)."
       },
       {
         "period": "Mar. 2007–Jan. 2009",
@@ -122,6 +122,11 @@ window.MCLAB_DATA = {
         "detail": "“On-road holonomic driving system joint research Laboratory,” Hyundai Motors Group (Feb. 2024)."
       },
       {
+        "year": "2020–2026",
+        "title": "World’s Top 2% Scientists",
+        "detail": "Stanford University / Elsevier research impact ranking (2020–2026)."
+      },
+      {
         "year": "2017",
         "title": "한국자동차공학회 학회발전 기여상",
         "detail": "Korean Society of Automotive Engineers (Nov. 16, 2017)."
@@ -146,7 +151,10 @@ window.MCLAB_DATA = {
       "IEEE Transactions on Industrial Electronics",
       "IEEE Transactions on Vehicular Technology",
       "IEEE/ASME Transactions on Mechatronics",
-      "IEEE Transactions on Intelligent Transportation Systems"
+      "IEEE Transactions on Intelligent Transportation Systems",
+      "International Journal of Automotive Technology (IJAT)",
+      "Control Engineering Practice",
+      "IEEE Transactions on Intelligent Vehicles"
     ]
   },
   "research": [
