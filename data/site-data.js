@@ -1945,14 +1945,14 @@ window.MCLAB_DATA = {
       "category": "Industry",
       "start": "2026-11",
       "end": "2027-07",
-      "status": "Upcoming",
+      "status": "Ongoing",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
       "image": "",
       "url": "",
       "attachment": "",
       "summary": "",
-      "statusMode": "auto"
+      "statusMode": "manual"
     },
     {
       "id": "i2",
