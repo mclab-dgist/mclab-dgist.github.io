@@ -145,7 +145,8 @@ window.MCLAB_DATA = {
       "International Journal of Automotive Technology (IJAT)",
       "Control Engineering Practice",
       "IEEE Transactions on Intelligent Vehicles"
-    ]
+    ],
+    "nameHanja": "南康鉉"
   },
   "research": [
     {
@@ -433,6 +434,16 @@ window.MCLAB_DATA = {
     }
   ],
   "people": [
+    {
+      "id": "jihoon-hwang",
+      "name": "Jihoon Hwang",
+      "nameKo": "황지훈",
+      "role": "Post-Master's Researcher",
+      "group": "Researchers",
+      "interest": "Integrated Vehicle Control / Novel Human–Machine Interfaces (HMI)",
+      "email": "hjh8486@dgist.ac.kr",
+      "photo": "media/people/jihoon-hwang/photo.jpg"
+    },
     {
       "id": "minhyeong-kim",
       "name": "Minhyeong Kim",
