@@ -3,7 +3,7 @@ ID: review-dual-axis-brake
 표시순서: 66
 연도:
 제목: Analytical Design and Simulation Assessment of a Compact Dual-Axis Brake for Concentric Omnidirectional Wheel Modules
-저자: A. Neaz, I. Chung, B. G. Kim, and K. H. Nam
+저자: A. Neaz, I. Chung, B. G. Kim*, and K. H. Nam*
 학술지: IEEE Access
 DOI:
 종류: Journal
