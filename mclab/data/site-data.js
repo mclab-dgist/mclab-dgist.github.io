@@ -673,7 +673,7 @@ window.MCLAB_DATA = {
     {
       "id": "review-dual-axis-brake",
       "title": "Analytical Design and Simulation Assessment of a Compact Dual-Axis Brake for Concentric Omnidirectional Wheel Modules",
-      "authors": "A. Neaz, I. Chung, B. G. Kim, and K. H. Nam",
+      "authors": "A. Neaz, I. Chung, B. G. Kim*, and K. H. Nam*",
       "venue": "IEEE Access",
       "doi": "",
       "type": "Journal",
