@@ -1,0 +1,853 @@
+{
+  "schema": 1,
+  "description": "Approved public website baseline. Changes require explicit manifest review; do not regenerate automatically.",
+  "minimumCounts": {
+    "people": 17,
+    "publications": 56,
+    "projects": 55,
+    "researchTopics": 11,
+    "gallery": 8,
+    "news": 2
+  },
+  "requiredIds": {
+    "people": [
+      "jihoon-hwang",
+      "minhyeong-kim",
+      "jinwoo-kim",
+      "yejin-lee",
+      "wonchang-yang",
+      "gibeom-kim",
+      "hyeongseon-jeon",
+      "jeonghyeon-woo",
+      "seungchul-shin",
+      "jeongwon-lee",
+      "sungeun-park",
+      "geonwoo-park",
+      "donggyu-kim",
+      "heewon-choi",
+      "seongil-cho",
+      "sanghyeok-park",
+      "nayoon-kim"
+    ],
+    "publications": [
+      "review-dual-axis-brake",
+      "sub-preview",
+      "sub-st-tilt",
+      "j26-sft",
+      "j26-cnn",
+      "j26-abs",
+      "c26-tilt",
+      "j26-ftc",
+      "j26-htfo",
+      "j26-sync",
+      "j26-gprukf",
+      "j26-feel",
+      "archive-2024-1",
+      "archive-2024-2",
+      "j24-tilt",
+      "archive-2024-4",
+      "archive-2023-5",
+      "j23-amr",
+      "archive-2023-7",
+      "archive-2022-8",
+      "archive-2022-9",
+      "archive-2022-10",
+      "archive-2022-11",
+      "archive-2022-12",
+      "j22-yaw",
+      "archive-2021-14",
+      "archive-2021-15",
+      "archive-2021-16",
+      "archive-2021-17",
+      "archive-2021-18",
+      "archive-2020-19",
+      "archive-2020-20",
+      "archive-2020-21",
+      "archive-2020-22",
+      "archive-2020-23",
+      "archive-2020-24",
+      "archive-2019-25",
+      "archive-2019-26",
+      "archive-2019-27",
+      "archive-2019-28",
+      "archive-2018-29",
+      "archive-2018-30",
+      "archive-2017-31",
+      "archive-2017-32",
+      "archive-2016-33",
+      "archive-2016-34",
+      "archive-2015-35",
+      "archive-2015-36",
+      "archive-2014-37",
+      "archive-2014-38",
+      "archive-2013-39",
+      "archive-2012-40",
+      "archive-2012-41",
+      "wip-tcn",
+      "review-hierarchical",
+      "review-airbag2"
+    ],
+    "projects": [
+      "i3",
+      "i2",
+      "remote-6dof-motion-platform",
+      "g1",
+      "g2",
+      "i1",
+      "g6",
+      "g3",
+      "g4",
+      "completed-2",
+      "g5",
+      "completed-3",
+      "completed-4",
+      "completed-9",
+      "completed-5",
+      "completed-6",
+      "completed-7",
+      "completed-10",
+      "completed-11",
+      "completed-15",
+      "completed-1",
+      "completed-16",
+      "completed-21",
+      "completed-17",
+      "completed-22",
+      "completed-12",
+      "completed-23",
+      "completed-18",
+      "completed-19",
+      "completed-26",
+      "completed-27",
+      "completed-14",
+      "completed-8",
+      "completed-13",
+      "completed-24",
+      "completed-25",
+      "completed-32",
+      "completed-30",
+      "completed-20",
+      "completed-33",
+      "completed-31",
+      "completed-29",
+      "completed-34",
+      "completed-38",
+      "completed-37",
+      "completed-36",
+      "completed-39",
+      "completed-35",
+      "completed-40",
+      "completed-41",
+      "completed-28",
+      "completed-43",
+      "completed-42",
+      "completed-44",
+      "completed-45"
+    ],
+    "researchTopics": [
+      "integrated-motion",
+      "remote-mobility",
+      "aarb-roll-handling",
+      "learning-tire-state",
+      "future-echassis",
+      "learning-estimation",
+      "mobility-mechanism",
+      "ecorner",
+      "48v-steering",
+      "data-driven",
+      "human-machine"
+    ],
+    "gallery": [
+      "lab-team",
+      "spring-gathering",
+      "tsinghua-exchange",
+      "conference-moments",
+      "winter-workshop",
+      "graduation-moments",
+      "driving-simulator",
+      "vehicle-testing"
+    ],
+    "news": [
+      "birthday-2026",
+      "dgist-opening"
+    ]
+  },
+  "protected": {
+    "pi": {
+      "name": "Kanghyun Nam",
+      "nameKo": "남강현",
+      "nameHanja": "南康鉉",
+      "experience": [
+        {
+          "period": "Aug. 2025–present",
+          "role": "Associate Professor",
+          "org": "DGIST"
+        },
+        {
+          "period": "Mar. 2015–Jul. 2025",
+          "role": "Assistant Professor / Associate Professor",
+          "org": "Yeungnam University"
+        },
+        {
+          "period": "Oct. 2012–Feb. 2015",
+          "role": "Senior Engineer",
+          "org": "Samsung Electronics, Mechatronics R&D Center"
+        },
+        {
+          "period": "Jan. 2009–Sep. 2009",
+          "role": "Control Engineer",
+          "org": "Mando"
+        }
+      ],
+      "awards": [
+        {
+          "year": "2020–2026",
+          "title": "World’s Top 2% Scientists",
+          "detail": "Stanford University / Elsevier research impact ranking (2020–2026)."
+        },
+        {
+          "year": "2024",
+          "title": "Joint Research Laboratory designation",
+          "detail": "“On-road holonomic driving system joint research Laboratory,” Hyundai Motors Group (Feb. 2024)."
+        },
+        {
+          "year": "2017",
+          "title": "한국자동차공학회 학회발전 기여상",
+          "detail": "Korean Society of Automotive Engineers (Nov. 16, 2017)."
+        },
+        {
+          "year": "2014",
+          "title": "Best Paper Award",
+          "detail": "IEEE Transactions on Industrial Electronics (Nov. 2014)"
+        },
+        {
+          "year": "2012",
+          "title": "Best Graduate Student Award",
+          "detail": "Department of Electrical Engineering, The University of Tokyo (Sep. 2012)."
+        }
+      ]
+    },
+    "publications": {
+      "review-dual-axis-brake": {
+        "title": "Analytical Design and Simulation Assessment of a Compact Dual-Axis Brake for Concentric Omnidirectional Wheel Modules",
+        "authors": "A. Neaz, I. Chung, B. G. Kim*, and K. H. Nam*",
+        "status": "Under review"
+      },
+      "sub-preview": {
+        "title": "Preview MPC for Constraint-Aware Tilt Angle Reference Generation for a Narrow Autonomous Mobility Platform",
+        "authors": "N. Kim, M. Kim, and K. H. Nam*",
+        "status": "Submitted"
+      },
+      "sub-st-tilt": {
+        "title": "Robust Tilt Angle Tracking of a Narrow Robotic Mobility Platform Using Super Twisting Sliding Mode Control",
+        "authors": "S. C. Shin, M. Kim, and K. H. Nam*",
+        "status": "Submitted"
+      },
+      "j26-sft": {
+        "title": "Steering Feedback Torque Prediction Using a Driving-Condition Clustering-Enhanced Sequence-to-Sequence Network",
+        "authors": "J. Wang, J. Xu, X. Wu*, W. Yao, K. H. Nam*, and P. Yao",
+        "status": "Published"
+      },
+      "j26-cnn": {
+        "title": "Physics-Informed CNN Approach to LuGre Friction Modeling and Compensation in Precision Linear Motion Systems",
+        "authors": "M. Kim, K. Cho, and K. H. Nam*",
+        "status": "Published"
+      },
+      "j26-abs": {
+        "title": "Model-Based Antilock Brake System with Integrated Wheel Brake Pressure Sensing for Robust Slip Control",
+        "authors": "K. Cho, S. Choi, and K. H. Nam*",
+        "status": "Published"
+      },
+      "c26-tilt": {
+        "title": "A Novel Tilting Mechanism for Personal Mobility Robot Platform: Mathematical Modeling and HILS-Based Control Verification",
+        "authors": "S. Lee, W. Yang, Y. Lim*, and K. H. Nam*",
+        "status": "Published"
+      },
+      "j26-ftc": {
+        "title": "Robust Fault-Tolerant Control of Electric Vehicles with SbW and RWS Systems Based on SADOB Utilizing Gaussian Mixture Model",
+        "authors": "Y. Seo, A. Khajepour, K. H. Nam*, and S. Oh*",
+        "status": "Published"
+      },
+      "j26-htfo": {
+        "title": "Hybrid Tire Force Observer-Integrated EKF for Vehicle State Estimation in Four-Wheel Independent Steering and Driving Vehicles",
+        "authors": "Y. Seo, S. Oh*, and K. H. Nam*",
+        "status": "Published"
+      },
+      "j26-sync": {
+        "title": "Improved Wheel Synchronization in eCM-Based Electric Vehicles via Mode-Decoupled Steering Control Framework",
+        "authors": "I. Chung, D. Park, M. Kim, and K. H. Nam*",
+        "status": "Published"
+      },
+      "j26-gprukf": {
+        "title": "Physically Informed Sideslip Angle Estimation for Electric Vehicles Using Lateral Tire Force Sensors and a GPR-UKF Observer",
+        "authors": "K. H. Nam*, Y. Wang, and H. Fujimoto",
+        "status": "Published"
+      },
+      "j26-feel": {
+        "title": "Road Environment Aware Control Framework for Steering Feel Generation in Steer-by-Wire Systems",
+        "authors": "D. Cheon, K. H. Nam, and S. Oh",
+        "status": "Published"
+      },
+      "archive-2024-1": {
+        "title": "Synchronous Control of a Dual-Motor Driving Rack and Pinion Module for Steer-by-Wire System",
+        "authors": "I. S. Chung, S. H. Oh*, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2024-2": {
+        "title": "Modeling and Control of a Road Wheel Actuation Module in Steer-by-Wire System",
+        "authors": "I. S. Chung, J. D. Choi, and K. H. Nam*",
+        "status": "Published"
+      },
+      "j24-tilt": {
+        "title": "Dynamic Modeling and Control of a 4-Wheel Narrow Tilting Vehicle",
+        "authors": "S. Y. Lee, H. S. Cho, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2024-4": {
+        "title": "Tire Normal Force Estimation Based on Integrated Suspension State Measurement",
+        "authors": "D. Cheon, W. Choi, K. Nam, et al.",
+        "status": "Published"
+      },
+      "archive-2023-5": {
+        "title": "A Twisted Gaussian Risk Model Considering Target Vehicle Longitudinal-Lateral Motion States for Host Vehicle Trajectory Planning",
+        "authors": "Z. Zhou, Y. Wang*, G. Zhou, K. H. Nam*, Z. Ji, and C. Yin",
+        "status": "Published"
+      },
+      "j23-amr": {
+        "title": "Design and Implementation of an Integrated Control System for Omnidirectional Mobile Robots in Industrial Logistics",
+        "authors": "A. Neaz, S. Lee, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2023-7": {
+        "title": "Optimizing Yarn Tension in Textile Production with Tension–Position Cascade Control Method Using Kalman Filter",
+        "authors": "A. Neaz, E. H. Lee, T. H. Jin, K. C. Cho*, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2022-8": {
+        "title": "Interactive Trajectory Prediction Using a Driving Risk Map-Integrated Deep Learning Method for Surrounding Vehicles on Highways",
+        "authors": "X. Liu, Y. Wang*, K. Jiang, Z. Zhou, K. H. Nam, and C. Yin",
+        "status": "Published"
+      },
+      "archive-2022-9": {
+        "title": "High Accuracy Driving Control of a Stone-Throwing Mobile Robot for Curling",
+        "authors": "J. Choi, K. H. Nam*, and S. Oh*",
+        "status": "Published"
+      },
+      "archive-2022-10": {
+        "title": "Design and Robust Control of a Precise Torque Controllable Steering Module for Steer-by-Wire Systems",
+        "authors": "D. Cheon, K. H. Nam*, and S. Oh*",
+        "status": "Published"
+      },
+      "archive-2022-11": {
+        "title": "Development of Vehicle Maneuvering System for Autonomous Driving",
+        "authors": "J. Choi, H. Lee, K. H. Nam*, and S. Oh",
+        "status": "Published"
+      },
+      "archive-2022-12": {
+        "title": "Robust Periodic Adaptive Disturbance Observer Based Control Considering Long-Term Instability Problems for High-Load Motion Systems",
+        "authors": "K. Cho and K. H. Nam*",
+        "status": "Published"
+      },
+      "j22-yaw": {
+        "title": "Integrated Yaw Stability Control of Electric Vehicle Equipped with Front/Rear Steer-by-Wire Systems and Four In-Wheel Motors",
+        "authors": "Y. Seo, K. Cho, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2021-14": {
+        "title": "Trajectory Prediction of Preceding Target Vehicles Based on Lane Crossing and Final Points Generation Model Considering Driving Styles",
+        "authors": "X. Liu, Y. Wang*, Z. Zhou, K. H. Nam*, C. Wei, and C. Yin*",
+        "status": "Published"
+      },
+      "archive-2021-15": {
+        "title": "Steering Feel Improvement by Mathematical Modeling of the Electric Power Steering System",
+        "authors": "J. Choi, K. H. Nam*, and S. Oh*",
+        "status": "Published"
+      },
+      "archive-2021-16": {
+        "title": "Game-Theory-Inspired Hierarchical Distributed Control Strategy for Cooperative Intersection Considering Priority Negotiation",
+        "authors": "K. Wang, Y. Wang*, H. Du, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2021-17": {
+        "title": "Distributed Intersection Conflict Resolution for Multiple Vehicles Considering Longitudinal-Lateral Dynamics",
+        "authors": "K. Wang, Y. Wang, L. Wang, H. Du, and K. H. Nam",
+        "status": "Published"
+      },
+      "archive-2021-18": {
+        "title": "Model Predictive Control Framework for Improving Vehicle Cornering Performance Using Handling Characteristics",
+        "authors": "K. Han, G. Park, G. S. Sankar, K. H. Nam*, and S. B. Choi*",
+        "status": "Published"
+      },
+      "archive-2020-19": {
+        "title": "A High-Precision Motion Control Based on a Multi-Rate Periodic Adaptive Disturbance Observer of a Linear Actuator for High Load Systems",
+        "authors": "K. Cho and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2020-20": {
+        "title": "System Identification Method Based on a Disturbance Observer Using Symmetric Reference Trajectories in PMLSM-Based Motion Systems",
+        "authors": "K. Cho and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2020-21": {
+        "title": "Vehicle Side-Slip Angle Estimation of Ground Vehicles Based on a Lateral Acceleration Compensation",
+        "authors": "K. Cho, H. Son, Y. Wang, K. H. Nam*, and S. B. Choi",
+        "status": "Published"
+      },
+      "archive-2020-22": {
+        "title": "Torque Vectoring Algorithm of Electronic-Four-Wheel Drive Vehicles for Enhancement of Cornering Performance",
+        "authors": "G. Park, K. Han, K. H. Nam*, H. Kim, and S. B. Choi",
+        "status": "Published"
+      },
+      "archive-2020-23": {
+        "title": "Inter-Target Occlusion Handling in Multi-Extended Target Tracking Based on Labeled Multi-Bernoulli Filter Using Laser Range Finder",
+        "authors": "K. Dai, Y. Wang, J. S. Hu, K. H. Nam, and C. Yin",
+        "status": "Published"
+      },
+      "archive-2020-24": {
+        "title": "Design of a Robust Rack Position Controller Based on 1-D AMESIM Model of a Steer-By-Wire System",
+        "authors": "H. Hwang and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2019-25": {
+        "title": "Robust Flow Control of a Syringe Pump Based on Dual-Loop Disturbance Observers",
+        "authors": "H. S. Kim, D. S. Cheon, J. S. Lim, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2019-26": {
+        "title": "Practical Synchronous Steering Angle Control of a Dual-Motor Driving Steer-by-Wire System",
+        "authors": "H. J. Hwang, H. J. Choi, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2019-27": {
+        "title": "Dynamic Handling Characteristics Control of an In-Wheel-Motor Driven Electric Vehicle Based on Multiple Sliding Mode Control Approach",
+        "authors": "M. S. Chae, Y. J. Hyun, K. S. Yi, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2019-28": {
+        "title": "Kalman Filter-Based Tension Control Design for Industrial Roll-to-Roll System",
+        "authors": "H. J. Hwang, S. J. Eum, J. W. Lee, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2018-29": {
+        "title": "Disturbance Observer-Based Sideslip Angle Control for Improving Cornering Characteristics of In-Wheel Motor Electric Vehicles",
+        "authors": "H. S. Kim, Y. J. Hyun, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2018-30": {
+        "title": "Development of Wheel Pressure Control Algorithm for Electronic Stability Control (ESC) System of Commercial Trucks",
+        "authors": "M. J. Seo, C. H. Yoo, S. S. Park, and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2017-31": {
+        "title": "Steering Torque Control Using Variable Impedance Models for a Steer-By-Wire System",
+        "authors": "D. S. Cheon and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2017-32": {
+        "title": "Pedaling Torque Sensor-less Power Assist Control of an Electric Bike Via Model-Based Impedance Control",
+        "authors": "D. S. Cheon and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2016-33": {
+        "title": "Position Estimation Using Linear Hall Sensors for Permanent Magnet Linear Motor Systems",
+        "authors": "J. H. Kim, S. B. Choi, K. H. Cho, and K. H. Nam",
+        "status": "Published"
+      },
+      "archive-2016-34": {
+        "title": "Periodic Learning Disturbance Observer Based Precision Motion Control in PMLSM Motion Systems Considering Long-Term Instability Problem",
+        "authors": "K. H. Cho and K. H. Nam*",
+        "status": "Published"
+      },
+      "archive-2015-35": {
+        "title": "Application of Novel Lateral Tire Force Sensors to Vehicle Parameter Estimation of Electric Vehicles",
+        "authors": "K. H. Nam",
+        "status": "Published"
+      },
+      "archive-2015-36": {
+        "title": "Design of an Adaptive Sliding Mode Controller for Robust Yaw Stabilisation of In-Wheel-Motor-Driven Electric Vehicles",
+        "authors": "K. H. Nam, H. Fujimoto, and Y. Hori",
+        "status": "Published"
+      },
+      "archive-2014-37": {
+        "title": "Caster-Wheeled Independent-Motor-Driven Electric Vehicle (CIMEV), Its Design and Control as a Future Mobility Solution",
+        "authors": "Y. H. Kim, K. H. Nam, H. Fujimoto, and Yoichi Hori",
+        "status": "Published"
+      },
+      "archive-2014-38": {
+        "title": "Advanced Motion Control of Electric Vehicles Based on Robust Lateral Tire Force Control via Active Front Steering",
+        "authors": "K. H. Nam, H. Fujimoto, and Y. Hori",
+        "status": "Published"
+      },
+      "archive-2013-39": {
+        "title": "Estimation of Sideslip and Roll Angles of Electric Vehicles Using Lateral Tire Force Sensors Through RLS and Kalman Filter Approaches",
+        "authors": "K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori",
+        "status": "Published"
+      },
+      "archive-2012-40": {
+        "title": "Robust Yaw Stability Control for Electric Vehicles Based on Active Front Steering Control Through Steer-by-Wire (SbW) System",
+        "authors": "K. H. Nam, S. Oh, H. Fujimoto, and Y. Hori",
+        "status": "Published"
+      },
+      "archive-2012-41": {
+        "title": "Lateral Stability Control of In-Wheel-Motor-Driven Electric Vehicles Based on Sideslip Angle Estimation Using Lateral Tire Force Sensors",
+        "authors": "K. H. Nam, H. Fujimoto, and Y. Hori",
+        "status": "Published"
+      },
+      "wip-tcn": {
+        "title": "TCN-Guided Gain Scheduling for Super-Twisting Sliding-Mode Control of a Steer-by-Wire Road-Wheel Actuator",
+        "authors": "M. Kim, S. Lee, and K. H. Nam*",
+        "status": "In preparation"
+      },
+      "review-hierarchical": {
+        "title": "Hierarchical Integrated Motion Control for Four-Wheel-Independent Steering and Driving Vehicles With Tire-Force-Level Closed-Loop Realization",
+        "authors": "Y. Seo, J. Hwang, A. Khajepour, S. Oh*, and K. H. Nam*",
+        "status": "Under review"
+      },
+      "review-airbag2": {
+        "title": "Gaussian Process-Based Airbag Deployment Algorithm with Uncertainty Estimation Using Real Crash-Test Data",
+        "authors": "K. Cho and K. H. Nam*",
+        "status": "Under review"
+      }
+    },
+    "people": {
+      "jihoon-hwang": {
+        "name": "Jihoon Hwang",
+        "role": "Post-Master's Researcher"
+      },
+      "minhyeong-kim": {
+        "name": "Minhyeong Kim",
+        "role": "Ph.D. Candidate"
+      },
+      "jinwoo-kim": {
+        "name": "Jinwoo Kim",
+        "role": "Ph.D. Candidate"
+      },
+      "yejin-lee": {
+        "name": "Yejin Lee",
+        "role": "Ph.D. Candidate"
+      },
+      "wonchang-yang": {
+        "name": "Wonchang Yang",
+        "role": "Ph.D. Candidate"
+      },
+      "gibeom-kim": {
+        "name": "Gibeom Kim",
+        "role": "M.S. Student"
+      },
+      "hyeongseon-jeon": {
+        "name": "Hyeongseon Jeon",
+        "role": "M.S. Student"
+      },
+      "jeonghyeon-woo": {
+        "name": "Jeonghyeon Woo",
+        "role": "M.S. Student"
+      },
+      "seungchul-shin": {
+        "name": "Seungchul Shin",
+        "role": "M.S. Student"
+      },
+      "jeongwon-lee": {
+        "name": "Jeongwon Lee",
+        "role": "M.S. Student"
+      },
+      "sungeun-park": {
+        "name": "Sungeun Park",
+        "role": "M.S. Student"
+      },
+      "geonwoo-park": {
+        "name": "Geonwoo Park",
+        "role": "M.S. Student"
+      },
+      "donggyu-kim": {
+        "name": "Donggyu Kim",
+        "role": "Undergraduate Intern (4th year)"
+      },
+      "heewon-choi": {
+        "name": "Heewon Choi",
+        "role": "Undergraduate Intern"
+      },
+      "seongil-cho": {
+        "name": "Seongil Cho",
+        "role": "Undergraduate Intern"
+      },
+      "sanghyeok-park": {
+        "name": "Sanghyeok Park",
+        "role": "Undergraduate Intern (3rd year)"
+      },
+      "nayoon-kim": {
+        "name": "Nayoon Kim",
+        "role": "Undergraduate Intern (3rd year)"
+      }
+    },
+    "projects": {
+      "i3": {
+        "title": "Development of Control Software for a Chassis Dynamometer Steering Module",
+        "status": "Ongoing"
+      },
+      "i2": {
+        "title": "Research on Real-Vehicle Validation of Teleoperation for Application to Level 4 Autonomous Driving",
+        "status": "Ongoing"
+      },
+      "remote-6dof-motion-platform": {
+        "title": "Development of a 6-DOF Motion Control Platform for Remote Driving Stability Enhancement",
+        "status": "Ongoing"
+      },
+      "g1": {
+        "title": "Integrated 6-DOF Mobility Motion Control Based on Tire–Vehicle State Fusion and RL-Based Control Allocation",
+        "status": "Ongoing"
+      },
+      "g2": {
+        "title": "Fundamental Study on Morphogenetic Cooperative Mobility Intelligence Based on Physical Agentic AI",
+        "status": "Ongoing"
+      },
+      "i1": {
+        "title": "Research on High-Accuracy/Efficient Vehicle State Estimation and High-Performance Integrated Chassis Control",
+        "status": "Ongoing"
+      },
+      "g6": {
+        "title": "Research on AI-Assisted Integrated Vehicle Motion Control",
+        "status": "Ongoing"
+      },
+      "g3": {
+        "title": "Development of a Brake-by-Wire System with Redundant Power Architecture for Enhanced Safety",
+        "status": "Ongoing"
+      },
+      "g4": {
+        "title": "Development of e-Steering Chassis Electrification System",
+        "status": "Ongoing"
+      },
+      "completed-2": {
+        "title": "Development of Integrated Control Technology for Electrified Powertrain Modules for Mobility Applications",
+        "status": "Completed"
+      },
+      "g5": {
+        "title": "Development of Integrated Safety Control Technology for Fault-Tolerant Electrified Chassis Systems",
+        "status": "Ongoing"
+      },
+      "completed-3": {
+        "title": "Development of MABS Durability Tester Control System",
+        "status": "Completed"
+      },
+      "completed-4": {
+        "title": "Development and Demonstration of Integrated Remote Management Platform for Industrial Manufacturing Equipment",
+        "status": "Completed"
+      },
+      "completed-9": {
+        "title": "Development and Evaluation of High-Precision Synchronous Control Algorithm for Thin Plate Transfer Equipment",
+        "status": "Completed"
+      },
+      "completed-5": {
+        "title": "Development of Control Techniques for Securing Vehicle Stability and R&H Performance of E-Corner Modules",
+        "status": "Completed"
+      },
+      "completed-6": {
+        "title": "Development of Tilting Control Logic for Securing Driving Stability of Micro Mobility (Phase 2)",
+        "status": "Completed"
+      },
+      "completed-7": {
+        "title": "Research on Driving Control Algorithm for 4-Wheel Independent Steering Mobility",
+        "status": "Completed"
+      },
+      "completed-10": {
+        "title": "Development of Precision Control Algorithm for MDPS Multi-Axis Test Equipment",
+        "status": "Completed"
+      },
+      "completed-11": {
+        "title": "Development of Electric Vehicle Chassis Dynamometer Load Simulation Model and Control Logic",
+        "status": "Completed"
+      },
+      "completed-15": {
+        "title": "Ultra-Safe Integrated EILS Plant Model Modeling",
+        "status": "Completed"
+      },
+      "completed-1": {
+        "title": "A Study on Optimal Path Generation and Motion Control for Maximizing Driving Efficiency of Multi-Steering/Driving Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-16": {
+        "title": "Development of Tilting Control Logic for Securing Roll Stability of Micro Mobility",
+        "status": "Completed"
+      },
+      "completed-21": {
+        "title": "Ultra-Safe Integrated EILS Plant Model Modeling",
+        "status": "Completed"
+      },
+      "completed-17": {
+        "title": "Research on In-Wheel Braking System for E-Corner Module",
+        "status": "Completed"
+      },
+      "completed-22": {
+        "title": "Evaluation of Traction Control Algorithm Application to VCU for Ultra-Compact Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-12": {
+        "title": "Development of New Concept Steering System Based on Steering Torque for Future Steering System Development",
+        "status": "Completed"
+      },
+      "completed-23": {
+        "title": "Design and Manufacturing of Autonomous Driving R-MDPS Steering Module Control System",
+        "status": "Completed"
+      },
+      "completed-18": {
+        "title": "Research on Maximizing Energy Regeneration Technology Based on CAV Technology for AWD Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-19": {
+        "title": "Development of Torque Distribution Control Algorithm for Enhanced Driving Efficiency of In-Wheel Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-26": {
+        "title": "Design and Manufacturing of Autonomous Vehicle Steering Control Device",
+        "status": "Completed"
+      },
+      "completed-27": {
+        "title": "Development of Traction Control Algorithm for Application to Ultra-Compact Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-14": {
+        "title": "Development of Dual Motor EVT for 500 kg Payload Pickup Utility Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-8": {
+        "title": "Development of Integrated Rear-Wheel Drive Module Technology for SUV xEVs to Improve Driving Energy Efficiency by 3%",
+        "status": "Completed"
+      },
+      "completed-13": {
+        "title": "Development of Electric Combined Steering System (MDPS) with Steering Thrust of 3,500 kgf",
+        "status": "Completed"
+      },
+      "completed-24": {
+        "title": "Research on Traction Control Techniques for Independently Driven Electric Vehicles Using Amesim S/W",
+        "status": "Completed"
+      },
+      "completed-25": {
+        "title": "Development of Steer-by-Wire (SBW) System Integrated Control Algorithm",
+        "status": "Completed"
+      },
+      "completed-32": {
+        "title": "Development of Vehicle Model for Driving Control Logic Development of Ultra-Compact Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-30": {
+        "title": "Development of Steering Driveline Mathematical Model",
+        "status": "Completed"
+      },
+      "completed-20": {
+        "title": "A Study on Control Techniques for Driving Safety and Range Extension of In-Wheel Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-33": {
+        "title": "Development of Integrated Steering Control System for Agricultural Machinery",
+        "status": "Completed"
+      },
+      "completed-31": {
+        "title": "Development of Control Logic for Steer-By-Wire (SBW) Performance Enhancement",
+        "status": "Completed"
+      },
+      "completed-29": {
+        "title": "Development of 2-Speed Reducer for Electric Commercial Vehicles",
+        "status": "Completed"
+      },
+      "completed-34": {
+        "title": "Development of Driver Steering Force Generation Algorithm for SBW System Application",
+        "status": "Completed"
+      },
+      "completed-38": {
+        "title": "Development of TAS (Torque Angle Sensor) Module Testbed Driving S/W",
+        "status": "Completed"
+      },
+      "completed-37": {
+        "title": "Development of Electric Steering Control System Technology for Unmanned Agricultural Machinery",
+        "status": "Completed"
+      },
+      "completed-36": {
+        "title": "Development and Evaluation of Servo Control Algorithm for XY-Axis Precision Stage Application",
+        "status": "Completed"
+      },
+      "completed-39": {
+        "title": "Development of Torque Vectoring Control Logic for Maximizing Handling of In-Wheel Systems",
+        "status": "Completed"
+      },
+      "completed-35": {
+        "title": "Research on V2V Communication-Based Nonlinear Vehicle State Observer and Predictive Control Techniques",
+        "status": "Completed"
+      },
+      "completed-40": {
+        "title": "Development of Vehicle Lateral Slip Angle Control Technique Based on Active Torque Vectoring",
+        "status": "Completed"
+      },
+      "completed-41": {
+        "title": "Research on Time Delay Compensation Controller Design and Test Evaluation for Rice Transplanter System",
+        "status": "Completed"
+      },
+      "completed-28": {
+        "title": "Development of Pneumatic Vehicle Stability Control (ESC) System for Commercial Vehicles",
+        "status": "Completed"
+      },
+      "completed-43": {
+        "title": "Research on System Identification and Test Evaluation of Rice Transplanter System",
+        "status": "Completed"
+      },
+      "completed-42": {
+        "title": "Development of Driver-Friendly Steer-by-Wire System Control Technology",
+        "status": "Completed"
+      },
+      "completed-44": {
+        "title": "Development of High-Precision Driving Control Algorithm for 4WD Electric Vehicles",
+        "status": "Completed"
+      },
+      "completed-45": {
+        "title": "A Study on Longitudinal/Lateral Motion Control Algorithm Development for Electric Vehicles",
+        "status": "Completed"
+      }
+    },
+    "researchTopics": {
+      "integrated-motion": {
+        "title": "Integrated vehicle motion control: AI-assisted estimation and chassis control"
+      },
+      "remote-mobility": {
+        "title": "Digital Twin-Enabled Teleoperation with Predictive Visual Feedback and Delay Compensation"
+      },
+      "aarb-roll-handling": {
+        "title": "Integrated Roll and Handling Control Algorithm for Active Anti-Roll Bar (AARB)"
+      },
+      "learning-tire-state": {
+        "title": "Learning-based Tire Force and Vehicle State Estimation"
+      },
+      "future-echassis": {
+        "title": "Future e-chassis systems: multi-actuating systems with 48 V E/E"
+      },
+      "learning-estimation": {
+        "title": "Learning-based state estimation and fault detection"
+      },
+      "mobility-mechanism": {
+        "title": "New mobility mechanism and motion control"
+      },
+      "ecorner": {
+        "title": "e-Corner module future mobility: advanced motion control"
+      },
+      "48v-steering": {
+        "title": "Control of 48 V e-steering: energy, synchronization, and fault tolerance"
+      },
+      "data-driven": {
+        "title": "Data-driven modeling and control"
+      },
+      "human-machine": {
+        "title": "Human–machine interface (HMI)"
+      }
+    }
+  },
+  "forbiddenIds": {
+    "publications": [
+      "review-airbag1"
+    ],
+    "researchTopics": [
+      "ros-navigation",
+      "agv-amr-design"
+    ]
+  },
+  "requiredVideos": [
+    "assets/video/research/SBW.mp4",
+    "assets/video/research/DualSbW.mp4"
+  ]
+}
