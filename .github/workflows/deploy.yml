@@ -60,6 +60,10 @@ jobs:
         if: steps.package.outputs.ready == 'true'
         working-directory: mclab
         run: python3 scripts/build_site.py
+      - name: Block regressions against approved MCLab website baseline
+        if: steps.package.outputs.ready == 'true'
+        working-directory: mclab
+        run: python3 scripts/verify_approved_release.py
       - name: Commit imported source for future folder updates
         if: steps.package.outputs.imported == 'true'
         run: |
