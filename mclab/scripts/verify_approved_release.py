@@ -32,6 +32,9 @@ def check():
             problems.append(f"{group}: duplicate IDs")
         if len(records) < approved["minimumCounts"][group]:
             problems.append(f"{group}: record count {len(records)} below approved {approved['minimumCounts'][group]}")
+        for key in ids:
+            if key not in approved["requiredIds"][group]:
+                problems.append(f"{group}: unapproved new/reappearing item: {key}")
         for key in approved["requiredIds"][group]:
             if key not in lookup:
                 problems.append(f"{group}: approved item missing: {key}")
