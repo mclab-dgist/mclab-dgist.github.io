@@ -9,7 +9,7 @@ ID: review-hierarchical
 학술지: IEEE Transactions on Industrial Electronics
 DOI: 
 종류: Journal
-상태: Under review
+상태: In revision
 권호쪽: 
 대표논문: false
 소속구분: DGIST
