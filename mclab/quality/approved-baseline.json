@@ -502,12 +502,12 @@
       "review-hierarchical": {
         "title": "Hierarchical Integrated Motion Control for Four-Wheel-Independent Steering and Driving Vehicles With Tire-Force-Level Closed-Loop Realization",
         "authors": "Y. Seo, J. Hwang, A. Khajepour, S. Oh*, and K. H. Nam*",
-        "status": "Under review"
+        "status": "In revision"
       },
       "review-airbag2": {
         "title": "Gaussian Process-Based Airbag Deployment Algorithm with Uncertainty Estimation Using Real Crash-Test Data",
         "authors": "K. Cho and K. H. Nam*",
-        "status": "Under review"
+        "status": "In revision"
       },
       "review-evtec2027-ecorner": {
         "title": "From Wheel Corners to Vehicle Motion: Hierarchical Integrated Motion Control of 4WISD e-Corner Platforms",
