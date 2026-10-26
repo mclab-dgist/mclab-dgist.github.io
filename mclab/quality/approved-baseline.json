@@ -3,7 +3,7 @@
   "description": "Approved public website baseline. Changes require explicit manifest review; do not regenerate automatically.",
   "minimumCounts": {
     "people": 17,
-    "publications": 56,
+    "publications": 57,
     "projects": 55,
     "researchTopics": 11,
     "gallery": 8,
@@ -30,6 +30,7 @@
       "nayoon-kim"
     ],
     "publications": [
+      "review-evtec2027-ecorner",
       "review-dual-axis-brake",
       "sub-preview",
       "sub-st-tilt",
@@ -506,6 +507,11 @@
       "review-airbag2": {
         "title": "Gaussian Process-Based Airbag Deployment Algorithm with Uncertainty Estimation Using Real Crash-Test Data",
         "authors": "K. Cho and K. H. Nam*",
+        "status": "Under review"
+      },
+      "review-evtec2027-ecorner": {
+        "title": "From Wheel Corners to Vehicle Motion: Hierarchical Integrated Motion Control of 4WISD e-Corner Platforms",
+        "authors": "Y. Seo, J. Hwang, and K. H. Nam*",
         "status": "Under review"
       }
     },
