@@ -1,0 +1,16 @@
+ID: review-evtec2027-ecorner
+공개: true
+표시순서: 67
+연도: 2027
+제목: From Wheel Corners to Vehicle Motion: Hierarchical Integrated Motion Control of 4WISD e-Corner Platforms
+저자: Y. Seo, J. Hwang, and K. H. Nam*
+학술지: 8th International Electric Vehicle Technology Conference (EVTeC 2027), EVS40 & EVTeC2027
+DOI:
+종류: Conference
+상태: Under review
+권호쪽:
+대표논문: false
+소속구분: DGIST
+영상:
+코드:
+관련과제:
