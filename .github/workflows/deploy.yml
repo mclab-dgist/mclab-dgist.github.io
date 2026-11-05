@@ -38,6 +38,11 @@ jobs:
         if: steps.package.outputs.ready == 'true'
         working-directory: mclab
         run: python3 -m unittest discover -s tests -v
+      - name: Install required video encoding tools
+        if: steps.package.outputs.ready == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends ffmpeg
       - name: Encode research videos for desktop and mobile browsers
         if: steps.package.outputs.ready == 'true'
         working-directory: mclab
