@@ -91,7 +91,7 @@
     "projects": [
       "i3",
       "i2",
-      "remote-6dof-motion-platform",
+      "brake-model-vehicle-data-validation",
       "g1",
       "g2",
       "i1",
@@ -594,9 +594,13 @@
         "title": "Research on Real-Vehicle Validation of Teleoperation for Application to Level 4 Autonomous Driving",
         "status": "Ongoing"
       },
-      "remote-6dof-motion-platform": {
-        "title": "Development of a 6-DOF Motion Control Platform for Remote Driving Stability Enhancement",
-        "status": "Ongoing"
+      "brake-model-vehicle-data-validation": {
+        "title": "제동모델개발 및 실차데이터 검증 연구",
+        "status": "Ongoing",
+        "funder": "Confidential",
+        "start": "2026-11-01",
+        "end": "2027-08-31",
+        "summary": "연구개발기간: 10개월"
       },
       "g1": {
         "title": "Integrated 6-DOF Mobility Motion Control Based on Tire–Vehicle State Fusion and RL-Based Control Allocation",
@@ -850,6 +854,9 @@
     "researchTopics": [
       "ros-navigation",
       "agv-amr-design"
+    ],
+    "projects": [
+      "remote-6dof-motion-platform"
     ]
   },
   "requiredVideos": [

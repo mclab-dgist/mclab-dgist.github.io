@@ -13,6 +13,8 @@ ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('build_site',ROOT/'scripts/build_site.py')
 b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
 PNG=base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aXioAAAAASUVORK5CYII=')
+# These tests verify file copying, not video decoding.
+VIDEO_COPY_FIXTURE=b'MCLab file-copy fixture; not a playable video.\n'
 
 class ContentTests(unittest.TestCase):
     def setUp(self):
@@ -23,6 +25,8 @@ class ContentTests(unittest.TestCase):
         self.person('faculty',group='Faculty',role='Professor')
         for name in b.PAGES:(self.root/(name+'.html')).write_text('<!doctype html><title>Fixture</title>')
         (self.root/'assets').mkdir()
+        videos=self.root/'assets/video/research';videos.mkdir(parents=True)
+        for filename in ('SBW.mp4','DualSbW.mp4'):(videos/filename).write_bytes(VIDEO_COPY_FIXTURE)
     def tearDown(self):self.tmp.cleanup()
     def put(self,cat,slug,data):
         p=self.root/'content'/cat/slug;p.mkdir(exist_ok=True)
@@ -130,6 +134,13 @@ class ContentTests(unittest.TestCase):
         self.assertEqual((out/'sentinel.txt').read_text(),'old website')
     def test_output_guard(self):
         with self.assertRaises(b.ContentError):b.build(self.root,self.root,'2026-10-10')
+    def test_missing_required_video_fails(self):
+        for filename in ('SBW.mp4','DualSbW.mp4'):
+            with self.subTest(video=filename):
+                video=self.root/'assets/video/research'/filename;video.unlink()
+                with self.assertRaisesRegex(b.ContentError,'Research video missing'):
+                    b.build(self.root,self.root/'_site','2026-10-10')
+                video.write_bytes(VIDEO_COPY_FIXTURE)
     def test_repository_current_content_valid(self):
         data,_,report=b.collect(ROOT,'2026-10-10')
         self.assertEqual(report['faculty'],1)
