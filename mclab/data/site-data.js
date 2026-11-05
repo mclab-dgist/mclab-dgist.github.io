@@ -39,7 +39,7 @@ window.MCLAB_DATA = {
     ],
     "photoRevision": "2026-10-10-original-assets",
     "logoImage": "assets/images/mclab-official-logo.jpg",
-    "builtAt": "2026-11-05T16:13:43+09:00",
+    "builtAt": "2026-11-05T21:04:34+09:00",
     "statusDate": "2026-11-05"
   },
   "pi": {
@@ -2007,14 +2007,14 @@ window.MCLAB_DATA = {
     {
       "id": "brake-model-vehicle-data-validation",
       "code": "",
-      "title": "Braking Model Development and Validation Using Real-Vehicle Data",
+      "title": "Development of Hydraulic Brake System Model and Validation Using Real-Vehicle Data",
       "funder": "Confidential",
       "category": "Industry",
       "start": "2026-11-01",
       "end": "2027-08-31",
       "status": "Ongoing",
       "leadRole": "PI",
-      "summary": "Project duration: 10 months",
+      "summary": "",
       "source": "",
       "url": "",
       "image": "",

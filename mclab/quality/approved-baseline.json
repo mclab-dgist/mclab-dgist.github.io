@@ -595,12 +595,12 @@
         "status": "Ongoing"
       },
       "brake-model-vehicle-data-validation": {
-        "title": "Braking Model Development and Validation Using Real-Vehicle Data",
+        "title": "Development of Hydraulic Brake System Model and Validation Using Real-Vehicle Data",
         "status": "Ongoing",
         "funder": "Confidential",
         "start": "2026-11-01",
         "end": "2027-08-31",
-        "summary": "Project duration: 10 months"
+        "summary": ""
       },
       "g1": {
         "title": "Integrated 6-DOF Mobility Motion Control Based on Tire–Vehicle State Fusion and RL-Based Control Allocation",
