@@ -595,12 +595,12 @@
         "status": "Ongoing"
       },
       "brake-model-vehicle-data-validation": {
-        "title": "제동모델개발 및 실차데이터 검증 연구",
+        "title": "Braking Model Development and Validation Using Real-Vehicle Data",
         "status": "Ongoing",
         "funder": "Confidential",
         "start": "2026-11-01",
         "end": "2027-08-31",
-        "summary": "연구개발기간: 10개월"
+        "summary": "Project duration: 10 months"
       },
       "g1": {
         "title": "Integrated 6-DOF Mobility Motion Control Based on Tire–Vehicle State Fusion and RL-Based Control Allocation",

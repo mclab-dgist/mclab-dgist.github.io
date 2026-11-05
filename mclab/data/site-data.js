@@ -39,7 +39,7 @@ window.MCLAB_DATA = {
     ],
     "photoRevision": "2026-10-10-original-assets",
     "logoImage": "assets/images/mclab-official-logo.jpg",
-    "builtAt": "2026-11-05T16:01:24+09:00",
+    "builtAt": "2026-11-05T16:13:43+09:00",
     "statusDate": "2026-11-05"
   },
   "pi": {
@@ -2007,14 +2007,14 @@ window.MCLAB_DATA = {
     {
       "id": "brake-model-vehicle-data-validation",
       "code": "",
-      "title": "제동모델개발 및 실차데이터 검증 연구",
+      "title": "Braking Model Development and Validation Using Real-Vehicle Data",
       "funder": "Confidential",
       "category": "Industry",
       "start": "2026-11-01",
       "end": "2027-08-31",
       "status": "Ongoing",
       "leadRole": "PI",
-      "summary": "연구개발기간: 10개월",
+      "summary": "Project duration: 10 months",
       "source": "",
       "url": "",
       "image": "",
