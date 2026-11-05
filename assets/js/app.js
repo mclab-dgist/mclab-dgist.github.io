@@ -244,18 +244,26 @@
     });update();
   }
   function projects(){return `${simpleHero('PROJECTS')}<section class="section"><div class="container"><div class="toolbar project-toolbar"><label><span class="field-label">Search projects</span><input type="search" class="input" id="project-search" placeholder="Project title, sponsor, or keyword"></label><label><span class="field-label">Funding category</span><select class="select" id="project-category"><option value="all">All categories</option><option>Government</option><option>Industry</option><option>Institutional</option></select></label></div><div class="filter-row"><div class="filter-buttons" role="group" aria-label="Project status">${['Ongoing','Completed'].map((s,i)=>`<button class="filter-button ${i===0?'active':''}" data-project-status="${s}" aria-pressed="${i===0}">${s==='all'?'All projects':s}</button>`).join('')}</div><span class="result-count" id="project-count" role="status" aria-live="polite"></span></div><div class="project-grid" id="project-results"></div></div></section>`;}
-  function projectCards(ps){return ps.map(p=>`<article class="project-card project-editorial ${p.category==='Industry'?'project-industry':'project-government'}" id="${esc(p.id)}">
-    <div class="project-top"><span class="pill ${p.status==='Ongoing'?'green':p.status==='Upcoming'?'amber':'neutral'} ${p.category==='Industry'&&(p.status==='Ongoing'||p.status==='Upcoming')?'industry-active-status':''}">${esc(p.status)}</span></div>
+  function projectCards(ps) {
+    return ps
+      .map(
+        (
+          p
+        ) => `<article class="project-card project-editorial ${p.category === "Industry" ? "project-industry" : "project-government"}" id="${esc(p.id)}">
+    <div class="project-top"><span class="pill ${p.status === "Ongoing" ? "green" : p.status === "Upcoming" ? "amber" : "neutral"} ${p.category === "Industry" && (p.status === "Ongoing" || p.status === "Upcoming") ? "industry-active-status" : ""}">${esc(p.status)}</span></div>
     <h3>${esc(p.title)}</h3>
 
     <dl class="project-facts">
-      <div><dt>Role</dt><dd>${esc(p.category==='Industry'||p.id==='g1'||p.id==='g6'?'PI':'Co-PI')}</dd></div>
-      <div><dt>Period</dt><dd>${esc(p.start.replace('-','.'))} – ${esc(p.end.replace('-','.'))}</dd></div>
+      <div><dt>Role</dt><dd>${esc(p.category === "Industry" || p.id === "g1" || p.id === "g6" ? "PI" : "Co-PI")}</dd></div>
+      <div><dt>Period</dt><dd>${esc(p.start.replace(/-/g, "."))} – ${esc(p.end.replace(/-/g, "."))}</dd></div>
       <div><dt>Funding Source</dt><dd>${esc(p.funder)}</dd></div>
     </dl>
-    ${p.summary?`<p class="project-summary">${esc(p.summary)}</p>`:''}
-    ${p.attachment||p.url?`<div class="paper-links">${p.attachment?ext(p.attachment,'Public summary · PDF '+arrow,'resource-btn'):''}${p.url?ext(p.url,'Project link '+arrow,'resource-btn'):''}</div>`:''}
-  </article>`).join('');}
+    ${p.summary ? `<p class="project-summary">${esc(p.summary)}</p>` : ""}
+    ${p.attachment || p.url ? `<div class="paper-links">${p.attachment ? ext(p.attachment, "Public summary · PDF " + arrow, "resource-btn") : ""}${p.url ? ext(p.url, "Project link " + arrow, "resource-btn") : ""}</div>` : ""}
+  </article>`
+      )
+      .join("");
+  }
   function setupProjects(anchor){
     let status=D.projects.find(p=>p.id===anchor)?.status==='Completed'?'Completed':'Ongoing';
     const update=()=>{const q=$('#project-search').value.toLocaleLowerCase().trim(),cat=$('#project-category').value;const ps=D.projects.filter(p=>(status==='all'||(status==='Completed'?p.status==='Completed':p.status!=='Completed'))&&(cat==='all'||p.category===cat)&&(!q||[p.title,p.funder,p.code].join(' ').toLocaleLowerCase().includes(q))).sort((a,b)=>{const rank={Government:0,Institutional:1,Industry:2};return (rank[a.category]??3)-(rank[b.category]??3)});$('#project-results').innerHTML=ps.length?projectCards(ps):'<div class="empty-state" style="grid-column:1/-1"><h3>No matching projects</h3><p>Try another keyword, category, or status.</p></div>';$('#project-count').textContent=`${ps.length} project${ps.length===1?'':'s'} shown`;$$('[data-project-status]').forEach(b=>{b.classList.toggle('active',b.dataset.projectStatus===status);b.setAttribute('aria-pressed',String(b.dataset.projectStatus===status));});};
