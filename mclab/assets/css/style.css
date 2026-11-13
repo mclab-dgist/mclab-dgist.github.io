@@ -2155,9 +2155,16 @@ body[data-page='home'] .notice-media-stack>.text-link{display:flex;align-items:c
 :root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial{box-shadow:0 7px 22px rgba(19,47,78,.075);transition:transform .2s,box-shadow .2s,border-color .2s}
 :root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:hover{filter:brightness(.985);box-shadow:0 14px 30px rgba(19,47,78,.12);transform:translateY(-2px)}
 
-/* Uniform Slate Blue background across every project card. */
-:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:nth-child(n){background:linear-gradient(145deg,#D6E5F4 0%,#E6EFF8 100%);border-color:#B5CCE3}
-:root:not([data-theme='dark']) body[data-page='projects'] .project-grid>.project-editorial:nth-child(n):hover{background:linear-gradient(145deg,#D0E1F2 0%,#E0ECF7 100%);border-color:#9FBEDC}
+/* White project information cards; retain the existing dark theme and status badges. */
+:root:not([data-theme="dark"]) body[data-page="projects"] .project-grid > .project-editorial:nth-child(n) {
+  background: #fff;
+  border-color: #b5cce3;
+}
+:root:not([data-theme="dark"]) body[data-page="projects"] .project-grid > .project-editorial:nth-child(n):hover {
+  background: #fff;
+  border-color: #9fbedc;
+  filter: none;
+}
 
 /* People: compact researcher and student portrait areas without cropping. */
 body[data-page='people'] .people-section .person-art{height:auto;aspect-ratio:1/1;padding:10px}
@@ -2173,18 +2180,3 @@ body[data-page='people'] .people-section .person-bilingual-name{white-space:nowr
 body[data-page='people'] .people-section .person-bilingual-name .person-name-ko{display:inline;white-space:nowrap;margin-left:1px;font-size:.83em;letter-spacing:-.4px}
 @media(max-width:700px){body[data-page='people'] .people-section .person-bilingual-name{font-size:clamp(11px,2.8vw,15px)}}
 
-/* Projects only: white status badges with readable state colors in both themes. */
-:root body[data-page="projects"] .project-editorial .project-top > .pill,
-:root body[data-page="projects"] .project-editorial.project-industry .project-top > .pill.industry-active-status {
-  background: #fff;
-  color: var(--project-status-ink, #455c79);
-}
-body[data-page="projects"] .project-top > .pill.green {
-  --project-status-ink: #226b50;
-}
-body[data-page="projects"] .project-top > .pill.amber {
-  --project-status-ink: #855913;
-}
-body[data-page="projects"] .project-top > .pill.industry-active-status {
-  --project-status-ink: #9b4b0a;
-}
