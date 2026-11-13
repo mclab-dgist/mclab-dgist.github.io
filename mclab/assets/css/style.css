@@ -2172,3 +2172,19 @@ body[data-page='people'] .people-section .person-art img{width:100%;height:100%;
 body[data-page='people'] .people-section .person-bilingual-name{white-space:nowrap;letter-spacing:-.35px;font-size:clamp(12px,1.12vw,16px)}
 body[data-page='people'] .people-section .person-bilingual-name .person-name-ko{display:inline;white-space:nowrap;margin-left:1px;font-size:.83em;letter-spacing:-.4px}
 @media(max-width:700px){body[data-page='people'] .people-section .person-bilingual-name{font-size:clamp(11px,2.8vw,15px)}}
+
+/* Projects only: white status badges with readable state colors in both themes. */
+:root body[data-page="projects"] .project-editorial .project-top > .pill,
+:root body[data-page="projects"] .project-editorial.project-industry .project-top > .pill.industry-active-status {
+  background: #fff;
+  color: var(--project-status-ink, #455c79);
+}
+body[data-page="projects"] .project-top > .pill.green {
+  --project-status-ink: #226b50;
+}
+body[data-page="projects"] .project-top > .pill.amber {
+  --project-status-ink: #855913;
+}
+body[data-page="projects"] .project-top > .pill.industry-active-status {
+  --project-status-ink: #9b4b0a;
+}
