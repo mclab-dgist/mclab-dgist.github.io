@@ -4,7 +4,7 @@
   "minimumCounts": {
     "people": 17,
     "publications": 57,
-    "projects": 55,
+    "projects": 56,
     "researchTopics": 11,
     "gallery": 8,
     "news": 2
@@ -92,6 +92,7 @@
       "i3",
       "i2",
       "brake-model-vehicle-data-validation",
+      "remote-6dof-motion-platform",
       "g1",
       "g2",
       "i1",
@@ -602,6 +603,15 @@
         "end": "2027-08-31",
         "summary": ""
       },
+      "remote-6dof-motion-platform": {
+        "title": "Development of a 6-DOF Motion Control Platform for Remote Driving Stability Enhancement",
+        "funder": "SUM Co., Ltd.",
+        "category": "Industry",
+        "start": "2026-10",
+        "end": "2027-06",
+        "leadRole": "PI",
+        "statusMode": "auto"
+      },
       "g1": {
         "title": "Integrated 6-DOF Mobility Motion Control Based on Tire–Vehicle State Fusion and RL-Based Control Allocation",
         "status": "Ongoing"
@@ -855,9 +865,7 @@
       "ros-navigation",
       "agv-amr-design"
     ],
-    "projects": [
-      "remote-6dof-motion-platform"
-    ]
+    "projects": []
   },
   "requiredVideos": [
     "assets/video/research/SBW.mp4",
