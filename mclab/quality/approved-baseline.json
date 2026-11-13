@@ -597,10 +597,10 @@
       },
       "brake-model-vehicle-data-validation": {
         "title": "Development of Hydraulic Brake System Model and Validation Using Real-Vehicle Data",
-        "status": "Ongoing",
+        "statusMode": "auto",
         "funder": "Confidential",
-        "start": "2026-11-01",
-        "end": "2027-08-31",
+        "start": "2026-12-01",
+        "end": "2027-09-30",
         "summary": ""
       },
       "remote-6dof-motion-platform": {

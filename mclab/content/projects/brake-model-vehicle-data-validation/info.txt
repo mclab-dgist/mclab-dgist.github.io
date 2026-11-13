@@ -6,7 +6,7 @@ ID: brake-model-vehicle-data-validation
 제목: Development of Hydraulic Brake System Model and Validation Using Real-Vehicle Data
 지원기관: Confidential
 지원구분: Industry
-시작: 2026-11-01
-종료: 2027-08-31
+시작: 2026-12-01
+종료: 2027-09-30
 상태: auto
 책임구분: PI
