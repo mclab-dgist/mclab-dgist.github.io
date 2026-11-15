@@ -889,7 +889,7 @@ window.MCLAB_DATA = {
       "doi": "10.1109/TIE.2026.3679782",
       "type": "Journal",
       "status": "Published",
-      "details": "",
+      "details": "Vol. 73, no. 10, pp. 15559–15564",
       "era": "DGIST",
       "video": "",
       "code": "",
