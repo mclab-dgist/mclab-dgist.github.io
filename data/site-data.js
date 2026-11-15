@@ -752,7 +752,7 @@ window.MCLAB_DATA = {
       "type": "Journal",
       "sourceRanking": "JCR Top 3%",
       "status": "Published",
-      "details": "Vol. 260",
+      "details": "Vol. 260, Article 115004",
       "era": "DGIST",
       "video": "",
       "code": "",
