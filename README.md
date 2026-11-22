@@ -273,7 +273,8 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 <!--ts-->
 
-- [al-folio](#al-folio)
+- [DGIST Mobility Control Laboratory website](#dgist-mobility-control-laboratory-website)
+- [Retained al-folio template reference](#retained-al-folio-template-reference)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
