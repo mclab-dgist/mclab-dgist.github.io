@@ -2986,6 +2986,15 @@
         "video": "https://raw.githubusercontent.com/mclab-dgist/mclab-dgist.github.io/main/mclab/content/research/human-machine/SBW.mp4",
         "program": "mechatronics",
         "id": "human-machine"
+      },
+      {
+        "description": "Developing natural-language steering personalization with NVIDIA Thor selecting tuning policies and Infineon AURIX TC397 executing real-time closed-loop control. Independent safety checks validate parameter updates, with evaluation on a physical Steer-by-Wire test bench and real-time HIL platform.",
+        "image": "media/research/ai-powered-sbw/ac2aaaaea6-AI_SBW.jpg",
+        "source": "",
+        "title": "AI-Powered Steer-by-Wire: Natural-Language Steering Personalization",
+        "video": "",
+        "program": "vehicle-dynamics",
+        "id": "ai-powered-sbw"
       }
     ]
   },
