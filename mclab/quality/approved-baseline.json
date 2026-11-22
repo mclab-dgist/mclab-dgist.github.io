@@ -2995,6 +2995,15 @@
         "video": "",
         "program": "vehicle-dynamics",
         "id": "ai-powered-sbw"
+      },
+      {
+        "description": "Developing high-level vision-language-action decision-making on NVIDIA Thor for motion targets and control priorities. MOTION ORCHESTRA combines real-time feedforward and feedback commands before safety-constrained multi-actuator allocation, with evaluation using CarMaker HIL and physical actuator benches.",
+        "image": "media/research/vla-vehicle-motion-control/2ad087a88f-vmc.jpg",
+        "source": "",
+        "title": "VLA-Based Integrated Vehicle Motion Control",
+        "video": "",
+        "program": "vehicle-dynamics",
+        "id": "vla-vehicle-motion-control"
       }
     ]
   },

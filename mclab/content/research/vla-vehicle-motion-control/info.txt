@@ -1,0 +1,9 @@
+# UTF-8 / 항목: 값 / 이 폴더에는 공개 가능한 자료만 넣으세요.
+# 공개: false는 홈페이지에서만 숨깁니다. 공개 GitHub 저장소의 파일 자체는 열람될 수 있습니다.
+ID: vla-vehicle-motion-control
+공개: true
+표시순서: 13
+대분류: vehicle-dynamics
+제목: VLA-Based Integrated Vehicle Motion Control
+설명: Developing high-level vision-language-action decision-making on NVIDIA Thor for motion targets and control priorities. MOTION ORCHESTRA combines real-time feedforward and feedback commands before safety-constrained multi-actuator allocation, with evaluation using CarMaker HIL and physical actuator benches.
+대표그림: vmc.jpg
