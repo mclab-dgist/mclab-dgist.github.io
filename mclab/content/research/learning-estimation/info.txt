@@ -4,6 +4,6 @@ ID: learning-estimation
 공개: true
 표시순서: 6
 대분류: vehicle-dynamics
-제목: Learning-based state estimation and fault detection
-설명: Development of advanced artificial intelligence and machine learning algorithms for precise vehicle state estimation, fault diagnosis, and adaptive control, enhancing overall reliability and driving performance.
+제목: Electromechanical Brake (EMB) Modeling and Control
+설명: Model-based control of electromechanical brake (EMB) systems, combining nonlinear apply-release modeling with UKF-based estimation of pad-disc contact position and clamping force. Cascaded force and position control incorporates friction and motor-dynamics compensation and is coordinated with wheel-slip control for anti-lock braking. Performance is evaluated through EMB hardware experiments and vehicle-level braking simulations, focusing on clamping-force tracking, stopping distance, and braking stability.
 대표그림: emb.jpg

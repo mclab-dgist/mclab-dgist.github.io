@@ -10,7 +10,7 @@ ID: j26-sync
 DOI: 10.1109/TIE.2026.3679782
 종류: Journal
 상태: Published
-권호쪽: 
+권호쪽: Vol. 73, no. 10, pp. 15559–15564
 대표논문: false
 소속구분: DGIST
 영상: 
