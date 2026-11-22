@@ -1,4 +1,24 @@
-# al-folio
+# DGIST Mobility Control Laboratory website
+
+The current public website is [mclab-dgist.github.io](https://mclab-dgist.github.io/).
+Its editable source is **`mclab/` on `main`**. The `gh-pages` branch is generated
+output, not a second editing source.
+
+- [Current content management and verification guide](mclab/README_KO.md)
+- [Current-source rules for coding agents](AGENTS.md)
+- [Reviewed current-content baseline](mclab/quality/approved-baseline.json)
+
+The **2026-11-22** current site is the approved baseline. Obsolete installation,
+preview, and migration copies have been retired from the active branch. Existing
+older-year publications and completed projects remain part of the current site.
+Do not overwrite current records using an old archive or generated page.
+
+---
+
+# Retained al-folio template reference
+
+The inherited theme documentation below is not the build or editing guide for the
+live MCLab website. The active website uses the Python build under `mclab/`.
 
 <div align="center">
 

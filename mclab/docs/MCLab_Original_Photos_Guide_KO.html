@@ -1,24 +1,50 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MCLab 원본사진 적용·관리 안내</title><style>*{box-sizing:border-box}body{margin:0;background:#f2f5fa;color:#183050;font:15px/1.8 Arial,"Malgun Gothic",sans-serif}.wrap{max-width:1020px;margin:auto;padding:40px 24px 70px}header{background:#142945;border-radius:18px;padding:34px 36px;color:white}header small{color:#acc5f4;letter-spacing:1.2px}h1{font-size:33px;line-height:1.45;letter-spacing:-.7px;margin:15px 0}header p{color:#d9e5f8}section{background:white;border:1px solid #dce4ef;border-radius:13px;padding:27px 32px;margin-top:22px}h2{font-size:23px;margin-top:0}h3{font-size:17px;margin-top:24px}p,li{font-size:14px}table{width:100%;border-collapse:collapse;margin:20px 0;font-size:13px}td,th{border-bottom:1px solid #e2e7ee;padding:13px 12px;text-align:left;vertical-align:top}th{background:#eff4fb}a{color:#2459ce}code{background:#edf2fa;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f6fc;border:1px solid #e0e7f1;border-radius:8px;padding:20px;line-height:1.85;font-size:12px}.notice{margin-top:20px;background:#edf4ff;border-left:4px solid #2c61d8;padding:18px 23px;border-radius:7px;font-size:14px}.muted{color:#697b92;font-size:12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.photo{border:1px solid #dae3ed;border-radius:10px;padding:18px;min-width:0}.photo img{display:block;width:100%;height:230px;object-fit:contain;background:#f2f5f9}.photo h2{font-size:22px;margin:12px 0}.photo code{font-size:10px;word-break:break-all}.answer{margin-top:12px;border-bottom:1px solid #8393a9;padding:10px 0;font-size:13px}footer{text-align:center;color:#6b7d94;font-size:12px;margin-top:30px}@media(max-width:700px){.wrap{padding:20px 15px 40px}header,section{padding:24px}h1{font-size:27px}.grid{grid-template-columns:1fr 1fr}.photo{padding:12px}.photo img{height:190px}td,th{padding:9px;font-size:11px}}@media(max-width:430px){.grid{grid-template-columns:1fr}.photo img{height:240px}}</style></head><body><main class="wrap"><header><small>MCLAB · ORIGINAL PHOTO REVISION · 2026-10-10</small><h1>원본 사진 반영 완료.<br>Teaching 없는 홈페이지.</h1><p>학생·논문·과제 폴더 기반 자동 업데이트를 유지한 수정본</p></header>
-<div class="notice"><strong>파일 수정·로컬 검수 완료. 실제 GitHub 저장소 업로드·공개는 수행하지 않았습니다.</strong><br>원본 자료는 사용자 제공 Webpages.zip이며, 원본 파일 자체는 변경하지 않았습니다. 사이트에는 웹용 사본을 사용합니다.</div>
-<section><h2>1. 이번 변경사항</h2><table><tr><th>영역</th><th>반영 내용</th></tr><tr><td>Home</td><td>기존 개념 그래픽을 실제 실험 플랫폼 사진으로 교체. 주행 시뮬레이터와 연구실 단체 사진 추가.</td></tr><tr><td>People / Faculty</td><td>교수님 포함 13명의 원본 사진 연결. 증명사진 전체가 보이도록 비율을 유지.</td></tr><tr><td>Research</td><td>11개 세부 연구 주제에 원본 그림 연결. 클릭하면 크게 보는 이미지 창 제공.</td></tr><tr><td>News / Gallery</td><td>생일 소식 사진 1개와 갤러리 8개 항목 추가. 확인되지 않은 행사 날짜는 입력하지 않음.</td></tr><tr><td>Teaching</td><td>상단 메뉴, 모바일 메뉴, 하단 링크, 페이지 검색, 화면 라우트, 데이터, 사이트맵과 배포 페이지 목록에서 제거.</td></tr><tr><td>기존 자료</td><td>교수님 1명 + 구성원 17명, 논문·원고 레코드 56개, 과제 54개 유지. 이번 요청과 무관한 프로필·연구·논문·과제 문구는 재작성하지 않음.</td></tr></table><p>원본→웹용 파일 대응과 원본 SHA-256은 <code>docs/ORIGINAL_PHOTO_MAPPING.csv</code> 및 <code>docs/ORIGINAL_PHOTO_MAPPING.json</code>에 기록했습니다. 인물·연구·행사 사진을 생성하거나 다른 사진으로 대체하지 않았습니다.</p></section>
-<section><h2>2. 사진 이름 확인이 필요한 항목</h2><p>Jinwoo Kim, Yejin Lee, Jeonghyeon Woo, Seungchul Shin, Jeongwon Lee의 사진은 파일명만으로 확정할 수 없어 이니셜을 유지했습니다. 기존 프로필과 정보는 삭제하지 않았습니다.</p><p><a href="MCLab_Photo_Name_Check.html">사진 A–E와 파일명을 보는 확인 페이지 열기</a></p><p>이름이 없는 다섯 사진이 위 다섯 분과 일대일 대응한다고 가정하지 않았습니다. 확인 전까지 다른 학생의 이름으로 사진을 표시하지 않습니다.</p></section>
-<section><h2>3. 저장소에 적용</h2><p>대상 저장소: <code>nkh6189-sys/mclab-dgist.github.io</code></p><p>먼저 현재 저장소를 백업하고, 기존 info.txt에 이번 수정본 이후 작성한 정보가 있다면 덮어쓰기 전에 병합하세요. 새 ZIP의 내용물 전체를 저장소 최상위에 반영합니다. ZIP 자체나 ZIP을 담은 바깥 폴더를 올리지 않습니다.</p><pre>.github/workflows/deploy.yml
-assets/
-content/
-scripts/
-tests/
-admin/
-docs/
-data/site-data.js       # 최초 로컬 확인용 스냅샷
-index.html
-people.html
-professor.html
-research.html
-publications.html
-projects.html
-news.html
-join.html</pre><p><strong>기존 저장소의 teaching.html도 삭제</strong>해 주세요. 새 ZIP에는 이 파일이 없으며, 자동 빌드 산출물에도 포함되지 않습니다.</p><p>기존 설정이 GitHub Actions라면 그대로 사용합니다. 설정이 다른 경우 <strong>Settings → Pages → Build and deployment → Source: GitHub Actions</strong>로 설정합니다. 숨김 폴더인 <code>.github/</code> 누락 여부를 확인하세요.</p><p>Commit / Push 후 Actions에서 검증·빌드·배포의 성공 여부를 확인합니다. 목표 주소는 <code>https://nkh6189-sys.github.io/mclab-dgist.github.io/</code>이며, 이 안내서는 해당 주소의 실제 공개 상태를 확인한 것이 아닙니다.</p></section>
-<section><h2>4. 이후 사진·정보 수정</h2><pre>content/people/학생-id/
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MCLab 사진·그림 관리 안내</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f2f5fa;color:#183050;font:15px/1.8 Arial,"Malgun Gothic",sans-serif}.wrap{max-width:1020px;margin:auto;padding:40px 24px 70px}header{background:#142945;border-radius:18px;padding:34px 36px;color:white}header small{color:#acc5f4;letter-spacing:1.2px}h1{font-size:33px;line-height:1.45;letter-spacing:-.7px;margin:15px 0}header p{color:#d9e5f8}section{background:white;border:1px solid #dce4ef;border-radius:13px;padding:27px 32px;margin-top:22px}h2{font-size:23px;margin-top:0}h3{font-size:17px;margin-top:24px}p,li{font-size:14px}table{width:100%;border-collapse:collapse;margin:20px 0;font-size:13px}td,th{border-bottom:1px solid #e2e7ee;padding:13px 12px;text-align:left;vertical-align:top}th{background:#eff4fb}a{color:#2459ce}code{background:#edf2fa;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f6fc;border:1px solid #e0e7f1;border-radius:8px;padding:20px;line-height:1.85;font-size:12px}.notice{margin-top:20px;background:#edf4ff;border-left:4px solid #2c61d8;padding:18px 23px;border-radius:7px;font-size:14px}.muted{color:#697b92;font-size:12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.photo{border:1px solid #dae3ed;border-radius:10px;padding:18px;min-width:0}.photo img{display:block;width:100%;height:230px;object-fit:contain;background:#f2f5f9}.photo h2{font-size:22px;margin:12px 0}.photo code{font-size:10px;word-break:break-all}.answer{margin-top:12px;border-bottom:1px solid #8393a9;padding:10px 0;font-size:13px}footer{text-align:center;color:#6b7d94;font-size:12px;margin-top:30px}@media(max-width:700px){.wrap{padding:20px 15px 40px}header,section{padding:24px}h1{font-size:27px}.grid{grid-template-columns:1fr 1fr}.photo{padding:12px}.photo img{height:190px}td,th{padding:9px;font-size:11px}}@media(max-width:430px){.grid{grid-template-columns:1fr}.photo img{height:240px}}</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<small>MCLAB · CURRENT SOURCE POLICY · 2026-11-22</small>
+<h1>MCLab 사진·그림 관리 안내</h1>
+<p>사진의 출처와 연결을 보존하는 현재 홈페이지 관리 절차</p>
+</header>
+<div class="notice"><strong>2026-11-22 현재 기준: main 브랜치의 mclab/content/만 공개 정보의 수정 원본으로 사용합니다.</strong><br>과거 ZIP·미리보기·별도 데이터 사본으로 현재 내용을 덮어쓰지 않습니다. <code>gh-pages</code>와 <code>_site/</code>는 자동 생성 결과이며 직접 수정하지 않습니다. 상세 운영 기준은 <a href="../README_KO.md">README_KO.md</a>를 따릅니다.</div>
+<section>
+<h2>1. 현재 정보의 원본</h2>
+<p>대상 저장소는 <code>mclab-dgist/mclab-dgist.github.io</code>, 공개 홈페이지는 <a href="https://mclab-dgist.github.io/">https://mclab-dgist.github.io/</a>입니다. 아래 경로는 모두 저장소의 <code>mclab/</code> 폴더 기준입니다.</p>
+<table>
+<tr><th>수정 대상</th><th>원본</th></tr>
+<tr><td>기본 설정·연구 프로그램</td><td><code>content/site.json</code></td></tr>
+<tr><td>교수·구성원 정보와 사진</td><td><code>content/people/&lt;id&gt;/</code></td></tr>
+<tr><td>연구 설명과 대표 그림</td><td><code>content/research/&lt;id&gt;/</code></td></tr>
+<tr><td>논문·과제</td><td><code>content/publications/&lt;id&gt;/</code>, <code>content/projects/&lt;id&gt;/</code></td></tr>
+<tr><td>소식·갤러리</td><td><code>content/news/&lt;id&gt;/</code>, <code>content/gallery/&lt;id&gt;/</code></td></tr>
+</table>
+<p>현재 목록에 포함된 과거 연도 논문과 종료 과제는 계속 보존합니다. 오래된 버전 정리는 연구실적을 연도 기준으로 삭제하는 작업이 아닙니다.</p>
+</section>
+<section>
+<h2>2. 사진·그림의 출처와 인물 확인</h2>
+<p>기존 원본 사진과 웹용 사본의 대응 기록은 <a href="ORIGINAL_PHOTO_MAPPING.csv">ORIGINAL_PHOTO_MAPPING.csv</a> 및 <a href="ORIGINAL_PHOTO_MAPPING.json">ORIGINAL_PHOTO_MAPPING.json</a>에서 확인합니다. 이 기록은 사진 출처 확인용이며 현재 구성원·연구 목록의 원본은 아닙니다.</p>
+<p>파일명만으로 신원을 확정할 수 없는 사진은 다른 사람의 이름으로 임의 연결하지 않습니다. 초기 사진 대조가 필요하면 <a href="MCLab_Photo_Name_Check.html">사진 이름 확인 자료</a>를 참고하되, 현재 연결 상태는 해당 <code>content/people/&lt;id&gt;/info.txt</code>와 직접 대조합니다.</p>
+</section>
+<section>
+<h2>3. 변경 반영 원칙</h2>
+<ol>
+<li>최신 <code>main</code>과 공개 홈페이지를 확인한 뒤 요청받은 원본 항목만 수정합니다. 예전 패키지를 업로드하거나 폴더 전체를 덮어쓰지 않습니다.</li>
+<li>의도한 변경을 검토한 뒤 <code>quality/approved-baseline.json</code>의 해당 항목만 함께 갱신합니다. 승인 기준 전체를 자동 재생성하거나 검증을 우회하지 않습니다.</li>
+<li>아래 테스트·빌드·승인 검증과 화면 확인을 마칩니다.</li>
+<li>승인된 변경을 반영한 후 GitHub Actions와 공개 홈페이지를 확인합니다. 로컬 파일 수정이나 빌드 성공만으로 공개 반영을 단정하지 않습니다.</li>
+</ol>
+<p>설치 표식 <code>.mclab-import.json</code>, 설치 도구, 배포 워크플로는 유지합니다. 과거 설치 묶음으로 다시 설치하는 절차는 일상적인 업데이트에 사용하지 않습니다.</p>
+</section>
+<section>
+<h2>4. 사진·정보 파일 수정</h2>
+<pre>content/people/학생-id/
   info.txt
   photo.jpg
 
@@ -28,7 +54,25 @@ content/research/연구주제-id/
 
 content/gallery/사진-id/
   info.txt
-  photo.jpg</pre><p>예: <code>content/people/minhyeong-kim/photo.jpg</code>를 교체하면 사진을 바꿀 수 있습니다. 파일명을 유지하면 info.txt 수정 없이 연결됩니다. 새 이름·확장자를 쓰면 info.txt의 <code>사진:</code> 또는 <code>대표그림:</code> 값을 함께 바꾸세요.</p><p>연구 그림은 <code>대표그림: figure.webp</code>로 연결되어 있습니다. 파일명을 바꾸지 않고 교체하거나, 새 파일명으로 값을 수정합니다. 이미지 연결은 파일명 기준입니다. PDF/사진에서 이름·논문 제목 등을 추측하는 기능은 없습니다.</p><p>기존과 같이 <code>content/publications/</code> 및 <code>content/projects/</code>에서 정보·첨부 자료를 관리합니다. <code>admin/info-helper.html</code>로 info.txt 작성이 가능합니다.</p><div class="notice">PC 폴더만 바꾸면 공개 사이트는 바뀌지 않습니다. GitHub 저장소에 변경 사항을 Commit / Push 해야 합니다. 공개 GitHub 저장소에 올린 파일은 <code>공개: false</code>이더라도 저장소 자체에서 보일 수 있으므로 비공개 개인정보·계약서는 올리지 마세요.</div></section>
-<section><h2>5. 미리보기와 검증</h2><p>제공된 단일 파일 <code>MCLab_Original_Photos_Preview.html</code>은 사진이 포함된 대화형 미리보기입니다. Chrome 또는 Edge에서 열어 확인합니다. 해당 파일은 자료 수정 후 자동 재생성되지는 않습니다.</p><pre>python -m unittest discover -s tests -v
-python scripts/build_site.py
-python scripts/build_preview.py --output MCLab_Preview.html</pre><p>실제 배포 자료는 <code>_site/</code>에 새로 생성됩니다. 저장소의 <code>data/site-data.js</code>는 처음 받은 상태를 로컬에서 확인하기 위한 스냅샷이며, 자동 배포는 이 스냅샷 대신 content 폴더를 다시 읽습니다. 이전 미리보기 대신 이번 파일을 사용하세요.</p><p>자동 정보처리 회귀 테스트와 Chromium에서 8개 화면·13개 인물 사진·11개 연구 그림·8개 갤러리, 검색·확대·모바일 메뉴 등을 점검했습니다. 상세 결과는 <code>docs/UNIT_TEST_RESULTS.txt</code>, <code>docs/BROWSER_VERIFICATION.json</code>, <code>docs/BUILD_REPORT.json</code>을 참조하세요.</p><p class="muted">실행 환경의 파일/HTTP 탐색 정책 때문에 브라우저 검수는 동일한 소스와 이미지를 내장한 미리보기를 인라인으로 로드하여 수행했습니다. 로컬 파일 경로는 별도로 검증했습니다. 실제 GitHub Actions 실행, 라이브 주소 및 모든 브라우저의 호환성을 검증했다는 의미는 아닙니다.</p></section><footer>MCLab · Original photo revision · 2026-10-10</footer></main></body></html>
+  photo.jpg</pre>
+<p>예: <code>content/people/minhyeong-kim/photo.jpg</code>를 교체하되 연결 파일명을 유지하면 기존 참조를 사용할 수 있습니다. 이름·확장자가 바뀌면 <code>info.txt</code>의 <code>사진:</code> 또는 <code>대표그림:</code> 값도 함께 수정합니다. 실제 연결 상태를 확인하고 사진 내용만으로 이름이나 논문 제목을 추측하지 않습니다.</p>
+<p><code>admin/info-helper.html</code>은 정보 파일 작성 보조 도구입니다. 작성한 내용을 해당 원본 파일에 반영하고 같은 검증 절차를 따릅니다.</p>
+<div class="notice">공개 가능한 정보·사진만 올리세요. <code>공개: false</code>는 홈페이지 표시만 제어하므로 공개 GitHub 저장소에 올린 비공개 개인정보·계약서를 보호하지 않습니다.</div>
+</section>
+<section>
+<h2>5. 새 빌드의 미리보기와 검증</h2>
+<p>Python 3.11 이상을 사용합니다. 저장소 루트에서 다음 명령을 실행합니다.</p>
+<pre>cd mclab
+python3 -m unittest discover -s tests -v
+python3 scripts/build_site.py
+python3 scripts/verify_approved_release.py</pre>
+<p>미리보기는 방금 생성한 <code>_site/</code> 또는 그 결과로 새로 만든 단일 HTML만 사용합니다. 원본 HTML을 직접 열거나 예전에 생성한 미리보기를 재사용하지 않습니다.</p>
+<pre>python3 -m http.server 8000 --directory _site</pre>
+<p>위 서버의 <code>http://localhost:8000/</code>에서 확인할 수 있습니다. 별도 단일 파일이 필요하면 빌드 후 생성합니다.</p>
+<pre>python3 scripts/build_preview.py --output /tmp/MCLab_Preview.html</pre>
+<p>생성 결과와 미리보기는 수동 편집하거나 커밋하지 않습니다. 과거 보고서의 성공 기록은 현재 검증을 대신하지 않습니다. 검증 실패 시 원본 또는 해당 변경의 승인 여부를 확인하고 배포를 중단합니다.</p>
+</section>
+<footer>MCLab · Current source policy · 2026-11-22</footer>
+</main>
+</body>
+</html>

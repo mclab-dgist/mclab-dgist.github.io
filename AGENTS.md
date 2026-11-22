@@ -1,4 +1,51 @@
-# Agent Guidelines for al-folio
+# MCLab website: current source and baseline
+
+The live site is **https://mclab-dgist.github.io/**. As confirmed on **2026-11-22**,
+the authoritative editable site is **`main:mclab/`**, not the retained al-folio
+template at the repository root. For MCLab work, follow this section and
+[`mclab/README_KO.md`](mclab/README_KO.md); the legacy guidance below applies only
+to explicitly requested work on the unused template.
+
+## Single-source rules
+
+- Edit records in `mclab/content/` and templates/assets in `mclab/`.
+- Never edit `gh-pages`, `_site/`, or generated `data/site-data.js` as source.
+- Do not restore old ZIP packages, generated snapshots, migration reports, or
+  prior commits over current content. Fetch the current `main` before editing.
+- Preserve all current content, including older-year publications and completed
+  projects, unless the user explicitly requests a particular deletion.
+- `mclab/quality/approved-baseline.json` is a **validation-only** reviewed lockfile,
+  not an alternative content source. It protects all stable fields, item order,
+  and current CSS/JavaScript. Update only entries corresponding to the user's
+  intended change, in the same commit as that source change. Never automatically
+  replace the baseline to make a failed check pass.
+- Preserve the initial-install marker `mclab/.mclab-import.json`; the original
+  installation ZIP is no longer required. Do not alter deployment workflows,
+  rewrite Git history, or force-push without explicit authorization for that scope.
+
+## Required MCLab checks
+
+From the repository root:
+
+```sh
+python3 -m unittest discover -s .github/mclab -p 'test_*.py' -v
+cd mclab
+python3 -m unittest discover -s tests -v
+python3 scripts/build_site.py
+python3 scripts/verify_approved_release.py
+```
+
+Preview only the newly generated `mclab/_site/`, or create a portable preview with
+`python3 scripts/build_preview.py`. Do not open source HTML as a data snapshot.
+Review the diff against the current baseline and stage only explicit paths.
+After committing to `main`, wait for both the MCLab deployment workflow and the
+GitHub Pages deployment, then verify the public page before reporting completion.
+MCLab uses Python 3.11+ and standard-library tests; it does not use the root
+Jekyll/Docker build. Do not reformat or rebuild the unrelated legacy template.
+
+---
+
+# Retained al-folio template guidelines (not the live MCLab site)
 
 A simple, clean, and responsive Jekyll theme for academics.
 

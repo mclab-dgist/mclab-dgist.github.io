@@ -1,5 +1,18 @@
 # Copilot Coding Agent Instructions
 
+## Active MCLab site — read first
+
+The live website is built from **`main:mclab/`** using Python, not from the
+al-folio/Jekyll template described below. The current-source policy and required
+tests are in [`../AGENTS.md`](../AGENTS.md) and
+[`../mclab/README_KO.md`](../mclab/README_KO.md). For MCLab tasks, those instructions
+take precedence over the legacy template instructions below. Do not edit generated
+`gh-pages` files or restore old packages/snapshots. Make requested source and
+reviewed-baseline changes together, then verify both deployment and the live page.
+
+The following sections are retained **only for explicit legacy-template work**;
+they do not describe the active deployment workflow or current content source.
+
 ## Repository Overview
 
 **al-folio** is a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics and researchers. It enables users to create professional portfolio and blog websites with minimal configuration. The repository serves both as a template and as a reference implementation.
