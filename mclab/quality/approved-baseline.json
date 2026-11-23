@@ -2961,10 +2961,10 @@
         "id": "ecorner"
       },
       {
-        "description": "Develops optimal power distribution and management strategies for 48 V electrified chassis systems. Implements intelligent control algorithms considering battery conditions, vehicle dynamics, and efficiency.",
+        "description": "TCN-based rack-force estimation and adaptive gain scheduling for high-precision Steer-by-Wire position control. Combines super-twisting sliding-mode and feedforward-feedback control, with performance evaluation using real-time CarSim HIL and physical steering actuators.",
         "image": "media/research/48v-steering/9ae3e9dc5b-sbw.jpg",
         "source": "https://sites.google.com/view/mclab/research-areas",
-        "title": "Control of 48 V e-steering: energy, synchronization, and fault tolerance",
+        "title": "Learning-Based High-Precision Steer-by-Wire Control",
         "video": "",
         "program": "mechatronics",
         "id": "48v-steering"
