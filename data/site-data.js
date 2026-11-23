@@ -39,7 +39,7 @@ window.MCLAB_DATA = {
     ],
     "photoRevision": "2026-10-10-original-assets",
     "logoImage": "assets/images/mclab-official-logo.jpg",
-    "builtAt": "2026-11-23T10:29:44+09:00",
+    "builtAt": "2026-11-23T10:38:18+09:00",
     "statusDate": "2026-11-23"
   },
   "pi": {
@@ -267,94 +267,94 @@ window.MCLAB_DATA = {
   "news": [
     {
       "date": "2026-01-30",
-      "source": "https://sites.google.com/view/mclab/",
+      "tag": "Lab life",
       "image": "media/news/birthday-2026/3a71b24a7f-photo.jpg",
       "text": "The lab celebrated Seungcheol’s birthday together with new MCLab members. Happy birthday, and welcome to the team!",
       "title": "Celebrating together, welcoming new members",
-      "tag": "Lab life",
+      "source": "https://sites.google.com/view/mclab/",
       "id": "birthday-2026"
     },
     {
       "date": "2025-08-01",
-      "source": "https://sites.google.com/view/mclab/",
+      "tag": "Milestone",
       "image": "",
       "text": "We are excited to announce the opening of the Mobility Control Laboratory at DGIST. We warmly welcome new members—students, researchers, and collaborators eager to shape the future of mobility. The lab opening event was held on August 1, 2025.",
       "title": "Mobility Control Laboratory opens at DGIST",
-      "tag": "Milestone",
+      "source": "https://sites.google.com/view/mclab/",
       "id": "dgist-opening"
     }
   ],
   "gallery": [
     {
       "date": "",
+      "image": "media/gallery/lab-team/b69919169f-photo.jpg",
+      "text": "MCLab team with the laboratory mobility platform.",
+      "title": "Together at the laboratory",
       "source": "",
       "alt": "MCLab team with the laboratory mobility platform.",
-      "image": "media/gallery/lab-team/b69919169f-photo.jpg",
-      "title": "Together at the laboratory",
-      "text": "MCLab team with the laboratory mobility platform.",
       "id": "lab-team"
     },
     {
       "date": "",
+      "image": "media/gallery/spring-gathering/c95e7f6e60-photo.jpg",
+      "text": "A spring gathering of the MCLab community.",
+      "title": "Spring gathering",
       "source": "",
       "alt": "A spring gathering of the MCLab community.",
-      "image": "media/gallery/spring-gathering/c95e7f6e60-photo.jpg",
-      "title": "Spring gathering",
-      "text": "A spring gathering of the MCLab community.",
       "id": "spring-gathering"
     },
     {
       "date": "",
+      "image": "media/gallery/tsinghua-exchange/776c4b74ab-photo.jpg",
+      "text": "Research exchange and group photographs from the original lab archive.",
+      "title": "Research exchange",
       "source": "",
       "alt": "Research exchange and group photographs from the original lab archive.",
-      "image": "media/gallery/tsinghua-exchange/776c4b74ab-photo.jpg",
-      "title": "Research exchange",
-      "text": "Research exchange and group photographs from the original lab archive.",
       "id": "tsinghua-exchange"
     },
     {
       "date": "",
+      "image": "media/gallery/conference-moments/5336647b63-photo.jpg",
+      "text": "Conference photographs from the MCLab archive.",
+      "title": "Conference moments",
       "source": "",
       "alt": "Conference photographs from the MCLab archive.",
-      "image": "media/gallery/conference-moments/5336647b63-photo.jpg",
-      "title": "Conference moments",
-      "text": "Conference photographs from the MCLab archive.",
       "id": "conference-moments"
     },
     {
       "date": "",
+      "image": "media/gallery/winter-workshop/264e4bd331-photo.jpg",
+      "text": "Workshop moments shared by the lab community.",
+      "title": "Winter workshop",
       "source": "",
       "alt": "Workshop moments shared by the lab community.",
-      "image": "media/gallery/winter-workshop/264e4bd331-photo.jpg",
-      "title": "Winter workshop",
-      "text": "Workshop moments shared by the lab community.",
       "id": "winter-workshop"
     },
     {
       "date": "",
+      "image": "media/gallery/graduation-moments/22c55481ba-photo.jpg",
+      "text": "Graduation photographs from the original lab archive.",
+      "title": "Graduation moments",
       "source": "",
       "alt": "Graduation photographs from the original lab archive.",
-      "image": "media/gallery/graduation-moments/22c55481ba-photo.jpg",
-      "title": "Graduation moments",
-      "text": "Graduation photographs from the original lab archive.",
       "id": "graduation-moments"
     },
     {
       "date": "",
+      "image": "media/gallery/driving-simulator/b842e43a58-photo.jpg",
+      "text": "The laboratory driving simulator and experimental setup.",
+      "title": "Driving simulator",
       "source": "",
       "alt": "The laboratory driving simulator and experimental setup.",
-      "image": "media/gallery/driving-simulator/b842e43a58-photo.jpg",
-      "title": "Driving simulator",
-      "text": "The laboratory driving simulator and experimental setup.",
       "id": "driving-simulator"
     },
     {
       "date": "",
+      "image": "media/gallery/vehicle-testing/200466549d-photo.jpg",
+      "text": "An experimental mobility platform at the test track.",
+      "title": "Vehicle testing",
       "source": "",
       "alt": "An experimental mobility platform at the test track.",
-      "image": "media/gallery/vehicle-testing/200466549d-photo.jpg",
-      "title": "Vehicle testing",
-      "text": "An experimental mobility platform at the test track.",
       "id": "vehicle-testing"
     }
   ],
@@ -443,10 +443,10 @@ window.MCLAB_DATA = {
       "interest": "Integrated Vehicle Control / Novel Human–Machine Interfaces (HMI)",
       "email": "hjh8486@dgist.ac.kr",
       "photo": "media/people/jihoon-hwang/230f127376-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
-      "website": "",
-      "joined": ""
+      "website": ""
     },
     {
       "id": "minhyeong-kim",
@@ -456,10 +456,10 @@ window.MCLAB_DATA = {
       "interest": "AI-based e-chassis control and precision motion control",
       "email": "mh_kim@dgist.ac.kr",
       "photo": "media/people/minhyeong-kim/4884e8ad83-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -470,10 +470,10 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and e-chassis modeling / control",
       "email": "jinwoo.kim@dgist.ac.kr",
       "photo": "media/people/jinwoo-kim/b580538a88-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -484,10 +484,10 @@ window.MCLAB_DATA = {
       "interest": "Battery system design and control for robots and mobility",
       "email": "yejin.lee@dgist.ac.kr",
       "photo": "media/people/yejin-lee/9e84c08567-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -498,10 +498,10 @@ window.MCLAB_DATA = {
       "interest": "Advanced motion control of multi-actuating steer-by-wire systems",
       "email": "wchyang@dgist.ac.kr",
       "photo": "media/people/wonchang-yang/373b885f15-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -512,10 +512,10 @@ window.MCLAB_DATA = {
       "interest": "Bilateral motion control for teleoperated mobility",
       "email": "gbkim@dgist.ac.kr",
       "photo": "media/people/gibeom-kim/ad77965fa9-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -526,10 +526,10 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and active roll control",
       "email": "sun@dgist.ac.kr",
       "photo": "media/people/hyeongseon-jeon/7adb02c097-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -540,10 +540,10 @@ window.MCLAB_DATA = {
       "interest": "Teleoperated mobility and advanced visual feedback",
       "email": "woo@dgist.ac.kr",
       "photo": "media/people/jeonghyeon-woo/d970727da1-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -554,10 +554,10 @@ window.MCLAB_DATA = {
       "interest": "Future mobility mechanisms, motion control, and tilting mobility",
       "email": "witguy0130@dgist.ac.kr",
       "photo": "media/people/seungchul-shin/fcce3aabe6-shin.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -568,10 +568,10 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and EMB system control",
       "email": "jeongwon35@dgist.ac.kr",
       "photo": "media/people/jeongwon-lee/5f13a187fa-lee.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -582,10 +582,10 @@ window.MCLAB_DATA = {
       "interest": "Integrated vehicle dynamics and active rear steering",
       "email": "separk@dgist.ac.kr",
       "photo": "media/people/sungeun-park/292341f173-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -596,10 +596,10 @@ window.MCLAB_DATA = {
       "interest": "High-performance electric vehicle motion control",
       "email": "felixpark0505@dgist.ac.kr",
       "photo": "media/people/geonwoo-park/079271a65d-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -610,10 +610,10 @@ window.MCLAB_DATA = {
       "interest": "Steer-by-Wire system control",
       "email": "chocohopang@kookmin.ac.kr",
       "photo": "media/people/donggyu-kim/17eeaec802-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -624,10 +624,10 @@ window.MCLAB_DATA = {
       "interest": "EMB system control",
       "email": "chw4491@naver.com",
       "photo": "media/people/heewon-choi/6dea99236b-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -638,10 +638,10 @@ window.MCLAB_DATA = {
       "interest": "AI-assisted vehicle control",
       "email": "tjddlf7545@dgist.ac.kr",
       "photo": "media/people/seongil-cho/933f34f351-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -652,10 +652,10 @@ window.MCLAB_DATA = {
       "interest": "Active suspension control",
       "email": "sh604546@dgist.ac.kr",
       "photo": "media/people/sanghyeok-park/5dacf3dc33-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     },
     {
@@ -666,10 +666,10 @@ window.MCLAB_DATA = {
       "interest": "Personal tilting mobility control",
       "email": "kny1210@dgist.ac.kr",
       "photo": "media/people/nayoon-kim/b6414cbae8-photo.jpg",
+      "joined": "",
       "graduated": "",
       "affiliation": "",
       "website": "",
-      "joined": "",
       "nameKo": ""
     }
   ],
@@ -688,12 +688,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": 2027,
       "featured": false
     },
@@ -711,12 +711,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": 2027,
       "featured": false
     },
@@ -733,13 +733,13 @@ window.MCLAB_DATA = {
       "video": "",
       "code": "",
       "project": "",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
-      "source": "",
       "sourceRanking": "",
+      "source": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": 2027,
       "featured": false
     },
@@ -758,11 +758,11 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
+      "sourceCitation": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2026,
       "featured": true
     },
@@ -781,11 +781,11 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
+      "sourceCitation": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2026,
       "featured": true
     },
@@ -803,12 +803,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": 2026,
       "featured": false
     },
@@ -826,12 +826,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": 2026,
       "featured": false
     },
@@ -850,11 +850,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
+      "sourceCitation": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2026,
       "featured": false
     },
@@ -873,11 +873,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
+      "sourceCitation": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2026,
       "featured": false
     },
@@ -896,11 +896,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
+      "sourceCitation": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2026,
       "featured": false
     },
@@ -919,11 +919,11 @@ window.MCLAB_DATA = {
       "project": "",
       "sourceRanking": "JCR Top 4.3%",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
+      "sourceCitation": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2026,
       "featured": true
     },
@@ -941,12 +941,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": 2026,
       "featured": false
     },
@@ -968,8 +968,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2024,
       "featured": false
     },
@@ -991,8 +991,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2024,
       "featured": false
     },
@@ -1014,8 +1014,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2024,
       "featured": false
     },
@@ -1060,8 +1060,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2023,
       "featured": false
     },
@@ -1083,8 +1083,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2023,
       "featured": false
     },
@@ -1106,8 +1106,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2023,
       "featured": false
     },
@@ -1129,8 +1129,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2022,
       "featured": false
     },
@@ -1152,8 +1152,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2022,
       "featured": false
     },
@@ -1175,8 +1175,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2022,
       "featured": false
     },
@@ -1198,8 +1198,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2022,
       "featured": false
     },
@@ -1221,8 +1221,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2022,
       "featured": false
     },
@@ -1244,8 +1244,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2022,
       "featured": false
     },
@@ -1267,8 +1267,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2021,
       "featured": false
     },
@@ -1290,8 +1290,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2021,
       "featured": false
     },
@@ -1313,8 +1313,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2021,
       "featured": false
     },
@@ -1336,8 +1336,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2021,
       "featured": false
     },
@@ -1359,8 +1359,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2021,
       "featured": false
     },
@@ -1382,8 +1382,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2020,
       "featured": false
     },
@@ -1405,8 +1405,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2020,
       "featured": false
     },
@@ -1451,8 +1451,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2020,
       "featured": false
     },
@@ -1474,8 +1474,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2020,
       "featured": false
     },
@@ -1497,8 +1497,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2020,
       "featured": false
     },
@@ -1520,8 +1520,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2019,
       "featured": false
     },
@@ -1543,8 +1543,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2019,
       "featured": false
     },
@@ -1566,8 +1566,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2019,
       "featured": false
     },
@@ -1589,8 +1589,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2019,
       "featured": false
     },
@@ -1612,8 +1612,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2018,
       "featured": false
     },
@@ -1635,8 +1635,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2018,
       "featured": false
     },
@@ -1658,8 +1658,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2017,
       "featured": false
     },
@@ -1681,8 +1681,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2017,
       "featured": false
     },
@@ -1704,8 +1704,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2016,
       "featured": false
     },
@@ -1727,8 +1727,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2016,
       "featured": false
     },
@@ -1750,8 +1750,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2015,
       "featured": false
     },
@@ -1773,8 +1773,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2015,
       "featured": false
     },
@@ -1796,8 +1796,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2014,
       "featured": false
     },
@@ -1819,8 +1819,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2014,
       "featured": false
     },
@@ -1865,8 +1865,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2012,
       "featured": false
     },
@@ -1888,8 +1888,8 @@ window.MCLAB_DATA = {
       "source": "https://sites.google.com/view/mclab/publications",
       "pdf": "",
       "image": "",
-      "url": "",
       "note": "",
+      "url": "",
       "year": 2012,
       "featured": false
     },
@@ -1907,12 +1907,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": null,
       "featured": false
     },
@@ -1930,12 +1930,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": null,
       "featured": false
     },
@@ -1953,12 +1953,12 @@ window.MCLAB_DATA = {
       "code": "",
       "project": "",
       "source": "https://sites.google.com/view/mclab/publications",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
       "sourceRanking": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": null,
       "featured": false
     },
@@ -1975,13 +1975,13 @@ window.MCLAB_DATA = {
       "video": "",
       "code": "",
       "project": "",
-      "sourceCitation": "",
       "pdf": "",
-      "image": "",
-      "url": "",
-      "note": "",
-      "source": "",
       "sourceRanking": "",
+      "source": "",
+      "sourceCitation": "",
+      "image": "",
+      "note": "",
+      "url": "",
       "year": null,
       "featured": false
     }
@@ -1997,11 +1997,11 @@ window.MCLAB_DATA = {
       "end": "2027-09-30",
       "status": "Upcoming",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
-      "source": "",
       "image": "",
+      "attachment": "",
+      "source": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2017,8 +2017,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/i3/203ddd3899-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "Ongoing"
     },
     {
@@ -2034,8 +2034,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/i2/89941b6414-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2048,11 +2048,11 @@ window.MCLAB_DATA = {
       "end": "2027-06",
       "status": "Ongoing",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
-      "source": "",
       "image": "",
+      "attachment": "",
+      "source": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2066,10 +2066,10 @@ window.MCLAB_DATA = {
       "status": "Ongoing",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2085,8 +2085,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g2/df9bdb5227-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2102,8 +2102,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/i1/dc50156724-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2119,8 +2119,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g6/361874fa15-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2136,8 +2136,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g3/2122203b0c-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2153,8 +2153,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g4/4075bea11d-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2168,10 +2168,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2187,8 +2187,8 @@ window.MCLAB_DATA = {
       "image": "media/projects/g5/940bf6fe26-figure.svg",
       "leadRole": "",
       "attachment": "",
-      "url": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2202,10 +2202,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2219,10 +2219,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2236,10 +2236,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2253,10 +2253,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2270,10 +2270,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2287,10 +2287,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2304,10 +2304,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2321,10 +2321,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2338,10 +2338,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2355,10 +2355,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2372,10 +2372,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2389,10 +2389,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2406,10 +2406,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2423,10 +2423,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2440,10 +2440,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2457,10 +2457,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2474,10 +2474,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2491,10 +2491,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2508,10 +2508,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2525,10 +2525,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2542,10 +2542,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2559,10 +2559,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "PI",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2576,10 +2576,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2593,10 +2593,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2610,10 +2610,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2627,10 +2627,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2644,10 +2644,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2661,10 +2661,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2678,10 +2678,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2695,10 +2695,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2712,10 +2712,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2729,10 +2729,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2746,10 +2746,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2763,10 +2763,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2780,10 +2780,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2797,10 +2797,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2814,10 +2814,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2831,10 +2831,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2848,10 +2848,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2865,10 +2865,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2882,10 +2882,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2899,10 +2899,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2916,10 +2916,10 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     },
     {
@@ -2933,129 +2933,129 @@ window.MCLAB_DATA = {
       "status": "Completed",
       "source": "https://sites.google.com/view/mclab/projects",
       "leadRole": "",
-      "attachment": "",
-      "url": "",
       "image": "",
+      "attachment": "",
       "summary": "",
+      "url": "",
       "statusMode": "auto"
     }
   ],
   "researchTopics": [
     {
-      "source": "",
       "image": "media/research/integrated-motion/dbe78ef9bc-AI_motion.jpg",
-      "description": "Unified optimization of steering, braking, and powertrain dynamics for enhanced vehicle performance. Implements advanced AI-driven algorithms for adaptability and efficiency. Aims to ensure stability, safety, and improved driving experience.",
       "title": "Integrated vehicle motion control: AI-assisted estimation and chassis control",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Unified optimization of steering, braking, and powertrain dynamics for enhanced vehicle performance. Implements advanced AI-driven algorithms for adaptability and efficiency. Aims to ensure stability, safety, and improved driving experience.",
       "id": "integrated-motion"
     },
     {
-      "source": "",
       "image": "media/research/remote-mobility/677fa8d70f-Tele.jpg",
-      "description": "Digital twin-based teleoperation integrating four-camera surround-view reconstruction, predictive vehicle-state estimation, and delay-compensated steering control. Provides real-time visual overlays of predicted trajectories and risk regions to enhance remote driving accuracy, stability, and situational awareness under communication delays.",
       "title": "Digital Twin-Enabled Teleoperation with Predictive Visual Feedback and Delay Compensation",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Digital twin-based teleoperation integrating four-camera surround-view reconstruction, predictive vehicle-state estimation, and delay-compensated steering control. Provides real-time visual overlays of predicted trajectories and risk regions to enhance remote driving accuracy, stability, and situational awareness under communication delays.",
       "id": "remote-mobility"
     },
     {
-      "source": "",
       "image": "media/research/aarb-roll-handling/f848edc386-aarb.jpg",
-      "description": "Feedforward roll-moment control from predicted lateral acceleration with yaw-rate-feedback front-rear torque allocation for roll suppression and handling, verified by Simscape-CarSim co-simulation.",
       "title": "Integrated Roll and Handling Control Algorithm for Active Anti-Roll Bar (AARB)",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Feedforward roll-moment control from predicted lateral acceleration with yaw-rate-feedback front-rear torque allocation for roll suppression and handling, verified by Simscape-CarSim co-simulation.",
       "id": "aarb-roll-handling"
     },
     {
-      "source": "",
       "image": "media/research/learning-tire-state/79f6f47f32-observer.jpg",
-      "description": "Physical-AI framework combining GP-augmented EKF/UKF with vehicle dynamics models and onboard sensors to estimate tire forces, sideslip and road friction online for robust integrated chassis control.",
       "title": "Learning-based Tire Force and Vehicle State Estimation",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Physical-AI framework combining GP-augmented EKF/UKF with vehicle dynamics models and onboard sensors to estimate tire forces, sideslip and road friction online for robust integrated chassis control.",
       "id": "learning-tire-state"
     },
     {
-      "source": "",
       "image": "media/research/future-echassis/b48958fb1c-sbw.jpg",
-      "description": "Developing and evaluating Steer-by-Wire algorithms through real-vehicle testing and actuator experiments. Research focuses on steering-feel generation, variable steering ratio, and fault-tolerant control to improve steering response, handling, and driver comfort.",
       "title": "Steer-by-Wire: Real-Vehicle Testing and Advanced Control Functions",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Developing and evaluating Steer-by-Wire algorithms through real-vehicle testing and actuator experiments. Research focuses on steering-feel generation, variable steering ratio, and fault-tolerant control to improve steering response, handling, and driver comfort.",
       "id": "future-echassis"
     },
     {
-      "source": "",
       "image": "media/research/learning-estimation/6f7036ccf6-emb.jpg",
-      "description": "Nonlinear modeling and UKF-based clamping-force estimation for electromechanical brake (EMB) systems. Integrates cascaded force-position control with wheel-slip control for anti-lock braking, validated through hardware experiments and vehicle simulations.",
       "title": "Electromechanical Brake (EMB) Modeling and Control",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Nonlinear modeling and UKF-based clamping-force estimation for electromechanical brake (EMB) systems. Integrates cascaded force-position control with wheel-slip control for anti-lock braking, validated through hardware experiments and vehicle simulations.",
       "id": "learning-estimation"
     },
     {
-      "source": "",
       "image": "media/research/mobility-mechanism/e742db343d-Tilting.jpg",
-      "description": "Design and analysis of innovative mobility platforms with novel mechanical structures. Utilizes modeling and simulation techniques to evaluate stability, maneuverability, and efficiency.",
       "title": "New mobility mechanism and motion control",
       "video": "",
+      "source": "",
       "program": "mechatronics",
+      "description": "Design and analysis of innovative mobility platforms with novel mechanical structures. Utilizes modeling and simulation techniques to evaluate stability, maneuverability, and efficiency.",
       "id": "mobility-mechanism"
     },
     {
-      "source": "",
       "image": "media/research/ecorner/048043ff75-ecm.jpg",
-      "description": "Development of modular wheel units integrating independent steering, driving, braking, and suspension functions. Enables enhanced vehicle maneuverability, flexibility, and performance in future urban mobility.",
       "title": "e-Corner module future mobility: advanced motion control",
       "video": "",
+      "source": "",
       "program": "mechatronics",
+      "description": "Development of modular wheel units integrating independent steering, driving, braking, and suspension functions. Enables enhanced vehicle maneuverability, flexibility, and performance in future urban mobility.",
       "id": "ecorner"
     },
     {
-      "source": "https://sites.google.com/view/mclab/research-areas",
       "image": "media/research/48v-steering/9ae3e9dc5b-sbw.jpg",
-      "description": "Develops optimal power distribution and management strategies for 48 V electrified chassis systems. Implements intelligent control algorithms considering battery conditions, vehicle dynamics, and efficiency.",
-      "title": "Control of 48 V e-steering: energy, synchronization, and fault tolerance",
+      "title": "Learning-Based High-Precision Steer-by-Wire Control",
       "video": "",
+      "source": "https://sites.google.com/view/mclab/research-areas",
       "program": "mechatronics",
+      "description": "TCN-based rack-force estimation and adaptive gain scheduling for high-precision Steer-by-Wire position control. Combines super-twisting sliding-mode and feedforward-feedback control, with performance evaluation using real-time CarSim HIL and physical steering actuators.",
       "id": "48v-steering"
     },
     {
-      "source": "",
       "image": "media/research/data-driven/abe6422dda-Linear.jpg",
-      "description": "Development of data-driven approaches for accurate system modeling, state estimation, and optimized control algorithms, enhancing adaptability and real-time performance.",
       "title": "Data-driven modeling and control",
       "video": "",
+      "source": "",
       "program": "mechatronics",
+      "description": "Development of data-driven approaches for accurate system modeling, state estimation, and optimized control algorithms, enhancing adaptability and real-time performance.",
       "id": "data-driven"
     },
     {
-      "source": "https://sites.google.com/view/mclab/research-areas",
       "image": "media/research/human-machine/2ffc82155b-HMI.jpg",
-      "description": "Design of intuitive interfaces to enhance driving safety, comfort, and users’ new experiences through optimized driver–vehicle interaction.",
       "title": "Human–machine interface (HMI)",
       "video": "https://raw.githubusercontent.com/mclab-dgist/mclab-dgist.github.io/main/mclab/content/research/human-machine/SBW.mp4",
+      "source": "https://sites.google.com/view/mclab/research-areas",
       "program": "mechatronics",
+      "description": "Design of intuitive interfaces to enhance driving safety, comfort, and users’ new experiences through optimized driver–vehicle interaction.",
       "id": "human-machine"
     },
     {
-      "source": "",
       "image": "media/research/ai-powered-sbw/ac2aaaaea6-AI_SBW.jpg",
-      "description": "Developing natural-language steering personalization with NVIDIA Thor selecting tuning policies and Infineon AURIX TC397 executing real-time closed-loop control. Independent safety checks validate parameter updates, with evaluation on a physical Steer-by-Wire test bench and real-time HIL platform.",
       "title": "AI-Powered Steer-by-Wire: Natural-Language Steering Personalization",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Developing natural-language steering personalization with NVIDIA Thor selecting tuning policies and Infineon AURIX TC397 executing real-time closed-loop control. Independent safety checks validate parameter updates, with evaluation on a physical Steer-by-Wire test bench and real-time HIL platform.",
       "id": "ai-powered-sbw"
     },
     {
-      "source": "",
       "image": "media/research/vla-vehicle-motion-control/2ad087a88f-vmc.jpg",
-      "description": "Developing high-level vision-language-action decision-making on NVIDIA Thor for motion targets and control priorities. MOTION ORCHESTRA combines real-time feedforward and feedback commands before safety-constrained multi-actuator allocation, with evaluation using CarMaker HIL and physical actuator benches.",
       "title": "VLA-Based Integrated Vehicle Motion Control",
       "video": "",
+      "source": "",
       "program": "vehicle-dynamics",
+      "description": "Developing high-level vision-language-action decision-making on NVIDIA Thor for motion targets and control priorities. MOTION ORCHESTRA combines real-time feedforward and feedback commands before safety-constrained multi-actuator allocation, with evaluation using CarMaker HIL and physical actuator benches.",
       "id": "vla-vehicle-motion-control"
     }
   ]
