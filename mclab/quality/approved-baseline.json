@@ -2925,10 +2925,10 @@
         "id": "learning-tire-state"
       },
       {
-        "description": "Development of next-generation electrified chassis with independent control of steering, braking, and driving actuators. Enhances vehicle safety, reliability, and driving dynamics through intelligent and adaptive algorithms.",
+        "description": "Developing and evaluating Steer-by-Wire algorithms through real-vehicle testing and actuator experiments. Research focuses on steering-feel generation, variable steering ratio, and fault-tolerant control to improve steering response, handling, and driver comfort.",
         "image": "media/research/future-echassis/b48958fb1c-sbw.jpg",
         "source": "",
-        "title": "Future e-chassis systems: multi-actuating systems with 48 V E/E",
+        "title": "Steer-by-Wire: Real-Vehicle Testing and Advanced Control Functions",
         "video": "",
         "program": "vehicle-dynamics",
         "id": "future-echassis"

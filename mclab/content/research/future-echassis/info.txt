@@ -4,6 +4,6 @@ ID: future-echassis
 공개: true
 표시순서: 5
 대분류: vehicle-dynamics
-제목: Future e-chassis systems: multi-actuating systems with 48 V E/E
-설명: Development of next-generation electrified chassis with independent control of steering, braking, and driving actuators. Enhances vehicle safety, reliability, and driving dynamics through intelligent and adaptive algorithms.
+제목: Steer-by-Wire: Real-Vehicle Testing and Advanced Control Functions
+설명: Developing and evaluating Steer-by-Wire algorithms through real-vehicle testing and actuator experiments. Research focuses on steering-feel generation, variable steering ratio, and fault-tolerant control to improve steering response, handling, and driver comfort.
 대표그림: sbw.jpg
